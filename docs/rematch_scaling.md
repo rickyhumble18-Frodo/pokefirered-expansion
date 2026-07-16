@@ -65,3 +65,19 @@ exceeds that).
 3. Wipe to a rematch → counter must NOT increment on a loss.
 4. Set a counter to 200 via debug → levels clamp at 255, no overflow/crash.
 5. Save, reset, reload → counters persist.
+
+## Addendum: IVs, EVs and the Effort Coach
+
+- **Perfect IVs**: every Pokémon created on the random-IV path (wild, gift,
+  hatched, traded) has 31 in all six IVs (`SetBoxMonIVs`, `src/pokemon.c`).
+  Trainer mons keep their `trainers.party` IVs.
+- **IV/EV viewer**: the expansion's summary screen pages are enabled
+  (`P_SUMMARY_SCREEN_IV_EV_INFO`); press the prompted button on the skills
+  page to cycle Stats → IVs → EVs. IVs display as exact numbers.
+- **Effort Coach NPC** (Pallet Town, black belt at (8,12)): max a stat's EVs
+  to 252, add 100, or wipe all EVs, with the 510 total cap enforced. Partial
+  adds near the cap are reported. Backed by `ScrSpecial_ModifyMonEVs`
+  (`src/field_specials.c`): `VAR_0x8004` slot, `VAR_0x8005` stat
+  (HP/Atk/Def/SpAtk/SpDef/Speed = 0-5), `VAR_0x8006` mode (0 max, 1 add 100,
+  2 wipe), returns `VAR_RESULT` ok flag and `VAR_0x8007` EVs actually added.
+  Stats recalculate immediately.

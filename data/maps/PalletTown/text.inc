@@ -65,3 +65,37 @@ PalletTown_Text_OakYouEnjoyingTraveling::
     .string "Good for you, good for you.\n"
     .string "Hohoho.$"
 
+
+PalletTown_Text_EVTrainerIntro::
+	.string "I'm the EFFORT COACH!\n"
+	.string "I can push your POKéMON's training\l"
+	.string "to any limit, instantly.\p"
+	.string "What'll it be?$"
+
+PalletTown_Text_EVTrainerWhichMon::
+	.string "Which POKéMON should I coach?$"
+
+PalletTown_Text_EVTrainerWhichStat::
+	.string "Which stat are we training?$"
+
+PalletTown_Text_EVTrainerSuccess::
+	.string "Done! That's {STR_VAR_1} effort point(s)\n"
+	.string "of pure training!$"
+
+PalletTown_Text_EVTrainerFailed::
+	.string "Hmm… no room left to train that stat.\p"
+	.string "It's either maxed out, or the total\n"
+	.string "effort cap of 510 has been reached.\p"
+	.string "Reset some effort first!$"
+
+PalletTown_Text_EVTrainerResetDone::
+	.string "Wiped clean! All of its effort\n"
+	.string "points are back to zero.$"
+
+PalletTown_Text_EVTrainerEgg::
+	.string "…That's an EGG.\n"
+	.string "I can't coach an EGG!$"
+
+PalletTown_Text_EVTrainerDone::
+	.string "Come back when you want\n"
+	.string "real training!$"

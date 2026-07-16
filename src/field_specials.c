@@ -3949,3 +3949,67 @@ static void Task_ReturnToFieldWhileLearningMove(u8 taskId)
 #undef tState
 #undef tPartyIndex
 #undef tMove
+
+// EV training NPC (see data/maps/PalletTown/scripts.inc).
+// Inputs: VAR_0x8004 = party slot, VAR_0x8005 = stat (0 = HP, 1 = Atk, 2 = Def,
+// 3 = SpAtk, 4 = SpDef, 5 = Speed), VAR_0x8006 = mode (0 = set stat to max,
+// 1 = add 100, 2 = wipe ALL EVs on the mon).
+// Outputs: VAR_RESULT = 1 on success, 0 on failure (bad input, egg, stat
+// already maxed, or 510 total cap reached); VAR_0x8007 = EVs actually added,
+// which can be less than requested when the total cap truncates the add.
+void ScrSpecial_ModifyMonEVs(void)
+{
+    static const u16 statToMonData[NUM_STATS] =
+    {
+        MON_DATA_HP_EV,
+        MON_DATA_ATK_EV,
+        MON_DATA_DEF_EV,
+        MON_DATA_SPATK_EV,
+        MON_DATA_SPDEF_EV,
+        MON_DATA_SPEED_EV,
+    };
+    u16 slot = gSpecialVar_0x8004;
+    u16 statId = gSpecialVar_0x8005;
+    u16 mode = gSpecialVar_0x8006;
+    struct Pokemon *mon;
+    u32 i, total, cur, target, add, room;
+
+    gSpecialVar_Result = 0;
+    gSpecialVar_0x8007 = 0;
+
+    if (slot >= PARTY_SIZE || statId >= NUM_STATS || mode > 2)
+        return;
+    mon = &gPlayerParty[slot];
+    if (GetMonData(mon, MON_DATA_SPECIES) == SPECIES_NONE || GetMonData(mon, MON_DATA_IS_EGG))
+        return;
+
+    if (mode == 2)
+    {
+        u32 zero = 0;
+        for (i = 0; i < NUM_STATS; i++)
+            SetMonData(mon, statToMonData[i], &zero);
+        CalculateMonStats(mon);
+        gSpecialVar_Result = 1;
+        return;
+    }
+
+    total = 0;
+    for (i = 0; i < NUM_STATS; i++)
+        total += GetMonData(mon, statToMonData[i]);
+    cur = GetMonData(mon, statToMonData[statId]);
+
+    target = (mode == 0) ? MAX_PER_STAT_EVS : min(cur + 100, MAX_PER_STAT_EVS);
+    if (target <= cur || total >= MAX_TOTAL_EVS)
+        return;
+
+    add = target - cur;
+    room = MAX_TOTAL_EVS - total;
+    if (add > room)
+        add = room;
+
+    cur += add;
+    SetMonData(mon, statToMonData[statId], &cur);
+    CalculateMonStats(mon);
+    gSpecialVar_0x8007 = add;
+    gSpecialVar_Result = 1;
+}

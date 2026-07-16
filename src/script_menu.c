@@ -650,6 +650,30 @@ static const struct MenuAction sMultichoiceList_Satisfaction[] =
     {COMPOUND_STRING("Dissatisfied")},
 };
 
+static const struct MenuAction sMultichoiceList_EVTrainerAction[] =
+{
+    {COMPOUND_STRING("Train a stat")},
+    {COMPOUND_STRING("Reset all EVs")},
+    {gText_Exit},
+};
+
+static const struct MenuAction sMultichoiceList_EVTrainerStat[] =
+{
+    {COMPOUND_STRING("HP")},
+    {COMPOUND_STRING("Attack")},
+    {COMPOUND_STRING("Defense")},
+    {COMPOUND_STRING("Sp. Atk")},
+    {COMPOUND_STRING("Sp. Def")},
+    {COMPOUND_STRING("Speed")},
+};
+
+static const struct MenuAction sMultichoiceList_EVTrainerAmount[] =
+{
+    {COMPOUND_STRING("Max it (252)")},
+    {COMPOUND_STRING("Add 100")},
+    {COMPOUND_STRING("Back")},
+};
+
 struct MultichoiceListStruct
 {
     const struct MenuAction *list;
@@ -733,6 +757,9 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_BATTLE_TOWER_FEELINGS]                      = MULTICHOICE(sMultichoiceList_BattleTowerFeelings),
     [MULTI_LINK_LEADER]                                = MULTICHOICE(sMultichoiceList_LinkLeader),
     [MULTI_SATISFACTION]                               = MULTICHOICE(sMultichoiceList_Satisfaction),
+    [MULTI_EV_TRAINER_ACTION]                          = MULTICHOICE(sMultichoiceList_EVTrainerAction),
+    [MULTI_EV_TRAINER_STAT]                            = MULTICHOICE(sMultichoiceList_EVTrainerStat),
+    [MULTI_EV_TRAINER_AMOUNT]                          = MULTICHOICE(sMultichoiceList_EVTrainerAmount),
 };
 
 const u8 *const gStdStrings[] = {

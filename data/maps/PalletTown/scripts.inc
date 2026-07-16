@@ -447,3 +447,75 @@ PalletTown_EventScript_SignLadyStartShowSign::
 	call PalletTown_EventScript_SignLadyShowSign
 	release
 	end
+
+PalletTown_EventScript_EVTrainer::
+	lock
+	faceplayer
+	msgbox PalletTown_Text_EVTrainerIntro
+PalletTown_EventScript_EVTrainerMenu::
+	multichoice 0, 0, MULTI_EV_TRAINER_ACTION, FALSE
+	switch VAR_RESULT
+	case 0, PalletTown_EventScript_EVTrainerTrain
+	case 1, PalletTown_EventScript_EVTrainerReset
+	goto PalletTown_EventScript_EVTrainerDone
+
+PalletTown_EventScript_EVTrainerTrain::
+	msgbox PalletTown_Text_EVTrainerWhichMon
+	special ChoosePartyMon
+	waitstate
+	lock
+	faceplayer
+	goto_if_ge VAR_0x8004, PARTY_SIZE, PalletTown_EventScript_EVTrainerMenu
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_eq VAR_RESULT, SPECIES_EGG, PalletTown_EventScript_EVTrainerEgg
+	msgbox PalletTown_Text_EVTrainerWhichStat
+	multichoice 0, 0, MULTI_EV_TRAINER_STAT, FALSE
+	goto_if_eq VAR_RESULT, MULTI_B_PRESSED, PalletTown_EventScript_EVTrainerMenu
+	copyvar VAR_0x8005, VAR_RESULT
+	multichoice 0, 0, MULTI_EV_TRAINER_AMOUNT, FALSE
+	switch VAR_RESULT
+	case 0, PalletTown_EventScript_EVTrainerMaxStat
+	case 1, PalletTown_EventScript_EVTrainerAdd100
+	goto PalletTown_EventScript_EVTrainerMenu
+
+PalletTown_EventScript_EVTrainerMaxStat::
+	setvar VAR_0x8006, 0
+	goto PalletTown_EventScript_EVTrainerApply
+
+PalletTown_EventScript_EVTrainerAdd100::
+	setvar VAR_0x8006, 1
+PalletTown_EventScript_EVTrainerApply::
+	special ScrSpecial_ModifyMonEVs
+	goto_if_eq VAR_RESULT, 0, PalletTown_EventScript_EVTrainerFailed
+	buffernumberstring STR_VAR_1, VAR_0x8007
+	playfanfare MUS_LEVEL_UP
+	waitfanfare
+	msgbox PalletTown_Text_EVTrainerSuccess
+	goto PalletTown_EventScript_EVTrainerMenu
+
+PalletTown_EventScript_EVTrainerReset::
+	msgbox PalletTown_Text_EVTrainerWhichMon
+	special ChoosePartyMon
+	waitstate
+	lock
+	faceplayer
+	goto_if_ge VAR_0x8004, PARTY_SIZE, PalletTown_EventScript_EVTrainerMenu
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_eq VAR_RESULT, SPECIES_EGG, PalletTown_EventScript_EVTrainerEgg
+	setvar VAR_0x8006, 2
+	special ScrSpecial_ModifyMonEVs
+	msgbox PalletTown_Text_EVTrainerResetDone
+	goto PalletTown_EventScript_EVTrainerMenu
+
+PalletTown_EventScript_EVTrainerFailed::
+	msgbox PalletTown_Text_EVTrainerFailed
+	goto PalletTown_EventScript_EVTrainerMenu
+
+PalletTown_EventScript_EVTrainerEgg::
+	msgbox PalletTown_Text_EVTrainerEgg
+	goto PalletTown_EventScript_EVTrainerMenu
+
+PalletTown_EventScript_EVTrainerDone::
+	msgbox PalletTown_Text_EVTrainerDone
+	release
+	end

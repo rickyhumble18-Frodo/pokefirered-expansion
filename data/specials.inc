@@ -352,4 +352,5 @@ gSpecials::
 	def_special CanTeachMoveBoxMon
 	def_special Special_GetRematchWinCount
 	def_special Special_SetRematchWinCount
+	def_special ScrSpecial_ModifyMonEVs
 gSpecialsEnd::
