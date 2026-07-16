@@ -15,7 +15,7 @@
 #define P_SUMMARY_SCREEN_IV_NUMBER       0      // Shows IVs as numbers in the summary screen skills page.
 #define P_SUMMARY_SCREEN_IV_GRADE        1      // Shows IVs as letter grades in the summary screen skills page.
 #define P_SUMMARY_SCREEN_IV_TEXT         2      // Shows IVs as text in the summary screen skills page (e.g. "Decent", "Pretty Good", etc.)
-#define P_SUMMARY_SCREEN_IV_DISPLAY      P_SUMMARY_SCREEN_IV_TEXT // Change this to one of the above options to set what shows in the summary screen for IVs.
+#define P_SUMMARY_SCREEN_IV_DISPLAY      P_SUMMARY_SCREEN_IV_NUMBER // Change this to one of the above options to set what shows in the summary screen for IVs. Numbers so exact IVs (31s) are verifiable.
 /*
 LETTER GRADE GUIDE:
 
