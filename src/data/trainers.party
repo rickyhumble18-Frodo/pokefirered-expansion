@@ -6329,45 +6329,71 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Rhyhorn
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
+Golem @ Oran Berry
+Ability: Sturdy
+Adamant Nature
+Level: 51
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Stealth Rock
+- Earthquake
 - Rock Blast
-- Scary Face
-- Earthquake
+- Explosion
 
-Dugtrio
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Slash
-- Sand Tomb
-- Mud Slap
-- Earthquake
+Marowak @ Thick Club
+Ability: Rock Head
+Adamant Nature
+Level: 51
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Bonemerang
+- Rock Slide
+- Swords Dance
+- Double-Edge
 
 Nidoqueen
-Level: 44
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Sheer Force
+Modest Nature
+Level: 52
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Earth Power
+- Ice Beam
+- Sludge Bomb
 - Body Slam
-- Double Kick
-- Poison Sting
-- Earthquake
 
-Nidoking
-Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thrash
-- Double Kick
-- Poison Sting
+Dugtrio
+Ability: Arena Trap
+Jolly Nature
+Level: 51
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Earthquake
+- Sucker Punch
+- Slash
+- Sand Tomb
 
-Rhyhorn
-Level: 50
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Take Down
-- Rock Blast
+Steelix
+Ability: Sturdy
+Impish Nature
+Level: 52
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Iron Tail
+- Earthquake
+- Screech
+- Rock Slide
+
+Rhydon @ Sitrus Berry
+Ability: Lightning Rod
+Adamant Nature
+Level: 55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Earthquake
+- Stone Edge
+- Megahorn
 - Scary Face
-- Earthquake
 
 === TRAINER_TEAM_ROCKET_GRUNT ===
 Name: GRUNT
@@ -8270,204 +8296,302 @@ Name: LORELEI
 Class: Elite Four
 Pic: Elite Four Lorelei
 Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
+Music: Female
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
-Mugshot: Purple
 
-Dewgong
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Dewgong @ Oran Berry
+Ability: Thick Fat
+Calm Nature
+Level: 57
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
 - Ice Beam
 - Surf
-- Hail
-- Safeguard
+- Ice Shard
+- Encore
 
 Cloyster
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Spikes
-- Protect
-- Hail
-- Dive
-
-Slowbro
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Beam
-- Surf
-- Amnesia
-- Yawn
+Ability: Skill Link
+Adamant Nature
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Shell Smash
+- Icicle Spear
+- Rock Blast
+- Razor Shell
 
 Jynx
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Ice Punch
-- Double Slap
+Ability: Dry Skin
+Timid Nature
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Lovely Kiss
-- Attract
+- Ice Beam
+- Psychic
+- Focus Blast
 
-Lapras @ Sitrus Berry
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
+Lapras
+Ability: Water Absorb
+Modest Nature
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Ice Beam
+- Thunderbolt
+- Surf
+- Sing
+
+Slowbro
+Ability: Regenerator
+Bold Nature
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Surf
+- Psychic
+- Slack Off
+- Yawn
+
+Walrein @ Sitrus Berry
+Ability: Thick Fat
+Modest Nature
+Level: 61
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
 - Ice Beam
 - Surf
 - Body Slam
+- Yawn
 
 === TRAINER_ELITE_FOUR_BRUNO ===
 Name: BRUNO
 Class: Elite Four
 Pic: Elite Four Bruno
 Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
+Music: Male
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
-Mugshot: Green
 
-Onix
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Rock Tomb
-- Iron Tail
-- Roar
-
-Hitmonchan
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sky Uppercut
+Hitmontop @ Oran Berry
+Ability: Intimidate
+Adamant Nature
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Fake Out
 - Mach Punch
-- Rock Tomb
-- Counter
+- Close Combat
+- Rapid Spin
+
+Primeape
+Ability: Vital Spirit
+Jolly Nature
+Level: 59
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Cross Chop
+- Rock Slide
+- Bulk Up
+- Pursuit
 
 Hitmonlee
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Mega Kick
-- Foresight
-- Brick Break
-- Facade
+Ability: Reckless
+Adamant Nature
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- High Jump Kick
+- Blaze Kick
+- Rock Slide
+- Meditate
 
-Onix
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
+Hitmonchan
+Ability: Iron Fist
+Adamant Nature
+Level: 58
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 SpD
+- Mach Punch
+- Ice Punch
+- Thunder Punch
+- Fire Punch
+
+Steelix
+Ability: Sturdy
+Impish Nature
+Level: 59
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
 - Earthquake
 - Iron Tail
-- Sand Tomb
+- Rock Slide
+- Screech
 
 Machamp @ Sitrus Berry
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Cross Chop
+Ability: No Guard
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Dynamic Punch
+- Stone Edge
+- Bullet Punch
 - Bulk Up
-- Scary Face
-- Rock Tomb
 
 === TRAINER_ELITE_FOUR_AGATHA ===
 Name: AGATHA
 Class: Elite Four
 Pic: Elite Four Agatha
 Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
+Music: Female
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
-Mugshot: Pink
 
-Gengar
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Toxic
-- Double Team
-
-Golbat
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Confuse Ray
-- Poison Fang
-- Air Cutter
-- Bite
-
-Haunter
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Gengar @ Oran Berry
+Timid Nature
+Level: 59
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Hypnosis
-- Dream Eater
-- Curse
-- Mean Look
-
-Arbok
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sludge Bomb
-- Screech
-- Iron Tail
-- Bite
-
-Gengar @ Sitrus Berry
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
 - Sludge Bomb
-- Hypnosis
-- Nightmare
+- Destiny Bond
+
+Crobat
+Ability: Inner Focus
+Jolly Nature
+Level: 59
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Spe
+- Toxic
+- Confuse Ray
+- Cross Poison
+- Roost
+
+Arbok
+Ability: Intimidate
+Adamant Nature
+Level: 59
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Glare
+- Poison Fang
+- Earthquake
+- Crunch
+
+Weezing
+Ability: Levitate
+Bold Nature
+Level: 60
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Will-O-Wisp
+- Sludge Bomb
+- Thunderbolt
+- Explosion
+
+Dusclops
+Ability: Pressure
+Careful Nature
+Level: 60
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Will-O-Wisp
+- Shadow Punch
+- Confuse Ray
+- Rest
+
+Gengar @ Sitrus Berry
+Timid Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Shadow Ball
+- Sludge Bomb
+- Thunderbolt
+- Nasty Plot
 
 === TRAINER_ELITE_FOUR_LANCE ===
 Name: LANCE
 Class: Elite Four
 Pic: Elite Four Lance
 Gender: Male
-Music: Elite Four
-Items: Full Restore / Full Restore
+Music: Male
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
-Mugshot: Blue
 
-Gyarados
-Level: 56
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Dragon Rage
-- Twister
-- Bite
+Gyarados @ Oran Berry
+Ability: Intimidate
+Adamant Nature
+Level: 61
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Dragon Dance
+- Waterfall
+- Ice Fang
+- Earthquake
 
-Dragonair
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
-- Dragon Rage
-- Outrage
-
-Dragonair
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
+Dragonite
+Ability: Multiscale
+Careful Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
 - Thunder Wave
-- Outrage
+- Dragon Claw
+- Fire Punch
+- Roost
 
 Aerodactyl
-Level: 58
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Ancient Power
-- Wing Attack
-- Scary Face
+Ability: Pressure
+Jolly Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Stone Edge
+- Earthquake
+- Crunch
+- Agility
+
+Kingdra
+Ability: Sniper
+Modest Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Dragon Pulse
+- Surf
+- Ice Beam
+- Agility
+
+Salamence
+Ability: Intimidate
+Adamant Nature
+Level: 63
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Dragon Claw
+- Crunch
+- Aerial Ace
+- Dragon Dance
 
 Dragonite @ Sitrus Berry
-Level: 60
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Hyper Beam
-- Safeguard
+Ability: Multiscale
+Adamant Nature
+Level: 66
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Dragon Dance
 - Outrage
-- Wing Attack
+- Earthquake
+- Extreme Speed
 
 === TRAINER_LEADER_BROCK ===
 Name: BROCK
@@ -8631,29 +8755,71 @@ Items: Super Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Voltorb
-Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Voltorb @ Oran Berry
+Ability: Static
+Timid Nature
+Level: 24
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Spe
+- Thunder Wave
 - Sonic Boom
-- Tackle
 - Screech
 - Shock Wave
 
-Pikachu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Quick Attack
-- Thunder Wave
-- Double Team
+Magneton
+Ability: Sturdy
+Modest Nature
+Level: 25
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
 - Shock Wave
+- Sonic Boom
+- Supersonic
+- Metal Sound
 
-Raichu
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Electabuzz
+Ability: Static
+Jolly Nature
+Level: 25
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Low Kick
+- Shock Wave
+- Quick Attack
+- Swift
+
+Jolteon
+Ability: Volt Absorb
+Timid Nature
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Double Kick
+- Shock Wave
 - Quick Attack
 - Thunder Wave
-- Double Team
+
+Electrode
+Ability: Static
+Timid Nature
+Level: 26
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Charge Beam
+- Swift
+- Screech
+- Self Destruct
+
+Raichu @ Sitrus Berry
+Ability: Static
+Modest Nature
+Level: 28
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Surf
 - Shock Wave
+- Quick Attack
+- Thunder Wave
 
 === TRAINER_LEADER_ERIKA ===
 Name: ERIKA
@@ -8665,29 +8831,71 @@ Items: Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Victreebel
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tangela @ Oran Berry
+Ability: Chlorophyll
+Bold Nature
+Level: 30
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
 - Stun Spore
-- Acid
-- Poison Powder
 - Giga Drain
+- Bind
+- Growth
 
-Tangela
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Powder
-- Constrict
-- Ingrain
+Victreebel
+Ability: Chlorophyll
+Adamant Nature
+Level: 31
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Sleep Powder
+- Sludge Bomb
 - Giga Drain
+- Growth
 
 Vileplume
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ability: Chlorophyll
+Modest Nature
+Level: 31
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
 - Sleep Powder
-- Acid
-- Stun Spore
 - Giga Drain
+- Acid
+- Moonlight
+
+Exeggutor
+Ability: Chlorophyll
+Modest Nature
+Level: 32
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Psychic
+- Hypnosis
+- Giga Drain
+- Ancient Power
+
+Parasect
+Ability: Dry Skin
+Adamant Nature
+Level: 30
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Spore
+- Slash
+- Giga Drain
+- Aromatherapy
+
+Bellossom @ Sitrus Berry
+Ability: Chlorophyll
+Modest Nature
+Level: 34
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Quiver Dance
+- Giga Drain
+- Sludge Bomb
+- Moonlight
 
 === TRAINER_LEADER_KOGA ===
 Name: KOGA
@@ -8699,37 +8907,71 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
+Crobat @ Oran Berry
+Ability: Inner Focus
+Jolly Nature
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Spe
 - Toxic
-
-Muk
-Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Minimize
-- Sludge
-- Acid Armor
-- Toxic
-
-Koffing
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Self Destruct
-- Sludge
-- Smokescreen
-- Toxic
+- Confuse Ray
+- Wing Attack
+- Bite
 
 Weezing
+Ability: Levitate
+Bold Nature
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Sludge
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Will-O-Wisp
+- Sludge Bomb
 - Smokescreen
+- Explosion
+
+Muk
+Ability: Sticky Hold
+Careful Nature
+Level: 43
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Minimize
+- Sludge Bomb
 - Toxic
+- Acid Armor
+
+Venomoth
+Ability: Tinted Lens
+Timid Nature
+Level: 43
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Sleep Powder
+- Signal Beam
+- Sludge Bomb
+- Psybeam
+
+Toxicroak
+Ability: Dry Skin
+Adamant Nature
+Level: 43
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Sucker Punch
+- Poison Jab
+- Brick Break
+- Taunt
+
+Nidoking @ Sitrus Berry
+Ability: Sheer Force
+Adamant Nature
+Level: 46
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Earthquake
+- Sludge Bomb
+- Megahorn
+- Rock Slide
 
 === TRAINER_LEADER_BLAINE ===
 Name: BLAINE
@@ -8741,37 +8983,71 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Growlithe
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
-- Fire Blast
-
-Ponyta
-Level: 40
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
-
-Rapidash
-Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Stomp
-- Bounce
-- Fire Spin
-- Fire Blast
+Ninetales @ Oran Berry
+Ability: Drought
+Timid Nature
+Level: 48
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Will-O-Wisp
+- Flamethrower
+- Solar Beam
+- Confuse Ray
 
 Arcanine
-Level: 47
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Roar
-- Take Down
+Ability: Intimidate
+Adamant Nature
+Level: 49
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Flare Blitz
+- Extreme Speed
+- Crunch
+- Morning Sun
+
+Rapidash
+Ability: Flash Fire
+Jolly Nature
+Level: 48
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Flare Blitz
+- Megahorn
+- Stomp
+- Agility
+
+Magmar
+Ability: Flame Body
+Modest Nature
+Level: 48
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Fire Blast
+- Thunder Punch
+- Confuse Ray
+- Smokescreen
+
+Torkoal
+Ability: White Smoke
+Bold Nature
+Level: 48
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Yawn
+- Body Slam
+- Iron Defense
+- Fire Blast
+
+Houndoom @ Sitrus Berry
+Ability: Flash Fire
+Timid Nature
+Level: 52
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Nasty Plot
+- Fire Blast
+- Dark Pulse
+- Sucker Punch
 
 === TRAINER_LEADER_SABRINA ===
 Name: SABRINA
@@ -8783,36 +9059,70 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Kadabra
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
+Mr Mime @ Oran Berry
+Ability: Filter
+Calm Nature
+Level: 44
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
 - Reflect
-- Future Sight
-- Calm Mind
-
-Mr Mime
-Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Barrier
+- Light Screen
+- Encore
 - Psybeam
-- Baton Pass
-- Calm Mind
 
-Venomoth
-Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Gust
-- Leech Life
-- Supersonic
-
-Alakazam
-Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hypno
+Ability: Inner Focus
+Careful Nature
+Level: 44
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Hypnosis
 - Psychic
-- Recover
-- Future Sight
+- Headbutt
+- Calm Mind
+
+Gardevoir
+Ability: Trace
+Modest Nature
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psychic
+- Thunderbolt
+- Calm Mind
+- Hypnosis
+
+Espeon
+Ability: Magic Bounce
+Timid Nature
+Level: 45
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psychic
+- Shadow Ball
+- Morning Sun
+- Calm Mind
+
+Jynx
+Ability: Dry Skin
+Timid Nature
+Level: 44
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Lovely Kiss
+- Ice Beam
+- Psychic
+- Fake Tears
+
+Alakazam @ Sitrus Berry
+Ability: Magic Guard
+Timid Nature
+Level: 48
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psychic
+- Shadow Ball
+- Energy Ball
 - Calm Mind
 
 === TRAINER_GENTLEMAN_THOMAS ===
@@ -9339,58 +9649,75 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
-Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Future Sight
-- Recover
-- Reflect
-
-Rhydon
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Earthquake
-- Rock Tomb
-- Scary Face
-
-Arcanine
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Extreme Speed
-- Flamethrower
-- Roar
-- Bite
-
-Exeggutor
+Pidgeot @ Oran Berry
+Ability: Tangled Feet
+Jolly Nature
 Level: 61
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Brave Bird
+- U-turn
+- Roost
+- Agility
+
+Alakazam
+Ability: Magic Guard
+Timid Nature
+Level: 61
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psychic
+- Shadow Ball
+- Calm Mind
+- Recover
+
+Rhydon
+Ability: Lightning Rod
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Earthquake
+- Stone Edge
+- Megahorn
+- Hammer Arm
+
+Exeggutor
+Ability: Chlorophyll
+Modest Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Psychic
 - Giga Drain
-- Egg Bomb
 - Sleep Powder
-- Light Screen
+- Ancient Power
+
+Arcanine
+Ability: Intimidate
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Flare Blitz
+- Extreme Speed
+- Crunch
+- Morning Sun
 
 Blastoise @ Sitrus Berry
-Level: 63
+Ability: Torrent
+Modest Nature
+Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
 - Hydro Pump
-- Rain Dance
-- Skull Bash
-- Bite
+- Ice Beam
+- Earthquake
+- Aqua Jet
 
 === TRAINER_CHAMPION_FIRST_BULBASAUR ===
 Name: TERRY
@@ -9398,58 +9725,75 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
-Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Future Sight
-- Recover
-- Reflect
-
-Rhydon
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Earthquake
-- Rock Tomb
-- Scary Face
-
-Gyarados
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
-
-Arcanine
+Pidgeot @ Oran Berry
+Ability: Tangled Feet
+Jolly Nature
 Level: 61
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Brave Bird
+- U-turn
+- Roost
+- Agility
+
+Alakazam
+Ability: Magic Guard
+Timid Nature
+Level: 61
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psychic
+- Shadow Ball
+- Calm Mind
+- Recover
+
+Rhydon
+Ability: Lightning Rod
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Earthquake
+- Stone Edge
+- Megahorn
+- Hammer Arm
+
+Gyarados
+Ability: Intimidate
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Dragon Dance
+- Waterfall
+- Ice Fang
+- Earthquake
+
+Arcanine
+Ability: Intimidate
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Flare Blitz
 - Extreme Speed
-- Flamethrower
-- Roar
-- Bite
+- Crunch
+- Morning Sun
 
 Venusaur @ Sitrus Berry
-Level: 63
+Ability: Overgrow
+Modest Nature
+Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Solar Beam
+EVs: 252 HP / 252 SpA
+- Sludge Bomb
+- Giga Drain
+- Sleep Powder
 - Synthesis
-- Sunny Day
-- Growth
 
 === TRAINER_CHAMPION_FIRST_CHARMANDER ===
 Name: TERRY
@@ -9457,58 +9801,75 @@ Class: Champion
 Pic: Champion Rival
 Gender: Male
 Music: Male
-Items: Full Restore / Full Restore / Full Restore / Full Restore
+Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
-Mugshot: Yellow
 
-Pidgeot
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Feather Dance
-- Sand Attack
-- Whirlwind
-
-Alakazam
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Future Sight
-- Recover
-- Reflect
-
-Rhydon
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Take Down
-- Earthquake
-- Rock Tomb
-- Scary Face
-
-Exeggutor
-Level: 59
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Egg Bomb
-- Sleep Powder
-- Light Screen
-
-Gyarados
+Pidgeot @ Oran Berry
+Ability: Tangled Feet
+Jolly Nature
 Level: 61
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hydro Pump
-- Dragon Rage
-- Bite
-- Thrash
+EVs: 252 Atk / 252 Spe
+- Brave Bird
+- U-turn
+- Roost
+- Agility
+
+Alakazam
+Ability: Magic Guard
+Timid Nature
+Level: 61
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psychic
+- Shadow Ball
+- Calm Mind
+- Recover
+
+Rhydon
+Ability: Lightning Rod
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Earthquake
+- Stone Edge
+- Megahorn
+- Hammer Arm
+
+Exeggutor
+Ability: Chlorophyll
+Modest Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Psychic
+- Giga Drain
+- Sleep Powder
+- Ancient Power
+
+Gyarados
+Ability: Intimidate
+Adamant Nature
+Level: 62
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Dragon Dance
+- Waterfall
+- Ice Fang
+- Earthquake
 
 Charizard @ Sitrus Berry
-Level: 63
+Ability: Blaze
+Timid Nature
+Level: 66
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Fire Blast
-- Aerial Ace
-- Slash
-- Fire Spin
+- Air Slash
+- Dragon Claw
+- Roost
 
 === TRAINER_CHANNELER_PATRICIA ===
 Name: PATRICIA
@@ -16585,24 +16946,66 @@ Items: Super Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Magneton
+Magneton @ Oran Berry
+Ability: Sturdy
+Modest Nature
 Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
 - Sonic Boom
 - Thunder Wave
 - Shock Wave
 - Supersonic
 
 Electabuzz
+Ability: Static
+Jolly Nature
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Quick Attack
 - Low Kick
 - Shock Wave
 
-Jolteon
+Pikachu @ Light Ball
+Ability: Static
+Timid Nature
+Level: 20
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Shock Wave
+- Quick Attack
+- Double Team
+- Thunder Wave
+
+Flaaffy
+Ability: Static
+Modest Nature
+Level: 20
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Shock Wave
+- Cotton Spore
+- Thunder Wave
+- Swift
+
+Voltorb
+Ability: Static
+Timid Nature
+Level: 20
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Spe
+- Sonic Boom
+- Screech
+- Shock Wave
+- Charge
+
+Jolteon @ Sitrus Berry
+Ability: Volt Absorb
+Timid Nature
 Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Quick Attack
 - Double Kick
 - Thunder Wave
@@ -16618,27 +17021,70 @@ Items: Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Exeggutor
-Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hypnosis
-- Confusion
-- Giga Drain
-
-Parasect
+Parasect @ Oran Berry
+Ability: Dry Skin
+Adamant Nature
 Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
 - Spore
 - Slash
 - Giga Drain
 
+Weepinbell
+Ability: Chlorophyll
+Adamant Nature
+Level: 27
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Sleep Powder
+- Acid
+- Giga Drain
+- Growth
+
+Gloom
+Ability: Chlorophyll
+Modest Nature
+Level: 27
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Stun Spore
+- Acid
+- Giga Drain
+- Moonlight
+
+Tangela
+Ability: Chlorophyll
+Bold Nature
+Level: 28
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Bind
+- Giga Drain
+- Stun Spore
+- Growth
+
 Bellossom
+Ability: Chlorophyll
+Modest Nature
 Level: 29
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
 - Sleep Powder
 - Acid
 - Magical Leaf
 - Giga Drain
+
+Exeggutor @ Sitrus Berry
+Ability: Chlorophyll
+Modest Nature
+Level: 29
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Hypnosis
+- Confusion
+- Giga Drain
+- Ancient Power
 
 === TRAINER_LEADER_KOGA_2 ===
 Name: KOGA
@@ -16650,33 +17096,67 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Crobat
+Crobat @ Oran Berry
+Ability: Inner Focus
+Jolly Nature
 Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Spe
 - Wing Attack
 - Bite
 - Confuse Ray
 - Toxic
 
 Venomoth
+Ability: Tinted Lens
+Timid Nature
 Level: 39
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Psybeam
 - Sludge Bomb
 - Sleep Powder
 - Toxic
 
 Swalot
+Ability: Sticky Hold
+Careful Nature
 Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
 - Sludge
 - Yawn
 - Encore
 - Toxic
 
-Nidoking
+Ariados
+Ability: Insomnia
+Adamant Nature
+Level: 38
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 HP
+- Night Shade
+- Poison Jab
+- Spider Web
+- Agility
+
+Tentacruel
+Ability: Clear Body
+Timid Nature
+Level: 40
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Surf
+- Sludge Bomb
+- Barrier
+- Supersonic
+
+Nidoking @ Sitrus Berry
+Ability: Sheer Force
+Adamant Nature
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Earthquake
 - Sludge Bomb
 - Double Kick
@@ -16692,33 +17172,67 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Hypno
+Hypno @ Oran Berry
+Ability: Inner Focus
+Careful Nature
 Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
 - Hypnosis
 - Psychic
 - Headbutt
 - Calm Mind
 
 Jynx
+Ability: Dry Skin
+Timid Nature
 Level: 37
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Lovely Kiss
 - Ice Punch
 - Psychic
 - Fake Tears
 
+Kadabra
+Ability: Inner Focus
+Timid Nature
+Level: 39
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psybeam
+- Disable
+- Reflect
+- Calm Mind
+
+Slowking
+Ability: Regenerator
+Calm Nature
+Level: 39
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Yawn
+- Psychic
+- Water Pulse
+- Slack Off
+
 Espeon
+Ability: Magic Bounce
+Timid Nature
 Level: 38
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Quick Attack
 - Psybeam
 - Shadow Ball
 - Calm Mind
 
-Gardevoir
+Gardevoir @ Sitrus Berry
+Ability: Trace
+Modest Nature
 Level: 43
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Psychic
 - Thunderbolt
 - Hypnosis
@@ -16734,33 +17248,67 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Magmar
+Magmar @ Oran Berry
+Ability: Flame Body
+Modest Nature
 Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Fire Punch
 - Confuse Ray
 - Smokescreen
 - Fire Blast
 
 Ninetales
+Ability: Flash Fire
+Timid Nature
 Level: 40
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Confuse Ray
 - Will-O-Wisp
 - Quick Attack
 - Flamethrower
 
+Ponyta
+Ability: Flash Fire
+Jolly Nature
+Level: 41
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Stomp
+- Fire Spin
+- Agility
+- Flame Wheel
+
+Flareon
+Ability: Flash Fire
+Adamant Nature
+Level: 43
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 HP
+- Quick Attack
+- Fire Fang
+- Bite
+- Sand Attack
+
 Torkoal
+Ability: White Smoke
+Bold Nature
 Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
 - Body Slam
 - Iron Defense
 - Yawn
 - Fire Blast
 
-Houndoom
+Houndoom @ Sitrus Berry
+Ability: Flash Fire
+Timid Nature
 Level: 47
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Crunch
 - Fire Blast
 - Roar
@@ -16776,42 +17324,69 @@ Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Steelix
+Steelix @ Oran Berry
+Ability: Sturdy
+Impish Nature
 Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
 - Iron Tail
 - Earthquake
 - Rock Slide
 - Screech
 
-Marowak
+Marowak @ Thick Club
+Ability: Rock Head
+Adamant Nature
 Level: 42
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Bonemerang
 - Rock Slide
 - Headbutt
 - Earthquake
 
 Sandslash
+Ability: Sand Veil
+Adamant Nature
 Level: 44
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Slash
 - Earthquake
 - Rock Slide
 - Sand Attack
 
+Nidoqueen
+Ability: Sheer Force
+Modest Nature
+Level: 44
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Earth Power
+- Ice Beam
+- Sludge Bomb
+- Body Slam
+
 Golem
+Ability: Sturdy
+Adamant Nature
 Level: 45
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
 - Earthquake
 - Rock Blast
 - Explosion
 - Defense Curl
 
-Rhydon
+Rhydon @ Sitrus Berry
+Ability: Lightning Rod
+Adamant Nature
 Level: 50
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
 - Earthquake
 - Rock Blast
 - Megahorn
 - Scary Face
+
