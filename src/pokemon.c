@@ -733,11 +733,16 @@ static const u32 sCompressedStatuses[] =
 STATIC_ASSERT(NUM_SPECIES < (1 << 11), PokemonSubstruct0_species_TooSmall);
 STATIC_ASSERT(NUMBER_OF_MON_TYPES + 1 <= (1 << 5), PokemonSubstruct0_teraType_TooSmall);
 STATIC_ASSERT(ITEMS_COUNT < (1 << 10), PokemonSubstruct0_heldItem_TooSmall);
-STATIC_ASSERT(MAX_LEVEL <= 100, PokemonSubstruct0_experience_PotentiallTooSmall); // Maximum of ~2 million exp.
+// The experience field is 24 bits (max ~16.7 million exp). Levels past 100 use
+// a flat linear extension of each growth rate (see experience_tables.h), which
+// keeps the level 255 totals of every growth rate within that limit.
+STATIC_ASSERT(MAX_LEVEL <= 255, PokemonSubstruct0_experience_PotentiallTooSmall);
 STATIC_ASSERT(POKEBALL_COUNT <= (1 << 6), PokemonSubstruct0_pokeball_TooSmall);
 STATIC_ASSERT(MOVES_COUNT_ALL < (1 << 11), PokemonSubstruct1_moves_TooSmall);
 STATIC_ASSERT(ARRAY_COUNT(sCompressedStatuses) <= (1 << 4), PokemonSubstruct3_compressedStatus_TooSmall);
-STATIC_ASSERT(MAX_LEVEL < (1 << 7), PokemonSubstruct3_metLevel_TooSmall);
+// metLevel stays 7 bits; writes are clamped to 127 in SetBoxMonData since it
+// only records the level a mon was met at, and nothing catchable exceeds 127.
+STATIC_ASSERT(MAX_LEVEL <= 255, PokemonSubstruct3_metLevel_TooSmall);
 STATIC_ASSERT(NUM_VERSIONS < (1 << 4), PokemonSubstruct3_metGame_TooSmall);
 STATIC_ASSERT(MAX_DYNAMAX_LEVEL < (1 << 4), PokemonSubstruct3_dynamaxLevel_TooSmall);
 STATIC_ASSERT(MAX_PER_STAT_IVS < (1 << 5), PokemonSubstruct3_ivs_TooSmall);
@@ -2700,7 +2705,9 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
             SET8(GetSubstruct3(boxMon)->metLocation);
             break;
         case MON_DATA_MET_LEVEL:
-            SET8(GetSubstruct3(boxMon)->metLevel);
+            // metLevel is a 7-bit field; with MAX_LEVEL above 127 the met
+            // level is clamped so it can't wrap around.
+            GetSubstruct3(boxMon)->metLevel = min(data[0], 127);
             break;
         case MON_DATA_MET_GAME:
             SET8(GetSubstruct3(boxMon)->metGame);

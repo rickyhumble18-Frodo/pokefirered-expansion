@@ -8,6 +8,10 @@
 #define MAX_REMATCH_PARTIES 6
 #define VSSEEKER_RECHARGE_STEPS 100
 
+// Placeholder in a rematch chain for a story-progression stage where the
+// trainer's party doesn't change (see sRematches).
+#define REMATCH_SKIP_ID 0xFFFF
+
 struct RematchData
 {
     enum TrainerID trainerIDs[MAX_REMATCH_PARTIES];

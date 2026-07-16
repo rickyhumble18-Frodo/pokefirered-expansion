@@ -23,6 +23,7 @@
 #include "constants/items.h"
 #include "constants/moves.h"
 #include "constants/weather.h"
+#include "constants/vs_seeker.h"
 #include "config/save.h"
 
 #define NAKED __attribute__((naked))
@@ -1042,6 +1043,7 @@ struct SaveBlock1
     u16 trainerRematchStepCounter;
     u8 trainerRematches[MAX_REMATCH_ENTRIES];
 #endif //FREE_MATCH_CALL
+    u8 rematchWinCounts[REMATCH_COUNT]; // Times the player has beaten each VS Seeker rematch trainer, indexed by enum RematchID.
 #if FREE_UNION_ROOM_CHAT == FALSE
     u8 registeredTexts[UNION_ROOM_KB_ROW_COUNT][21];
 #endif //FREE_UNION_ROOM_CHAT

@@ -18,6 +18,7 @@
 #include "script.h"
 #include "sound.h"
 #include "task.h"
+#include "rematch_scaling.h"
 #include "vs_seeker.h"
 #include "constants/event_object_movement.h"
 #include "constants/event_objects.h"
@@ -33,7 +34,7 @@
 // Each rematch is unavailable until the player has progressed to a certain point in the story (see TryGetRematchTrainerIdGivenGameState).
 // A list of the trainer ids for each party is in sRematches. If a party doesn't update for a progression point it will have SKIP instead,
 // and that trainer id will be ignored.
-#define SKIP 0xFFFF
+#define SKIP REMATCH_SKIP_ID
 
 #define NO_REMATCH_LOCALID LOCALID_PLAYER
 
@@ -640,13 +641,32 @@ static int LookupVsSeekerOpponentInArray(const struct RematchData *array, enum T
 enum TrainerID GetRematchTrainerId(enum TrainerID trainerId)
 {
     u8 i;
-    u8 j;
-    j = GetNextAvailableRematchTrainer(sRematches, trainerId, &i);
-    if (!j)
+    u8 validIdxs[MAX_REMATCH_PARTIES];
+    u8 numValid = 0;
+    u32 j;
+
+    if (GetNextAvailableRematchTrainer(sRematches, trainerId, &i) == 0)
         return TRAINER_NONE;
 
-    j = TryGetRematchTrainerIdGivenGameState(sRematches[i].trainerIDs, j);
-    return sRematches[i].trainerIDs[j];
+    // Collect every party variant unlocked by story progression. Instead of
+    // clamping at the final party like vanilla, the rematch win count cycles
+    // through them so teams keep rotating as their levels climb.
+    for (j = 0; j < MAX_REMATCH_PARTIES; j++)
+    {
+        enum TrainerID id = sRematches[i].trainerIDs[j];
+        if (id == TRAINER_NONE)
+            break;
+        if (id == SKIP)
+            continue;
+        if (TryGetRematchTrainerIdGivenGameState(sRematches[i].trainerIDs, j) != j)
+            continue;
+        validIdxs[numValid++] = j;
+    }
+
+    if (numValid == 0)
+        return TRAINER_NONE;
+
+    return sRematches[i].trainerIDs[validIdxs[GetRematchWinCount(sRematches[i].trainerIDs[0]) % numValid]];
 }
 #endif //FREE_MATCH_CALL
 

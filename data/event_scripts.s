@@ -909,6 +909,7 @@
 	.include "data/text/pokedude.inc"
 	.include "data/text/route23.inc"
 	.include "data/text/safari_zone.inc"
+	.include "data/text/rematch.inc"
 	.include "data/text/save.inc"
 	.include "data/text/seagallop.inc"
 	.include "data/text/sign_lady.inc"

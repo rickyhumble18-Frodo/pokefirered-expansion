@@ -3,6 +3,7 @@ ViridianCity_Gym_MapScripts::
 
 ViridianCity_Gym_EventScript_Giovanni::
 	famechecker FAMECHECKER_GIOVANNI, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005
+	goto_if_set FLAG_DEFEATED_LEADER_GIOVANNI, ViridianCity_Gym_EventScript_GiovanniRematch
 	trainerbattle_single TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_GiovanniIntro, ViridianCity_Gym_Text_GiovanniDefeat, ViridianCity_Gym_EventScript_DefeatedGiovanni, NO_MUSIC
 	goto_if_unset FLAG_GOT_TM26_FROM_GIOVANNI, ViridianCity_Gym_EventScript_GiveTM26
 	msgbox ViridianCity_Gym_Text_GiovanniPostBattle
@@ -10,6 +11,22 @@ ViridianCity_Gym_EventScript_Giovanni::
 	fadescreen FADE_TO_BLACK
 	removeobject LOCALID_VIRIDIAN_GIOVANNI
 	fadescreen FADE_FROM_BLACK
+	release
+	end
+
+ViridianCity_Gym_EventScript_GiovanniRematch::
+	lock
+	faceplayer
+	goto_if_unset FLAG_GOT_TM26_FROM_GIOVANNI, ViridianCity_Gym_EventScript_GiveTM26
+	msgbox Rematch_Text_LeaderAskRematch, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, ViridianCity_Gym_EventScript_GiovanniDeclineRematch
+	trainerbattle_no_intro TRAINER_LEADER_GIOVANNI, ViridianCity_Gym_Text_GiovanniDefeat
+	msgbox Rematch_Text_LeaderPostRematch
+	release
+	end
+
+ViridianCity_Gym_EventScript_GiovanniDeclineRematch::
+	msgbox Rematch_Text_LeaderDeclineRematch
 	release
 	end
 

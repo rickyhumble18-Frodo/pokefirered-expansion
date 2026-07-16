@@ -35,6 +35,7 @@
 #include "field_screen_effect.h"
 #include "data.h"
 #include "vs_seeker.h"
+#include "rematch_scaling.h"
 #include "item.h"
 #include "script.h"
 #include "constants/battle_frontier.h"
@@ -926,6 +927,9 @@ const u8 *BattleSetup_ConfigureTrainerBattle(const u8 *data)
     switch (TRAINER_BATTLE_PARAM.mode)
     {
     case TRAINER_BATTLE_SINGLE_NO_INTRO_TEXT:
+        // Gym leaders, the Elite Four and the Champion battle through this
+        // mode; cycle their team variant with the rematch win count.
+        TRAINER_BATTLE_PARAM.opponentA = GetBossVariantTrainerId(TRAINER_BATTLE_PARAM.opponentA);
         return EventScript_DoNoIntroTrainerBattle;
     case TRAINER_BATTLE_DOUBLE:
         SetMapVarsToTrainerA();
@@ -1062,6 +1066,15 @@ static void SetBattledTrainersFlags(void)
     if (TRAINER_BATTLE_PARAM.opponentB != 0)
         FlagSet(GetTrainerBFlag());
     FlagSet(GetTrainerAFlag());
+}
+
+// Called only when the player has won; rematch win counters are keyed to
+// the base trainer ID so team variants share one counter.
+static void IncrementBattledTrainersWinCounts(void)
+{
+    IncrementRematchWinCount(TRAINER_BATTLE_PARAM.opponentA);
+    if (TRAINER_BATTLE_PARAM.opponentB != 0)
+        IncrementRematchWinCount(TRAINER_BATTLE_PARAM.opponentB);
 }
 
 void SetBattledTrainerFlag(void)
@@ -1265,6 +1278,7 @@ static void CB2_EndTrainerBattle(void)
         if (CurrentBattlePyramidLocation() == PYRAMID_LOCATION_NONE)
         {
             SetBattledTrainersFlags();
+            IncrementBattledTrainersWinCounts();
             QuestLogEvents_HandleEndTrainerBattle();
         }
     }
@@ -1285,6 +1299,7 @@ static void CB2_EndRematchBattle(void)
     {
         SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
         SetBattledTrainersFlags();
+        IncrementBattledTrainersWinCounts();
         ClearRematchStateOfLastTalked();
         ResetDeferredLinkEvent();
         DowngradeBadPoison();

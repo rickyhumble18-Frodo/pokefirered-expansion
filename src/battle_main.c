@@ -65,6 +65,7 @@
 #include "type_icon_sprite.h"
 #include "util.h"
 #include "vs_seeker.h"
+#include "rematch_scaling.h"
 #include "wild_encounter.h"
 #include "window.h"
 #include "constants/abilities.h"
@@ -2012,7 +2013,7 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
                 otId.method = OT_ID_PRESET;
                 otId.value = HIHALF(personalityValue) ^ LOHALF(personalityValue);
             }
-            CreateMon(&party[i], partyData[monIndex].species, partyData[monIndex].lvl, personalityValue, otId);
+            CreateMon(&party[i], partyData[monIndex].species, GetScaledTrainerMonLevel(partyData[monIndex].lvl), personalityValue, otId);
             SetMonData(&party[i], MON_DATA_HELD_ITEM, &partyData[monIndex].heldItem);
 
             CustomTrainerPartyAssignMoves(&party[i], &partyData[monIndex]);
@@ -2090,6 +2091,10 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
         }
     }
 
+    // Rematch level scaling is armed per-opponent in CreateNPCTrainerParty;
+    // clear it so no other party generation path inherits the boost.
+    ClearTrainerPartyLevelScaling();
+
     return trainer->partySize;
 }
 
@@ -2098,6 +2103,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     u8 retVal;
     if (trainerNum == TRAINER_SECRET_BASE)
         return 0;
+    SetTrainerPartyLevelScaling(trainerNum);
     if (GetTrainerStructFromId(trainerNum)->overrideTrainer)
     {
         struct Trainer tempTrainer;

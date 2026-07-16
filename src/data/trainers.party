@@ -14384,3 +14384,307 @@ AI: Basic Trainer
 Beldum
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_LEADER_BROCK_2 ===
+Name: BROCK
+Class: Leader
+Pic: Leader Brock
+Gender: Male
+Music: Male
+Items: Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyhorn
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Horn Attack
+- Stomp
+- Rock Blast
+
+Omanyte
+Level: 12
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Water Gun
+- Rollout
+- Withdraw
+
+Aerodactyl
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Bite
+- Ancient Power
+
+=== TRAINER_LEADER_MISTY_2 ===
+Name: MISTY
+Class: Leader
+Pic: Leader Misty
+Gender: Male
+Music: Female
+Items: Super Potion
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Poliwhirl
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Double Slap
+- Water Pulse
+
+Psyduck
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Disable
+- Water Pulse
+
+Gyarados
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Dragon Rage
+- Leer
+- Water Pulse
+
+=== TRAINER_LEADER_LT_SURGE_2 ===
+Name: LT. SURGE
+Class: Leader
+Pic: Leader Lt Surge
+Gender: Male
+Music: Male
+Items: Super Potion / Full Heal
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Magneton
+Level: 21
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sonic Boom
+- Thunder Wave
+- Shock Wave
+- Supersonic
+
+Electabuzz
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Low Kick
+- Shock Wave
+
+Jolteon
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Double Kick
+- Thunder Wave
+- Shock Wave
+
+=== TRAINER_LEADER_ERIKA_2 ===
+Name: ERIKA
+Class: Leader
+Pic: Leader Erika
+Gender: Male
+Music: Female
+Items: Hyper Potion / Full Heal
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Exeggutor
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Confusion
+- Giga Drain
+
+Parasect
+Level: 24
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spore
+- Slash
+- Giga Drain
+
+Bellossom
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sleep Powder
+- Acid
+- Magical Leaf
+- Giga Drain
+
+=== TRAINER_LEADER_KOGA_2 ===
+Name: KOGA
+Class: Leader
+Pic: Leader Koga
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion / Full Heal
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Crobat
+Level: 37
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Bite
+- Confuse Ray
+- Toxic
+
+Venomoth
+Level: 39
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Sludge Bomb
+- Sleep Powder
+- Toxic
+
+Swalot
+Level: 37
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sludge
+- Yawn
+- Encore
+- Toxic
+
+Nidoking
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Sludge Bomb
+- Double Kick
+- Toxic
+
+=== TRAINER_LEADER_SABRINA_2 ===
+Name: SABRINA
+Class: Leader
+Pic: Leader Sabrina
+Gender: Male
+Music: Female
+Items: Hyper Potion / Hyper Potion / Full Heal
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Hypno
+Level: 38
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Psychic
+- Headbutt
+- Calm Mind
+
+Jynx
+Level: 37
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lovely Kiss
+- Ice Punch
+- Psychic
+- Fake Tears
+
+Espeon
+Level: 38
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Psybeam
+- Shadow Ball
+- Calm Mind
+
+Gardevoir
+Level: 43
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psychic
+- Thunderbolt
+- Hypnosis
+- Calm Mind
+
+=== TRAINER_LEADER_BLAINE_2 ===
+Name: BLAINE
+Class: Leader
+Pic: Leader Blaine
+Gender: Male
+Music: Male
+Items: Hyper Potion / Hyper Potion / Full Heal
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Magmar
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fire Punch
+- Confuse Ray
+- Smokescreen
+- Fire Blast
+
+Ninetales
+Level: 40
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confuse Ray
+- Will-O-Wisp
+- Quick Attack
+- Flamethrower
+
+Torkoal
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Body Slam
+- Iron Defense
+- Yawn
+- Fire Blast
+
+Houndoom
+Level: 47
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Crunch
+- Fire Blast
+- Roar
+- Smog
+
+=== TRAINER_LEADER_GIOVANNI_2 ===
+Name: GIOVANNI
+Class: Leader
+Pic: Leader Giovanni
+Gender: Male
+Music: Aqua
+Items: Hyper Potion / Hyper Potion / Full Heal
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Steelix
+Level: 45
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Tail
+- Earthquake
+- Rock Slide
+- Screech
+
+Marowak
+Level: 42
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bonemerang
+- Rock Slide
+- Headbutt
+- Earthquake
+
+Sandslash
+Level: 44
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Earthquake
+- Rock Slide
+- Sand Attack
+
+Golem
+Level: 45
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Blast
+- Explosion
+- Defense Curl
+
+Rhydon
+Level: 50
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Blast
+- Megahorn
+- Scary Face

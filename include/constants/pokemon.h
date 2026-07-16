@@ -159,7 +159,7 @@ enum __attribute__((packed)) Stat
 #define MAX_GIFT_RIBBON 64
 
 #define MIN_LEVEL 1
-#define MAX_LEVEL 100
+#define MAX_LEVEL 255 // Raised from 100; rematch scaling has no ceiling. Exp tables use a linear extension past 100.
 
 #define MAX_DYNAMAX_LEVEL 10
 

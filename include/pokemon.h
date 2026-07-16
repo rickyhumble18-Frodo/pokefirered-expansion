@@ -132,9 +132,8 @@ struct PokemonSubstruct0
     enum Type teraType:5; // 30 types.
     u16 heldItem:10; // 1023 items.
     u16 unused_02:6;
-    u32 experience:21;
+    u32 experience:24; // Widened from 21 bits to fit the extended level-255 exp tables.
     u32 nickname11:8; // 11th character of nickname.
-    u32 unused_04:3;
     u8 ppBonuses;
     u8 friendship;
     u16 pokeball:6; // 63 balls.

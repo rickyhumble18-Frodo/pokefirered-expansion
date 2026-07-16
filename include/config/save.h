@@ -6,7 +6,7 @@
 
 // SaveBlock1 configs
 #define FREE_TRAINER_TOWER                  FALSE   // Frees up Trainer Tower data (x bytes).
-#define FREE_MYSTERY_EVENT_BUFFERS          FALSE   // Frees up ramScript (1104 bytes).
+#define FREE_MYSTERY_EVENT_BUFFERS          TRUE    // Frees up ramScript (1104 bytes). Freed to make room for rematchWinCounts in SaveBlock1.
 #define FREE_MATCH_CALL                     FALSE   // Frees up match call and rematch / VS Seeker data. (104 bytes).
 #define FREE_UNION_ROOM_CHAT                FALSE   // Frees up union room chat (212 bytes).
 #define FREE_ENIGMA_BERRY                   FALSE   // Frees up E-Reader Enigma Berry data (52 bytes).
