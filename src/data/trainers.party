@@ -8295,7 +8295,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: LORELEI
 Class: Elite Four
 Pic: Elite Four Lorelei
-Gender: Male
+Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
@@ -8447,13 +8447,14 @@ EVs: 252 HP / 252 Atk
 Name: AGATHA
 Class: Elite Four
 Pic: Elite Four Agatha
-Gender: Male
+Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
 
 Gengar @ Oran Berry
+Ability: Cursed Body
 Timid Nature
 Level: 59
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -8508,6 +8509,7 @@ EVs: 252 HP / 252 SpD
 - Rest
 
 Gengar @ Sitrus Berry
+Ability: Cursed Body
 Timid Nature
 Level: 63
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -8612,7 +8614,7 @@ EVs: 252 HP / 252 Def
 - Stealth Rock
 - Rock Blast
 - Bulldoze
-- Sand Attack
+- Self Destruct
 
 Cranidos
 Ability: Mold Breaker
@@ -8673,7 +8675,7 @@ EVs: 252 Atk / 252 Spe
 Name: MISTY
 Class: Leader
 Pic: Leader Misty
-Gender: Male
+Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
@@ -8825,7 +8827,7 @@ EVs: 252 SpA / 252 Spe
 Name: ERIKA
 Class: Leader
 Pic: Leader Erika
-Gender: Male
+Gender: Female
 Music: Female
 Items: Hyper Potion / Full Heal
 Double Battle: No
@@ -8895,7 +8897,7 @@ EVs: 252 SpA / 252 Spe
 - Quiver Dance
 - Giga Drain
 - Sludge Bomb
-- Moonlight
+- Sunny Day
 
 === TRAINER_LEADER_KOGA ===
 Name: KOGA
@@ -9053,7 +9055,7 @@ EVs: 252 SpA / 252 Spe
 Name: SABRINA
 Class: Leader
 Pic: Leader Sabrina
-Gender: Male
+Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
@@ -9716,7 +9718,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Hydro Pump
 - Ice Beam
-- Earthquake
+- Focus Blast
 - Aqua Jet
 
 === TRAINER_CHAMPION_FIRST_BULBASAUR ===
@@ -16296,7 +16298,7 @@ IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 Name: LORELEI
 Class: Elite Four
 Pic: Elite Four Lorelei
-Gender: Male
+Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
@@ -16398,7 +16400,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Name: AGATHA
 Class: Elite Four
 Pic: Elite Four Agatha
-Gender: Male
+Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
@@ -16801,7 +16803,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Roggenrola @ Oran Berry
 Ability: Sturdy
 Impish Nature
-Level: 12
+Level: 13
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Def
 - Stealth Rock
@@ -16812,7 +16814,7 @@ EVs: 252 HP / 252 Def
 Rhyhorn
 Ability: Lightning Rod
 Adamant Nature
-Level: 12
+Level: 14
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk
 - Horn Attack
@@ -16822,7 +16824,7 @@ EVs: 252 HP / 252 Atk
 Omanyte
 Ability: Swift Swim
 Modest Nature
-Level: 12
+Level: 14
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Water Gun
@@ -16832,7 +16834,7 @@ EVs: 252 SpA / 252 Spe
 Anorith
 Ability: Battle Armor
 Adamant Nature
-Level: 13
+Level: 14
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Fury Cutter
@@ -16843,7 +16845,7 @@ EVs: 252 Atk / 252 Spe
 Bonsly
 Ability: Rock Head
 Careful Nature
-Level: 13
+Level: 14
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpD
 - Rock Tomb
@@ -16854,7 +16856,7 @@ EVs: 252 HP / 252 SpD
 Aerodactyl @ Sitrus Berry
 Ability: Rock Head
 Jolly Nature
-Level: 14
+Level: 16
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Wing Attack
@@ -16866,7 +16868,7 @@ EVs: 252 Atk / 252 Spe
 Name: MISTY
 Class: Leader
 Pic: Leader Misty
-Gender: Male
+Gender: Female
 Music: Female
 Items: Super Potion / Super Potion
 Double Battle: No
@@ -16875,7 +16877,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Poliwhirl @ Oran Berry
 Ability: Water Absorb
 Adamant Nature
-Level: 18
+Level: 20
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Hypnosis
@@ -16885,7 +16887,7 @@ EVs: 252 Atk / 252 Spe
 Psyduck
 Ability: Cloud Nine
 Modest Nature
-Level: 18
+Level: 21
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Confusion
@@ -16895,7 +16897,7 @@ EVs: 252 SpA / 252 Spe
 Shellder
 Ability: Skill Link
 Adamant Nature
-Level: 19
+Level: 21
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Def
 - Icicle Spear
@@ -16906,7 +16908,7 @@ EVs: 252 Atk / 252 Def
 Chinchou
 Ability: Volt Absorb
 Modest Nature
-Level: 19
+Level: 21
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Thunder Wave
@@ -16917,7 +16919,7 @@ EVs: 252 HP / 252 SpA
 Staryu
 Ability: Natural Cure
 Timid Nature
-Level: 20
+Level: 22
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Water Pulse
@@ -16928,7 +16930,7 @@ EVs: 252 SpA / 252 Spe
 Gyarados @ Sitrus Berry
 Ability: Intimidate
 Adamant Nature
-Level: 21
+Level: 24
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Bite
@@ -16949,7 +16951,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Magneton @ Oran Berry
 Ability: Sturdy
 Modest Nature
-Level: 21
+Level: 24
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Sonic Boom
@@ -16960,7 +16962,7 @@ EVs: 252 HP / 252 SpA
 Electabuzz
 Ability: Static
 Jolly Nature
-Level: 18
+Level: 25
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Quick Attack
@@ -16970,7 +16972,7 @@ EVs: 252 Atk / 252 Spe
 Pikachu @ Light Ball
 Ability: Static
 Timid Nature
-Level: 20
+Level: 25
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Shock Wave
@@ -16981,7 +16983,7 @@ EVs: 252 SpA / 252 Spe
 Flaaffy
 Ability: Static
 Modest Nature
-Level: 20
+Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Shock Wave
@@ -16992,7 +16994,7 @@ EVs: 252 HP / 252 SpA
 Voltorb
 Ability: Static
 Timid Nature
-Level: 20
+Level: 26
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Spe
 - Sonic Boom
@@ -17003,7 +17005,7 @@ EVs: 252 HP / 252 Spe
 Jolteon @ Sitrus Berry
 Ability: Volt Absorb
 Timid Nature
-Level: 24
+Level: 28
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Quick Attack
@@ -17015,7 +17017,7 @@ EVs: 252 SpA / 252 Spe
 Name: ERIKA
 Class: Leader
 Pic: Leader Erika
-Gender: Male
+Gender: Female
 Music: Female
 Items: Hyper Potion / Full Heal
 Double Battle: No
@@ -17024,7 +17026,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Parasect @ Oran Berry
 Ability: Dry Skin
 Adamant Nature
-Level: 24
+Level: 30
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk
 - Spore
@@ -17034,7 +17036,7 @@ EVs: 252 HP / 252 Atk
 Weepinbell
 Ability: Chlorophyll
 Adamant Nature
-Level: 27
+Level: 31
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Sleep Powder
@@ -17045,7 +17047,7 @@ EVs: 252 Atk / 252 Spe
 Gloom
 Ability: Chlorophyll
 Modest Nature
-Level: 27
+Level: 31
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Stun Spore
@@ -17056,7 +17058,7 @@ EVs: 252 HP / 252 SpA
 Tangela
 Ability: Chlorophyll
 Bold Nature
-Level: 28
+Level: 32
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Def
 - Bind
@@ -17067,7 +17069,7 @@ EVs: 252 HP / 252 Def
 Bellossom
 Ability: Chlorophyll
 Modest Nature
-Level: 29
+Level: 30
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Sleep Powder
@@ -17078,11 +17080,11 @@ EVs: 252 HP / 252 SpA
 Exeggutor @ Sitrus Berry
 Ability: Chlorophyll
 Modest Nature
-Level: 29
+Level: 34
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Hypnosis
-- Confusion
+- Sunny Day
 - Giga Drain
 - Ancient Power
 
@@ -17099,7 +17101,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Crobat @ Oran Berry
 Ability: Inner Focus
 Jolly Nature
-Level: 37
+Level: 42
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Spe
 - Wing Attack
@@ -17110,7 +17112,7 @@ EVs: 252 HP / 252 Spe
 Venomoth
 Ability: Tinted Lens
 Timid Nature
-Level: 39
+Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Psybeam
@@ -17121,7 +17123,7 @@ EVs: 252 SpA / 252 Spe
 Swalot
 Ability: Sticky Hold
 Careful Nature
-Level: 37
+Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpD
 - Sludge
@@ -17132,7 +17134,7 @@ EVs: 252 HP / 252 SpD
 Ariados
 Ability: Insomnia
 Adamant Nature
-Level: 38
+Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 HP
 - Night Shade
@@ -17143,7 +17145,7 @@ EVs: 252 Atk / 252 HP
 Tentacruel
 Ability: Clear Body
 Timid Nature
-Level: 40
+Level: 43
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Surf
@@ -17154,7 +17156,7 @@ EVs: 252 SpA / 252 Spe
 Nidoking @ Sitrus Berry
 Ability: Sheer Force
 Adamant Nature
-Level: 43
+Level: 46
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Earthquake
@@ -17166,7 +17168,7 @@ EVs: 252 Atk / 252 Spe
 Name: SABRINA
 Class: Leader
 Pic: Leader Sabrina
-Gender: Male
+Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion / Full Heal
 Double Battle: No
@@ -17175,7 +17177,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Hypno @ Oran Berry
 Ability: Inner Focus
 Careful Nature
-Level: 38
+Level: 44
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpD
 - Hypnosis
@@ -17186,7 +17188,7 @@ EVs: 252 HP / 252 SpD
 Jynx
 Ability: Dry Skin
 Timid Nature
-Level: 37
+Level: 44
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Lovely Kiss
@@ -17197,7 +17199,7 @@ EVs: 252 SpA / 252 Spe
 Kadabra
 Ability: Inner Focus
 Timid Nature
-Level: 39
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Psybeam
@@ -17208,7 +17210,7 @@ EVs: 252 SpA / 252 Spe
 Slowking
 Ability: Regenerator
 Calm Nature
-Level: 39
+Level: 45
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpD
 - Yawn
@@ -17219,7 +17221,7 @@ EVs: 252 HP / 252 SpD
 Espeon
 Ability: Magic Bounce
 Timid Nature
-Level: 38
+Level: 44
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Quick Attack
@@ -17230,7 +17232,7 @@ EVs: 252 SpA / 252 Spe
 Gardevoir @ Sitrus Berry
 Ability: Trace
 Modest Nature
-Level: 43
+Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Psychic
@@ -17251,7 +17253,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Magmar @ Oran Berry
 Ability: Flame Body
 Modest Nature
-Level: 42
+Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Fire Punch
@@ -17262,7 +17264,7 @@ EVs: 252 SpA / 252 Spe
 Ninetales
 Ability: Flash Fire
 Timid Nature
-Level: 40
+Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Confuse Ray
@@ -17273,7 +17275,7 @@ EVs: 252 SpA / 252 Spe
 Ponyta
 Ability: Flash Fire
 Jolly Nature
-Level: 41
+Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Stomp
@@ -17284,7 +17286,7 @@ EVs: 252 Atk / 252 Spe
 Flareon
 Ability: Flash Fire
 Adamant Nature
-Level: 43
+Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 HP
 - Quick Attack
@@ -17295,7 +17297,7 @@ EVs: 252 Atk / 252 HP
 Torkoal
 Ability: White Smoke
 Bold Nature
-Level: 42
+Level: 48
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Def
 - Body Slam
@@ -17306,7 +17308,7 @@ EVs: 252 HP / 252 Def
 Houndoom @ Sitrus Berry
 Ability: Flash Fire
 Timid Nature
-Level: 47
+Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 SpA / 252 Spe
 - Crunch
@@ -17327,7 +17329,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Steelix @ Oran Berry
 Ability: Sturdy
 Impish Nature
-Level: 45
+Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Def
 - Iron Tail
@@ -17338,7 +17340,7 @@ EVs: 252 HP / 252 Def
 Marowak @ Thick Club
 Ability: Rock Head
 Adamant Nature
-Level: 42
+Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Bonemerang
@@ -17349,7 +17351,7 @@ EVs: 252 Atk / 252 Spe
 Sandslash
 Ability: Sand Veil
 Adamant Nature
-Level: 44
+Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Slash
@@ -17360,7 +17362,7 @@ EVs: 252 Atk / 252 Spe
 Nidoqueen
 Ability: Sheer Force
 Modest Nature
-Level: 44
+Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpA
 - Earth Power
@@ -17371,7 +17373,7 @@ EVs: 252 HP / 252 SpA
 Golem
 Ability: Sturdy
 Adamant Nature
-Level: 45
+Level: 52
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk
 - Earthquake
@@ -17382,7 +17384,7 @@ EVs: 252 HP / 252 Atk
 Rhydon @ Sitrus Berry
 Ability: Lightning Rod
 Adamant Nature
-Level: 50
+Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk
 - Earthquake
