@@ -837,9 +837,7 @@ void CreateMonWithIVs(struct Pokemon *mon, enum Species species, u8 level, u32 p
 
 void SetBoxMonIVs(struct BoxPokemon *mon, u8 fixedIV)
 {
-    u32 i, value;
-    enum Stat availableIVs[NUM_STATS];
-    enum Stat selectedIvs[NUM_STATS];
+    u32 i;
 
     if (fixedIV < USE_RANDOM_IVS)
     {
@@ -848,43 +846,12 @@ void SetBoxMonIVs(struct BoxPokemon *mon, u8 fixedIV)
         return;
     }
 
-    u32 iv;
-    u32 ivRandom = Random32();
-    u32 species = GetBoxMonData(mon, MON_DATA_SPECIES);
-    value = (u16)ivRandom;
-
-    iv = value & MAX_IV_MASK;
-    SetBoxMonData(mon, MON_DATA_HP_IV, &iv);
-    iv = (value & (MAX_IV_MASK << 5)) >> 5;
-    SetBoxMonData(mon, MON_DATA_ATK_IV, &iv);
-    iv = (value & (MAX_IV_MASK << 10)) >> 10;
-    SetBoxMonData(mon, MON_DATA_DEF_IV, &iv);
-
-    value = (u16)(ivRandom >> 16);
-
-    iv = value & MAX_IV_MASK;
-    SetBoxMonData(mon, MON_DATA_SPEED_IV, &iv);
-    iv = (value & (MAX_IV_MASK << 5)) >> 5;
-    SetBoxMonData(mon, MON_DATA_SPATK_IV, &iv);
-    iv = (value & (MAX_IV_MASK << 10)) >> 10;
-    SetBoxMonData(mon, MON_DATA_SPDEF_IV, &iv);
-
-    if (gSpeciesInfo[species].perfectIVCount != 0)
-    {
-        iv = MAX_PER_STAT_IVS;
-        // Initialize a list of IV indices.
-        for (i = 0; i < NUM_STATS; i++)
-            availableIVs[i] = i;
-
-        // Select the IVs that will be perfected.
-        for (i = 0; i < NUM_STATS && i < gSpeciesInfo[species].perfectIVCount; i++)
-        {
-            u8 index = Random() % (NUM_STATS - i);
-            selectedIvs[i] = availableIVs[index];
-            RemoveIVIndexFromList(availableIVs, index);
-            SetBoxMonData(mon, MON_DATA_HP_IV + selectedIvs[i], &iv);
-        }
-    }
+    // Kaizo: instead of random rolls, every mon on the random-IV path (wild,
+    // gift, hatched, traded) is perfect. Trainer mons take the fixed-IV path
+    // above with values from trainers.party.
+    u32 iv = MAX_PER_STAT_IVS;
+    for (i = 0; i < NUM_STATS; i++)
+        SetBoxMonData(mon, MON_DATA_HP_IV + i, &iv);
 }
 
 void CreateBoxMon(struct BoxPokemon *boxMon, enum Species species, u8 level, u32 personality, struct OriginalTrainerId trainerId)
