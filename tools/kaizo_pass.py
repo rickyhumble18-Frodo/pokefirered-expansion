@@ -4,6 +4,10 @@
 Subcommands:
   ai    Phase A - raise every trainer's AI to a smart baseline; bosses get
         switching intelligence, the Elite Four and Champion also get Omniscient.
+  bulk  Phase B - per-segment level curve, team padding and held items for
+        route trainers. Segments and pools live in tools/kaizo_segments.json;
+        pre-pass levels are captured into tools/kaizo_baseline.json on first
+        run so re-runs recompute from the originals instead of compounding.
 
 All subcommands are idempotent: running them twice produces the same file.
 Use --dry-run to print a unified diff instead of rewriting the file.
@@ -11,11 +15,18 @@ Use --dry-run to print a unified diff instead of rewriting the file.
 
 import argparse
 import difflib
+import hashlib
+import json
+import re
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PARTY_FILE = REPO_ROOT / "src/data/trainers.party"
+SEGMENTS_FILE = REPO_ROOT / "tools/kaizo_segments.json"
+BASELINE_FILE = REPO_ROOT / "tools/kaizo_baseline.json"
+SCRIPT_FILES = [REPO_ROOT / "data/scripts/trainers.inc"] + \
+    sorted((REPO_ROOT / "data/maps").glob("*/scripts.inc"))
 
 BASE_AI = "Check Bad Move / Try To Faint / Check Viability"
 BOSS_AI_EXTRA = "Smart Switching / Smart Mon Choices"
@@ -109,6 +120,135 @@ def apply_ai(lines):
     return out
 
 
+# ---------------------------------------------------------------------------
+# Phase B - bulk level curve / padding / items
+# ---------------------------------------------------------------------------
+
+# Never bulk-edit these: bosses and rival fights are hand-authored (Phase C),
+# TRAINER_*_2.._6 rematch variants are authored as part of the rematch design.
+BULK_SKIP_CLASSES = BOSS_CLASSES | OMNISCIENT_CLASSES
+VARIANT_RE = re.compile(r"_[2-6]$")
+
+
+def trainer_to_map(script_files):
+    """Map trainer ids to the map whose scripts battle them, via the
+    <MapName>_EventScript_* label prefix."""
+    result = {}
+    for path in script_files:
+        label_map = None
+        for line in path.read_text().splitlines():
+            m = re.match(r"^(\w+?)_EventScript_\w+::", line)
+            if m:
+                label_map = m.group(1)
+            m = re.search(r"\ttrainerbattle\w*\s+(TRAINER_[A-Z0-9_]+)", line)
+            if m and label_map:
+                result.setdefault(m.group(1), label_map)
+    return result
+
+
+def split_paragraphs(lines):
+    """Split a trainer block body into paragraphs (header first, then mons)."""
+    paras, cur = [], []
+    for line in lines:
+        if line.strip() == "":
+            if cur:
+                paras.append(cur)
+                cur = []
+        else:
+            cur.append(line)
+    if cur:
+        paras.append(cur)
+    return paras
+
+
+def species_of(mon_para):
+    return mon_para[0].split(" @ ")[0].strip()
+
+
+def level_of(mon_para):
+    for line in mon_para:
+        if line.startswith("Level: "):
+            return int(line[len("Level: "):])
+    raise ValueError(f"mon paragraph without level: {mon_para[0]!r}")
+
+
+def with_level(mon_para, level):
+    return [f"Level: {level}\n" if l.startswith("Level: ") else l for l in mon_para]
+
+
+def stable_hash(s):
+    return int(hashlib.sha1(s.encode()).hexdigest(), 16)
+
+
+def apply_bulk(lines):
+    config = json.loads(SEGMENTS_FILE.read_text())
+    segments, map_segments = config["segments"], config["maps"]
+    baseline = json.loads(BASELINE_FILE.read_text()) if BASELINE_FILE.exists() else {}
+    trainer_maps = trainer_to_map(SCRIPT_FILES)
+
+    out = []
+    for trainer in parse_trainers(lines):
+        block = lines[trainer.start:trainer.end]
+        map_name = trainer_maps.get(trainer.id)
+        seg_name = map_segments.get(map_name) if map_name else None
+        if (seg_name is None
+                or trainer.klass in BULK_SKIP_CLASSES
+                or VARIANT_RE.search(trainer.id)
+                or trainer.id in AI_SKIP_TRAINERS):
+            out.extend(block)
+            continue
+
+        seg = segments[seg_name]
+        # Trailing blank lines of the block are re-added at the end.
+        body = [l for l in block]
+        while body and body[-1].strip() == "":
+            body.pop()
+        paras = split_paragraphs(body)
+        header, mons = paras[0], paras[1:]
+        if not mons:
+            out.extend(block)
+            continue
+
+        # Capture pre-pass levels once; later runs recompute from these.
+        if trainer.id not in baseline:
+            baseline[trainer.id] = {"levels": [level_of(m) for m in mons][:len(mons)],
+                                    "team_size": len(mons)}
+        base = baseline[trainer.id]
+
+        # 1. Level curve, from the recorded original levels.
+        orig_count = base["team_size"]
+        scaled = [max(1, int(lv * seg["level_mult"] + 0.5)) for lv in base["levels"]]
+        for i in range(min(orig_count, len(mons))):
+            mons[i] = with_level(mons[i], scaled[i])
+
+        # 2. Team padding, deterministic per trainer, deduped within the team.
+        pad_level = min(scaled)
+        rng = stable_hash(trainer.id)
+        pool = list(seg["pad_pool"])
+        padded = False
+        while len(mons) < seg["min_team"]:
+            team_species = {species_of(m) for m in mons}
+            candidates = [s for s in pool if s not in team_species] or pool
+            pick = candidates[rng % len(candidates)]
+            rng //= len(candidates) or 1
+            mons.append([f"{pick}\n", f"Level: {pad_level}\n"])
+            padded = True
+
+        # 3. Held item on the last mon of padded teams.
+        if padded and " @ " not in mons[-1][0]:
+            items = seg["item_pool"]
+            item = items[-1] if stable_hash(trainer.id + "item") % 4 == 0 else items[0]
+            mons[-1][0] = mons[-1][0].rstrip("\n") + f" @ {item}\n"
+
+        out.extend(header)
+        for mon in mons:
+            out.append("\n")
+            out.extend(mon)
+        out.append("\n")
+
+    return out, baseline
+
+
 def finish(old_lines, new_lines, dry_run, check):
     if new_lines == old_lines:
         print("no changes")
@@ -128,7 +268,7 @@ def finish(old_lines, new_lines, dry_run, check):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["ai"])
+    parser.add_argument("command", choices=["ai", "bulk"])
     parser.add_argument("--dry-run", action="store_true", help="print a diff instead of rewriting")
     parser.add_argument("--check", action="store_true", help="exit 1 if the file would change (CI mode)")
     args = parser.parse_args()
@@ -136,6 +276,10 @@ def main():
     old_lines = PARTY_FILE.read_text().splitlines(keepends=True)
     if args.command == "ai":
         new_lines = apply_ai(old_lines)
+    else:
+        new_lines, baseline = apply_bulk(old_lines)
+        if not args.dry_run and not args.check:
+            BASELINE_FILE.write_text(json.dumps(baseline, indent=1, sort_keys=True) + "\n")
     return finish(old_lines, new_lines, args.dry_run, args.check)
 
 

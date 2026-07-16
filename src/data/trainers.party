@@ -58,12 +58,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout @ Oran Berry
+Level: 13
 
 === TRAINER_YOUNGSTER_CALVIN ===
 Name: CALVIN
@@ -75,8 +78,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorino
+Level: 17
+
+Oddish @ Oran Berry
+Level: 17
 
 === TRAINER_YOUNGSTER_JOSH ===
 Name: JOSH
@@ -88,15 +97,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_YOUNGSTER_TIMMY ===
@@ -109,12 +118,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandshrew
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zubat @ Oran Berry
+Level: 17
 
 === TRAINER_YOUNGSTER_JOEY ===
 Name: JOEY
@@ -126,12 +138,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magnemite @ Oran Berry
+Level: 18
 
 === TRAINER_YOUNGSTER_DAN ===
 Name: DAN
@@ -143,8 +158,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowpoke
-Level: 17
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sandshrew
+Level: 20
+
+Bellsprout @ Oran Berry
+Level: 20
 
 === TRAINER_YOUNGSTER_CHAD ===
 Name: CHAD
@@ -156,12 +177,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ekans
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Bellsprout @ Oran Berry
+Level: 17
 
 === TRAINER_YOUNGSTER_TYLER ===
 Name: TYLER
@@ -173,8 +197,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 26
+
+Kadabra
+Level: 26
+
+Raticate @ Sitrus Berry
+Level: 26
 
 === TRAINER_YOUNGSTER_EDDIE ===
 Name: EDDIE
@@ -186,8 +219,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ekans
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 26
+
+Kadabra
+Level: 26
+
+Voltorb @ Sitrus Berry
+Level: 26
 
 === TRAINER_YOUNGSTER_DILLON ===
 Name: DILLON
@@ -199,12 +241,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandshrew
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 24
+
+Pidgeotto @ Sitrus Berry
+Level: 24
 
 === TRAINER_YOUNGSTER_YASU ===
 Name: YASU
@@ -216,16 +264,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 21
 
 === TRAINER_YOUNGSTER_DAVE ===
 Name: DAVE
@@ -237,12 +288,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorino
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 23
+
+Raticate @ Sitrus Berry
+Level: 23
 
 === TRAINER_YOUNGSTER_BEN_2 ===
 Name: BEN
@@ -271,12 +328,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weedle
-Level: 6
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
-Level: 6
+Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Rattata @ Oran Berry
+Level: 7
 
 === TRAINER_BUG_CATCHER_DOUG ===
 Name: DOUG
@@ -288,15 +348,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weedle
-Level: 7
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kakuna
-Level: 7
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weedle
-Level: 7
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_SAMMY ===
@@ -309,8 +369,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weedle
-Level: 9
+Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Spearow
+Level: 10
+
+Caterpie @ Oran Berry
+Level: 10
 
 === TRAINER_BUG_CATCHER_COLTON ===
 Name: COLTON
@@ -322,15 +388,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Caterpie
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weedle
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_GREG ===
@@ -343,19 +409,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weedle
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kakuna
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metapod
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_JAMES ===
@@ -368,12 +434,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Caterpie
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metapod
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magnemite @ Oran Berry
+Level: 13
 
 === TRAINER_BUG_CATCHER_KENT ===
 Name: KENT
@@ -385,12 +454,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weedle
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kakuna
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ekans @ Oran Berry
+Level: 13
 
 === TRAINER_BUG_CATCHER_ROBBY ===
 Name: ROBBY
@@ -402,15 +474,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Caterpie
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metapod
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_CALE ===
@@ -423,19 +495,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Caterpie
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weedle
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metapod
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kakuna
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_KEIGO ===
@@ -448,16 +520,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weedle
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weedle
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter @ Sitrus Berry
+Level: 20
 
 === TRAINER_BUG_CATCHER_ELIJAH ===
 Name: ELIJAH
@@ -469,8 +544,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Butterfree
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 25
+
+Pidgeotto
+Level: 25
+
+Graveler @ Sitrus Berry
+Level: 25
 
 === TRAINER_BUG_CATCHER_2 ===
 Name: PH
@@ -503,12 +587,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beedrill
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Beedrill
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 24
+
+Krabby @ Sitrus Berry
+Level: 24
 
 === TRAINER_BUG_CATCHER_CONNER ===
 Name: CONNER
@@ -520,16 +610,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Caterpie
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weedle
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Venonat
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee @ Sitrus Berry
+Level: 25
 
 === TRAINER_LASS_JANICE ===
 Name: JANICE
@@ -541,12 +634,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 9
+Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorina @ Oran Berry
+Level: 11
 
 === TRAINER_LASS_SALLY ===
 Name: SALLY
@@ -558,12 +654,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zubat @ Oran Berry
+Level: 12
 
 === TRAINER_LASS_ROBIN ===
 Name: ROBIN
@@ -575,8 +674,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Jigglypuff
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorino
+Level: 17
+
+Nidorina @ Oran Berry
+Level: 17
 
 === TRAINER_LASS_CRISSY ===
 Name: CRISSY
@@ -588,15 +693,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Paras
-Level: 31
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Paras
-Level: 31
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Parasect
-Level: 31
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_MIRIAM ===
@@ -609,12 +714,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Oddish
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Paras @ Oran Berry
+Level: 13
 
 === TRAINER_LASS_IRIS ===
 Name: IRIS
@@ -626,8 +734,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorina
+Level: 17
+
+Oddish @ Oran Berry
+Level: 17
 
 === TRAINER_LASS_RELI ===
 Name: RELI
@@ -639,12 +753,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 16
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
-Level: 16
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorina @ Oran Berry
+Level: 19
 
 === TRAINER_LASS_ALI ===
 Name: ALI
@@ -656,15 +773,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 12
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 12
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 12
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_2 ===
@@ -694,15 +811,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Oddish
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_ANN ===
@@ -715,12 +832,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 23
+
+Gloom @ Sitrus Berry
+Level: 23
 
 === TRAINER_LASS_DAWN ===
 Name: DAWN
@@ -732,12 +855,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 23
+
+Graveler @ Sitrus Berry
+Level: 23
 
 === TRAINER_LASS_PAIGE ===
 Name: PAIGE
@@ -749,12 +878,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran F
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorina
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 29
+
+Raticate @ Sitrus Berry
+Level: 29
 
 === TRAINER_LASS_ANDREA ===
 Name: ANDREA
@@ -766,16 +901,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Meowth
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter @ Sitrus Berry
+Level: 30
 
 === TRAINER_LASS_MEGAN ===
 Name: MEGAN
@@ -787,23 +925,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran M
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_JULIA ===
@@ -816,12 +954,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clefairy
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 28
+
+Graveler @ Sitrus Berry
+Level: 28
 
 === TRAINER_LASS_KAY ===
 Name: KAY
@@ -833,12 +977,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 29
+
+Voltorb @ Sitrus Berry
+Level: 29
 
 === TRAINER_LASS_LISA ===
 Name: LISA
@@ -850,12 +1000,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Oddish
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 29
+
+Drowzee @ Sitrus Berry
+Level: 29
 
 === TRAINER_SAILOR_EDMOND ===
 Name: EDMOND
@@ -867,12 +1023,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 23
+
+Pidgeotto @ Sitrus Berry
+Level: 23
 
 === TRAINER_SAILOR_TREVOR ===
 Name: TREVOR
@@ -884,12 +1046,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 21
+
+Golbat @ Sitrus Berry
+Level: 21
 
 === TRAINER_SAILOR_LEONARD ===
 Name: LEONARD
@@ -901,8 +1069,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Shellder
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 26
+
+Weepinbell
+Level: 26
+
+Kadabra @ Sitrus Berry
+Level: 26
 
 === TRAINER_SAILOR_DUNCAN ===
 Name: DUNCAN
@@ -914,16 +1091,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Horsea
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra @ Sitrus Berry
+Level: 21
 
 === TRAINER_SAILOR_HUEY ===
 Name: HUEY
@@ -935,12 +1115,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tentacool
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staryu
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 23
+
+Drowzee @ Sitrus Berry
+Level: 23
 
 === TRAINER_SAILOR_DYLAN ===
 Name: DYLAN
@@ -952,16 +1138,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Horsea
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby @ Sitrus Berry
+Level: 21
 
 === TRAINER_SAILOR_PHILLIP ===
 Name: PHILLIP
@@ -973,8 +1162,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 25
+
+Voltorb
+Level: 25
+
+Krabby @ Sitrus Berry
+Level: 25
 
 === TRAINER_SAILOR_DWAYNE ===
 Name: DWAYNE
@@ -986,12 +1184,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 26
+
+Golbat @ Sitrus Berry
+Level: 26
 
 === TRAINER_CAMPER_LIAM ===
 Name: LIAM
@@ -1003,17 +1207,20 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Defense Curl
 
 Sandshrew
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scratch
 - Defense Curl
 - Sand Attack
+
+Rattata @ Oran Berry
+Level: 12
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
@@ -1025,12 +1232,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magnemite @ Oran Berry
+Level: 17
 
 === TRAINER_CAMPER_ETHAN ===
 Name: ETHAN
@@ -1042,8 +1252,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey
-Level: 18
+Level: 22
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ekans
+Level: 22
+
+Zubat @ Oran Berry
+Level: 22
 
 === TRAINER_CAMPER_RICKY ===
 Name: RICKY
@@ -1055,8 +1271,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Squirtle
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Graveler
+Level: 25
+
+Kadabra
+Level: 25
+
+Golbat @ Sitrus Berry
+Level: 25
 
 === TRAINER_CAMPER_JEFF ===
 Name: JEFF
@@ -1068,12 +1293,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 20
+
+Graveler @ Sitrus Berry
+Level: 20
 
 === TRAINER_CAMPER_2 ===
 Name: PH
@@ -1098,12 +1329,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Charmander
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Graveler
+Level: 26
+
+Krabby @ Sitrus Berry
+Level: 26
 
 === TRAINER_CAMPER_DREW ===
 Name: DREW
@@ -1115,19 +1352,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_DIANA ===
@@ -1140,8 +1377,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 19
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magnemite
+Level: 23
+
+Paras @ Oran Berry
+Level: 23
 
 === TRAINER_PICNICKER_NANCY ===
 Name: NANCY
@@ -1153,12 +1396,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 20
+
+Machop @ Sitrus Berry
+Level: 20
 
 === TRAINER_PICNICKER_ISABELLE ===
 Name: ISABELLE
@@ -1170,16 +1419,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 16
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat @ Sitrus Berry
+Level: 20
 
 === TRAINER_PICNICKER_KELSEY ===
 Name: KELSEY
@@ -1191,12 +1443,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sandshrew @ Oran Berry
+Level: 18
 
 === TRAINER_PICNICKER_ALICIA ===
 Name: ALICIA
@@ -1208,19 +1463,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Oddish
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_CAITLIN ===
@@ -1233,8 +1488,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Meowth
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 29
+
+Voltorb
+Level: 29
+
+Machop @ Sitrus Berry
+Level: 29
 
 === TRAINER_PICNICKER_HEIDI ===
 Name: HEIDI
@@ -1246,12 +1510,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clefairy
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 25
+
+Haunter @ Sitrus Berry
+Level: 25
 
 === TRAINER_PICNICKER_CAROL ===
 Name: CAROL
@@ -1263,12 +1533,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 26
+
+Machop @ Sitrus Berry
+Level: 26
 
 === TRAINER_PICNICKER_SOFIA ===
 Name: SOFIA
@@ -1280,16 +1556,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Jigglypuff
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat @ Sitrus Berry
+Level: 26
 
 === TRAINER_PICNICKER_MARTHA ===
 Name: MARTHA
@@ -1301,12 +1580,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Oddish
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bulbasaur
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 28
+
+Raticate @ Sitrus Berry
+Level: 28
 
 === TRAINER_PICNICKER_TINA ===
 Name: TINA
@@ -1318,12 +1603,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bulbasaur
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ivysaur
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 30
+
+Pidgeotto @ Sitrus Berry
+Level: 30
 
 === TRAINER_PICNICKER_HANNAH ===
 Name: HANNAH
@@ -1364,12 +1655,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyhorn
-Level: 29
+Level: 36
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Lickitung
-Level: 29
+Level: 36
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Gloom
+Level: 36
+
+Voltorb @ Sitrus Berry
+Level: 36
 
 === TRAINER_POKEMANIAC_HERMAN ===
 Name: HERMAN
@@ -1381,12 +1678,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cubone
-Level: 20
+Level: 25
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Slowpoke
-Level: 20
+Level: 25
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Weepinbell
+Level: 25
+
+Golbat @ Sitrus Berry
+Level: 25
 
 === TRAINER_POKEMANIAC_COOPER ===
 Name: COOPER
@@ -1398,16 +1701,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowpoke
-Level: 20
+Level: 25
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Slowpoke
-Level: 20
+Level: 25
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Slowpoke
-Level: 20
+Level: 25
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Gloom @ Sitrus Berry
+Level: 25
 
 === TRAINER_POKEMANIAC_STEVE ===
 Name: STEVE
@@ -1419,12 +1725,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Charmander
-Level: 22
+Level: 28
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Cubone
-Level: 22
+Level: 28
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Weepinbell
+Level: 28
+
+Drowzee @ Sitrus Berry
+Level: 28
 
 === TRAINER_POKEMANIAC_WINSTON ===
 Name: WINSTON
@@ -1436,8 +1748,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowpoke
-Level: 25
+Level: 31
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Haunter
+Level: 31
+
+Krabby
+Level: 31
+
+Weepinbell @ Sitrus Berry
+Level: 31
 
 === TRAINER_POKEMANIAC_DAWSON ===
 Name: DAWSON
@@ -1449,16 +1770,22 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Charmeleon
-Level: 40
+Level: 52
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Lapras
-Level: 40
+Level: 52
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Lickitung
-Level: 40
+Level: 52
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Nidoqueen
+Level: 52
+
+Onix @ Focus Sash
+Level: 52
 
 === TRAINER_POKEMANIAC_ASHTON ===
 Name: ASHTON
@@ -1470,12 +1797,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cubone
-Level: 23
+Level: 29
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Slowpoke
-Level: 23
+Level: 29
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Golbat
+Level: 29
+
+Gloom @ Sitrus Berry
+Level: 29
 
 === TRAINER_SUPER_NERD_JOVAN ===
 Name: JOVAN
@@ -1487,12 +1820,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 11
+Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorino @ Oran Berry
+Level: 13
 
 === TRAINER_SUPER_NERD_MIGUEL ===
 Name: MIGUEL
@@ -1504,15 +1840,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 12
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 12
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Koffing
-Level: 12
+Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SUPER_NERD_AIDAN ===
@@ -1525,7 +1861,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 - Screech
@@ -1533,7 +1869,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Charge
 
 Koffing
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Smog
@@ -1541,7 +1877,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Gas
 
 Voltorb
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 - Screech
@@ -1549,7 +1885,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Charge
 
 Magnemite
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 - Supersonic
@@ -1566,16 +1902,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Grimer
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra @ Sitrus Berry
+Level: 28
 
 === TRAINER_SUPER_NERD_LESLIE ===
 Name: LESLIE
@@ -1587,12 +1926,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Smokescreen
 - Smog
 - Self Destruct
+
+Machop
+Level: 33
+
+Graveler
+Level: 33
+
+Gloom @ Sitrus Berry
+Level: 33
 
 === TRAINER_SUPER_NERD_1 ===
 Name: PH
@@ -1667,16 +2015,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Vulpix
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ninetales
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing @ Focus Sash
+Level: 47
 
 === TRAINER_SUPER_NERD_AVERY ===
 Name: AVERY
@@ -1688,19 +2039,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ponyta
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Charmander
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Growlithe
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SUPER_NERD_DEREK ===
@@ -1713,8 +2064,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rapidash
-Level: 41
+Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 53
+
+Muk
+Level: 53
+
+Magneton @ Sitrus Berry
+Level: 53
 
 === TRAINER_SUPER_NERD_ZAC ===
 Name: ZAC
@@ -1726,12 +2086,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 48
+
+Hypno @ Sitrus Berry
+Level: 48
 
 === TRAINER_HIKER_MARCOS ===
 Name: MARCOS
@@ -1743,15 +2109,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix
-Level: 10
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_FRANKLIN ===
@@ -1764,12 +2130,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 15
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sandshrew @ Oran Berry
+Level: 18
 
 === TRAINER_HIKER_NOB ===
 Name: NOB
@@ -1781,19 +2150,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_WAYNE ===
@@ -1806,8 +2175,14 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Onix
-Level: 17
+Level: 20
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorina
+Level: 20
+
+Paras @ Oran Berry
+Level: 20
 
 === TRAINER_HIKER_ALAN ===
 Name: ALAN
@@ -1819,7 +2194,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
@@ -1827,12 +2202,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Onix
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
 - Rock Throw
 - Bind
 - Screech
+
+Machop
+Level: 26
+
+Weepinbell @ Sitrus Berry
+Level: 26
 
 === TRAINER_HIKER_BRICE ===
 Name: BRICE
@@ -1844,16 +2225,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby @ Sitrus Berry
+Level: 25
 
 === TRAINER_HIKER_CLARK ===
 Name: CLARK
@@ -1865,7 +2249,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
@@ -1873,12 +2257,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Onix
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
 - Rock Throw
 - Bind
 - Screech
+
+Raticate
+Level: 26
+
+Golbat @ Sitrus Berry
+Level: 26
 
 === TRAINER_HIKER_TRENT ===
 Name: TRENT
@@ -1890,12 +2280,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Onix
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 24
+
+Weepinbell @ Sitrus Berry
+Level: 24
 
 === TRAINER_HIKER_DUDLEY ===
 Name: DUDLEY
@@ -1907,7 +2303,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
@@ -1915,7 +2311,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Geodude
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
@@ -1923,12 +2319,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Graveler
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
 - Mud Sport
 - Defense Curl
+
+Kadabra @ Sitrus Berry
+Level: 26
 
 === TRAINER_HIKER_ALLEN ===
 Name: ALLEN
@@ -1940,12 +2339,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
 - Mud Sport
 - Defense Curl
+
+Haunter
+Level: 31
+
+Raticate
+Level: 31
+
+Machop @ Sitrus Berry
+Level: 31
 
 === TRAINER_HIKER_ERIC ===
 Name: ERIC
@@ -1957,12 +2365,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 25
+
+Golbat @ Sitrus Berry
+Level: 25
 
 === TRAINER_HIKER_LENNY ===
 Name: LENNY
@@ -1974,19 +2388,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HIKER_OLIVER ===
@@ -1999,16 +2413,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Onix
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter @ Sitrus Berry
+Level: 25
 
 === TRAINER_HIKER_LUCAS ===
 Name: LUCAS
@@ -2020,7 +2437,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
@@ -2028,12 +2445,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Graveler
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Magnitude
 - Rock Throw
 - Mud Sport
 - Defense Curl
+
+Weepinbell
+Level: 26
+
+Krabby @ Sitrus Berry
+Level: 26
 
 === TRAINER_BIKER_JARED ===
 Name: JARED
@@ -2045,7 +2468,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2053,7 +2476,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Gas
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2061,12 +2484,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
 - Smog
 - Tackle
+
+Kadabra @ Sitrus Berry
+Level: 35
 
 === TRAINER_BIKER_MALIK ===
 Name: MALIK
@@ -2078,7 +2504,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2086,12 +2512,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
 - Sludge
 - Disable
+
+Kadabra
+Level: 36
+
+Weepinbell @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIKER_ERNEST ===
 Name: ERNEST
@@ -2103,7 +2535,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2111,7 +2543,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2119,7 +2551,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2127,7 +2559,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2135,7 +2567,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Sludge
@@ -2152,7 +2584,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2160,7 +2592,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
@@ -2168,12 +2600,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Weezing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
 - Smog
 - Tackle
+
+Krabby @ Sitrus Berry
+Level: 35
 
 === TRAINER_BIKER_LAO ===
 Name: LAO
@@ -2185,7 +2620,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
@@ -2193,12 +2628,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Koffing
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
 - Smog
 - Tackle
+
+Machop
+Level: 36
+
+Pidgeotto @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIKER_1 ===
 Name: PH
@@ -2223,8 +2664,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 41
+
+Drowzee
+Level: 41
+
+Machop @ Sitrus Berry
+Level: 41
 
 === TRAINER_BIKER_RUBEN ===
 Name: RUBEN
@@ -2236,7 +2686,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2244,7 +2694,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2252,12 +2702,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
 - Smog
 - Tackle
+
+Machop @ Sitrus Berry
+Level: 35
 
 === TRAINER_BIKER_BILLY ===
 Name: BILLY
@@ -2269,8 +2722,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Muk
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 41
+
+Raticate
+Level: 41
+
+Machop @ Sitrus Berry
+Level: 41
 
 === TRAINER_BIKER_NIKOLAS ===
 Name: NIKOLAS
@@ -2282,7 +2744,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Sonic Boom
@@ -2290,12 +2752,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Charge
 
 Voltorb
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Sonic Boom
 - Screech
 - Charge
+
+Kadabra
+Level: 36
+
+Machop @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIKER_JAXON ===
 Name: JAXON
@@ -2307,7 +2775,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Smokescreen
@@ -2315,12 +2783,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Muk
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
 - Sludge
 - Disable
+
+Weepinbell
+Level: 36
+
+Haunter @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIKER_WILLIAM ===
 Name: WILLIAM
@@ -2332,7 +2806,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2340,7 +2814,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2348,7 +2822,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2356,7 +2830,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2364,7 +2838,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2381,7 +2855,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2389,7 +2863,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2397,7 +2871,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
@@ -2405,7 +2879,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2422,7 +2896,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
@@ -2430,7 +2904,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Grimer
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
@@ -2438,12 +2912,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
 - Smog
 - Tackle
+
+Machop @ Sitrus Berry
+Level: 35
 
 === TRAINER_BIKER_GERALD ===
 Name: GERALD
@@ -2455,7 +2932,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2463,12 +2940,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Muk
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
 - Sludge
 - Disable
+
+Haunter
+Level: 36
+
+Graveler @ Sitrus Berry
+Level: 36
 
 === TRAINER_BURGLAR_1 ===
 Name: PH
@@ -2531,16 +3014,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ninetales
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat @ Sitrus Berry
+Level: 47
 
 === TRAINER_BURGLAR_RAMON ===
 Name: RAMON
@@ -2552,8 +3038,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ponyta
-Level: 41
+Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Marowak
+Level: 53
+
+Magneton
+Level: 53
+
+Weezing @ Sitrus Berry
+Level: 53
 
 === TRAINER_BURGLAR_DUSTY ===
 Name: DUSTY
@@ -2565,12 +3060,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Vulpix
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Growlithe
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dodrio
+Level: 48
+
+Marowak @ Sitrus Berry
+Level: 48
 
 === TRAINER_BURGLAR_ARNIE ===
 Name: ARNIE
@@ -2582,12 +3083,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Charmander
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Charmeleon
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow
+Level: 44
+
+Weezing @ Sitrus Berry
+Level: 44
 
 === TRAINER_BURGLAR_4 ===
 Name: PH
@@ -2616,8 +3123,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ninetales
-Level: 38
+Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing
+Level: 49
+
+Hypno
+Level: 49
+
+Muk @ Sitrus Berry
+Level: 49
 
 === TRAINER_BURGLAR_LEWIS ===
 Name: LEWIS
@@ -2629,12 +3145,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ponyta
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno
+Level: 44
+
+Machoke @ Sitrus Berry
+Level: 44
 
 === TRAINER_ENGINEER_BAILY ===
 Name: BAILY
@@ -2646,12 +3168,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magnemite
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 26
+
+Haunter @ Sitrus Berry
+Level: 26
 
 === TRAINER_ENGINEER_BRAXTON ===
 Name: BRAXTON
@@ -2663,8 +3191,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 26
+
+Haunter
+Level: 26
+
+Drowzee @ Sitrus Berry
+Level: 26
 
 === TRAINER_ENGINEER_BERNIE ===
 Name: BERNIE
@@ -2676,16 +3213,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magnemite
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop @ Sitrus Berry
+Level: 23
 
 === TRAINER_FISHERMAN_DALE ===
 Name: DALE
@@ -2697,16 +3237,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb @ Sitrus Berry
+Level: 21
 
 === TRAINER_FISHERMAN_BARNY ===
 Name: BARNY
@@ -2718,16 +3261,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tentacool
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staryu
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 21
 
 === TRAINER_FISHERMAN_NED ===
 Name: NED
@@ -2739,16 +3285,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwag
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby @ Sitrus Berry
+Level: 28
 
 === TRAINER_FISHERMAN_CHIP ===
 Name: CHIP
@@ -2760,12 +3309,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tentacool
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 30
+
+Voltorb @ Sitrus Berry
+Level: 30
 
 === TRAINER_FISHERMAN_HANK ===
 Name: HANK
@@ -2777,8 +3332,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 34
+
+Machop
+Level: 34
+
+Graveler @ Sitrus Berry
+Level: 34
 
 === TRAINER_FISHERMAN_ELLIOT ===
 Name: ELLIOT
@@ -2790,19 +3354,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FISHERMAN_RONALD ===
@@ -2815,19 +3379,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FISHERMAN_CLAUDE ===
@@ -2840,12 +3404,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Shellder
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cloyster
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno
+Level: 40
+
+Gyarados @ Sitrus Berry
+Level: 40
 
 === TRAINER_FISHERMAN_WADE ===
 Name: WADE
@@ -2857,27 +3427,27 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magikarp
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_FISHERMAN_NOLAN ===
@@ -2890,12 +3460,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Rhyhorn
+Level: 43
+
+Weezing @ Sitrus Berry
+Level: 43
 
 === TRAINER_FISHERMAN_ANDREW ===
 Name: ANDREW
@@ -2907,12 +3483,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magikarp
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 30
+
+Weepinbell @ Sitrus Berry
+Level: 30
 
 === TRAINER_SWIMMER_MALE_LUIS ===
 Name: LUIS
@@ -2924,12 +3506,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Horsea
-Level: 16
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 16
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Sandshrew @ Oran Berry
+Level: 19
 
 === TRAINER_SWIMMER_MALE_RICHARD ===
 Name: RICHARD
@@ -2941,12 +3526,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tentacool
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 39
+
+Rhyhorn @ Sitrus Berry
+Level: 39
 
 === TRAINER_SWIMMER_MALE_REECE ===
 Name: REECE
@@ -2958,16 +3549,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staryu
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow @ Sitrus Berry
+Level: 38
 
 === TRAINER_SWIMMER_MALE_MATTHEW ===
 Name: MATTHEW
@@ -2979,12 +3573,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwhirl
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 39
+
+Machoke @ Sitrus Berry
+Level: 39
 
 === TRAINER_SWIMMER_MALE_DOUGLAS ===
 Name: DOUGLAS
@@ -2996,19 +3596,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Horsea
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SWIMMER_MALE_DAVID ===
@@ -3021,16 +3621,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Marowak @ Focus Sash
+Level: 38
 
 === TRAINER_SWIMMER_MALE_TONY ===
 Name: TONY
@@ -3042,12 +3645,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Horsea
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gyarados
+Level: 39
+
+Hypno @ Sitrus Berry
+Level: 39
 
 === TRAINER_SWIMMER_MALE_AXLE ===
 Name: AXLE
@@ -3059,23 +3668,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tentacool
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staryu
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacruel
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SWIMMER_MALE_BARRY ===
@@ -3088,12 +3697,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Shellder
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cloyster
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Marowak
+Level: 40
+
+Weezing @ Focus Sash
+Level: 40
 
 === TRAINER_SWIMMER_MALE_DEAN ===
 Name: DEAN
@@ -3105,8 +3720,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Staryu
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dodrio
+Level: 46
+
+Magneton
+Level: 46
+
+Hypno @ Focus Sash
+Level: 46
 
 === TRAINER_SWIMMER_MALE_DARRIN ===
 Name: DARRIN
@@ -3118,19 +3742,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Horsea
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seadra
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 28
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SWIMMER_MALE_SPENCER ===
@@ -3143,12 +3767,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacruel
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 43
+
+Rhyhorn @ Sitrus Berry
+Level: 43
 
 === TRAINER_SWIMMER_MALE_JACK ===
 Name: JACK
@@ -3160,8 +3790,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Starmie
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke
+Level: 48
+
+Fearow
+Level: 48
+
+Dodrio @ Sitrus Berry
+Level: 48
 
 === TRAINER_SWIMMER_MALE_JEROME ===
 Name: JEROME
@@ -3173,12 +3812,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Staryu
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wartortle
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing
+Level: 43
+
+Gyarados @ Sitrus Berry
+Level: 43
 
 === TRAINER_SWIMMER_MALE_ROLAND ===
 Name: ROLAND
@@ -3190,16 +3835,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwhirl
-Level: 32
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 32
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seadra
-Level: 32
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk @ Sitrus Berry
+Level: 42
 
 === TRAINER_CUE_BALL_KOJI ===
 Name: KOJI
@@ -3211,16 +3859,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mankey
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby @ Sitrus Berry
+Level: 35
 
 === TRAINER_CUE_BALL_LUKE ===
 Name: LUKE
@@ -3232,12 +3883,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 36
+
+Krabby @ Sitrus Berry
+Level: 36
 
 === TRAINER_CUE_BALL_CAMRON ===
 Name: CAMRON
@@ -3249,12 +3906,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 36
+
+Weepinbell @ Sitrus Berry
+Level: 36
 
 === TRAINER_CUE_BALL_RAUL ===
 Name: RAUL
@@ -3266,12 +3929,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Primeape
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 36
+
+Machop @ Sitrus Berry
+Level: 36
 
 === TRAINER_CUE_BALL_ISAIAH ===
 Name: ISAIAH
@@ -3283,12 +3952,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machamp
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 36
+
+Voltorb @ Sitrus Berry
+Level: 36
 
 === TRAINER_CUE_BALL_ZEEK ===
 Name: ZEEK
@@ -3300,8 +3975,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 41
+
+Kadabra
+Level: 41
+
+Weepinbell @ Sitrus Berry
+Level: 41
 
 === TRAINER_CUE_BALL_JAMAL ===
 Name: JAMAL
@@ -3313,19 +3997,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mankey
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machamp
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CUE_BALL_COREY ===
@@ -3338,12 +4022,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Primeape
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 36
+
+Haunter @ Sitrus Berry
+Level: 36
 
 === TRAINER_CUE_BALL_CHASE ===
 Name: CHASE
@@ -3376,12 +4066,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 23
+
+Machop @ Sitrus Berry
+Level: 23
 
 === TRAINER_GAMER_JASPER ===
 Name: JASPER
@@ -3393,12 +4089,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 23
+
+Pidgeotto @ Sitrus Berry
+Level: 23
 
 === TRAINER_GAMER_DIRK ===
 Name: DIRK
@@ -3410,12 +4112,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magnemite
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 23
+
+Kadabra @ Sitrus Berry
+Level: 23
 
 === TRAINER_GAMER_DARIAN ===
 Name: DARIAN
@@ -3427,12 +4135,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 23
+
+Golbat @ Sitrus Berry
+Level: 23
 
 === TRAINER_GAMER_STAN ===
 Name: STAN
@@ -3444,16 +4158,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwag
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwhirl
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb @ Sitrus Berry
+Level: 28
 
 === TRAINER_GAMER_1 ===
 Name: PH
@@ -3478,12 +4195,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 30
+
+Kadabra @ Sitrus Berry
+Level: 30
 
 === TRAINER_BEAUTY_BRIDGET ===
 Name: BRIDGET
@@ -3495,19 +4218,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Oddish
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAUTY_TAMIA ===
@@ -3520,12 +4243,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 30
+
+Drowzee @ Sitrus Berry
+Level: 30
 
 === TRAINER_BEAUTY_LORI ===
 Name: LORI
@@ -3537,8 +4266,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Exeggcute
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 30
+
+Pidgeotto
+Level: 30
+
+Krabby @ Sitrus Berry
+Level: 30
 
 === TRAINER_BEAUTY_LOLA ===
 Name: LOLA
@@ -3550,16 +4288,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom @ Sitrus Berry
+Level: 34
 
 === TRAINER_BEAUTY_SHEILA ===
 Name: SHEILA
@@ -3571,12 +4312,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 36
+
+Kadabra @ Sitrus Berry
+Level: 36
 
 === TRAINER_SWIMMER_FEMALE_TIFFANY ===
 Name: TIFFANY
@@ -3588,8 +4335,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 46
+
+Muk
+Level: 46
+
+Machoke @ Focus Sash
+Level: 46
 
 === TRAINER_SWIMMER_FEMALE_NORA ===
 Name: NORA
@@ -3601,16 +4357,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Shellder
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shellder
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cloyster
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno @ Focus Sash
+Level: 39
 
 === TRAINER_SWIMMER_FEMALE_MELISSA ===
 Name: MELISSA
@@ -3622,12 +4381,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 40
+
+Weezing @ Sitrus Berry
+Level: 40
 
 === TRAINER_BEAUTY_GRACE ===
 Name: GRACE
@@ -3639,12 +4404,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgeotto
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wigglytuff
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 36
+
+Haunter @ Sitrus Berry
+Level: 36
 
 === TRAINER_BEAUTY_OLIVIA ===
 Name: OLIVIA
@@ -3656,12 +4427,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bulbasaur
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ivysaur
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 36
+
+Raticate @ Sitrus Berry
+Level: 36
 
 === TRAINER_BEAUTY_LAUREN ===
 Name: LAUREN
@@ -3694,23 +4471,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwag
-Level: 27
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SWIMMER_FEMALE_ALICE ===
@@ -3723,12 +4500,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 39
+
+Hypno @ Sitrus Berry
+Level: 39
 
 === TRAINER_SWIMMER_FEMALE_CONNIE ===
 Name: CONNIE
@@ -3740,16 +4523,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Staryu
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staryu
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staryu
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magneton @ Sitrus Berry
+Level: 38
 
 === TRAINER_SWIMMER_FEMALE_SHIRLEY ===
 Name: SHIRLEY
@@ -3761,16 +4547,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seadra
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow @ Sitrus Berry
+Level: 39
 
 === TRAINER_PSYCHIC_JOHAN ===
 Name: JOHAN
@@ -3782,19 +4571,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kadabra
-Level: 31
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Slowpoke
-Level: 31
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Mr Mime
-Level: 31
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Kadabra
-Level: 31
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_PSYCHIC_TYRON ===
@@ -3807,12 +4596,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mr Mime
-Level: 34
+Level: 43
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Kadabra
-Level: 34
+Level: 43
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Weepinbell
+Level: 43
+
+Haunter @ Sitrus Berry
+Level: 43
 
 === TRAINER_PSYCHIC_CAMERON ===
 Name: CAMERON
@@ -3824,16 +4619,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowpoke
-Level: 33
+Level: 41
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Slowpoke
-Level: 33
+Level: 41
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Slowbro
-Level: 33
+Level: 41
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Haunter @ Sitrus Berry
+Level: 41
 
 === TRAINER_PSYCHIC_PRESTON ===
 Name: PRESTON
@@ -3845,8 +4643,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowbro
-Level: 38
+Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Weepinbell
+Level: 48
+
+Gloom
+Level: 48
+
+Haunter @ Sitrus Berry
+Level: 48
 
 === TRAINER_ROCKER_RANDALL ===
 Name: RANDALL
@@ -3879,12 +4686,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrode
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 36
+
+Raticate @ Sitrus Berry
+Level: 36
 
 === TRAINER_JUGGLER_DALTON ===
 Name: DALTON
@@ -3896,12 +4709,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kadabra
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mr Mime
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 36
+
+Gloom @ Sitrus Berry
+Level: 36
 
 === TRAINER_JUGGLER_NELSON ===
 Name: NELSON
@@ -3913,20 +4732,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
-Level: 41
+Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 41
+Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 41
+Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 41
+Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Onix @ Sitrus Berry
+Level: 53
 
 === TRAINER_JUGGLER_KIRK ===
 Name: KIRK
@@ -3938,19 +4760,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
-Level: 31
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 31
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 31
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 31
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JUGGLER_SHAWN ===
@@ -3963,12 +4785,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
-Level: 34
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 34
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 43
+
+Graveler @ Sitrus Berry
+Level: 43
 
 === TRAINER_JUGGLER_GREGORY ===
 Name: GREGORY
@@ -3980,12 +4808,24 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mr Mime
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psychic
 - Role Play
 - Double Slap
 - Encore
+
+Primeape
+Level: 62
+
+Rhydon
+Level: 62
+
+Arcanine
+Level: 62
+
+Nidoking @ Focus Sash
+Level: 62
 
 === TRAINER_JUGGLER_EDWARD ===
 Name: EDWARD
@@ -3997,7 +4837,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
 - Light Screen
@@ -4005,7 +4845,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 
 Voltorb
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
 - Light Screen
@@ -4013,7 +4853,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 
 Electrode
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
 - Spark
@@ -4021,7 +4861,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 
 Mr Mime
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Psychic
 - Role Play
@@ -4038,8 +4878,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
-Level: 38
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Graveler
+Level: 48
+
+Weepinbell
+Level: 48
+
+Krabby @ Sitrus Berry
+Level: 48
 
 === TRAINER_JUGGLER_NATE ===
 Name: NATE
@@ -4051,12 +4900,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
-Level: 34
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 34
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 43
+
+Golbat @ Sitrus Berry
+Level: 43
 
 === TRAINER_TAMER_PHIL ===
 Name: PHIL
@@ -4068,12 +4923,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandslash
-Level: 34
+Level: 43
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Arbok
-Level: 34
+Level: 43
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Golbat
+Level: 43
+
+Voltorb @ Sitrus Berry
+Level: 43
 
 === TRAINER_TAMER_EDGAR ===
 Name: EDGAR
@@ -4085,16 +4946,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Arbok
-Level: 33
+Level: 41
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Sandslash
-Level: 33
+Level: 41
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Arbok
-Level: 33
+Level: 41
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Golbat @ Sitrus Berry
+Level: 41
 
 === TRAINER_TAMER_JASON ===
 Name: JASON
@@ -4106,8 +4970,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyhorn
-Level: 43
+Level: 56
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Fearow
+Level: 56
+
+Hypno
+Level: 56
+
+Weezing @ Focus Sash
+Level: 56
 
 === TRAINER_TAMER_COLE ===
 Name: COLE
@@ -4119,12 +4992,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Arbok
-Level: 39
+Level: 51
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Tauros
-Level: 39
+Level: 51
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Weezing
+Level: 51
+
+Dodrio @ Focus Sash
+Level: 51
 
 === TRAINER_TAMER_VINCENT ===
 Name: VINCENT
@@ -4136,12 +5015,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Persian
-Level: 44
+Level: 57
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Golduck
-Level: 44
+Level: 57
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Weezing
+Level: 57
+
+Onix
+Level: 57
+
+Arcanine @ Focus Sash
+Level: 57
 
 === TRAINER_TAMER_JOHN ===
 Name: JOHN
@@ -4178,12 +5066,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 36
+
+Weepinbell @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIRD_KEEPER_PERRY ===
 Name: PERRY
@@ -4195,23 +5089,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_ROBERT ===
@@ -4224,19 +5118,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_DONALD ===
@@ -4249,8 +5143,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Farfetchd
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 41
+
+Kadabra
+Level: 41
+
+Raticate @ Sitrus Berry
+Level: 41
 
 === TRAINER_BIRD_KEEPER_BENNY ===
 Name: BENNY
@@ -4262,12 +5165,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 36
+
+Haunter @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIRD_KEEPER_EDWIN ===
 Name: EDWIN
@@ -4279,19 +5188,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgeotto
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Farfetchd
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Doduo
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_CHESTER ===
@@ -4304,16 +5213,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dodrio
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Doduo
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Doduo
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra @ Sitrus Berry
+Level: 35
 
 === TRAINER_BIRD_KEEPER_WILTON ===
 Name: WILTON
@@ -4325,12 +5237,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 36
+
+Machop @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIRD_KEEPER_RAMIRO ===
 Name: RAMIRO
@@ -4342,8 +5260,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dodrio
-Level: 34
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 43
+
+Weepinbell
+Level: 43
+
+Pidgeotto @ Sitrus Berry
+Level: 43
 
 === TRAINER_BIRD_KEEPER_JACOB ===
 Name: JACOB
@@ -4355,19 +5282,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_ROGER ===
@@ -4380,16 +5307,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Fearow
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing @ Focus Sash
+Level: 39
 
 === TRAINER_BIRD_KEEPER_REED ===
 Name: REED
@@ -4443,16 +5373,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Doduo
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb @ Sitrus Berry
+Level: 35
 
 === TRAINER_BIRD_KEEPER_MITCH ===
 Name: MITCH
@@ -4464,19 +5397,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_BECK ===
@@ -4489,12 +5422,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgeotto
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 36
+
+Krabby @ Sitrus Berry
+Level: 36
 
 === TRAINER_BIRD_KEEPER_MARLON ===
 Name: MARLON
@@ -4506,16 +5445,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Doduo
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra @ Sitrus Berry
+Level: 35
 
 === TRAINER_BLACK_BELT_KOICHI ===
 Name: KOICHI
@@ -4527,12 +5469,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonlee @ Black Belt
-Level: 37
+Level: 46
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Hitmonchan @ Black Belt
-Level: 37
+Level: 46
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gloom
+Level: 46
+
+Voltorb @ Sitrus Berry
+Level: 46
 
 === TRAINER_BLACK_BELT_MIKE ===
 Name: MIKE
@@ -4544,16 +5492,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey @ Black Belt
-Level: 31
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Mankey @ Black Belt
-Level: 31
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Primeape @ Black Belt
-Level: 31
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Graveler @ Sitrus Berry
+Level: 39
 
 === TRAINER_BLACK_BELT_HIDEKI ===
 Name: HIDEKI
@@ -4565,12 +5516,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop @ Black Belt
-Level: 32
+Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machoke @ Black Belt
-Level: 32
+Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gloom
+Level: 40
+
+Golbat @ Sitrus Berry
+Level: 40
 
 === TRAINER_BLACK_BELT_AARON ===
 Name: AARON
@@ -4582,8 +5539,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Primeape @ Black Belt
-Level: 36
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Voltorb
+Level: 45
+
+Raticate
+Level: 45
+
+Haunter @ Sitrus Berry
+Level: 45
 
 === TRAINER_BLACK_BELT_HITOSHI ===
 Name: HITOSHI
@@ -4595,16 +5561,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop @ Black Belt
-Level: 31
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Mankey @ Black Belt
-Level: 31
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Primeape @ Black Belt
-Level: 31
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Raticate @ Sitrus Berry
+Level: 39
 
 === TRAINER_BLACK_BELT_ATSUSHI ===
 Name: ATSUSHI
@@ -4616,12 +5585,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop @ Black Belt
-Level: 40
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machoke @ Black Belt
-Level: 40
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Muk
+Level: 52
+
+Weezing @ Focus Sash
+Level: 52
 
 === TRAINER_BLACK_BELT_KIYO ===
 Name: KIYO
@@ -4633,8 +5608,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke @ Black Belt
-Level: 43
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Gyarados
+Level: 56
+
+Hypno
+Level: 56
+
+Magneton @ Focus Sash
+Level: 56
 
 === TRAINER_BLACK_BELT_TAKASHI ===
 Name: TAKASHI
@@ -4646,16 +5630,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke @ Black Belt
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machop @ Black Belt
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machoke @ Black Belt
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Fearow @ Sitrus Berry
+Level: 49
 
 === TRAINER_BLACK_BELT_DAISUKE ===
 Name: DAISUKE
@@ -4667,16 +5654,22 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke @ Black Belt
-Level: 43
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machop @ Black Belt
-Level: 43
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machoke @ Black Belt
-Level: 43
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Rhydon
+Level: 56
+
+Fearow @ Sitrus Berry
+Level: 56
 
 === TRAINER_RIVAL_OAKS_LAB_SQUIRTLE ===
 Name: TERRY
@@ -4907,12 +5900,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing
-Level: 29
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno
+Level: 38
+
+Dodrio @ Sitrus Berry
+Level: 38
 
 === TRAINER_SCIENTIST_CONNOR ===
 Name: CONNOR
@@ -4924,7 +5923,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
@@ -4932,7 +5931,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Weezing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -4940,7 +5939,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -4948,7 +5947,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 
 Weezing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -4965,16 +5964,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate @ Sitrus Berry
+Level: 35
 
 === TRAINER_SCIENTIST_JOSE ===
 Name: JOSE
@@ -4986,7 +5988,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Sonic Boom
@@ -4994,12 +5996,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
 - Smog
 - Tackle
+
+Golbat
+Level: 36
+
+Raticate @ Sitrus Berry
+Level: 36
 
 === TRAINER_SCIENTIST_RODNEY ===
 Name: RODNEY
@@ -5011,8 +6019,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 41
+
+Machop
+Level: 41
+
+Drowzee @ Sitrus Berry
+Level: 41
 
 === TRAINER_SCIENTIST_BEAU ===
 Name: BEAU
@@ -5024,7 +6041,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magneton
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Thunder Wave
@@ -5032,7 +6049,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Supersonic
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -5040,7 +6057,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -5048,7 +6065,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Magnemite
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Thunder Wave
@@ -5065,7 +6082,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Sonic Boom
@@ -5073,7 +6090,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -5081,7 +6098,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Magneton
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Wave
 - Sonic Boom
@@ -5089,7 +6106,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Shock
 
 Magnemite
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Wave
 - Sonic Boom
@@ -5097,7 +6114,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Shock
 
 Koffing
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -5114,12 +6131,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 36
+
+Weepinbell @ Sitrus Berry
+Level: 36
 
 === TRAINER_SCIENTIST_PARKER ===
 Name: PARKER
@@ -5131,12 +6154,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrode
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 36
+
+Raticate @ Sitrus Berry
+Level: 36
 
 === TRAINER_SCIENTIST_ED ===
 Name: ED
@@ -5148,7 +6177,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Sonic Boom
@@ -5156,7 +6185,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -5164,12 +6193,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 
 Magneton
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Thunder Wave
 - Sonic Boom
 - Supersonic
+
+Haunter @ Sitrus Berry
+Level: 35
 
 === TRAINER_SCIENTIST_TRAVIS ===
 Name: TRAVIS
@@ -5181,12 +6213,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Koffing
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 36
+
+Gloom @ Sitrus Berry
+Level: 36
 
 === TRAINER_SCIENTIST_BRAYDON ===
 Name: BRAYDON
@@ -5198,16 +6236,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno @ Sitrus Berry
+Level: 43
 
 === TRAINER_SCIENTIST_IVAN ===
 Name: IVAN
@@ -5219,12 +6260,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrode
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno
+Level: 44
+
+Machoke @ Sitrus Berry
+Level: 44
 
 === TRAINER_BOSS_GIOVANNI ===
 Name: GIOVANNI
@@ -5332,12 +6379,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 13
+Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Nidorina @ Oran Berry
+Level: 16
 
 === TRAINER_TEAM_ROCKET_GRUNT_2 ===
 Name: GRUNT
@@ -5438,12 +6488,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 25
+
+Voltorb @ Sitrus Berry
+Level: 25
 
 === TRAINER_TEAM_ROCKET_GRUNT_8 ===
 Name: GRUNT
@@ -5455,12 +6511,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 26
+
+Pidgeotto @ Sitrus Berry
+Level: 26
 
 === TRAINER_TEAM_ROCKET_GRUNT_9 ===
 Name: GRUNT
@@ -5472,12 +6534,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 26
+
+Pidgeotto @ Sitrus Berry
+Level: 26
 
 === TRAINER_TEAM_ROCKET_GRUNT_10 ===
 Name: GRUNT
@@ -5489,7 +6557,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Sludge
@@ -5497,18 +6565,21 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
 
 Koffing
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 - Poison Gas
 
 Koffing
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 - Poison Gas
+
+Voltorb @ Sitrus Berry
+Level: 25
 
 === TRAINER_TEAM_ROCKET_GRUNT_11 ===
 Name: GRUNT
@@ -5520,19 +6591,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_12 ===
@@ -5545,7 +6616,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Sludge
@@ -5553,12 +6624,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Harden
 
 Koffing
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Smog
 - Tackle
 - Poison Gas
+
+Weepinbell
+Level: 28
+
+Graveler @ Sitrus Berry
+Level: 28
 
 === TRAINER_TEAM_ROCKET_GRUNT_13 ===
 Name: GRUNT
@@ -5570,7 +6647,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Zubat
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Astonish
@@ -5578,14 +6655,14 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Leech Life
 
 Koffing
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smog
 - Tackle
 - Poison Gas
 
 Grimer
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Disable
@@ -5593,7 +6670,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pound
 
 Zubat
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
 - Astonish
@@ -5601,7 +6678,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Leech Life
 
 Raticate
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Hyper Fang
 - Quick Attack
@@ -5618,16 +6695,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra @ Sitrus Berry
+Level: 25
 
 === TRAINER_TEAM_ROCKET_GRUNT_15 ===
 Name: GRUNT
@@ -5639,12 +6719,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 26
+
+Drowzee @ Sitrus Berry
+Level: 26
 
 === TRAINER_TEAM_ROCKET_GRUNT_16 ===
 Name: GRUNT
@@ -5656,16 +6742,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandshrew
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandslash
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra @ Sitrus Berry
+Level: 29
 
 === TRAINER_TEAM_ROCKET_GRUNT_17 ===
 Name: GRUNT
@@ -5677,16 +6766,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ekans
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Arbok
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter @ Sitrus Berry
+Level: 29
 
 === TRAINER_TEAM_ROCKET_GRUNT_18 ===
 Name: GRUNT
@@ -5698,12 +6790,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 21
+Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 26
+
+Machop @ Sitrus Berry
+Level: 26
 
 === TRAINER_TEAM_ROCKET_GRUNT_19 ===
 Name: GRUNT
@@ -5715,16 +6813,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Zubat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb @ Sitrus Berry
+Level: 31
 
 === TRAINER_TEAM_ROCKET_GRUNT_20 ===
 Name: GRUNT
@@ -5736,12 +6837,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto
+Level: 33
+
+Kadabra @ Sitrus Berry
+Level: 33
 
 === TRAINER_TEAM_ROCKET_GRUNT_21 ===
 Name: GRUNT
@@ -5753,19 +6860,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Zubat
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_22 ===
@@ -5795,12 +6902,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cubone
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 36
+
+Golbat @ Sitrus Berry
+Level: 36
 
 === TRAINER_TEAM_ROCKET_GRUNT_24 ===
 Name: GRUNT
@@ -5812,23 +6925,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Golbat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_25 ===
@@ -5841,16 +6954,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom @ Sitrus Berry
+Level: 35
 
 === TRAINER_TEAM_ROCKET_GRUNT_26 ===
 Name: GRUNT
@@ -5862,12 +6978,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 36
+
+Weepinbell @ Sitrus Berry
+Level: 36
 
 === TRAINER_TEAM_ROCKET_GRUNT_27 ===
 Name: GRUNT
@@ -5879,16 +7001,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ekans
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cubone
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 35
 
 === TRAINER_TEAM_ROCKET_GRUNT_28 ===
 Name: GRUNT
@@ -5900,8 +7025,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Arbok
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 41
+
+Raticate
+Level: 41
+
+Kadabra @ Sitrus Berry
+Level: 41
 
 === TRAINER_TEAM_ROCKET_GRUNT_29 ===
 Name: GRUNT
@@ -5913,8 +7047,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 41
+
+Machop
+Level: 41
+
+Krabby @ Sitrus Berry
+Level: 41
 
 === TRAINER_TEAM_ROCKET_GRUNT_30 ===
 Name: GRUNT
@@ -5926,12 +7069,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 36
+
+Drowzee @ Sitrus Berry
+Level: 36
 
 === TRAINER_TEAM_ROCKET_GRUNT_31 ===
 Name: GRUNT
@@ -5943,16 +7092,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Zubat
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 35
 
 === TRAINER_TEAM_ROCKET_GRUNT_32 ===
 Name: GRUNT
@@ -5964,7 +7116,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Scary Face
 - Hyper Fang
@@ -5972,7 +7124,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tail Whip
 
 Arbok
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Glare
 - Bite
@@ -5980,7 +7132,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Leer
 
 Koffing
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -5988,7 +7140,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Golbat
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Wing Attack
 - Bite
@@ -6005,12 +7157,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cubone
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cubone
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 36
+
+Kadabra @ Sitrus Berry
+Level: 36
 
 === TRAINER_TEAM_ROCKET_GRUNT_34 ===
 Name: GRUNT
@@ -6022,12 +7180,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandshrew
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandslash
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 36
+
+Machop @ Sitrus Berry
+Level: 36
 
 === TRAINER_TEAM_ROCKET_GRUNT_35 ===
 Name: GRUNT
@@ -6039,19 +7203,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 26
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_36 ===
@@ -6064,16 +7228,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee @ Sitrus Berry
+Level: 35
 
 === TRAINER_TEAM_ROCKET_GRUNT_37 ===
 Name: GRUNT
@@ -6085,16 +7252,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Grimer
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate @ Sitrus Berry
+Level: 35
 
 === TRAINER_TEAM_ROCKET_GRUNT_38 ===
 Name: GRUNT
@@ -6106,16 +7276,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Golbat
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 35
 
 === TRAINER_TEAM_ROCKET_GRUNT_39 ===
 Name: GRUNT
@@ -6127,8 +7300,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 41
+
+Drowzee
+Level: 41
+
+Haunter @ Sitrus Berry
+Level: 41
 
 === TRAINER_TEAM_ROCKET_GRUNT_40 ===
 Name: GRUNT
@@ -6140,23 +7322,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 25
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_41 ===
@@ -6169,16 +7351,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cubone
-Level: 32
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 32
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 32
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 40
 
 === TRAINER_COOLTRAINER_SAMUEL ===
 Name: SAMUEL
@@ -6191,7 +7376,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandslash
-Level: 37
+Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slash
 - Swift
@@ -6199,7 +7384,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Sting
 
 Sandslash
-Level: 37
+Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slash
 - Swift
@@ -6207,7 +7392,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Sting
 
 Rhyhorn
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Take Down
 - Rock Blast
@@ -6215,7 +7400,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Scary Face
 
 Nidorino
-Level: 39
+Level: 51
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Attack
 - Horn Attack
@@ -6223,7 +7408,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Double Kick
 
 Nidoking
-Level: 39
+Level: 51
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thrash
 - Double Kick
@@ -6241,7 +7426,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Exeggutor
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Egg Bomb
 - Confusion
@@ -6249,7 +7434,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sleep Powder
 
 Sandslash
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Swipes
 - Swift
@@ -6257,7 +7442,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sand Attack
 
 Cloyster
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Spike Cannon
 - Spikes
@@ -6265,7 +7450,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Supersonic
 
 Electrode
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Spark
 - Sonic Boom
@@ -6273,7 +7458,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Light Screen
 
 Arcanine
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flame Wheel
 - Roar
@@ -6291,7 +7476,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kingler
-Level: 41
+Level: 53
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Guillotine
 - Stomp
@@ -6299,7 +7484,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bubble
 
 Poliwhirl
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Body Slam
 - Double Slap
@@ -6307,7 +7492,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Hypnosis
 
 Tentacruel
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Barrier
 - Wrap
@@ -6315,7 +7500,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Acid
 
 Seadra
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Gun
 - Smokescreen
@@ -6323,7 +7508,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Leer
 
 Blastoise
-Level: 43
+Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Gun
 - Bite
@@ -6391,7 +7576,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Super Fang
 - Pursuit
@@ -6399,7 +7584,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Quick Attack
 
 Ivysaur
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Sleep Powder
@@ -6407,7 +7592,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Synthesis
 
 Wartortle
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Water Gun
 - Bite
@@ -6415,7 +7600,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Tail Whip
 
 Charmeleon
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
 - Slash
@@ -6423,7 +7608,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Scary Face
 
 Charizard
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
 - Wing Attack
@@ -6591,7 +7776,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandslash
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slash
 - Swift
@@ -6599,7 +7784,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Sting
 
 Graveler
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Blast
 - Magnitude
@@ -6607,7 +7792,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Defense Curl
 
 Onix
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Dragon Breath
 - Sandstorm
@@ -6615,7 +7800,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bind
 
 Graveler
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Blast
 - Magnitude
@@ -6623,7 +7808,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Defense Curl
 
 Marowak
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bonemerang
 - Headbutt
@@ -6641,7 +7826,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Marowak
-Level: 37
+Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bonemerang
 - Headbutt
@@ -6649,7 +7834,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growl
 
 Marowak
-Level: 37
+Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bonemerang
 - Headbutt
@@ -6657,7 +7842,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growl
 
 Rhyhorn
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Take Down
 - Rock Blast
@@ -6665,7 +7850,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Scary Face
 
 Nidorina
-Level: 39
+Level: 51
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Swipes
 - Bite
@@ -6673,7 +7858,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Double Kick
 
 Nidoqueen
-Level: 39
+Level: 51
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Body Slam
 - Bite
@@ -6691,7 +7876,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 22
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wrap
 - Stun Spore
@@ -6699,7 +7884,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growth
 
 Oddish
-Level: 22
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
 - Stun Spore
@@ -6707,7 +7892,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sweet Scent
 
 Weepinbell
-Level: 22
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Vine Whip
 - Stun Spore
@@ -6715,7 +7900,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growth
 
 Gloom
-Level: 22
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Absorb
 - Stun Spore
@@ -6723,7 +7908,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sweet Scent
 
 Ivysaur
-Level: 22
+Level: 28
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Sleep Powder
@@ -6741,7 +7926,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Acid
@@ -6749,7 +7934,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
 
 Weepinbell
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Acid
@@ -6757,7 +7942,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
 
 Victreebel
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Acid
@@ -6765,7 +7950,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sleep Powder
 
 Paras
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growth
 - Slash
@@ -6773,7 +7958,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Stun Spore
 
 Parasect
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Spore
 - Slash
@@ -6791,7 +7976,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Light Screen
 - Cosmic Power
@@ -6799,7 +7984,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Encore
 
 Jigglypuff
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sing
 - Body Slam
@@ -6807,7 +7992,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Disable
 
 Persian
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pay Day
 - Faint Attack
@@ -6815,7 +8000,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Screech
 
 Dewgong
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sheer Cold
 - Take Down
@@ -6823,7 +8008,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Aurora Beam
 
 Chansey
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sing
 - Egg Bomb
@@ -6891,7 +8076,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Persian
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Swipes
 - Screech
@@ -6899,7 +8084,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Pay Day
 
 Ponyta
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Agility
 - Take Down
@@ -6907,7 +8092,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Stomp
 
 Rapidash
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Fury Attack
 - Fire Spin
@@ -6915,7 +8100,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growl
 
 Vulpix
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
 - Confuse Ray
@@ -6923,7 +8108,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Imprison
 
 Ninetales
-Level: 42
+Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Safeguard
 - Will O Wisp
@@ -7536,12 +8721,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Growlithe
-Level: 18
+Level: 23
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 23
+
+Graveler @ Sitrus Berry
+Level: 23
 
 === TRAINER_GENTLEMAN_ARTHUR ===
 Name: ARTHUR
@@ -7553,12 +8744,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 24
+
+Weepinbell @ Sitrus Berry
+Level: 24
 
 === TRAINER_GENTLEMAN_TUCKER ===
 Name: TUCKER
@@ -7570,8 +8767,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 29
+
+Raticate
+Level: 29
+
+Voltorb @ Sitrus Berry
+Level: 29
 
 === TRAINER_GENTLEMAN_NORTON ===
 Name: NORTON
@@ -8210,8 +9416,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 28
+
+Voltorb
+Level: 28
+
+Pidgeotto @ Sitrus Berry
+Level: 28
 
 === TRAINER_CHANNELER_CARLY ===
 Name: CARLY
@@ -8223,8 +9438,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 30
+
+Weepinbell
+Level: 30
+
+Pidgeotto @ Sitrus Berry
+Level: 30
 
 === TRAINER_CHANNELER_HOPE ===
 Name: HOPE
@@ -8236,8 +9460,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 29
+
+Drowzee
+Level: 29
+
+Machop @ Sitrus Berry
+Level: 29
 
 === TRAINER_CHANNELER_PAULA ===
 Name: PAULA
@@ -8249,8 +9482,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 30
+
+Gloom
+Level: 30
+
+Weepinbell @ Sitrus Berry
+Level: 30
 
 === TRAINER_CHANNELER_LAUREL ===
 Name: LAUREL
@@ -8262,12 +9504,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gastly
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 29
+
+Krabby @ Sitrus Berry
+Level: 29
 
 === TRAINER_CHANNELER_JODY ===
 Name: JODY
@@ -8279,8 +9527,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 28
+
+Gloom
+Level: 28
+
+Golbat @ Sitrus Berry
+Level: 28
 
 === TRAINER_CHANNELER_TAMMY ===
 Name: TAMMY
@@ -8292,8 +9549,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Haunter
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 29
+
+Raticate
+Level: 29
+
+Kadabra @ Sitrus Berry
+Level: 29
 
 === TRAINER_CHANNELER_RUTH ===
 Name: RUTH
@@ -8305,8 +9571,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 28
+
+Weepinbell
+Level: 28
+
+Raticate @ Sitrus Berry
+Level: 28
 
 === TRAINER_CHANNELER_KARINA ===
 Name: KARINA
@@ -8318,8 +9593,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 30
+
+Kadabra
+Level: 30
+
+Voltorb @ Sitrus Berry
+Level: 30
 
 === TRAINER_CHANNELER_JANAE ===
 Name: JANAE
@@ -8331,8 +9615,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 28
+
+Graveler
+Level: 28
+
+Kadabra @ Sitrus Berry
+Level: 28
 
 === TRAINER_CHANNELER_ANGELICA ===
 Name: ANGELICA
@@ -8344,16 +9637,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gastly
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gastly
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 28
 
 === TRAINER_CHANNELER_EMILIA ===
 Name: EMILIA
@@ -8365,8 +9661,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 30
+
+Pidgeotto
+Level: 30
+
+Haunter @ Sitrus Berry
+Level: 30
 
 === TRAINER_CHANNELER_JENNIFER ===
 Name: JENNIFER
@@ -8378,8 +9683,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 30
+
+Weepinbell
+Level: 30
+
+Gloom @ Sitrus Berry
+Level: 30
 
 === TRAINER_CHANNELER_1 ===
 Name: PH
@@ -8503,12 +9817,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 34
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 34
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 43
+
+Raticate @ Sitrus Berry
+Level: 43
 
 === TRAINER_CHANNELER_STACY ===
 Name: STACY
@@ -8520,8 +9840,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Haunter
-Level: 38
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra
+Level: 48
+
+Machop
+Level: 48
+
+Graveler @ Sitrus Berry
+Level: 48
 
 === TRAINER_CHANNELER_TASHA ===
 Name: TASHA
@@ -8533,16 +9862,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gastly
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Graveler @ Sitrus Berry
+Level: 41
 
 === TRAINER_HIKER_JEREMY ===
 Name: JEREMY
@@ -8554,12 +9886,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Krabby
+Level: 25
+
+Drowzee @ Sitrus Berry
+Level: 25
 
 === TRAINER_PICNICKER_ALMA ===
 Name: ALMA
@@ -8571,16 +9909,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwag
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop @ Sitrus Berry
+Level: 35
 
 === TRAINER_PICNICKER_SUSIE ===
 Name: SUSIE
@@ -8592,23 +9933,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_VALERIE ===
@@ -8621,12 +9962,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 30
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwag
-Level: 30
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb
+Level: 38
+
+Raticate @ Sitrus Berry
+Level: 38
 
 === TRAINER_PICNICKER_GWEN ===
 Name: GWEN
@@ -8638,19 +9985,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 27
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIKER_VIRGIL ===
@@ -8663,7 +10010,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -8671,7 +10018,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -8679,12 +10026,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
 - Smog
 - Tackle
+
+Voltorb @ Sitrus Berry
+Level: 35
 
 === TRAINER_CAMPER_FLINT ===
 Name: FLINT
@@ -8696,12 +10046,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 14
+Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Oddish @ Oran Berry
+Level: 17
 
 === TRAINER_PICNICKER_MISSY ===
 Name: MISSY
@@ -8713,12 +10066,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 31
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Marowak
+Level: 40
+
+Machoke @ Focus Sash
+Level: 40
 
 === TRAINER_PICNICKER_IRENE ===
 Name: IRENE
@@ -8730,16 +10089,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tentacool
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Horsea
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seel
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gyarados @ Sitrus Berry
+Level: 39
 
 === TRAINER_PICNICKER_DANA ===
 Name: DANA
@@ -8751,16 +10113,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Meowth
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 20
+Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate @ Sitrus Berry
+Level: 25
 
 === TRAINER_PICNICKER_ARIANA ===
 Name: ARIANA
@@ -8772,19 +10137,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout
-Level: 19
+Level: 24
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_LEAH ===
@@ -8797,12 +10162,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clefairy
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drowzee
+Level: 28
+
+Voltorb @ Sitrus Berry
+Level: 28
 
 === TRAINER_CAMPER_JUSTIN ===
 Name: JUSTIN
@@ -8814,12 +10185,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorino
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weepinbell
+Level: 36
+
+Haunter @ Sitrus Berry
+Level: 36
 
 === TRAINER_PICNICKER_YAZMIN ===
 Name: YAZMIN
@@ -8831,16 +10208,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tangela
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Voltorb @ Sitrus Berry
+Level: 36
 
 === TRAINER_PICNICKER_KINDRA ===
 Name: KINDRA
@@ -8852,16 +10232,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gloom
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish
-Level: 28
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kadabra @ Sitrus Berry
+Level: 35
 
 === TRAINER_PICNICKER_BECKY ===
 Name: BECKY
@@ -8873,12 +10256,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raichu
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 36
+
+Graveler @ Sitrus Berry
+Level: 36
 
 === TRAINER_PICNICKER_CELIA ===
 Name: CELIA
@@ -8890,8 +10279,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 33
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Raticate
+Level: 41
+
+Machop
+Level: 41
+
+Graveler @ Sitrus Berry
+Level: 41
 
 === TRAINER_GENTLEMAN_BROOKS ===
 Name: BROOKS
@@ -8903,8 +10301,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machop
+Level: 29
+
+Haunter
+Level: 29
+
+Pidgeotto @ Sitrus Berry
+Level: 29
 
 === TRAINER_GENTLEMAN_LAMAR ===
 Name: LAMAR
@@ -8916,12 +10323,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ponyta
-Level: 17
+Level: 21
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 21
+
+Raticate @ Sitrus Berry
+Level: 21
 
 === TRAINER_TWINS_ELI_ANNE ===
 Name: ELI & ANNE
@@ -8933,12 +10346,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Jigglypuff
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 28
+
+Graveler @ Sitrus Berry
+Level: 28
 
 === TRAINER_COOL_COUPLE_RAY_TYRA ===
 Name: RAY & TYRA
@@ -8950,7 +10369,7 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoqueen
-Level: 45
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Superpower
 - Body Slam
@@ -8958,12 +10377,21 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Sting
 
 Nidoking
-Level: 45
+Level: 59
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Megahorn
 - Thrash
 - Double Kick
 - Poison Sting
+
+Onix
+Level: 59
+
+Golduck
+Level: 59
+
+Arcanine @ Sitrus Berry
+Level: 59
 
 === TRAINER_YOUNG_COUPLE_GIA_JES ===
 Name: GIA & JES
@@ -8975,12 +10403,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Haunter
+Level: 30
+
+Krabby @ Sitrus Berry
+Level: 30
 
 === TRAINER_TWINS_KIRI_JAN ===
 Name: KIRI & JAN
@@ -8992,12 +10426,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Charmander
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Squirtle
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 36
+
+Haunter @ Sitrus Berry
+Level: 36
 
 === TRAINER_CRUSH_KIN_RON_MYA ===
 Name: RON & MYA
@@ -9009,12 +10449,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonchan @ Black Belt
-Level: 29
+Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Hitmonlee @ Black Belt
-Level: 29
+Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Raticate
+Level: 36
+
+Pidgeotto @ Sitrus Berry
+Level: 36
 
 === TRAINER_YOUNG_COUPLE_LEA_JED ===
 Name: LEA & JED
@@ -9026,12 +10472,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rapidash
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ninetales
-Level: 29
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gloom
+Level: 36
+
+Machop @ Sitrus Berry
+Level: 36
 
 === TRAINER_SIS_AND_BRO_LIA_LUC ===
 Name: LIA & LUC
@@ -9043,12 +10495,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 30
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 39
+
+Kingler @ Sitrus Berry
+Level: 39
 
 === TRAINER_SIS_AND_BRO_LIL_IAN ===
 Name: LIL & IAN
@@ -9060,12 +10518,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Starmie
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke
+Level: 43
+
+Hypno @ Focus Sash
+Level: 43
 
 === TRAINER_BUG_CATCHER_3 ===
 Name: PH
@@ -9453,12 +10917,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Houndour
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Houndour
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 64
+
+Machoke @ Sitrus Berry
+Level: 64
 
 === TRAINER_PSYCHIC_JACLYN ===
 Name: JACLYN
@@ -9470,7 +10940,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Natu
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Night Shade
 - Confuse Ray
@@ -9478,7 +10948,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wish
 
 Slowbro
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Psychic
 - Headbutt
@@ -9486,12 +10956,15 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Yawn
 
 Kadabra
-Level: 49
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Psychic
 - Future Sight
 - Recover
 - Reflect
+
+Muk @ Sitrus Berry
+Level: 62
 
 === TRAINER_CRUSH_GIRL_SHARON ===
 Name: SHARON
@@ -9503,12 +10976,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey @ Black Belt
-Level: 37
+Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Primeape @ Black Belt
-Level: 37
+Level: 48
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Rhyhorn
+Level: 48
+
+Weezing @ Sitrus Berry
+Level: 48
 
 === TRAINER_TUBER_AMIRA ===
 Name: AMIRA
@@ -9520,16 +10999,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwhirl
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Poliwag
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing @ Sitrus Berry
+Level: 44
 
 === TRAINER_PKMN_BREEDER_ALIZE ===
 Name: ALIZE
@@ -9541,16 +11023,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
-Level: 48
+Level: 62
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Clefairy
-Level: 48
+Level: 62
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Marill
-Level: 48
+Level: 62
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Dodrio @ Sitrus Berry
+Level: 62
 
 === TRAINER_PKMN_RANGER_NICOLAS ===
 Name: NICOLAS
@@ -9563,7 +11048,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weepinbell
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Acid
@@ -9571,12 +11056,18 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Wrap
 
 Victreebel
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Razor Leaf
 - Acid
 - Sleep Powder
 - Stun Spore
+
+Magneton
+Level: 66
+
+Hypno @ Sitrus Berry
+Level: 66
 
 === TRAINER_PKMN_RANGER_MADELINE ===
 Name: MADELINE
@@ -9589,7 +11080,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gloom
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Petal Dance
 - Acid
@@ -9597,12 +11088,18 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Powder
 
 Vileplume
-Level: 51
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Petal Dance
 - Moonlight
 - Acid
 - Stun Spore
+
+Rhyhorn
+Level: 66
+
+Fearow @ Sitrus Berry
+Level: 66
 
 === TRAINER_AROMA_LADY_NIKKI ===
 Name: NIKKI
@@ -9614,12 +11111,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 48
+
+Gyarados @ Focus Sash
+Level: 48
 
 === TRAINER_RUIN_MANIAC_STANLY ===
 Name: STANLY
@@ -9631,16 +11134,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Graveler
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing @ Sitrus Berry
+Level: 62
 
 === TRAINER_LADY_JACKI ===
 Name: JACKI
@@ -9653,12 +11159,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hoppip @ Stardust
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Skiploom @ Stardust
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 62
+
+Hypno @ Focus Sash
+Level: 62
 
 === TRAINER_PAINTER_DAISY ===
 Name: DAISY
@@ -9670,12 +11182,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Smeargle
-Level: 50
+Level: 65
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Dynamic Punch
 - Dizzy Punch
 - Focus Punch
 - Mega Punch
+
+Fearow
+Level: 65
+
+Magneton
+Level: 65
+
+Dodrio @ Focus Sash
+Level: 65
 
 === TRAINER_BIKER_GOON ===
 Name: GOON
@@ -9687,7 +11208,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Haze
 - Smokescreen
@@ -9695,12 +11216,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Acid Armor
 - Screech
 - Minimize
 - Sludge
+
+Machoke
+Level: 48
+
+Hypno @ Focus Sash
+Level: 48
 
 === TRAINER_BIKER_GOON_2 ===
 Name: GOON
@@ -9755,12 +11282,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Caterpie
-Level: 7
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
-Level: 8
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Geodude @ Oran Berry
+Level: 8
 
 === TRAINER_BUG_CATCHER_CHARLIE ===
 Name: CHARLIE
@@ -9772,15 +11302,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Metapod
-Level: 7
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Caterpie
-Level: 7
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Metapod
-Level: 7
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TWINS_ELI_ANNE_2 ===
@@ -9810,16 +11340,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ekans
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dodrio @ Sitrus Berry
+Level: 43
 
 === TRAINER_BIKER_RICARDO ===
 Name: RICARDO
@@ -9831,7 +11364,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Smog
@@ -9839,7 +11372,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Gas
 
 Koffing
-Level: 22
+Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 - Smog
@@ -9847,12 +11380,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Gas
 
 Grimer
-Level: 23
+Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Sludge
 - Disable
 - Pound
+
+Drowzee @ Sitrus Berry
+Level: 28
 
 === TRAINER_BIKER_JAREN ===
 Name: JAREN
@@ -9864,12 +11400,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimer
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Grimer
-Level: 24
+Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Graveler
+Level: 30
+
+Raticate @ Sitrus Berry
+Level: 30
 
 === TRAINER_TEAM_ROCKET_GRUNT_43 ===
 Name: GRUNT
@@ -9881,12 +11423,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cubone
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 48
+
+Magneton @ Focus Sash
+Level: 48
 
 === TRAINER_TEAM_ROCKET_GRUNT_44 ===
 Name: GRUNT
@@ -9898,19 +11446,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandslash
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TEAM_ROCKET_GRUNT_45 ===
@@ -9923,16 +11471,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Zubat
-Level: 38
+Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 38
+Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 38
+Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke @ Sitrus Berry
+Level: 49
 
 === TRAINER_TEAM_ROCKET_GRUNT_46 ===
 Name: GRUNT
@@ -9944,16 +11495,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Muk
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke @ Sitrus Berry
+Level: 62
 
 === TRAINER_TEAM_ROCKET_GRUNT_47 ===
 Name: GRUNT
@@ -9965,16 +11519,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat @ Sitrus Berry
+Level: 62
 
 === TRAINER_TEAM_ROCKET_GRUNT_48 ===
 Name: GRUNT
@@ -9986,12 +11543,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dodrio
+Level: 64
+
+Fearow @ Focus Sash
+Level: 64
 
 === TRAINER_TEAM_ROCKET_ADMIN ===
 Name: ADMIN
@@ -10004,7 +11567,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Muk
-Level: 52
+Level: 68
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
 - Screech
@@ -10012,7 +11575,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Rock Tomb
 
 Arbok
-Level: 53
+Level: 69
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
 - Bite
@@ -10020,12 +11583,15 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Iron Tail
 
 Vileplume
-Level: 54
+Level: 70
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
 - Giga Drain
 - Sleep Powder
 - Stun Spore
+
+Dodrio @ Sitrus Berry
+Level: 68
 
 === TRAINER_TEAM_ROCKET_ADMIN_2 ===
 Name: ADMIN
@@ -10071,7 +11637,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
 - Screech
@@ -10079,7 +11645,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 
 Electrode
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spark
 - Sonic Boom
@@ -10087,7 +11653,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Charge
 
 Magnemite
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Swift
@@ -10095,7 +11661,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Thunder Wave
 
 Magneton
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tri Attack
 - Spark
@@ -10103,7 +11669,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 
 Porygon
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tri Attack
 - Conversion
@@ -10120,16 +11686,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seel
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seel
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dewgong
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke @ Sitrus Berry
+Level: 47
 
 === TRAINER_SWIMMER_FEMALE_MARIA ===
 Name: MARIA
@@ -10141,12 +11710,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seadra
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 48
+
+Fearow @ Focus Sash
+Level: 48
 
 === TRAINER_SWIMMER_FEMALE_ABIGAIL ===
 Name: ABIGAIL
@@ -10158,16 +11733,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Psyduck
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Psyduck
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golduck
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing @ Focus Sash
+Level: 46
 
 === TRAINER_SWIMMER_MALE_FINN ===
 Name: FINN
@@ -10179,8 +11757,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Starmie
-Level: 38
+Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magneton
+Level: 49
+
+Weezing
+Level: 49
+
+Kingler @ Sitrus Berry
+Level: 49
 
 === TRAINER_SWIMMER_MALE_GARRETT ===
 Name: GARRETT
@@ -10192,16 +11779,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Shellder
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cloyster
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wartortle
-Level: 38
+Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dodrio @ Focus Sash
+Level: 46
 
 === TRAINER_FISHERMAN_TOMMY ===
 Name: TOMMY
@@ -10213,23 +11803,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Goldeen
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 33
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seaking
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CRUSH_GIRL_TANYA ===
@@ -10242,12 +11832,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonlee @ Black Belt
-Level: 38
+Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Hitmonchan @ Black Belt
-Level: 38
+Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Gyarados
+Level: 49
+
+Fearow @ Sitrus Berry
+Level: 49
 
 === TRAINER_BLACK_BELT_SHEA ===
 Name: SHEA
@@ -10259,12 +11855,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop @ Black Belt
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machoke @ Black Belt
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Kingler
+Level: 49
+
+Fearow @ Sitrus Berry
+Level: 49
 
 === TRAINER_BLACK_BELT_HUGH ===
 Name: HUGH
@@ -10276,12 +11878,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop @ Black Belt
-Level: 37
+Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Machoke @ Black Belt
-Level: 37
+Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Rhyhorn
+Level: 48
+
+Kingler @ Focus Sash
+Level: 48
 
 === TRAINER_CAMPER_BRYCE ===
 Name: BRYCE
@@ -10293,16 +11901,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidorino
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandslash
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow @ Sitrus Berry
+Level: 47
 
 === TRAINER_PICNICKER_CLAIRE ===
 Name: CLAIRE
@@ -10314,19 +11925,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Meowth
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clefairy
-Level: 35
+Level: 46
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CRUSH_KIN_MIK_KIA ===
@@ -10339,12 +11950,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke @ Black Belt
-Level: 39
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Primeape @ Black Belt
-Level: 39
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Weezing
+Level: 51
+
+Kingler @ Sitrus Berry
+Level: 51
 
 === TRAINER_AROMA_LADY_VIOLET ===
 Name: VIOLET
@@ -10356,16 +11973,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bulbasaur
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ivysaur
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ivysaur
-Level: 36
+Level: 47
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magneton @ Focus Sash
+Level: 47
 
 === TRAINER_TUBER_ALEXIS ===
 Name: ALEXIS
@@ -10377,19 +11997,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Staryu
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Staryu
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 34
+Level: 44
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TWINS_JOY_MEG ===
@@ -10402,12 +12022,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clefairy
-Level: 37
+Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Dodrio
+Level: 48
+
+Marowak @ Sitrus Berry
+Level: 48
 
 === TRAINER_SWIMMER_FEMALE_TISHA ===
 Name: TISHA
@@ -10419,8 +12045,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kingler
-Level: 38
+Level: 49
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gyarados
+Level: 49
+
+Magneton
+Level: 49
+
+Muk @ Sitrus Berry
+Level: 49
 
 === TRAINER_PAINTER_CELINA ===
 Name: CELINA
@@ -10432,12 +12067,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Smeargle
-Level: 50
+Level: 65
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Fly
 - Dig
 - Dive
 - Bounce
+
+Hypno
+Level: 65
+
+Golbat
+Level: 65
+
+Weezing @ Sitrus Berry
+Level: 65
 
 === TRAINER_PAINTER_RAYNA ===
 Name: RAYNA
@@ -10449,12 +12093,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Smeargle
-Level: 50
+Level: 65
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Cross Chop
 - Megahorn
 - Double Edge
 - Self Destruct
+
+Magneton
+Level: 65
+
+Gyarados
+Level: 65
+
+Golbat @ Sitrus Berry
+Level: 65
 
 === TRAINER_LADY_GILLIAN ===
 Name: GILLIAN
@@ -10467,16 +12120,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mareep @ Stardust
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mareep @ Stardust
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Flaaffy @ Nugget
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Rhyhorn @ Focus Sash
+Level: 61
 
 === TRAINER_YOUNGSTER_DESTIN ===
 Name: DESTIN
@@ -10488,12 +12144,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Gyarados
+Level: 62
+
+Machoke @ Sitrus Berry
+Level: 62
 
 === TRAINER_SWIMMER_MALE_TOBY ===
 Name: TOBY
@@ -10505,16 +12167,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwhirl
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacruel
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Marowak @ Focus Sash
+Level: 62
 
 === TRAINER_TEAM_ROCKET_GRUNT_49 ===
 Name: GRUNT
@@ -10526,16 +12191,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rattata
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Grimer
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing @ Sitrus Berry
+Level: 62
 
 === TRAINER_TEAM_ROCKET_GRUNT_50 ===
 Name: GRUNT
@@ -10547,7 +12215,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Memento
 - Haze
@@ -10555,12 +12223,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 
 Weezing
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Haze
 - Smokescreen
 - Sludge
 - Self Destruct
+
+Magneton
+Level: 64
+
+Fearow @ Sitrus Berry
+Level: 64
 
 === TRAINER_TEAM_ROCKET_GRUNT_51 ===
 Name: GRUNT
@@ -10572,16 +12246,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ekans
-Level: 48
+Level: 62
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Gloom
-Level: 48
+Level: 62
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Gloom
-Level: 48
+Level: 62
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Weezing @ Sitrus Berry
+Level: 62
 
 === TRAINER_BIRD_KEEPER_MILO ===
 Name: MILO
@@ -10593,12 +12270,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magneton
+Level: 61
+
+Hypno @ Sitrus Berry
+Level: 61
 
 === TRAINER_BIRD_KEEPER_CHAZ ===
 Name: CHAZ
@@ -10610,12 +12293,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing
+Level: 61
+
+Muk @ Sitrus Berry
+Level: 61
 
 === TRAINER_BIRD_KEEPER_HAROLD ===
 Name: HAROLD
@@ -10627,12 +12316,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hoothoot
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Noctowl
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow
+Level: 61
+
+Rhyhorn @ Focus Sash
+Level: 61
 
 === TRAINER_FISHERMAN_TYLOR ===
 Name: TYLOR
@@ -10644,12 +12339,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Qwilfish
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Qwilfish
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 64
+
+Dodrio @ Sitrus Berry
+Level: 64
 
 === TRAINER_SWIMMER_MALE_MYMO ===
 Name: MYMO
@@ -10661,12 +12362,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kingler
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wartortle
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Marowak
+Level: 64
+
+Magneton @ Focus Sash
+Level: 64
 
 === TRAINER_SWIMMER_FEMALE_NICOLE ===
 Name: NICOLE
@@ -10678,8 +12385,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Marill
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke
+Level: 65
+
+Dodrio
+Level: 65
+
+Rhyhorn @ Sitrus Berry
+Level: 65
 
 === TRAINER_SIS_AND_BRO_AVA_GEB ===
 Name: AVA & GEB
@@ -10691,12 +12407,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwhirl
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Starmie
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno
+Level: 65
+
+Fearow @ Sitrus Berry
+Level: 65
 
 === TRAINER_AROMA_LADY_ROSE ===
 Name: ROSE
@@ -10708,12 +12430,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sunkern
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sunflora
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Muk
+Level: 64
+
+Rhyhorn @ Sitrus Berry
+Level: 64
 
 === TRAINER_SWIMMER_MALE_SAMIR ===
 Name: SAMIR
@@ -10725,8 +12453,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gyarados
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke
+Level: 65
+
+Kingler
+Level: 65
+
+Dodrio @ Sitrus Berry
+Level: 65
 
 === TRAINER_SWIMMER_FEMALE_DENISE ===
 Name: DENISE
@@ -10738,12 +12475,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Chinchou
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Lanturn
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 64
+
+Rhyhorn @ Sitrus Berry
+Level: 64
 
 === TRAINER_TWINS_MIU_MIA ===
 Name: MIU & MIA
@@ -10755,12 +12498,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke
+Level: 65
+
+Magneton @ Sitrus Berry
+Level: 65
 
 === TRAINER_HIKER_EARL ===
 Name: EARL
@@ -10772,12 +12521,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Onix
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno
+Level: 64
+
+Weezing @ Focus Sash
+Level: 64
 
 === TRAINER_RUIN_MANIAC_FOSTER ===
 Name: FOSTER
@@ -10789,8 +12544,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Golem
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 65
+
+Machoke
+Level: 65
+
+Golbat @ Sitrus Berry
+Level: 65
 
 === TRAINER_RUIN_MANIAC_LARRY ===
 Name: LARRY
@@ -10802,12 +12566,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 64
+
+Golbat @ Focus Sash
+Level: 64
 
 === TRAINER_HIKER_DARYL ===
 Name: DARYL
@@ -10819,8 +12589,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sudowoodo
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Hypno
+Level: 65
+
+Rhyhorn
+Level: 65
+
+Golbat @ Sitrus Berry
+Level: 65
 
 === TRAINER_POKEMANIAC_HECTOR ===
 Name: HECTOR
@@ -10832,12 +12611,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhyhorn
-Level: 49
+Level: 64
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Kangaskhan
-Level: 49
+Level: 64
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Weezing
+Level: 64
+
+Golbat @ Sitrus Berry
+Level: 64
 
 === TRAINER_PSYCHIC_DARIO ===
 Name: DARIO
@@ -10899,12 +12684,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellossom
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellossom
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 65
+
+Weezing @ Sitrus Berry
+Level: 65
 
 === TRAINER_YOUNG_COUPLE_EVE_JON ===
 Name: EVE & JON
@@ -10916,12 +12707,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Golduck
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Psyduck
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow
+Level: 65
+
+Muk @ Sitrus Berry
+Level: 65
 
 === TRAINER_JUGGLER_MASON ===
 Name: MASON
@@ -10933,7 +12730,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
 - Light Screen
@@ -10941,7 +12738,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 
 Pineco
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spikes
 - Bide
@@ -10949,7 +12746,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Take Down
 
 Voltorb
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Swift
 - Light Screen
@@ -10957,7 +12754,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sonic Boom
 
 Pineco
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Spikes
 - Bide
@@ -10974,16 +12771,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Primeape @ Black Belt
-Level: 48
+Level: 62
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Hitmontop @ Black Belt
-Level: 48
+Level: 62
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Machoke @ Black Belt
-Level: 48
+Level: 62
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Kingler @ Focus Sash
+Level: 62
 
 === TRAINER_CRUSH_GIRL_JOCELYN ===
 Name: JOCELYN
@@ -10995,12 +12795,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonchan @ Black Belt
-Level: 38
+Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Hitmonchan @ Black Belt
-Level: 38
+Level: 49
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Machoke
+Level: 49
+
+Rhyhorn @ Sitrus Berry
+Level: 49
 
 === TRAINER_TAMER_EVAN ===
 Name: EVAN
@@ -11012,16 +12818,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandslash
-Level: 48
+Level: 62
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Lickitung
-Level: 48
+Level: 62
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Ursaring
-Level: 49
+Level: 64
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
+
+Machoke @ Sitrus Berry
+Level: 62
 
 === TRAINER_POKEMANIAC_MARK_2 ===
 Name: MARK
@@ -11051,7 +12860,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Exeggcute
-Level: 37
+Level: 48
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Sleep Powder
 - Poison Powder
@@ -11059,12 +12868,18 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Confusion
 
 Exeggutor
-Level: 40
+Level: 52
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Egg Bomb
 - Stomp
 - Confusion
 - Hypnosis
+
+Golbat
+Level: 48
+
+Hypno @ Sitrus Berry
+Level: 48
 
 === TRAINER_PKMN_RANGER_JACKSON ===
 Name: JACKSON
@@ -11077,7 +12892,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tangela
-Level: 49
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slam
 - Mega Drain
@@ -11085,7 +12900,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Ingrain
 
 Exeggcute
-Level: 49
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Confusion
 - Poison Powder
@@ -11093,12 +12908,15 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Reflect
 
 Exeggutor
-Level: 49
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Confusion
 - Egg Bomb
 - Sleep Powder
 - Stomp
+
+Machoke @ Focus Sash
+Level: 64
 
 === TRAINER_PKMN_RANGER_BETH ===
 Name: BETH
@@ -11111,16 +12929,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellsprout
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Gloom
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Gloom
-Level: 38
+Level: 49
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Weezing @ Sitrus Berry
+Level: 49
 
 === TRAINER_PKMN_RANGER_KATELYN ===
 Name: KATELYN
@@ -11133,12 +12954,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Chansey
-Level: 52
+Level: 68
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Egg Bomb
 - Defense Curl
 - Minimize
 - Soft Boiled
+
+Golbat
+Level: 68
+
+Fearow
+Level: 68
+
+Marowak @ Sitrus Berry
+Level: 68
 
 === TRAINER_COOLTRAINER_LEROY ===
 Name: LEROY
@@ -11151,7 +12981,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rhydon
-Level: 47
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Take Down
 - Horn Drill
@@ -11159,7 +12989,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Scary Face
 
 Slowbro
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Psychic
 - Headbutt
@@ -11167,7 +12997,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Disable
 
 Kangaskhan
-Level: 47
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Dizzy Punch
 - Bite
@@ -11175,7 +13005,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Reversal
 
 Machoke
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Cross Chop
 - Vital Throw
@@ -11183,7 +13013,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Seismic Toss
 
 Ursaring
-Level: 50
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slash
 - Faint Attack
@@ -11201,7 +13031,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Persian
-Level: 47
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Slash
 - Screech
@@ -11209,7 +13039,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bite
 
 Dewgong
-Level: 47
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Ice Beam
 - Take Down
@@ -11217,7 +13047,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Growl
 
 Ninetales
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Flamethrower
 - Confuse Ray
@@ -11225,7 +13055,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Grudge
 
 Rapidash
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Bounce
 - Agility
@@ -11233,7 +13063,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Take Down
 
 Girafarig
-Level: 50
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Crunch
 - Psybeam
@@ -11251,7 +13081,7 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Miltank
-Level: 52
+Level: 68
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Body Slam
 - Milk Drink
@@ -11259,12 +13089,18 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Defense Curl
 
 Tauros
-Level: 52
+Level: 68
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Thrash
 - Horn Attack
 - Pursuit
 - Swagger
+
+Kingler
+Level: 68
+
+Marowak @ Sitrus Berry
+Level: 68
 
 === TRAINER_RUIN_MANIAC_BRANDON ===
 Name: BRANDON
@@ -11276,8 +13112,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Onix
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing
+Level: 65
+
+Golbat
+Level: 65
+
+Rhyhorn @ Sitrus Berry
+Level: 65
 
 === TRAINER_RUIN_MANIAC_BENJAMIN ===
 Name: BENJAMIN
@@ -11289,7 +13134,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Geodude
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 - Rock Blast
@@ -11297,7 +13142,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 
 Graveler
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 - Rock Blast
@@ -11305,12 +13150,15 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 
 Graveler
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 - Rock Blast
 - Rock Throw
 - Self Destruct
+
+Magneton @ Sitrus Berry
+Level: 62
 
 === TRAINER_PAINTER_EDNA ===
 Name: EDNA
@@ -11322,12 +13170,21 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Smeargle
-Level: 50
+Level: 65
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Fake Out
 - Extreme Speed
 - Protect
 - Quick Attack
+
+Dodrio
+Level: 65
+
+Machoke
+Level: 65
+
+Marowak @ Focus Sash
+Level: 65
 
 === TRAINER_GENTLEMAN_CLIFFORD ===
 Name: CLIFFORD
@@ -11339,12 +13196,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Marowak
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golduck
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magneton
+Level: 64
+
+Kingler @ Sitrus Berry
+Level: 64
 
 === TRAINER_LADY_SELPHY ===
 Name: SELPHY
@@ -11357,7 +13220,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Persian @ Nugget
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pay Day
 - Bite
@@ -11365,12 +13228,18 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Torment
 
 Persian @ Nugget
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pay Day
 - Scratch
 - Torment
 - Taunt
+
+Dodrio
+Level: 64
+
+Hypno @ Sitrus Berry
+Level: 64
 
 === TRAINER_RUIN_MANIAC_LAWSON ===
 Name: LAWSON
@@ -11382,16 +13251,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Onix
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow @ Focus Sash
+Level: 61
 
 === TRAINER_PSYCHIC_LAURA ===
 Name: LAURA
@@ -11403,16 +13275,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Natu
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Natu
-Level: 48
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Xatu
-Level: 49
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Dodrio @ Sitrus Berry
+Level: 62
 
 === TRAINER_PKMN_BREEDER_BETHANY ===
 Name: BETHANY
@@ -11424,8 +13299,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Chansey
-Level: 50
+Level: 65
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Rhyhorn
+Level: 65
+
+Marowak
+Level: 65
+
+Magneton @ Sitrus Berry
+Level: 65
 
 === TRAINER_PKMN_BREEDER_ALLISON ===
 Name: ALLISON
@@ -11437,16 +13321,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefairy
-Level: 48
+Level: 62
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Clefairy
-Level: 48
+Level: 62
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Clefable
-Level: 48
+Level: 62
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
+
+Kingler @ Focus Sash
+Level: 62
 
 === TRAINER_BUG_CATCHER_GARRET ===
 Name: GARRET
@@ -11458,8 +13345,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Heracross
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler
+Level: 64
+
+Rhyhorn
+Level: 64
+
+Weezing @ Focus Sash
+Level: 64
 
 === TRAINER_BUG_CATCHER_JONAH ===
 Name: JONAH
@@ -11471,19 +13367,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Yanma
-Level: 45
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Beedrill
-Level: 45
+Level: 59
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Yanma
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Beedrill
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BUG_CATCHER_VANCE ===
@@ -11496,12 +13392,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Venonat
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Venomoth
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Golbat
+Level: 62
+
+Dodrio @ Sitrus Berry
+Level: 62
 
 === TRAINER_YOUNGSTER_NASH ===
 Name: NASH
@@ -11513,16 +13415,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weepinbell
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Victreebel
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Kingler @ Focus Sash
+Level: 61
 
 === TRAINER_YOUNGSTER_CORDELL ===
 Name: CORDELL
@@ -11534,12 +13439,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Farfetchd
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Farfetchd
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Machoke
+Level: 62
+
+Kingler @ Sitrus Berry
+Level: 62
 
 === TRAINER_LASS_DALIA ===
 Name: DALIA
@@ -11551,19 +13462,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hoppip
-Level: 46
+Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hoppip
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Skiploom
-Level: 47
+Level: 61
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Skiploom
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LASS_JOANA ===
@@ -11576,8 +13487,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Snubbull
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magneton
+Level: 64
+
+Marowak
+Level: 64
+
+Golbat @ Sitrus Berry
+Level: 64
 
 === TRAINER_CAMPER_RILEY ===
 Name: RILEY
@@ -11589,12 +13509,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pinsir
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Heracross
-Level: 50
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Magneton
+Level: 64
+
+Fearow @ Sitrus Berry
+Level: 64
 
 === TRAINER_PICNICKER_MARCY ===
 Name: MARCY
@@ -11606,16 +13532,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Paras
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Paras
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Parasect
-Level: 49
+Level: 64
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Weezing @ Sitrus Berry
+Level: 62
 
 === TRAINER_RUIN_MANIAC_LAYTON ===
 Name: LAYTON
@@ -11627,16 +13556,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sandslash
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandslash
-Level: 48
+Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Fearow @ Focus Sash
+Level: 62
 
 === TRAINER_PICNICKER_KELSEY_2 ===
 Name: KELSEY
@@ -14286,12 +16218,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing
-Level: 39
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Muk
-Level: 39
+Level: 51
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Magneton
+Level: 51
+
+Hypno @ Sitrus Berry
+Level: 51
 
 === TRAINER_ANABEL ===
 Name: ANABEL
