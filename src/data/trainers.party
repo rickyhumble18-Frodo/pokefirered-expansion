@@ -8475,21 +8475,75 @@ Class: Leader
 Pic: Leader Brock
 Gender: Male
 Music: Male
+Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Geodude
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Defense Curl
+Geodude @ Oran Berry
+Ability: Sturdy
+Impish Nature
+Level: 13
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Stealth Rock
+- Rock Blast
+- Bulldoze
+- Sand Attack
 
-Onix
+Cranidos
+Ability: Mold Breaker
+Adamant Nature
 Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Bind
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Headbutt
 - Rock Tomb
+- Pursuit
+- Leer
+
+Tirtouga
+Ability: Solid Rock
+Adamant Nature
+Level: 14
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Shell Smash
+- Aqua Jet
+- Rock Tomb
+- Bite
+
+Lileep
+Ability: Storm Drain
+Calm Nature
+Level: 14
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Absorb
+- Acid
+- Ingrain
+- Confuse Ray
+
+Kabuto
+Ability: Battle Armor
+Jolly Nature
+Level: 14
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Aqua Jet
+- Rock Tomb
+- Scratch
+- Harden
+
+Onix @ Sitrus Berry
+Ability: Sturdy
+Jolly Nature
+Level: 16
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Rock Tomb
+- Sand Tomb
+- Screech
+- Headbutt
 
 === TRAINER_LEADER_MISTY ===
 Name: MISTY
@@ -16329,30 +16383,73 @@ Class: Leader
 Pic: Leader Brock
 Gender: Male
 Music: Male
-Items: Potion
+Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Rhyhorn
+Roggenrola @ Oran Berry
+Ability: Sturdy
+Impish Nature
 Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Stealth Rock
+- Rock Blast
+- Headbutt
+- Sand Attack
+
+Rhyhorn
+Ability: Lightning Rod
+Adamant Nature
+Level: 12
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
 - Horn Attack
 - Stomp
 - Rock Blast
 
 Omanyte
+Ability: Swift Swim
+Modest Nature
 Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Water Gun
 - Rollout
 - Withdraw
 
-Aerodactyl
+Anorith
+Ability: Battle Armor
+Adamant Nature
+Level: 13
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Fury Cutter
+- Rock Tomb
+- Metal Claw
+- Harden
+
+Bonsly
+Ability: Rock Head
+Careful Nature
+Level: 13
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Rock Tomb
+- Fake Tears
+- Flail
+- Block
+
+Aerodactyl @ Sitrus Berry
+Ability: Rock Head
+Jolly Nature
 Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Wing Attack
 - Bite
 - Ancient Power
+- Supersonic
 
 === TRAINER_LEADER_MISTY_2 ===
 Name: MISTY
