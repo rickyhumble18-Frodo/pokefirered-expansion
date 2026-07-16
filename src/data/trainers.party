@@ -8551,25 +8551,75 @@ Class: Leader
 Pic: Leader Misty
 Gender: Male
 Music: Female
-Items: Super Potion
+Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Staryu
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle
-- Harden
-- Recover
+Slowpoke @ Oran Berry
+Ability: Regenerator
+Bold Nature
+Level: 20
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Def
+- Yawn
 - Water Pulse
+- Confusion
+- Slack Off
 
-Starmie
+Poliwhirl
+Ability: Water Absorb
+Adamant Nature
 Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Hypnosis
+- Double Slap
+- Bubble Beam
+- Body Slam
+
+Gyarados
+Ability: Intimidate
+Adamant Nature
+Level: 21
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Dragon Dance
+- Waterfall
+- Bite
+- Leer
+
+Lombre
+Ability: Swift Swim
+Modest Nature
+Level: 21
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Fake Out
+- Absorb
+- Bubble Beam
+- Rain Dance
+
+Golduck
+Ability: Cloud Nine
+Timid Nature
+Level: 22
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Water Pulse
+- Confusion
+- Disable
+- Fury Swipes
+
+Starmie @ Sitrus Berry
+Ability: Natural Cure
+Timid Nature
+Level: 24
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Water Pulse
+- Ice Beam
 - Swift
 - Recover
-- Rapid Spin
-- Water Pulse
 
 === TRAINER_LEADER_LT_SURGE ===
 Name: LT. SURGE
@@ -16457,31 +16507,73 @@ Class: Leader
 Pic: Leader Misty
 Gender: Male
 Music: Female
-Items: Super Potion
+Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices
 
-Poliwhirl
+Poliwhirl @ Oran Berry
+Ability: Water Absorb
+Adamant Nature
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Hypnosis
 - Double Slap
 - Water Pulse
 
 Psyduck
+Ability: Cloud Nine
+Modest Nature
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
 - Confusion
 - Disable
 - Water Pulse
 
-Gyarados
+Shellder
+Ability: Skill Link
+Adamant Nature
+Level: 19
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Def
+- Icicle Spear
+- Water Gun
+- Withdraw
+- Supersonic
+
+Chinchou
+Ability: Volt Absorb
+Modest Nature
+Level: 19
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Thunder Wave
+- Bubble Beam
+- Spark
+- Confuse Ray
+
+Staryu
+Ability: Natural Cure
+Timid Nature
+Level: 20
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Water Pulse
+- Swift
+- Recover
+- Camouflage
+
+Gyarados @ Sitrus Berry
+Ability: Intimidate
+Adamant Nature
 Level: 21
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
 - Bite
 - Dragon Rage
+- Waterfall
 - Leer
-- Water Pulse
 
 === TRAINER_LEADER_LT_SURGE_2 ===
 Name: LT. SURGE
