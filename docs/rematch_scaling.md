@@ -91,3 +91,32 @@ exceeds that).
   `VAR_0x8006` lower → nature id, computed from `gNaturesInfo` stat data), and
   `ScrSpecial_SetMonNature` (`VAR_0x8004` slot + `VAR_0x8005` nature id 0-24;
   returns `VAR_RESULT` ok flag, previous nature in `VAR_0x8006`).
+
+## Static difficulty pass (first encounters)
+
+- **Phase A — AI**: every trainer runs Check Bad Move / Try To Faint / Check
+  Viability. Bosses (leaders, rival, Rocket boss, E4, Champion) add Smart
+  Switching / Smart Mon Choices; the E4 and Champion add Omniscient. Applied
+  by `tools/kaizo_pass.py ai`.
+- **Phase B — bulk pass** (`tools/kaizo_pass.py bulk`): route/dungeon trainers
+  get a segment level curve (×1.15 pre-Brock → ×1.30 late), team padding
+  (min 3 / 4 / 5 mons by segment, deduped, deterministic) and a held item on
+  the last mon of padded teams. All tunables live in
+  `tools/kaizo_segments.json`; pre-pass levels in `tools/kaizo_baseline.json`
+  keep re-runs from compounding. CI fails if trainers.party drifts from the
+  script output. Bosses, rivals, `TRAINER_*_2..6` variants and frontier
+  trainers are never touched by the script.
+- **Phase C — bosses**: all 8 gym leaders (both rotation variants), the E4
+  round-1 teams and the three Champion first battles are hand-authored:
+  6 mons, explicit moves/abilities/natures, EV spreads, held items. Each team
+  has a tempo lead, a wallbreaker, a setup threat the player must answer, a
+  pivot, coverage for the obvious counter-type, and a Sitrus ace ~+4 over its
+  segment's scaled route average (the +5/rematch boost stacks on top).
+  The vanilla E4 round-2 and Champion rematch teams are kept as the second
+  rotation variant — they can get the same treatment after playtesting.
+- **Phase D — global configs** (badge boosts, extra boss healing items) is
+  deliberately deferred until after a playtest of A-C, per the spec. E4 and
+  Champion currently carry 3 Full Restores each.
+
+Playtest checkpoints (not yet run): Brock AI sanity, a fresh-save run to
+Misty counting wipes, and confirming rematch scaling stacks on the new bases.
