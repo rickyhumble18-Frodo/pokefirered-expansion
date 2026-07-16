@@ -353,4 +353,7 @@ gSpecials::
 	def_special Special_GetRematchWinCount
 	def_special Special_SetRematchWinCount
 	def_special ScrSpecial_ModifyMonEVs
+	def_special ScrSpecial_BufferMonNature
+	def_special ScrSpecial_GetNatureFromStatPair
+	def_special ScrSpecial_SetMonNature
 gSpecialsEnd::

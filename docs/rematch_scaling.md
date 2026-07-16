@@ -81,3 +81,13 @@ exceeds that).
   (HP/Atk/Def/SpAtk/SpDef/Speed = 0-5), `VAR_0x8006` mode (0 max, 1 add 100,
   2 wipe), returns `VAR_RESULT` ok flag and `VAR_0x8007` EVs actually added.
   Stats recalculate immediately.
+- **Nature Coach NPC** (Pallet Town, crush girl at (10,12)): pick the stat to
+  raise and the stat to lower (or Neutral → Hardy) and the mon's nature is
+  changed through the hidden nature (mint) system — gender, shininess, ability
+  slot and form stay untouched, and stats recalculate immediately (battle stat
+  calc reads hidden nature). Backed by three specials in
+  `src/field_specials.c`: `ScrSpecial_BufferMonNature` (current nature name →
+  `STR_VAR_2`), `ScrSpecial_GetNatureFromStatPair` (`VAR_0x8005` raise +
+  `VAR_0x8006` lower → nature id, computed from `gNaturesInfo` stat data), and
+  `ScrSpecial_SetMonNature` (`VAR_0x8004` slot + `VAR_0x8005` nature id 0-24;
+  returns `VAR_RESULT` ok flag, previous nature in `VAR_0x8006`).

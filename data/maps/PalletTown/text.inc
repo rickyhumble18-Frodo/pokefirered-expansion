@@ -99,3 +99,39 @@ PalletTown_Text_EVTrainerEgg::
 PalletTown_Text_EVTrainerDone::
 	.string "Come back when you want\n"
 	.string "real training!$"
+
+PalletTown_Text_NatureCoachIntro::
+	.string "I'm the NATURE COACH!\n"
+	.string "A little mindset training can\l"
+	.string "reshape any POKéMON's nature.\p"
+	.string "Who needs an attitude adjustment?$"
+
+PalletTown_Text_NatureCoachCurrent::
+	.string "Hmm… right now it has\n"
+	.string "a {STR_VAR_2} nature.$"
+
+PalletTown_Text_NatureCoachRaiseWhich::
+	.string "Which stat should its new\n"
+	.string "nature RAISE?$"
+
+PalletTown_Text_NatureCoachLowerWhich::
+	.string "And which stat should it LOWER?$"
+
+PalletTown_Text_NatureCoachSameStat::
+	.string "It can't raise and lower the\n"
+	.string "same stat! Pick another.$"
+
+PalletTown_Text_NatureCoachDoneChange::
+	.string "There! It has a {STR_VAR_2}\n"
+	.string "nature now!$"
+
+PalletTown_Text_NatureCoachFailed::
+	.string "Hmm, that didn't work.\n"
+	.string "Sorry!$"
+
+PalletTown_Text_NatureCoachEgg::
+	.string "…That's an EGG.\n"
+	.string "EGGS don't have attitudes!$"
+
+PalletTown_Text_NatureCoachBye::
+	.string "Stay sharp out there!$"

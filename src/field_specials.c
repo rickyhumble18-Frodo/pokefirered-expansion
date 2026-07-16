@@ -4013,3 +4013,64 @@ void ScrSpecial_ModifyMonEVs(void)
     gSpecialVar_0x8007 = add;
     gSpecialVar_Result = 1;
 }
+
+// Nature Coach NPC (see data/maps/PalletTown/scripts.inc).
+// Buffers the current nature name of party mon VAR_0x8004 into gStringVar2
+// and returns its nature id.
+u16 ScrSpecial_BufferMonNature(void)
+{
+    enum Nature nature = GetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_HIDDEN_NATURE);
+
+    StringCopy(gStringVar2, gNaturesInfo[nature].name);
+    return nature;
+}
+
+// Maps a raised/lowered stat pair from the Nature Coach menus to a nature id.
+// VAR_0x8005 = raised, VAR_0x8006 = lowered (both 0 = Atk, 1 = Def, 2 = SpAtk,
+// 3 = SpDef, 4 = Speed). Returns the nature id, or 0xFFFF if the pair is
+// invalid (same stat raised and lowered, or out of range).
+u16 ScrSpecial_GetNatureFromStatPair(void)
+{
+    static const enum Stat menuIdxToStat[] = { STAT_ATK, STAT_DEF, STAT_SPATK, STAT_SPDEF, STAT_SPEED };
+    u16 raise = gSpecialVar_0x8005;
+    u16 lower = gSpecialVar_0x8006;
+    u32 i;
+
+    if (raise >= ARRAY_COUNT(menuIdxToStat) || lower >= ARRAY_COUNT(menuIdxToStat) || raise == lower)
+        return 0xFFFF;
+
+    // Neutral natures have statUp == statDown, so they can never match here.
+    for (i = 0; i < NUM_NATURES; i++)
+    {
+        if (gNaturesInfo[i].statUp == menuIdxToStat[raise]
+         && gNaturesInfo[i].statDown == menuIdxToStat[lower])
+            return i;
+    }
+    return 0xFFFF;
+}
+
+// Sets party mon VAR_0x8004's effective nature to VAR_0x8005 (0-24) through
+// the hidden nature (mint) system, so personality-derived traits like gender,
+// shininess, ability slot and Unown form are untouched. On success buffers the
+// new nature name into gStringVar2 and stores the previous nature id in
+// VAR_0x8006. VAR_RESULT: 1 = ok, 0 = failed.
+void ScrSpecial_SetMonNature(void)
+{
+    u16 slot = gSpecialVar_0x8004;
+    u32 nature = gSpecialVar_0x8005;
+    struct Pokemon *mon;
+
+    gSpecialVar_Result = 0;
+
+    if (slot >= PARTY_SIZE || nature >= NUM_NATURES)
+        return;
+    mon = &gPlayerParty[slot];
+    if (GetMonData(mon, MON_DATA_SPECIES) == SPECIES_NONE || GetMonData(mon, MON_DATA_IS_EGG))
+        return;
+
+    gSpecialVar_0x8006 = GetMonData(mon, MON_DATA_HIDDEN_NATURE);
+    SetMonData(mon, MON_DATA_HIDDEN_NATURE, &nature);
+    CalculateMonStats(mon);
+    StringCopy(gStringVar2, gNaturesInfo[nature].name);
+    gSpecialVar_Result = 1;
+}

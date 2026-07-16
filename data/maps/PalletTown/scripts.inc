@@ -519,3 +519,64 @@ PalletTown_EventScript_EVTrainerDone::
 	msgbox PalletTown_Text_EVTrainerDone
 	release
 	end
+
+PalletTown_EventScript_NatureCoach::
+	lock
+	faceplayer
+	msgbox PalletTown_Text_NatureCoachIntro
+	special ChoosePartyMon
+	waitstate
+	lock
+	faceplayer
+	goto_if_ge VAR_0x8004, PARTY_SIZE, PalletTown_EventScript_NatureCoachDone
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_eq VAR_RESULT, SPECIES_EGG, PalletTown_EventScript_NatureCoachEgg
+	special ScrSpecial_BufferMonNature
+	msgbox PalletTown_Text_NatureCoachCurrent
+PalletTown_EventScript_NatureCoachRaise::
+	msgbox PalletTown_Text_NatureCoachRaiseWhich
+	multichoice 0, 0, MULTI_NATURE_COACH_RAISE, FALSE
+	switch VAR_RESULT
+	case 5, PalletTown_EventScript_NatureCoachNeutral
+	case 6, PalletTown_EventScript_NatureCoachDone
+	case MULTI_B_PRESSED, PalletTown_EventScript_NatureCoachDone
+	copyvar VAR_0x8005, VAR_RESULT
+PalletTown_EventScript_NatureCoachLower::
+	msgbox PalletTown_Text_NatureCoachLowerWhich
+	multichoice 0, 0, MULTI_NATURE_COACH_LOWER, FALSE
+	goto_if_eq VAR_RESULT, 5, PalletTown_EventScript_NatureCoachRaise
+	goto_if_eq VAR_RESULT, MULTI_B_PRESSED, PalletTown_EventScript_NatureCoachRaise
+	copyvar VAR_0x8006, VAR_RESULT
+	specialvar VAR_RESULT, ScrSpecial_GetNatureFromStatPair
+	goto_if_eq VAR_RESULT, 0xFFFF, PalletTown_EventScript_NatureCoachSameStat
+	copyvar VAR_0x8005, VAR_RESULT
+	goto PalletTown_EventScript_NatureCoachApply
+
+PalletTown_EventScript_NatureCoachNeutral::
+	setvar VAR_0x8005, NATURE_HARDY
+PalletTown_EventScript_NatureCoachApply::
+	special ScrSpecial_SetMonNature
+	goto_if_eq VAR_RESULT, 0, PalletTown_EventScript_NatureCoachFailed
+	playfanfare MUS_LEVEL_UP
+	waitfanfare
+	msgbox PalletTown_Text_NatureCoachDoneChange
+	goto PalletTown_EventScript_NatureCoachDone
+
+PalletTown_EventScript_NatureCoachSameStat::
+	msgbox PalletTown_Text_NatureCoachSameStat
+	goto PalletTown_EventScript_NatureCoachLower
+
+PalletTown_EventScript_NatureCoachFailed::
+	msgbox PalletTown_Text_NatureCoachFailed
+	release
+	end
+
+PalletTown_EventScript_NatureCoachEgg::
+	msgbox PalletTown_Text_NatureCoachEgg
+	release
+	end
+
+PalletTown_EventScript_NatureCoachDone::
+	msgbox PalletTown_Text_NatureCoachBye
+	release
+	end

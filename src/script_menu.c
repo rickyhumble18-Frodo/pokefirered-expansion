@@ -674,6 +674,27 @@ static const struct MenuAction sMultichoiceList_EVTrainerAmount[] =
     {COMPOUND_STRING("Back")},
 };
 
+static const struct MenuAction sMultichoiceList_NatureCoachRaise[] =
+{
+    {COMPOUND_STRING("Attack")},
+    {COMPOUND_STRING("Defense")},
+    {COMPOUND_STRING("Sp. Atk")},
+    {COMPOUND_STRING("Sp. Def")},
+    {COMPOUND_STRING("Speed")},
+    {COMPOUND_STRING("Neutral")},
+    {gText_Exit},
+};
+
+static const struct MenuAction sMultichoiceList_NatureCoachLower[] =
+{
+    {COMPOUND_STRING("Attack")},
+    {COMPOUND_STRING("Defense")},
+    {COMPOUND_STRING("Sp. Atk")},
+    {COMPOUND_STRING("Sp. Def")},
+    {COMPOUND_STRING("Speed")},
+    {COMPOUND_STRING("Back")},
+};
+
 struct MultichoiceListStruct
 {
     const struct MenuAction *list;
@@ -760,6 +781,8 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_EV_TRAINER_ACTION]                          = MULTICHOICE(sMultichoiceList_EVTrainerAction),
     [MULTI_EV_TRAINER_STAT]                            = MULTICHOICE(sMultichoiceList_EVTrainerStat),
     [MULTI_EV_TRAINER_AMOUNT]                          = MULTICHOICE(sMultichoiceList_EVTrainerAmount),
+    [MULTI_NATURE_COACH_RAISE]                         = MULTICHOICE(sMultichoiceList_NatureCoachRaise),
+    [MULTI_NATURE_COACH_LOWER]                         = MULTICHOICE(sMultichoiceList_NatureCoachLower),
 };
 
 const u8 *const gStdStrings[] = {
