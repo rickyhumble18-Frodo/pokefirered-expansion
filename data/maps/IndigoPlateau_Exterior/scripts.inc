@@ -185,36 +185,3 @@ IndigoPlateau_Exterior_Movement_OakExitBuilding::
 	walk_down
 	step_end
 
-IndigoPlateau_Exterior_EventScript_Superboss::
-	lock
-	faceplayer
-	msgbox IndigoPlateau_Exterior_Text_SuperbossIntro, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, IndigoPlateau_Exterior_EventScript_SuperbossDecline
-	trainerbattle_no_intro TRAINER_SUPERBOSS_FRODO, IndigoPlateau_Exterior_Text_SuperbossDefeat
-	msgbox IndigoPlateau_Exterior_Text_SuperbossPostBattle
-	release
-	end
-
-IndigoPlateau_Exterior_EventScript_SuperbossDecline::
-	msgbox IndigoPlateau_Exterior_Text_SuperbossDecline
-	release
-	end
-
-IndigoPlateau_Exterior_Text_SuperbossIntro::
-	.string "…You climbed the whole mountain\n"
-	.string "just to find me.\p"
-	.string "I don't fight for badges.\n"
-	.string "I fight to find a wall I can't break.\p"
-	.string "Maybe it's you. Shall we?$"
-
-IndigoPlateau_Exterior_Text_SuperbossDefeat::
-	.string "…So the wall breaks.$"
-
-IndigoPlateau_Exterior_Text_SuperbossPostBattle::
-	.string "Don't get comfortable.\n"
-	.string "Next time it's a different team,\l"
-	.string "and I don't stop growing.$"
-
-IndigoPlateau_Exterior_Text_SuperbossDecline::
-	.string "…Come back when the silence\n"
-	.string "gets too loud.$"

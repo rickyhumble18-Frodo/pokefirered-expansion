@@ -15,6 +15,7 @@ CeruleanCave_B1F_EventScript_TryRemoveMewtwo::
 
 CeruleanCave_B1F_OnTransition::
 	call_if_unset FLAG_FOUGHT_MEWTWO, CeruleanCave_B1F_EventScript_ShowMewtwo
+	call_if_ge VAR_REMATCH_FRODO, 1, CeruleanCave_B1F_EventScript_SuperbossAside
 	end
 
 CeruleanCave_B1F_EventScript_ShowMewtwo::
@@ -56,3 +57,72 @@ CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	setvar VAR_0x8004, SPECIES_MEWTWO
 	goto EventScript_MonFlewAway
 	end
+
+CeruleanCave_B1F_EventScript_SuperbossAside::
+	setobjectxyperm LOCALID_CERULEAN_CAVE_SUPERBOSS, 5, 13
+	setobjectmovementtype LOCALID_CERULEAN_CAVE_SUPERBOSS, MOVEMENT_TYPE_FACE_DOWN
+	return
+
+CeruleanCave_B1F_EventScript_Superboss::
+	lock
+	faceplayer
+	goto_if_ge VAR_REMATCH_FRODO, 1, CeruleanCave_B1F_EventScript_SuperbossRematch
+	msgbox CeruleanCave_B1F_Text_SuperbossIntro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, CeruleanCave_B1F_EventScript_SuperbossDecline
+	trainerbattle_no_intro TRAINER_SUPERBOSS_FRODO, CeruleanCave_B1F_Text_SuperbossDefeat
+	msgbox CeruleanCave_B1F_Text_SuperbossFirstLoss
+	closemessage
+	applymovement LOCALID_CERULEAN_CAVE_SUPERBOSS, CeruleanCave_B1F_Movement_SuperbossStepAside
+	waitmovement 0
+	call CeruleanCave_B1F_EventScript_SuperbossAside
+	release
+	end
+
+CeruleanCave_B1F_EventScript_SuperbossRematch::
+	msgbox CeruleanCave_B1F_Text_SuperbossRematchAsk, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, CeruleanCave_B1F_EventScript_SuperbossDecline
+	trainerbattle_no_intro TRAINER_SUPERBOSS_FRODO, CeruleanCave_B1F_Text_SuperbossDefeat
+	msgbox CeruleanCave_B1F_Text_SuperbossPostBattle
+	release
+	end
+
+CeruleanCave_B1F_EventScript_SuperbossDecline::
+	msgbox CeruleanCave_B1F_Text_SuperbossDecline
+	release
+	end
+
+CeruleanCave_B1F_Movement_SuperbossStepAside::
+	walk_up
+	walk_up
+	walk_left
+	walk_left
+	face_down
+	step_end
+
+CeruleanCave_B1F_Text_SuperbossIntro::
+	.string "…You feel it too, don't you?\n"
+	.string "The thing sleeping past me.\p"
+	.string "I've guarded this door long enough\n"
+	.string "to know most trainers aren't ready.\p"
+	.string "Prove you are. Shall we?$"
+
+CeruleanCave_B1F_Text_SuperbossDefeat::
+	.string "…So the wall breaks.$"
+
+CeruleanCave_B1F_Text_SuperbossFirstLoss::
+	.string "…Fine. The door is yours.\p"
+	.string "But don't get comfortable —\n"
+	.string "next time it's a different team,\l"
+	.string "and I don't stop growing.$"
+
+CeruleanCave_B1F_Text_SuperbossRematchAsk::
+	.string "Back again?\n"
+	.string "I've been training. Shall we?$"
+
+CeruleanCave_B1F_Text_SuperbossPostBattle::
+	.string "Hmph. Stronger every time…\n"
+	.string "Both of us.$"
+
+CeruleanCave_B1F_Text_SuperbossDecline::
+	.string "…Come back when the silence\n"
+	.string "gets too loud.$"

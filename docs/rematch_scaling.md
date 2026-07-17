@@ -123,8 +123,14 @@ Misty counting wipes, and confirming rematch scaling stacks on the new bases.
 
 ## Superboss (post-game)
 
-A hidden trainer (FRODO) appears outside the Indigo Plateau after the first
-Hall of Fame (gated on FLAG_HIDE_POSTGAME_GOSSIPERS). He rotates three teams
+A hidden trainer (FRODO) guards Mewtwo inside Cerulean Cave B1F, appearing
+after the first Hall of Fame (gated on FLAG_HIDE_POSTGAME_GOSSIPERS). He
+stands at (7,15) — the single opening into Mewtwo's chamber, verified by
+collision BFS to cut every walking route from the floor entry to Mewtwo —
+so Mewtwo is unreachable until he's beaten once. On the first win he steps
+aside to (5,13); the position persists across save/reload because the map's
+ON_TRANSITION script repositions his object template whenever
+VAR_REMATCH_FRODO is at least 1. He rotates three teams
 on VAR_REMATCH_FRODO — win count % 3, +5 levels per win like every boss
 (Class: Champion), Omniscient AI, 2 Full Restores. Base levels 76/76/77/77/78
 with an 82 ace in every variant:
