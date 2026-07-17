@@ -17392,3 +17392,223 @@ EVs: 252 HP / 252 Atk
 - Megahorn
 - Scary Face
 
+
+=== TRAINER_SUPERBOSS_FRODO ===
+Name: FRODO
+Class: Champion
+Pic: Red
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
+
+Eternatus Eternamax @ Leftovers
+Ability: Pressure
+Calm Nature
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Dynamax Cannon
+- Flamethrower
+- Recover
+- Sludge Bomb
+
+Regigigas @ Leftovers
+Ability: Huge Power
+Adamant Nature
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Crush Grip
+- Knock Off
+- Earthquake
+- Thunder Wave
+
+Slaking @ Choice Band
+Ability: Scrappy
+Adamant Nature
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Giga Impact
+- Earthquake
+- Knock Off
+- Play Rough
+
+Ditto @ Choice Scarf
+Ability: Imposter
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP
+- Transform
+
+Blissey @ Heavy-Duty Boots
+Ability: Magic Guard
+Calm Nature
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Def / 252 SpD
+- Seismic Toss
+- Soft-Boiled
+- Toxic
+- Aromatherapy
+
+Mewtwo @ Mewtwonite Y
+Ability: Pressure
+Timid Nature
+Level: 82
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Psystrike
+- Aura Sphere
+- Ice Beam
+- Recover
+
+=== TRAINER_SUPERBOSS_FRODO_2 ===
+Name: FRODO
+Class: Champion
+Pic: Red
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
+
+Shuckle @ Leftovers
+Ability: Prankster
+Careful Nature
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Stealth Rock
+- Sticky Web
+- Toxic
+- Rest
+
+Aegislash @ Leftovers
+Ability: Wonder Guard
+Sassy Nature
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- King's Shield
+- Shadow Ball
+- Toxic
+- Recover
+
+Regigigas @ Leftovers
+Ability: Huge Power
+Adamant Nature
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Crush Grip
+- Knock Off
+- Earthquake
+- Thunder Wave
+
+Spiritomb @ Leftovers
+Ability: Magic Bounce
+Calm Nature
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpD
+- Foul Play
+- Will-O-Wisp
+- Sucker Punch
+- Pain Split
+
+Ditto @ Choice Scarf
+Ability: Imposter
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP
+- Transform
+
+Rayquaza @ Life Orb
+Ability: Delta Stream
+Adamant Nature
+Level: 82
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Dragon Ascent
+- Extreme Speed
+- Earthquake
+- Dragon Dance
+
+=== TRAINER_SUPERBOSS_FRODO_3 ===
+Name: FRODO
+Class: Champion
+Pic: Red
+Gender: Male
+Music: Male
+Items: Full Restore / Full Restore
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mon Choices / Omniscient
+
+Groudon @ Red Orb
+Ability: Drought
+Adamant Nature
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Precipice Blades
+- Fire Punch
+- Stealth Rock
+- Thunder Wave
+
+Kyogre @ Blue Orb
+Ability: Drizzle
+Modest Nature
+Level: 76
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 SpA
+- Origin Pulse
+- Thunder
+- Ice Beam
+- Calm Mind
+
+Zacian @ Rusted Sword
+Ability: Intrepid Sword
+Jolly Nature
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 Atk / 252 Spe
+- Iron Head
+- Play Rough
+- Close Combat
+- Swords Dance
+
+Necrozma Dusk Mane @ Leftovers
+Ability: Prism Armor
+Adamant Nature
+Level: 77
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Sunsteel Strike
+- Earthquake
+- Morning Sun
+- Dragon Dance
+
+Arceus @ Leftovers
+Ability: Multitype
+Adamant Nature
+Level: 78
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 HP / 252 Atk
+- Extreme Speed
+- Earthquake
+- Recover
+- Swords Dance
+
+Eternatus @ Life Orb
+Ability: Pressure
+Timid Nature
+Level: 82
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+EVs: 252 SpA / 252 Spe
+- Dynamax Cannon
+- Sludge Bomb
+- Flamethrower
+- Recover

@@ -120,3 +120,27 @@ exceeds that).
 
 Playtest checkpoints (not yet run): Brock AI sanity, a fresh-save run to
 Misty counting wipes, and confirming rematch scaling stacks on the new bases.
+
+## Superboss (post-game)
+
+A hidden trainer (FRODO) appears outside the Indigo Plateau after the first
+Hall of Fame (gated on FLAG_HIDE_POSTGAME_GOSSIPERS). He rotates three teams
+on VAR_REMATCH_FRODO — win count % 3, +5 levels per win like every boss
+(Class: Champion), Omniscient AI, 2 Full Restores. Base levels 76/76/77/77/78
+with an 82 ace in every variant:
+
+1. TRAINER_SUPERBOSS_FRODO — "The Stat Crimes": Eternatus-Eternamax wall,
+   Huge Power Regigigas, Scrappy Band Slaking, Scarf Imposter Ditto, Magic
+   Guard Blissey, Mega Mewtwo Y ace (AI mega-evolves via held Mewtwonite Y).
+2. TRAINER_SUPERBOSS_FRODO_2 — "Ability Abuse": Prankster Shuckle hazards,
+   Wonder Guard Aegislash (replaces Stance Change, so it stays a Shield-forme
+   wall), Huge Power Regigigas, Magic Bounce Spiritomb, Scarf Ditto, Delta
+   Stream Rayquaza ace.
+3. TRAINER_SUPERBOSS_FRODO_3 — "Legendary Apex": Primal Groudon and Kyogre
+   (orbs revert on entry), Zacian @ Rusted Sword (crowns on entry, Iron Head
+   becomes Behemoth Blade), Dusk Mane Necrozma, Arceus, Eternatus ace.
+
+The illegal abilities are implemented as species_info ability-slot edits for
+those species only (Regigigas, Slaking, Blissey, Shuckle, Spiritomb, Rayquaza,
+Aegislash-Shield) — wild/player copies of those species can roll them too,
+which is acceptable post-game per the design doc.

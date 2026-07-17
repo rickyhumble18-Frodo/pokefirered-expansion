@@ -307,7 +307,7 @@
 #define VAR_REMATCH_AGATHA         0x40FC
 #define VAR_REMATCH_LANCE          0x40FD
 #define VAR_REMATCH_CHAMPION       0x40FE
-#define VAR_0x40FF                 0x40FF
+#define VAR_REMATCH_FRODO          0x40FF // Superboss win counter.
 
 #define VARS_END                   0x40FF
 #define VARS_COUNT                 (VARS_END - VARS_START + 1)
