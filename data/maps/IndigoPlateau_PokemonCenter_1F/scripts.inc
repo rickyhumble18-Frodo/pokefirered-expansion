@@ -134,7 +134,7 @@ IndigoPlateau_PokemonCenter_1F_EventScript_AbilityCoachBye::
 IndigoPlateau_PokemonCenter_1F_Text_AbilityCoachIntro::
 	.string "I study POKéMON potential.\p"
 	.string "For ¥100,000 I can awaken a\n"
-	.string "different ability in a POKéMON —\l"
+	.string "different ability in a POKéMON…\l"
 	.string "even a HIDDEN one.\p"
 	.string "Interested?$"
 

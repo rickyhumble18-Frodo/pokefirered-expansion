@@ -111,7 +111,7 @@ CeruleanCave_B1F_Text_SuperbossDefeat::
 
 CeruleanCave_B1F_Text_SuperbossFirstLoss::
 	.string "…Fine. The door is yours.\p"
-	.string "But don't get comfortable —\n"
+	.string "But don't get comfortable…\n"
 	.string "next time it's a different team,\l"
 	.string "and I don't stop growing.$"
 
