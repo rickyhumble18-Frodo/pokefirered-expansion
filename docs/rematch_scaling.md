@@ -150,3 +150,23 @@ The illegal abilities are implemented as species_info ability-slot edits for
 those species only (Regigigas, Slaking, Blissey, Shuckle, Spiritomb, Rayquaza,
 Aegislash-Shield) — wild/player copies of those species can roll them too,
 which is acceptable post-game per the design doc.
+
+## Ability Coach (post-game)
+
+A scientist in the Indigo Plateau Pokémon Center lobby (19,12) switches a
+party mon's ability slot — primary / secondary / hidden — for ¥100,000
+(`.set ABILITY_COACH_PRICE` in the map's scripts.inc). Present but refusing
+before the first Hall of Fame (FLAG_SYS_GAME_CLEAR). Backed by
+`ScrSpecial_SetMonAbilitySlot` (`VAR_0x8004` slot, `VAR_0x8005` target
+ability slot 0-2, `VAR_0x8006` 0 = validate / 1 = apply): validation runs
+before any money moves and rejects empty slots and the already-active slot,
+so failed or cancelled paths never charge. Battle resolution reads
+`abilityNum` (`GetAbilityBySpecies` handles hidden = slot 2), and evolution
+preserves `abilityNum`, so purchases stick.
+
+Superboss ability-slot edits the coach exposes on player copies (post-game
+tradeoff, accepted by design): Regigigas → Huge Power, Slaking → Scrappy,
+Blissey → Magic Guard (hidden), Shuckle → Prankster, Spiritomb → Magic
+Bounce, Rayquaza → Delta Stream, Aegislash → Wonder Guard. Of these, only
+the Chansey line is catchable in vanilla FRLG encounter pools — the rest
+matter only if those species become obtainable.

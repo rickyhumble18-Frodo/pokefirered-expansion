@@ -4074,3 +4074,47 @@ void ScrSpecial_SetMonNature(void)
     StringCopy(gStringVar2, gNaturesInfo[nature].name);
     gSpecialVar_Result = 1;
 }
+
+// Ability Coach NPC (see data/maps/IndigoPlateau_PokemonCenter_1F/scripts.inc).
+// Buffers the current ability name of party mon VAR_0x8004 into gStringVar2.
+void ScrSpecial_BufferMonAbility(void)
+{
+    struct Pokemon *mon = &gPlayerParty[gSpecialVar_0x8004];
+    enum Ability ability = GetAbilityBySpecies(GetMonData(mon, MON_DATA_SPECIES),
+                                               GetMonData(mon, MON_DATA_ABILITY_NUM));
+
+    StringCopy(gStringVar2, gAbilitiesInfo[ability].name);
+}
+
+// Switches a party mon's ability slot (0 = primary, 1 = secondary, 2 = hidden).
+// VAR_0x8004 = party slot, VAR_0x8005 = target ability slot,
+// VAR_0x8006 = mode (0 = validate only, 1 = apply).
+// VAR_RESULT: 1 = ok, 0 = invalid (bad input, egg, the species has no ability
+// in that slot, or that slot is already active). On success (both modes) the
+// target ability's name is buffered into gStringVar3. Validation never charges
+// or changes anything; the script only calls apply after a passed check.
+void ScrSpecial_SetMonAbilitySlot(void)
+{
+    u16 slot = gSpecialVar_0x8004;
+    u16 targetSlot = gSpecialVar_0x8005;
+    u16 mode = gSpecialVar_0x8006;
+    struct Pokemon *mon;
+    enum Ability target;
+
+    gSpecialVar_Result = 0;
+
+    if (slot >= PARTY_SIZE || targetSlot >= NUM_ABILITY_SLOTS || mode > 1)
+        return;
+    mon = &gPlayerParty[slot];
+    if (GetMonData(mon, MON_DATA_SPECIES) == SPECIES_NONE || GetMonData(mon, MON_DATA_IS_EGG))
+        return;
+
+    target = GetSpeciesAbility(GetMonData(mon, MON_DATA_SPECIES), targetSlot);
+    if (target == ABILITY_NONE || targetSlot == GetMonData(mon, MON_DATA_ABILITY_NUM))
+        return;
+
+    StringCopy(gStringVar3, gAbilitiesInfo[target].name);
+    if (mode == 1)
+        SetMonData(mon, MON_DATA_ABILITY_NUM, &targetSlot);
+    gSpecialVar_Result = 1;
+}

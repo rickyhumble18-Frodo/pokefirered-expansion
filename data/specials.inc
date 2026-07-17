@@ -356,4 +356,6 @@ gSpecials::
 	def_special ScrSpecial_BufferMonNature
 	def_special ScrSpecial_GetNatureFromStatPair
 	def_special ScrSpecial_SetMonNature
+	def_special ScrSpecial_BufferMonAbility
+	def_special ScrSpecial_SetMonAbilitySlot
 gSpecialsEnd::
