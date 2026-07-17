@@ -153,9 +153,9 @@ which is acceptable post-game per the design doc.
 
 ## Ability Coach (post-game)
 
-A scientist in the Indigo Plateau Pokémon Center lobby (19,12) switches a
+A scientist in Pallet Town (6,12), beside the Effort and Nature Coaches, switches a
 party mon's ability slot — primary / secondary / hidden — for ¥100,000
-(`.set ABILITY_COACH_PRICE` in the map's scripts.inc). Present but refusing
+(`.set ABILITY_COACH_PRICE` in PalletTown's scripts.inc). Present but refusing
 before the first Hall of Fame (FLAG_SYS_GAME_CLEAR). Backed by
 `ScrSpecial_SetMonAbilitySlot` (`VAR_0x8004` slot, `VAR_0x8005` target
 ability slot 0-2, `VAR_0x8006` 0 = validate / 1 = apply): validation runs

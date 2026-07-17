@@ -580,3 +580,123 @@ PalletTown_EventScript_NatureCoachDone::
 	msgbox PalletTown_Text_NatureCoachBye
 	release
 	end
+
+	.set ABILITY_COACH_PRICE, 100000
+
+PalletTown_EventScript_AbilityCoach::
+	lock
+	faceplayer
+	goto_if_unset FLAG_SYS_GAME_CLEAR, PalletTown_EventScript_AbilityCoachNotChampion
+	msgbox PalletTown_Text_AbilityCoachIntro, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PalletTown_EventScript_AbilityCoachBye
+	special ChoosePartyMon
+	waitstate
+	lock
+	faceplayer
+	goto_if_ge VAR_0x8004, PARTY_SIZE, PalletTown_EventScript_AbilityCoachBye
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	goto_if_eq VAR_RESULT, SPECIES_EGG, PalletTown_EventScript_AbilityCoachEgg
+	special ScrSpecial_BufferMonAbility
+	msgbox PalletTown_Text_AbilityCoachCurrent
+	multichoice 0, 0, MULTI_ABILITY_COACH, FALSE
+	switch VAR_RESULT
+	case 3, PalletTown_EventScript_AbilityCoachBye
+	case MULTI_B_PRESSED, PalletTown_EventScript_AbilityCoachBye
+	copyvar VAR_0x8005, VAR_RESULT
+	setvar VAR_0x8006, 0
+	special ScrSpecial_SetMonAbilitySlot
+	goto_if_eq VAR_RESULT, 0, PalletTown_EventScript_AbilityCoachInvalid
+	showmoneybox 0, 0
+	msgbox PalletTown_Text_AbilityCoachConfirm, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, PalletTown_EventScript_AbilityCoachDeclined
+	checkmoney ABILITY_COACH_PRICE
+	goto_if_eq VAR_RESULT, FALSE, PalletTown_EventScript_AbilityCoachNoMoney
+	removemoney ABILITY_COACH_PRICE
+	updatemoneybox
+	setvar VAR_0x8006, 1
+	special ScrSpecial_SetMonAbilitySlot
+	goto_if_eq VAR_RESULT, 0, PalletTown_EventScript_AbilityCoachInvalid
+	playfanfare MUS_LEVEL_UP
+	waitfanfare
+	msgbox PalletTown_Text_AbilityCoachDone
+	hidemoneybox
+	release
+	end
+
+PalletTown_EventScript_AbilityCoachNotChampion::
+	msgbox PalletTown_Text_AbilityCoachNotChampion
+	release
+	end
+
+PalletTown_EventScript_AbilityCoachInvalid::
+	hidemoneybox
+	msgbox PalletTown_Text_AbilityCoachInvalid
+	release
+	end
+
+PalletTown_EventScript_AbilityCoachDeclined::
+	hidemoneybox
+	msgbox PalletTown_Text_AbilityCoachBye2
+	release
+	end
+
+PalletTown_EventScript_AbilityCoachNoMoney::
+	hidemoneybox
+	msgbox PalletTown_Text_AbilityCoachNoMoney
+	release
+	end
+
+PalletTown_EventScript_AbilityCoachEgg::
+	msgbox PalletTown_Text_AbilityCoachEgg
+	release
+	end
+
+PalletTown_EventScript_AbilityCoachBye::
+	msgbox PalletTown_Text_AbilityCoachBye2
+	release
+	end
+
+PalletTown_Text_AbilityCoachIntro::
+	.string "I study POKéMON potential.\p"
+	.string "For ¥100,000 I can awaken a\n"
+	.string "different ability in a POKéMON…\l"
+	.string "even a HIDDEN one.\p"
+	.string "Interested?$"
+
+PalletTown_Text_AbilityCoachCurrent::
+	.string "Its ability right now is\n"
+	.string "{STR_VAR_2}.\p"
+	.string "Which slot shall I awaken?$"
+
+PalletTown_Text_AbilityCoachConfirm::
+	.string "That slot holds {STR_VAR_3}.\p"
+	.string "The price is ¥100,000.\n"
+	.string "Shall I proceed?$"
+
+PalletTown_Text_AbilityCoachDone::
+	.string "It's done!\p"
+	.string "Its ability is now\n"
+	.string "{STR_VAR_3}!$"
+
+PalletTown_Text_AbilityCoachInvalid::
+	.string "Hmm… no. Either it has no ability\n"
+	.string "in that slot, or that slot is\l"
+	.string "already active.\p"
+	.string "No charge, of course.$"
+
+PalletTown_Text_AbilityCoachNoMoney::
+	.string "You don't have ¥100,000.\n"
+	.string "I don't work on credit.$"
+
+PalletTown_Text_AbilityCoachEgg::
+	.string "…That's an EGG.\n"
+	.string "It hasn't even decided what it is.$"
+
+PalletTown_Text_AbilityCoachNotChampion::
+	.string "My services are for CHAMPIONS.\p"
+	.string "Come back once your name is in\n"
+	.string "the HALL OF FAME.$"
+
+PalletTown_Text_AbilityCoachBye2::
+	.string "Potential is patient.\n"
+	.string "It'll wait.$"
