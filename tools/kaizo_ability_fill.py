@@ -28,6 +28,11 @@ CACHE = REPO / "tools/.ability_fill_species.json"
 DOC = REPO / "docs/ability_assignments.md"
 
 ABILITY_CAP = 59  # ~5% of 1182 slots
+PER_ABILITY_CAP = {  # revision pass: rein in the six most-converged picks
+    "ABILITY_DEFIANT": 25, "ABILITY_COMPETITIVE": 25, "ABILITY_MOXIE": 25,
+    "ABILITY_ADAPTABILITY": 25, "ABILITY_TOUGH_CLAWS": 25, "ABILITY_SHEER_FORCE": 25,
+}
+def cap_of(a): return PER_ABILITY_CAP.get(a, ABILITY_CAP)
 
 BANLIST = {
     "ABILITY_WONDER_GUARD", "ABILITY_IMPOSTER", "ABILITY_MOODY",
@@ -43,7 +48,7 @@ ABILITY_FORM_EXEMPT_PREFIXES = (
     "SPECIES_CRAMORANT", "SPECIES_MORPEKO", "SPECIES_PALAFIN",
     "SPECIES_CASTFORM", "SPECIES_CHERRIM", "SPECIES_ARCEUS",
     "SPECIES_SILVALLY", "SPECIES_GRENINJA_BATTLE_BOND", "SPECIES_GRENINJA_ASH",
-    "SPECIES_TERAPAGOS", "SPECIES_OGERPON", "SPECIES_SHELLOS",  # Shellos fine actually
+    "SPECIES_TERAPAGOS", "SPECIES_OGERPON", "SPECIES_SHEDINJA", "SPECIES_SHELLOS",  # Shellos fine actually
 )
 ABILITY_FORM_EXEMPT_PREFIXES = tuple(p for p in ABILITY_FORM_EXEMPT_PREFIXES if p != "SPECIES_SHELLOS")
 
@@ -184,6 +189,8 @@ CURATED_LINE = {
 
 # Final-stage upgrades (species-level override on top of the line decision).
 CURATED_STAGE = {
+    "SPECIES_KARTANA":    ("ABILITY_SHARPNESS", None),  # the paper sword
+
     "SPECIES_BUTTERFREE": ("ABILITY_EFFECT_SPORE", None),  # powder-scale wings; Tinted Lens already hidden
     "SPECIES_EXEGGUTOR":  ("ABILITY_SOLAR_POWER", None),   # sun palm; Harvest already hidden
     "SPECIES_MOLTRES":    ("ABILITY_DROUGHT", None),       # the firebird brings the sun; Flame Body already hidden
@@ -257,6 +264,10 @@ def base_of_form(name, species):
     return None
 
 
+def pretty_name(ab):
+    return ab.replace("ABILITY_", "").replace("_", " ").title()
+
+
 def main():
     doc_only = "apply" not in sys.argv[1:]
     if not doc_only:
@@ -303,7 +314,7 @@ def main():
         cur = species[sp]["abilities"]
         if cur[slot] != "ABILITY_NONE" or ability in cur:
             return False
-        if counts[ability] >= ABILITY_CAP:
+        if counts[ability] >= cap_of(ability):
             return False
         assignments.setdefault(sp, {})[slot] = (ability, why)
         counts[ability] += 1
@@ -321,13 +332,41 @@ def main():
 
     exempt = [k for k in species if k.startswith(ABILITY_FORM_EXEMPT_PREFIXES)]
 
+    # 1b) form-linked legendary groups: identical fills on every member,
+    # both slots, decided once per group.
+    LINKED_GROUPS = [
+        (("SPECIES_ZACIAN",), {1: ("ABILITY_SHARPNESS", "the sword"), 2: ("ABILITY_JUSTIFIED", "sword of justice")}),
+        (("SPECIES_ZAMAZENTA",), {1: ("ABILITY_STAMINA", "the shield"), 2: ("ABILITY_DEFIANT", "the proud shield refuses to yield")}),
+        (("SPECIES_CALYREX",), {1: ("ABILITY_REGENERATOR", "the king restores the land"), 2: ("ABILITY_HARVEST", "king of bountiful harvests")}),
+        (("SPECIES_ETERNATUS",), {1: ("ABILITY_LEVITATE", "floats in the upper atmosphere"), 2: ("ABILITY_REGENERATOR", "infinite energy core")}),
+        (("SPECIES_KYUREM",), {1: ("ABILITY_ICE_SCALES", "frozen husk armor"), 2: ("ABILITY_DRAGONS_MAW", "the original dragon's power")}),
+        (("SPECIES_NECROZMA",), {1: ("ABILITY_TINTED_LENS", "light-eater pierces resistance"), 2: ("ABILITY_ANALYTIC", "prism intelligence")}),
+        (("SPECIES_GROUDON",), {1: ("ABILITY_SOLID_ROCK", "the continent shrugs"), 2: ("ABILITY_SHEER_FORCE", "magma-charged blows")}),
+        (("SPECIES_KYOGRE",), {1: ("ABILITY_STORM_DRAIN", "the sea pulls water in"), 2: ("ABILITY_SWIFT_SWIM", "is the current")}),
+        (("SPECIES_KORAIDON",), {1: ("ABILITY_TOUGH_CLAWS", "primal fighter"), 2: ("ABILITY_RECKLESS", "prehistoric abandon")}),
+        (("SPECIES_MIRAIDON",), {1: ("ABILITY_TRANSISTOR", "the future engine"), 2: ("ABILITY_LEVITATE", "hover mode")}),
+        (("SPECIES_URSHIFU",), {1: ("ABILITY_IRON_FIST", "the fist style incarnate"), 2: ("ABILITY_STAMINA", "training-hardened body")}),
+    ]
+    linked_members = set()
+    linked_fills = []
+    for prefixes, fills in LINKED_GROUPS:
+        for sp in sorted(species):
+            if not sp.startswith(prefixes) or sp.startswith(ABILITY_FORM_EXEMPT_PREFIXES):
+                continue
+            linked_members.add(sp)
+            for slot, (ab, why) in fills.items():
+                if species[sp]["abilities"][slot] == "ABILITY_NONE" and ab not in species[sp]["abilities"]:
+                    assignments.setdefault(sp, {})[slot] = (ab, why + " (identical across all linked forms)")
+                    counts[ab] += 1
+                    linked_fills.append(sp)
+
     # 2) line fills
     fams = defaultdict(list)
     for k in species:
         if k in ("SPECIES_NONE", "SPECIES_EGG") or k.startswith(ABILITY_FORM_EXEMPT_PREFIXES):
             continue
-        if k in inherit_from:
-            continue  # forms fill later by inheritance
+        if k in linked_members or k in inherit_from:
+            continue  # linked groups decided above; forms fill by inheritance
         fams[find(k)].append(k)
 
     def stat(sp, key):
@@ -363,6 +402,12 @@ def main():
             def engine_pick(want_offense, avoid):
                 cands = []
                 if want_offense:
+                    if atk <= 55 and "TYPE_PSYCHIC" in types:
+                        cands.append(("ABILITY_PURE_POWER", "meme-to-monster: doubled attack from mental focus"))
+                    elif atk <= 55:
+                        cands.append(("ABILITY_HUGE_POWER", "meme-to-monster: doubled attack on a weak attacker"))
+                    if "TYPE_WATER" in types and spa >= atk:
+                        cands.append(("ABILITY_WATER_BUBBLE", "aquatic bubble doubles water damage and blocks burns"))
                     for ty in types:
                         if ty in TYPE_OFFENSE: cands.append((TYPE_OFFENSE[ty], f"{ty.replace('TYPE_','').title()}-type damage amplifier"))
                     if spe >= 95:
@@ -372,6 +417,10 @@ def main():
                     for a in OFFENSE_ORDER:
                         cands.append((a, "strong attacker tool for its stat profile"))
                 else:
+                    if spe <= 60 and max(atk, spa) <= 70:
+                        cands.append(("ABILITY_PRANKSTER", "slow supporter moves first where it matters"))
+                    if max(atk, spa) >= 60 and int(species[sp].get("hp") or 0) + int(species[sp].get("def") or 0) <= 130:
+                        cands.append(("ABILITY_SERENE_GRACE", "small body, outsized luck"))
                     for ty in types:
                         if ty in TYPE_SUSTAIN: cands.append((TYPE_SUSTAIN[ty], f"defensive tool matching its {ty.replace('TYPE_','').lower()} typing"))
                         if ty in CONTACT_PUNISH: cands.append((CONTACT_PUNISH[ty], "typed contact punishment"))
@@ -381,7 +430,7 @@ def main():
                 # prefer the least-used (spec rule: spread the wealth)
                 legal = [(a, w) for a, w in cands
                          if a not in avoid and a not in BANLIST
-                         and a not in species[sp]["abilities"] and counts[a] < ABILITY_CAP]
+                         and a not in species[sp]["abilities"] and counts[a] < cap_of(a)]
                 if not legal:
                     return None, None
                 head = legal[:6]
@@ -417,7 +466,7 @@ def main():
             tycands = [TYPE_OFFENSE.get(ty) for ty in types] + [TYPE_SUSTAIN.get(ty) for ty in types]
             for a in [c for c in tycands if c] + pool:
                 taken = {x[0] for x in assignments.get(sp, {}).values()}
-                if a in BANLIST or a in v["abilities"] or a in taken or counts[a] >= ABILITY_CAP:
+                if a in BANLIST or a in v["abilities"] or a in taken or counts[a] >= cap_of(a):
                     continue
                 assign(sp, slot, a, "fallback fill (curated pick duplicated an existing ability)")
                 break
@@ -426,6 +475,8 @@ def main():
     inherit_counts = defaultdict(int)
     inherited = []
     for form, base in sorted(inherit_from.items()):
+        if form.startswith(ABILITY_FORM_EXEMPT_PREFIXES) or form in linked_members:
+            continue
         for slot in (1, 2):
             if species[form]["abilities"][slot] == "ABILITY_NONE":
                 src = assignments.get(base, {}).get(slot)
@@ -436,12 +487,58 @@ def main():
                     inherit_counts[src[0]] += 1
                     inherited.append(form)
 
+    # 3b) exempt species: duplicate their form-mechanic ability into every
+    # empty slot so no slot in the dex is empty. The Ability Coach must refuse
+    # buying a slot whose ability equals the current one (Phase 3 code tweak).
+    exempt_dups = []
+    for sp in species:
+        if not sp.startswith(ABILITY_FORM_EXEMPT_PREFIXES):
+            continue
+        mech = species[sp]["abilities"][0]
+        for slot in (1, 2):
+            if species[sp]["abilities"][slot] == "ABILITY_NONE":
+                assignments.setdefault(sp, {})[slot] = (mech, "exempt: duplicate of form-mechanic ability")
+                exempt_dups.append((sp, slot, mech))
+
     # 4) final sweep so no non-exempt slot is left empty
     for sp in species:
         if sp in ("SPECIES_NONE", "SPECIES_EGG") or sp.startswith(ABILITY_FORM_EXEMPT_PREFIXES):
             continue
         sweep_fill(sp)
 
+    # 5) refit pass: replace flagged mismatches (self-audit) with fitting picks
+    PHYS_R = {"ABILITY_HUGE_POWER","ABILITY_PURE_POWER","ABILITY_TOUGH_CLAWS","ABILITY_STRONG_JAW",
+              "ABILITY_IRON_FIST","ABILITY_SHARPNESS","ABILITY_GORILLA_TACTICS","ABILITY_MOXIE",
+              "ABILITY_DEFIANT","ABILITY_RECKLESS","ABILITY_GUTS"}
+    CLAWJAW_R = {"ABILITY_TOUGH_CLAWS","ABILITY_STRONG_JAW","ABILITY_SHARPNESS","ABILITY_IRON_FIST"}
+    SPECIAL_POOL = ["ABILITY_TINTED_LENS","ABILITY_ANALYTIC","ABILITY_COMPETITIVE","ABILITY_DOWNLOAD",
+                    "ABILITY_SNIPER","ABILITY_SERENE_GRACE","ABILITY_SOLAR_POWER"]
+    def final_of_r(sp):
+        if sp not in parent: return sp
+        root = find(sp)
+        fam = [m for m in species if m in parent and find(m) == root]
+        return max(fam, key=lambda s: sum(int(species[s].get(k) or 0) for k in ("hp","atk","def","spa","spd","spe")))
+    refitted = []
+    for sp in list(assignments):
+        for slot in list(assignments[sp]):
+            ab, why = assignments[sp][slot]
+            if why.startswith(("exempt:", "curated")) or "identical across" in why or ab in ("ABILITY_HUGE_POWER","ABILITY_PURE_POWER"):
+                continue
+            fin = final_of_r(sp)
+            fatk, fspa = int(species[fin].get("atk") or 0), int(species[fin].get("spa") or 0)
+            bad = (ab in PHYS_R and fatk < 80) or (ab in CLAWJAW_R and fspa > fatk + 15)
+            if not bad:
+                continue
+            taken = {x[0] for s2, x in assignments[sp].items() if s2 != slot} | set(species[sp]["abilities"])
+            pool = (SPECIAL_POOL if fspa > fatk else []) + SUSTAIN_ORDER + [TYPE_SUSTAIN.get(ty) for ty in (species[sp]["types"][0] if species[sp]["types"] else ())]
+            for cand in [c for c in pool if c]:
+                if cand in BANLIST or cand in taken or counts[cand] >= cap_of(cand):
+                    continue
+                counts[ab] -= 1
+                counts[cand] += 1
+                assignments[sp][slot] = (cand, f"refit: replaced misfit {pretty_name(ab)} on a {'special-attacking' if fspa > fatk else 'weak-attack'} line")
+                refitted.append(sp)
+                break
     # emit doc
     def pretty(ab): return ab.replace("ABILITY_", "").replace("_", " ").title()
     dex = {}
@@ -487,14 +584,14 @@ a form change.
 
 | Group | Link | Finding | Shared fill |
 |---|---|---|---|
-| Zacian Hero + Crowned | Rusted Sword, battle start | safe; Intrepid Sword is slot 1 on both | Sharpness (slot 2) |
-| Zamazenta Hero + Crowned | Rusted Shield, battle start | safe; Dauntless Shield slot 1 on both | Stamina (slot 2) |
-| Calyrex + Ice/Shadow Rider | Reins fusion | safe; As One is slot 1 of rider forms | Regenerator (slot 2) |
-| Eternatus + Eternamax | trainer-only form | safe; player never Eternamaxes | Levitate (slot 2) |
-| Kyurem + White/Black | DNA Splicers fusion | safe | Ice Scales (slot 2) |
-| Necrozma + Dusk/Dawn/Ultra | Prism fusion / Ultra Burst | safe | Tinted Lens (slot 2) |
-| Groudon/Kyogre + Primal | orb, battle-only, reverts | safe | Solid Rock / Storm Drain (slot 2) |
-| Koraidon / Miraidon builds | ride modes, non-battle | safe | Tough Claws / Transistor (slot 2) |
+| Zacian Hero + Crowned | Rusted Sword, battle start | safe; Intrepid Sword is slot 1 on both | Sharpness (2) + Justified (H), identical on both |
+| Zamazenta Hero + Crowned | Rusted Shield, battle start | safe; Dauntless Shield slot 1 on both | Stamina (2) + Defiant (H), identical on both |
+| Calyrex + Ice/Shadow Rider | Reins fusion | safe; As One is slot 1 of rider forms | Regenerator (2) + Harvest (H), identical |
+| Eternatus + Eternamax | trainer-only form | safe; player never Eternamaxes | Levitate (2) + Regenerator (H), identical |
+| Kyurem + White/Black | DNA Splicers fusion | safe | Ice Scales (2) + Dragon's Maw (H), identical |
+| Necrozma + Dusk/Dawn/Ultra | Prism fusion / Ultra Burst | safe | Tinted Lens (2) + Analytic (H), identical |
+| Groudon/Kyogre + Primal | orb, battle-only, reverts | safe | Solid Rock+Sheer Force / Storm Drain+Swift Swim, identical |
+| Koraidon / Miraidon builds | ride modes, non-battle | safe | Tough Claws+Reckless / Transistor+Levitate, identical |
 | Therian formes (Tornadus etc.) | Reveal Glass | safe; forms inherit base fills | per line |
 
 ## Assignments (dex order; forms inherit their base and are listed once)
@@ -507,10 +604,54 @@ a form change.
                 ab, why = assignments[sp][slot]
                 f.write(f"| {dexof(sp)} | {sp.replace('SPECIES_','')} | {'2' if slot==1 else 'H'} | {pretty(ab)} | {why} |\n")
 
+        # self-audit (revision item 5)
+        PHYS = {"ABILITY_HUGE_POWER","ABILITY_PURE_POWER","ABILITY_TOUGH_CLAWS","ABILITY_STRONG_JAW",
+                "ABILITY_IRON_FIST","ABILITY_SHARPNESS","ABILITY_GORILLA_TACTICS","ABILITY_MOXIE",
+                "ABILITY_DEFIANT","ABILITY_RECKLESS","ABILITY_GUTS"}
+        CLAWJAW = {"ABILITY_TOUGH_CLAWS","ABILITY_STRONG_JAW","ABILITY_SHARPNESS","ABILITY_IRON_FIST"}
+        def final_of(sp):
+            root = find(sp) if sp in parent else sp
+            fam = [m for m in species if m in parent and find(m) == root]
+            return max(fam, key=lambda s: sum(int(species[s].get(k) or 0) for k in ("hp","atk","def","spa","spd","spe"))) if fam else sp
+        f.write("\n## Self-audit (revision item 5)\n\n")
+        f.write("Physical-boost fills where the line's FINAL stage has base Atk < 80 "
+                "(Huge/Pure Power meme picks are intentional and marked):\n\n")
+        n = 0
+        for sp in sorted(assignments, key=lambda s: (dexof(s), s)):
+            for slot, (ab, why) in assignments[sp].items():
+                if why.startswith(("exempt:", "curated")) or "identical across" in why or "inherits" in why:
+                    continue
+                if ab in PHYS:
+                    fin = final_of(sp)
+                    fatk = int(species[fin].get("atk") or 0)
+                    if fatk < 80:
+                        tag = "INTENTIONAL meme pick" if ab in ("ABILITY_HUGE_POWER","ABILITY_PURE_POWER") else "flagged"
+                        f.write(f"- {sp.replace('SPECIES_','')} {'2' if slot==1 else 'H'} = {pretty(ab)} (final-stage Atk {fatk}) — {tag}\n")
+                        n += 1
+        f.write(f"\n({n} rows)\n\nClaw/jaw/blade fills on special-leaning species (final SpA > Atk + 15):\n\n")
+        n = 0
+        for sp in sorted(assignments, key=lambda s: (dexof(s), s)):
+            for slot, (ab, why) in assignments[sp].items():
+                if why.startswith(("exempt:", "curated")) or "identical across" in why or "inherits" in why:
+                    continue
+                if ab in CLAWJAW:
+                    fin = final_of(sp)
+                    fatk, fspa = int(species[fin].get("atk") or 0), int(species[fin].get("spa") or 0)
+                    if fspa > fatk + 15:
+                        f.write(f"- {sp.replace('SPECIES_','')} {'2' if slot==1 else 'H'} = {pretty(ab)} (final Atk {fatk} / SpA {fspa}) — flagged\n")
+                        n += 1
+        f.write(f"\n({n} rows)\n")
+        empty_total = sum(1 for v in species.values() for s in (1,2) if v["abilities"][s] == "ABILITY_NONE")
+        filled_all = sum(len(v) for v in assignments.values())
+        f.write(f"\n### Reconciliation\n\nPhase 1 empty slots: {empty_total}. "
+                f"Assignments in this doc: {filled_all} "
+                f"(regular decisions + linked-group fills + form inheritances + {len(exempt_dups)} exempt duplicates). "
+                f"{empty_total} - {filled_all} = {empty_total - filled_all} (must be 0).\n")
+
         f.write("\n## Per-ability usage counts (assigned fills only)\n\n")
         used = {a: (c, inherit_counts.get(a, 0)) for a, c in counts.items() if c > 0 or inherit_counts.get(a, 0)}
         for a, (c, ic) in sorted(used.items(), key=lambda x: -(x[1][0]+x[1][1])):
-            flag = " ⚠ OVER CAP" if c > ABILITY_CAP else ""
+            flag = " ⚠ OVER CAP" if c > cap_of(a) else ""
             extra = f" (+{ic} form inheritance)" if ic else ""
             f.write(f"- {pretty(a)}: {c}{extra}{flag}\n")
 
@@ -520,7 +661,8 @@ a form change.
     print(f"filled {filled} slots; evasion replacements {len(evasion_out)}; doc at {DOC}")
     over = [a for a, c in counts.items() if c > ABILITY_CAP]
     print("over cap:", [pretty(a) for a in over] or "none")
-    banned_assigned = [a for v in assignments.values() for (a, _) in v.values() if a in BANLIST]
+    banned_assigned = [a for v in assignments.values() for (a, w) in v.values()
+                       if a in BANLIST and not w.startswith("exempt:")]
     print("banned assigned:", banned_assigned or "none")
 
 
