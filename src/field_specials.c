@@ -4109,9 +4109,17 @@ void ScrSpecial_SetMonAbilitySlot(void)
     if (GetMonData(mon, MON_DATA_SPECIES) == SPECIES_NONE || GetMonData(mon, MON_DATA_IS_EGG))
         return;
 
-    target = GetSpeciesAbility(GetMonData(mon, MON_DATA_SPECIES), targetSlot);
-    if (target == ABILITY_NONE || targetSlot == GetMonData(mon, MON_DATA_ABILITY_NUM))
-        return;
+    // Compare by resulting ability, not slot number: species whose slots were
+    // duplicate-filled with one ability (Arceus, Silvally, Shedinja, ...) must
+    // refuse a switch that would land on the same ability, so the coach never
+    // charges for a no-op.
+    {
+        enum Species monSpecies = GetMonData(mon, MON_DATA_SPECIES);
+        enum Ability current = GetAbilityBySpecies(monSpecies, GetMonData(mon, MON_DATA_ABILITY_NUM));
+        target = GetSpeciesAbility(monSpecies, targetSlot);
+        if (target == ABILITY_NONE || target == current)
+            return;
+    }
 
     StringCopy(gStringVar3, gAbilitiesInfo[target].name);
     if (mode == 1)

@@ -56,7 +56,9 @@ HUGE_POWER_EXCLUDE_PREFIXES = (
     "SPECIES_EXEGGCUTE", "SPECIES_EXEGGUTOR",
     "SPECIES_DEOXYS_DEFENSE", "SPECIES_DEOXYS_NORMAL",
     "SPECIES_SCREAM_TAIL", "SPECIES_FLUTTER_MANE",
+    "SPECIES_GRUBBIN", "SPECIES_CHARJABUG", "SPECIES_VIKAVOLT",  # line ends special (Vikavolt)
 )
+HUGE_POWER_ABILITIES = {"ABILITY_HUGE_POWER", "ABILITY_PURE_POWER"}
 
 # Species whose form mechanics live in their ability; coaching it away would
 # brick the form logic, so their empty slots stay empty.
@@ -108,7 +110,8 @@ EVASION_REPLACEMENTS = {
     "SPECIES_SANDSLASH_ALOLA": {0: ("ABILITY_SLUSH_RUSH", "igloo shrew speeds through snow")},
     "SPECIES_VULPIX_ALOLA":   {0: ("ABILITY_ICE_BODY", "snowfield fox sustains in its element; Snow Warning stays hidden")},
     "SPECIES_NINETALES_ALOLA": {0: ("ABILITY_ICE_BODY", "snowfield fox sustains in its element; Snow Warning stays hidden")},
-    "SPECIES_GLACEON":        {0: ("ABILITY_REFRIGERATE", "the ice-ate eeveelution finally gets a weapon")},
+    "SPECIES_GLACEON":        {0: ("ABILITY_REFRIGERATE", "the ice-ate eeveelution finally gets a weapon"),
+                               1: ("ABILITY_SNOW_WARNING", "brings the hail it is made of")},
     "SPECIES_ARTICUNO":       {2: ("ABILITY_SNOW_WARNING", "the blizzard bird brings the blizzard")},
     "SPECIES_SWINUB":         {1: ("ABILITY_SLUSH_RUSH", "boar charges through snow")},
     "SPECIES_PILOSWINE":      {1: ("ABILITY_SLUSH_RUSH", "boar charges through snow")},
@@ -344,6 +347,44 @@ ABILITY_WHY = {
     "ABILITY_SPEED_BOOST": "accelerates every turn",
     "ABILITY_UNBURDEN": "doubles speed once its item is gone",
     "ABILITY_QUICK_FEET": "outruns trouble when statused",
+    "ABILITY_CHLOROPHYLL": "sprints under the sun",
+    "ABILITY_SWIFT_SWIM": "surges through the rain",
+    "ABILITY_SAND_RUSH": "races through the sandstorm",
+    "ABILITY_SLUSH_RUSH": "charges through the snow",
+    "ABILITY_STATIC": "shocks whatever touches it",
+    "ABILITY_STEELWORKER": "forges its steel moves stronger",
+    "ABILITY_STEELY_SPIRIT": "tempers its steel attacks",
+    "ABILITY_TRANSISTOR": "overclocks its electric moves",
+    "ABILITY_DRAGONS_MAW": "its dragon power runs deeper",
+    "ABILITY_ROCKY_PAYLOAD": "hurls its rock moves harder",
+    "ABILITY_UNNERVE": "rattles the foe out of its berry",
+    "ABILITY_FLAME_BODY": "burns attackers on contact",
+    "ABILITY_POISON_POINT": "poisons on contact",
+    "ABILITY_EFFECT_SPORE": "spores whatever touches it",
+    "ABILITY_WATER_ABSORB": "drinks in water attacks",
+    "ABILITY_VOLT_ABSORB": "feeds on electric hits",
+    "ABILITY_FLASH_FIRE": "soaks up fire to burn brighter",
+    "ABILITY_SAP_SIPPER": "grazes on grass moves",
+    "ABILITY_STORM_DRAIN": "pulls in every water move",
+    "ABILITY_LIGHTNING_ROD": "grounds every electric move",
+    "ABILITY_MOTOR_DRIVE": "electric hits only make it faster",
+    "ABILITY_EARTH_EATER": "swallows ground moves to heal",
+    "ABILITY_WELL_BAKED_BODY": "fire only toughens its crust",
+    "ABILITY_LEVITATE": "floats above ground moves",
+    "ABILITY_MAGIC_GUARD": "takes only direct damage",
+    "ABILITY_MAGIC_BOUNCE": "reflects status and hazards",
+    "ABILITY_POISON_HEAL": "heals from the poison meant to hurt it",
+    "ABILITY_CORROSION": "poisons even Steel and Poison types",
+    "ABILITY_MERCILESS": "always crits the poisoned",
+    "ABILITY_SKILL_LINK": "always lands the full multi-hit",
+    "ABILITY_CURSED_BODY": "may disable what strikes it",
+    "ABILITY_GALVANIZE": "electrifies its normal moves",
+    "ABILITY_REFRIGERATE": "freezes its normal moves",
+    "ABILITY_SOLAR_POWER": "channels the sun for extra power",
+    "ABILITY_SAND_FORCE": "the sandstorm sharpens its blows",
+    "ABILITY_IMMUNITY": "cannot be poisoned",
+    "ABILITY_GOOEY": "slime slows whatever touches it",
+    "ABILITY_SNOW_WARNING": "summons the snow it calls home",
 }
 def why_for(ab, ty=None):
     base = ABILITY_WHY.get(ab, pretty_name(ab) + " suits it")
@@ -388,10 +429,157 @@ def pretty_name(ab):
     return ab.replace("ABILITY_", "").replace("_", " ").title()
 
 
+SPECIES_INFO_GLOB = "src/data/pokemon/species_info/*_families.h"
+
+# Shared `.abilities` definitions with empty slots that the per-species pass
+# can't reach because the ability text lives in a #define body, not in the
+# [SPECIES_X] block. Keyed by (file basename, enclosing macro name):
+#
+#   MACRO_REPR — fill this macro's empty (ABILITY_NONE) slots from the computed
+#     target triple of a representative species (all species using the macro
+#     share one decision: cosmetic families, single-form legendaries).
+#   MACRO_DUP  — form-mechanic (exempt) macros whose empty slots duplicate the
+#     definition's own slot-0 token. Works even when slot-0 is a macro param
+#     (Ogerpon's `ability`), which no representative species can supply.
+#
+# The `.abilities = X_ABILITIES` named-constant references resolve through the
+# #define brace, handled by NAMED_REPR. (Meowth/Eevee gen-gated NONE branches
+# are inactive under GEN_LATEST and stay full via their active branch, so they
+# are intentionally absent.)
+MACRO_REPR = {
+    ("gen_2_families.h", "UNOWN_MISC_INFO"):      "SPECIES_UNOWN",
+    ("gen_4_families.h", "MOTHIM_SPECIES_INFO"):  "SPECIES_MOTHIM_PLANT",
+    ("gen_5_families.h", "GENESECT_SPECIES_INFO"): "SPECIES_GENESECT",
+    ("gen_6_families.h", "SPEWPA_SPECIES_INFO"):  "SPECIES_SPEWPA_ICY_SNOW",
+    ("gen_6_families.h", "FLABEBE_MISC_INFO"):    "SPECIES_FLABEBE_RED",
+    ("gen_6_families.h", "FLOETTE_MISC_INFO"):    "SPECIES_FLOETTE_RED",
+    ("gen_6_families.h", "FLORGES_MISC_INFO"):    "SPECIES_FLORGES_RED",
+    ("gen_6_families.h", "FURFROU_MISC_INFO"):    "SPECIES_FURFROU_NATURAL",
+    ("gen_8_families.h", "ALCREMIE_MISC_INFO"):   "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM",
+}
+MACRO_DUP = {
+    ("gen_4_families.h", "ARCEUS_SPECIES_INFO"),    # Multitype ×3
+    ("gen_7_families.h", "SILVALLY_SPECIES_INFO"),  # RKS System ×3
+    ("gen_7_families.h", "MINIOR_MISC_INFO"),       # Shields Down ×3
+    ("gen_9_families.h", "OGERPON_SPECIES_INFO"),   # {ability} -> ability ×3
+}
+NAMED_REPR = {
+    "GENGAR_ABILITIES": "SPECIES_GENGAR",
+}
+
+
+def write_species_info(species, assignments, evasion_out, dry_run):
+    """Fill every empty ability slot in the species_info headers.
+
+    Only ABILITY_NONE slots are ever written (plus the specific evasion-ability
+    overwrites), so real abilities and inactive gen-gated branches are never
+    clobbered. Each line resolves an owner:
+      * inline `[SPECIES_X]` blocks  -> that species' computed target triple;
+      * shared #define macro bodies  -> MACRO_REPR (representative species) or
+        MACRO_DUP (duplicate the macro's own slot-0 token);
+      * `#define X_ABILITIES {...}`  -> NAMED_REPR.
+    Idempotent: rerunning on already-filled data changes nothing.
+    """
+    # final target triple per species: original + fills + evasion overwrites
+    target = {}
+    for sp, v in species.items():
+        if not v.get("abilities"):
+            continue
+        trip = list((v["abilities"] + ["ABILITY_NONE"] * 3)[:3])
+        for s, a in assignments.get(sp, {}).items():
+            trip[s] = a[0]
+        target[sp] = trip
+    overwrite = {}  # (species, slot) -> replacement, forced even over non-NONE
+    for sp, slot, old, ab, why in evasion_out:
+        if sp in target:
+            target[sp][slot] = ab
+        overwrite[(sp, slot)] = ab
+
+    def fill_tokens(tokens, owner, dup):
+        """Return (new_tokens, changed). tokens is the raw brace contents.
+
+        Fills only from the owner's *assignments* (never the species' own
+        cross-branch abilities), so an inactive gen-gated `#else` branch is
+        left untouched unless the fill is a deliberate assignment. Evasion
+        replacements overwrite even a populated slot."""
+        work = (tokens + ["ABILITY_NONE"] * 3)[:3]
+        if dup:
+            for i in range(3):
+                if work[i] == "ABILITY_NONE":
+                    work[i] = work[0]
+        else:
+            owner_asg = assignments.get(owner, {})
+            for i in range(3):
+                if work[i] == "ABILITY_NONE" and i in owner_asg:
+                    work[i] = owner_asg[i][0]
+                if (owner, i) in overwrite:
+                    work[i] = overwrite[(owner, i)]
+        # keep a 2-token line 2-token unless its third slot got filled
+        out_len = 3 if (len(tokens) >= 3 or work[2] != "ABILITY_NONE") else len(tokens)
+        new = work[:out_len]
+        return new, (new != [t for t in tokens[:out_len]])
+
+    files = sorted(REPO / p for p in __import__("glob").glob(str(REPO / SPECIES_INFO_GLOB)))
+    ab_re = re.compile(r"^(?P<pre>\s*\.abilities\s*=\s*)\{(?P<inner>[^}]*)\}(?P<tail>.*)$")
+    def_re = re.compile(r"^(?P<pre>\s*#define\s+(?P<name>\w+_ABILITIES)\s+)\{(?P<inner>[^}]*)\}(?P<tail>.*)$")
+    sp_re = re.compile(r"\s*\[(SPECIES_\w+)\]\s*=")
+    macro_re = re.compile(r"\s*#define\s+(\w+)")
+    changed = 0
+    for f in files:
+        base = f.name
+        lines = f.read_text().splitlines(keepends=True)
+        out = []
+        cur_species = None
+        cur_macro = None
+        for line in lines:
+            ms = sp_re.match(line)
+            if ms:
+                cur_species = ms.group(1)
+            md = macro_re.match(line)
+            if md:
+                cur_macro = md.group(1)
+
+            dm = def_re.match(line)
+            am = None if dm else ab_re.match(line)
+            if not dm and not am:
+                out.append(line)
+                continue
+
+            m = dm or am
+            tokens = [t.strip() for t in m.group("inner").split(",") if t.strip()]
+            is_backslash = line.rstrip().endswith("\\")
+
+            if dm:                                   # #define X_ABILITIES {...}
+                owner, dup = NAMED_REPR.get(dm.group("name")), False
+            elif is_backslash:                       # shared macro body line
+                key = (base, cur_macro)
+                if key in MACRO_DUP:
+                    owner, dup = None, True
+                else:
+                    owner, dup = MACRO_REPR.get(key), False
+            else:                                    # inline [SPECIES_X] block
+                owner, dup = cur_species, False
+
+            if not dup and owner not in target:
+                out.append(line)
+                continue
+
+            new_tokens, did = fill_tokens(tokens, owner, dup)
+            if not did:
+                out.append(line)
+                continue
+            newline = f"{m.group('pre')}{{ {', '.join(new_tokens)} }}{m.group('tail')}"
+            if not newline.endswith("\n"):
+                newline += "\n"
+            changed += 1
+            out.append(newline)
+        if not dry_run:
+            f.write_text("".join(out))
+    return changed
+
+
 def main():
     doc_only = "apply" not in sys.argv[1:]
-    if not doc_only:
-        sys.exit("apply mode is Phase 3; not enabled until assignments are approved")
 
     species = load_species()
     species = {k: v for k, v in species.items() if v.get("abilities")}
@@ -613,6 +801,10 @@ def main():
                 elif a: pass
             if needh:
                 avoid = {assignments.get(sp, {}).get(1, (None,))[0]}
+                # Huge Power and Pure Power are functionally identical; never let
+                # the two slots duplicate the doubled-Atk effect.
+                if avoid & HUGE_POWER_ABILITIES:
+                    avoid |= HUGE_POWER_ABILITIES
                 bst = atk + spa + spe + bulk
                 want = (not offensive if need2 else offensive) and bst >= 320
                 a, w = (pickh, whyh) if pickh else (None, None)
@@ -738,7 +930,7 @@ def main():
 
     filled = sum(len(v) for v in assignments.values())
     with open(DOC, "w") as f:
-        f.write(f"""# Ability Fill v2 — Phase 2 Assignments (REVIEW, nothing applied)
+        f.write(f"""# Ability Fill v2 — Assignment Set (applied to species_info via `apply`)
 
 - Slots filled: **{filled}** (+ {len(evasion_out)} evasion replacements)
 - Variety cap: {ABILITY_CAP} per assigned decision; max observed: {max(counts.values())} ({pretty(max(counts, key=counts.get))}). Form inheritances are mandated by the GMAX/forms rule and counted separately below.
@@ -852,6 +1044,12 @@ a form change.
     banned_assigned = [a for v in assignments.values() for (a, w) in v.values()
                        if a in BANLIST and not w.startswith("exempt:")]
     print("banned assigned:", banned_assigned or "none")
+
+    if not doc_only:
+        n = write_species_info(species, {s: {sl: v for sl, v in d.items()}
+                                         for s, d in assignments.items()},
+                               evasion_out, dry_run=("--dry-run" in sys.argv))
+        print(f"apply: rewrote {n} .abilities lines" + (" (dry-run)" if "--dry-run" in sys.argv else ""))
 
 
 if __name__ == "__main__":
