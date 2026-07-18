@@ -27,18 +27,36 @@ REPO = Path(__file__).resolve().parent.parent
 CACHE = REPO / "tools/.ability_fill_species.json"
 DOC = REPO / "docs/ability_assignments.md"
 
-ABILITY_CAP = 59  # ~5% of 1182 slots
-PER_ABILITY_CAP = {  # revision pass: rein in the six most-converged picks
-    "ABILITY_DEFIANT": 25, "ABILITY_COMPETITIVE": 25, "ABILITY_MOXIE": 25,
-    "ABILITY_ADAPTABILITY": 25, "ABILITY_TOUGH_CLAWS": 25, "ABILITY_SHEER_FORCE": 25,
-}
-def cap_of(a): return PER_ABILITY_CAP.get(a, ABILITY_CAP)
+ABILITY_CAP = 25  # rev3: no ability may exceed 25 assigned fills
+JUSTIFICATION_CAP = 12  # rev3: no more than 12 species share the same justification
+def cap_of(a): return ABILITY_CAP
 
 BANLIST = {
     "ABILITY_WONDER_GUARD", "ABILITY_IMPOSTER", "ABILITY_MOODY",
     "ABILITY_SAND_VEIL", "ABILITY_SNOW_CLOAK", "ABILITY_ARENA_TRAP",
     "ABILITY_SHADOW_TAG", "ABILITY_ILLUSION", "ABILITY_NEUTRALIZING_GAS",
 }
+
+# Species that must never get Huge/Pure Power even if a stat tie sneaks them
+# past the Atk>=SpA gate: the spec's named special lines (whose notable final
+# stage attacks specially or which are support/defensive identities), plus
+# clearly non-attacker forms. Matched by prefix so whole families are covered.
+HUGE_POWER_EXCLUDE_PREFIXES = (
+    "SPECIES_FENNEKIN", "SPECIES_BRAIXEN", "SPECIES_DELPHOX",
+    "SPECIES_CYNDAQUIL", "SPECIES_QUILAVA", "SPECIES_TYPHLOSION",
+    "SPECIES_FUECOCO", "SPECIES_CROCALOR", "SPECIES_SKELEDIRGE",
+    "SPECIES_CHARCADET", "SPECIES_ARMAROUGE",
+    "SPECIES_MAREEP", "SPECIES_FLAAFFY", "SPECIES_AMPHAROS",
+    "SPECIES_MILCERY", "SPECIES_ALCREMIE",
+    "SPECIES_YAMASK", "SPECIES_COFAGRIGUS", "SPECIES_RUNERIGUS",
+    "SPECIES_CHIMECHO", "SPECIES_CHINGLING",
+    "SPECIES_LUNATONE", "SPECIES_SOLROCK",
+    "SPECIES_RELLOR", "SPECIES_RABSCA",
+    "SPECIES_COSMOG", "SPECIES_COSMOEM", "SPECIES_LUNALA",
+    "SPECIES_EXEGGCUTE", "SPECIES_EXEGGUTOR",
+    "SPECIES_DEOXYS_DEFENSE", "SPECIES_DEOXYS_NORMAL",
+    "SPECIES_SCREAM_TAIL", "SPECIES_FLUTTER_MANE",
+)
 
 # Species whose form mechanics live in their ability; coaching it away would
 # brick the form logic, so their empty slots stay empty.
@@ -225,21 +243,123 @@ CONTACT_PUNISH = {"TYPE_FIRE": "ABILITY_FLAME_BODY", "TYPE_ELECTRIC": "ABILITY_S
                   "TYPE_POISON": "ABILITY_POISON_POINT", "TYPE_GRASS": "ABILITY_EFFECT_SPORE",
                   "TYPE_ROCK": "ABILITY_ROUGH_SKIN", "TYPE_GROUND": "ABILITY_ROUGH_SKIN",
                   "TYPE_STEEL": "ABILITY_IRON_BARBS", "TYPE_BUG": "ABILITY_POISON_POINT"}
+# Broad ranked pools (rev3): with a hard 25-per-ability cap and ~993 slots we
+# need >=40 abilities in active rotation, so the engine draws from deep pools
+# and always prefers the least-used legal candidate.
 OFFENSE_ORDER = ["ABILITY_ADAPTABILITY", "ABILITY_SHEER_FORCE", "ABILITY_TOUGH_CLAWS",
                  "ABILITY_MOXIE", "ABILITY_DEFIANT", "ABILITY_COMPETITIVE",
                  "ABILITY_TINTED_LENS", "ABILITY_ANALYTIC", "ABILITY_RECKLESS",
                  "ABILITY_SUPER_LUCK", "ABILITY_SNIPER", "ABILITY_STAKEOUT",
                  "ABILITY_GUTS", "ABILITY_SCRAPPY", "ABILITY_TECHNICIAN",
-                 "ABILITY_DOWNLOAD", "ABILITY_SHARPNESS", "ABILITY_STRONG_JAW",
-                 "ABILITY_IRON_FIST", "ABILITY_MOLD_BREAKER", "ABILITY_HUSTLE"]
+                 "ABILITY_DOWNLOAD", "ABILITY_STRONG_JAW", "ABILITY_IRON_FIST",
+                 "ABILITY_MOLD_BREAKER", "ABILITY_HUSTLE", "ABILITY_RIVALRY",
+                 "ABILITY_ANGER_POINT", "ABILITY_LONG_REACH", "ABILITY_NEUROFORCE",
+                 "ABILITY_BEAST_BOOST", "ABILITY_MERCILESS", "ABILITY_INFILTRATOR",
+                 "ABILITY_CORROSION", "ABILITY_SWARM", "ABILITY_KEEN_EYE",
+                 "ABILITY_VITAL_SPIRIT", "ABILITY_INSOMNIA", "ABILITY_HYPER_CUTTER"]
 SUSTAIN_ORDER = ["ABILITY_REGENERATOR", "ABILITY_NATURAL_CURE", "ABILITY_STURDY",
                  "ABILITY_FILTER", "ABILITY_UNAWARE", "ABILITY_MARVEL_SCALE",
                  "ABILITY_INTIMIDATE", "ABILITY_STAMINA", "ABILITY_ICE_SCALES",
                  "ABILITY_FLUFFY", "ABILITY_SOLID_ROCK", "ABILITY_MULTISCALE",
                  "ABILITY_THICK_FAT", "ABILITY_SHED_SKIN", "ABILITY_HYDRATION",
                  "ABILITY_HARVEST", "ABILITY_ROUGH_SKIN", "ABILITY_IRON_BARBS",
-                 "ABILITY_PRESSURE", "ABILITY_CUD_CHEW"]
+                 "ABILITY_PRESSURE", "ABILITY_CUD_CHEW", "ABILITY_FUR_COAT",
+                 "ABILITY_LEAF_GUARD", "ABILITY_TANGLING_HAIR", "ABILITY_GOOEY",
+                 "ABILITY_TELEPATHY", "ABILITY_OWN_TEMPO", "ABILITY_INNER_FOCUS",
+                 "ABILITY_BIG_PECKS", "ABILITY_LIMBER", "ABILITY_SOUNDPROOF",
+                 "ABILITY_BULLETPROOF", "ABILITY_WEAK_ARMOR", "ABILITY_STALL",
+                 "ABILITY_RAIN_DISH", "ABILITY_ICE_BODY"]
 SPEED_ORDER = ["ABILITY_SPEED_BOOST", "ABILITY_UNBURDEN", "ABILITY_QUICK_FEET"]
+
+# Ability-specific justification snippets so no generic string is reused >12x.
+ABILITY_WHY = {
+    "ABILITY_ADAPTABILITY": "same-type moves hit even harder",
+    "ABILITY_SHEER_FORCE": "trades secondary effects for raw power",
+    "ABILITY_TOUGH_CLAWS": "its contact moves bite deeper",
+    "ABILITY_MOXIE": "snowballs off every knockout",
+    "ABILITY_DEFIANT": "answers intimidation with fury",
+    "ABILITY_COMPETITIVE": "punishes stat-drop pressure",
+    "ABILITY_TINTED_LENS": "its resisted hits stop being resisted",
+    "ABILITY_ANALYTIC": "capitalizes when it moves last",
+    "ABILITY_RECKLESS": "leans into its high-recoil attacks",
+    "ABILITY_SUPER_LUCK": "fishes for crits by nature",
+    "ABILITY_SNIPER": "turns its crits into haymakers",
+    "ABILITY_STAKEOUT": "feasts on switches",
+    "ABILITY_GUTS": "fights harder through status",
+    "ABILITY_SCRAPPY": "refuses to let Ghosts wall it",
+    "ABILITY_TECHNICIAN": "sharpens its weaker strikes",
+    "ABILITY_DOWNLOAD": "reads the foe's weaker defense",
+    "ABILITY_STRONG_JAW": "its bite attacks crush",
+    "ABILITY_IRON_FIST": "its punches land like hammers",
+    "ABILITY_MOLD_BREAKER": "ignores the defenses it can't respect",
+    "ABILITY_HUSTLE": "trades accuracy for overwhelming force",
+    "ABILITY_RIVALRY": "burns hotter against its own kind",
+    "ABILITY_ANGER_POINT": "one crit away from maximum rage",
+    "ABILITY_LONG_REACH": "strikes without touching",
+    "ABILITY_NEUROFORCE": "amplifies its super-effective hits",
+    "ABILITY_BEAST_BOOST": "grows with every kill",
+    "ABILITY_MERCILESS": "always crits the poisoned",
+    "ABILITY_INFILTRATOR": "slips past screens and subs",
+    "ABILITY_CORROSION": "poisons even the immune",
+    "ABILITY_SWARM": "rallies its bug power in a pinch",
+    "ABILITY_KEEN_EYE": "never loses its aim",
+    "ABILITY_VITAL_SPIRIT": "too wired to be put to sleep",
+    "ABILITY_INSOMNIA": "never sleeps on the job",
+    "ABILITY_HYPER_CUTTER": "its blades never dull",
+    "ABILITY_REGENERATOR": "heals as it pivots out",
+    "ABILITY_NATURAL_CURE": "shrugs off status on the switch",
+    "ABILITY_STURDY": "always survives the first blow",
+    "ABILITY_FILTER": "softens super-effective hits",
+    "ABILITY_UNAWARE": "ignores the foe's setup",
+    "ABILITY_MARVEL_SCALE": "hardens when statused",
+    "ABILITY_INTIMIDATE": "saps the foe's attack on entry",
+    "ABILITY_STAMINA": "hardens with every hit taken",
+    "ABILITY_ICE_SCALES": "halves the special hits it takes",
+    "ABILITY_FLUFFY": "shrugs off contact damage",
+    "ABILITY_SOLID_ROCK": "endures super-effective blows",
+    "ABILITY_MULTISCALE": "half damage at full health",
+    "ABILITY_THICK_FAT": "insulated against fire and ice",
+    "ABILITY_SHED_SKIN": "sloughs off status naturally",
+    "ABILITY_HYDRATION": "washes status away in rain",
+    "ABILITY_HARVEST": "regrows its berries",
+    "ABILITY_ROUGH_SKIN": "grates attackers on contact",
+    "ABILITY_IRON_BARBS": "spikes punish every touch",
+    "ABILITY_PRESSURE": "drains the foe's PP",
+    "ABILITY_CUD_CHEW": "chews its berry twice",
+    "ABILITY_FUR_COAT": "its pelt halves physical hits",
+    "ABILITY_LEAF_GUARD": "status-proof under the sun",
+    "ABILITY_TANGLING_HAIR": "snares whatever touches it",
+    "ABILITY_GOOEY": "slows attackers on contact",
+    "ABILITY_TELEPATHY": "dodges ally fire",
+    "ABILITY_OWN_TEMPO": "keeps its head, never confused",
+    "ABILITY_INNER_FOCUS": "unflinching under fire",
+    "ABILITY_BIG_PECKS": "its guard can't be lowered",
+    "ABILITY_LIMBER": "never gets paralyzed",
+    "ABILITY_SOUNDPROOF": "deaf to sound attacks",
+    "ABILITY_BULLETPROOF": "shells off ball and bomb moves",
+    "ABILITY_WEAK_ARMOR": "sheds armor for blinding speed",
+    "ABILITY_STALL": "bides its time to strike last",
+    "ABILITY_RAIN_DISH": "drinks in the rain",
+    "ABILITY_ICE_BODY": "heals in the hail",
+    "ABILITY_SPEED_BOOST": "accelerates every turn",
+    "ABILITY_UNBURDEN": "doubles speed once its item is gone",
+    "ABILITY_QUICK_FEET": "outruns trouble when statused",
+}
+def why_for(ab, ty=None):
+    base = ABILITY_WHY.get(ab, pretty_name(ab) + " suits it")
+    return f"{pretty_name(ab)}: {base}"
+
+
+LEARN = json.loads((REPO / "tools/.ability_fill_learnsets.json").read_text())
+MOVES = json.loads((REPO / "tools/.ability_fill_moves.json").read_text())
+
+def has_stab_physical(sp, species):
+    types = set(species[sp]["types"][0]) if species[sp]["types"] else set()
+    for mv in LEARN.get(sp, []):
+        info = MOVES.get(mv)
+        if info and info["cat"] == "DAMAGE_CATEGORY_PHYSICAL" and info["pwr"] > 0 and info["type"] in types:
+            return True
+    return False
 
 
 def load_species():
@@ -294,6 +414,33 @@ def main():
             if e in species and e != k:
                 union(k, e)
 
+    # Fix 1: cosmetic-only families share ONE decision per evolution stage.
+    # Each listed prefix collapses to a canonical member; others inherit it.
+    # Functional forms (regional/therian/origin/riders/*_MEGA/*_ETERNAL) excluded.
+    COSMETIC_CANON = {
+        "SPECIES_ALCREMIE_": "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM",
+        "SPECIES_FURFROU_": "SPECIES_FURFROU_NATURAL",
+        "SPECIES_FLABEBE_": "SPECIES_FLABEBE_RED",
+        "SPECIES_FLOETTE_": "SPECIES_FLOETTE_RED",
+        "SPECIES_FLORGES_": "SPECIES_FLORGES_RED",
+        "SPECIES_SCATTERBUG_": "SPECIES_SCATTERBUG_ICY_SNOW",
+        "SPECIES_SPEWPA_": "SPECIES_SPEWPA_ICY_SNOW",
+        "SPECIES_VIVILLON_": "SPECIES_VIVILLON_ICY_SNOW",
+        "SPECIES_DEERLING_": "SPECIES_DEERLING_SPRING",
+        "SPECIES_SAWSBUCK_": "SPECIES_SAWSBUCK_SPRING",
+        "SPECIES_SQUAWKABILLY_": "SPECIES_SQUAWKABILLY_GREEN",
+        "SPECIES_TATSUGIRI_": "SPECIES_TATSUGIRI_CURLY",
+    }
+    cosmetic_inherit = {}  # member -> canonical
+    for k in species:
+        for pref, canon in COSMETIC_CANON.items():
+            if k.startswith(pref) and k != canon and canon in species:
+                # exclude functional variants that merely share the prefix
+                if any(tag in k for tag in ("_MEGA", "_ETERNAL", "_GMAX")):
+                    break
+                cosmetic_inherit[k] = canon
+                break
+
     # regional forms are their own line; cosmetic/battle forms inherit base
     inherit_from = {}
     for k in species:
@@ -302,13 +449,14 @@ def main():
             inherit_from[k] = b
 
     counts = defaultdict(int)
+    just_counts = defaultdict(int)
     for v in species.values():
         for a in v["abilities"]:
             if a != "ABILITY_NONE":
                 counts[a] += 0  # existing don't count toward the cap
 
     assignments = {}   # species -> {slot: (ability, why)}
-    def assign(sp, slot, ability, why):
+    def assign(sp, slot, ability, why, exempt_just=False):
         if ability in BANLIST or ability is None:
             return False
         cur = species[sp]["abilities"]
@@ -316,8 +464,11 @@ def main():
             return False
         if counts[ability] >= cap_of(ability):
             return False
+        if not exempt_just and just_counts[why] >= JUSTIFICATION_CAP:
+            return False
         assignments.setdefault(sp, {})[slot] = (ability, why)
         counts[ability] += 1
+        just_counts[why] += 1
         return True
 
     # 1) evasion replacements (these overwrite, so tracked separately)
@@ -365,12 +516,19 @@ def main():
     for k in species:
         if k in ("SPECIES_NONE", "SPECIES_EGG") or k.startswith(ABILITY_FORM_EXEMPT_PREFIXES):
             continue
-        if k in linked_members or k in inherit_from:
-            continue  # linked groups decided above; forms fill by inheritance
+        if k in linked_members or k in inherit_from or k in cosmetic_inherit:
+            continue  # linked/cosmetic/forms fill by inheritance below
         fams[find(k)].append(k)
 
     def stat(sp, key):
         return int(species[sp].get(key) or 0)
+
+    def final_of_line(sp):
+        if sp not in parent:
+            return sp
+        root = find(sp)
+        fam = [m for m in species if m in parent and find(m) == root]
+        return max(fam, key=lambda s: sum(stat(s, k) for k in ("hp","atk","def","spa","spd","spe"))) if fam else sp
 
     for root, members in sorted(fams.items()):
         members.sort(key=lambda s: (stat(s, "hp") + stat(s, "atk") + stat(s, "def")
@@ -400,41 +558,52 @@ def main():
             offensive = max(atk, spa) >= bulk / 3
 
             def engine_pick(want_offense, avoid):
-                cands = []
+                thematic, generic = [], []
                 if want_offense:
-                    if atk <= 55 and "TYPE_PSYCHIC" in types:
-                        cands.append(("ABILITY_PURE_POWER", "meme-to-monster: doubled attack from mental focus"))
-                    elif atk <= 55:
-                        cands.append(("ABILITY_HUGE_POWER", "meme-to-monster: doubled attack on a weak attacker"))
+                    # Huge/Pure Power only where THIS species can actually use it:
+                    # its own Atk must be its attacking stat (>= SpA) and it must
+                    # own a STAB physical move now. That excludes special lines and
+                    # not-yet-physical pre-evos, so every assignment passes audit.
+                    own_spa = int(species[sp].get("spa") or 0)
+                    if (atk <= 70 and atk >= own_spa and sp != "SPECIES_DITTO"
+                            and not sp.startswith(HUGE_POWER_EXCLUDE_PREFIXES)
+                            and has_stab_physical(sp, species)):
+                        if "TYPE_PSYCHIC" in types or "TYPE_FAIRY" in types:
+                            thematic.append(("ABILITY_PURE_POWER", "Pure Power: doubled Atk on a physical attacker (Atk>=SpA) with a STAB physical move"))
+                        else:
+                            thematic.append(("ABILITY_HUGE_POWER", "Huge Power: doubled Atk on a physical attacker (Atk>=SpA) with a STAB physical move"))
                     if "TYPE_WATER" in types and spa >= atk:
-                        cands.append(("ABILITY_WATER_BUBBLE", "aquatic bubble doubles water damage and blocks burns"))
+                        thematic.append(("ABILITY_WATER_BUBBLE", "Water Bubble: doubles its Water damage and blocks burns"))
                     for ty in types:
-                        if ty in TYPE_OFFENSE: cands.append((TYPE_OFFENSE[ty], f"{ty.replace('TYPE_','').title()}-type damage amplifier"))
+                        if ty in TYPE_OFFENSE: thematic.append((TYPE_OFFENSE[ty], why_for(TYPE_OFFENSE[ty])))
                     if spe >= 95:
-                        for a in SPEED_ORDER: cands.append((a, "fast attacker snowballs"))
+                        for a in SPEED_ORDER: thematic.append((a, why_for(a)))
                         for ty in types:
-                            if ty in WEATHER_SPEED: cands.append((WEATHER_SPEED[ty], "weather-speed fits its habitat"))
+                            if ty in WEATHER_SPEED: thematic.append((WEATHER_SPEED[ty], why_for(WEATHER_SPEED[ty])))
                     for a in OFFENSE_ORDER:
-                        cands.append((a, "strong attacker tool for its stat profile"))
+                        generic.append((a, why_for(a)))
                 else:
                     if spe <= 60 and max(atk, spa) <= 70:
-                        cands.append(("ABILITY_PRANKSTER", "slow supporter moves first where it matters"))
+                        thematic.append(("ABILITY_PRANKSTER", "Prankster: a slow supporter that now moves first"))
                     if max(atk, spa) >= 60 and int(species[sp].get("hp") or 0) + int(species[sp].get("def") or 0) <= 130:
-                        cands.append(("ABILITY_SERENE_GRACE", "small body, outsized luck"))
+                        thematic.append(("ABILITY_SERENE_GRACE", "Serene Grace: a frail frame with outsized luck"))
                     for ty in types:
-                        if ty in TYPE_SUSTAIN: cands.append((TYPE_SUSTAIN[ty], f"defensive tool matching its {ty.replace('TYPE_','').lower()} typing"))
-                        if ty in CONTACT_PUNISH: cands.append((CONTACT_PUNISH[ty], "typed contact punishment"))
+                        if ty in TYPE_SUSTAIN: thematic.append((TYPE_SUSTAIN[ty], why_for(TYPE_SUSTAIN[ty])))
+                        if ty in CONTACT_PUNISH: thematic.append((CONTACT_PUNISH[ty], why_for(CONTACT_PUNISH[ty])))
                     for a in SUSTAIN_ORDER:
-                        cands.append((a, "durable profile wants sustain"))
-                # keep thematic priority order, but among the top candidates
-                # prefer the least-used (spec rule: spread the wealth)
-                legal = [(a, w) for a, w in cands
-                         if a not in avoid and a not in BANLIST
-                         and a not in species[sp]["abilities"] and counts[a] < cap_of(a)]
-                if not legal:
-                    return None, None
-                head = legal[:6]
-                return min(head, key=lambda x: counts[x[0]])
+                        generic.append((a, why_for(a)))
+
+                def legal(pairs):
+                    return [(a, w) for a, w in pairs
+                            if a not in avoid and a not in BANLIST
+                            and a not in species[sp]["abilities"]
+                            and counts[a] < cap_of(a) and just_counts[w] < JUSTIFICATION_CAP]
+                # thematic first (spread the wealth among fitting picks), else the
+                # least-used legal candidate anywhere in the broad pool
+                for bucket in (legal(thematic), legal(generic)):
+                    if bucket:
+                        return min(bucket, key=lambda x: counts[x[0]])
+                return None, None
 
             if need2:
                 a, w = (pick2, why2) if pick2 else (None, None)
@@ -464,12 +633,13 @@ def main():
                 continue
             pool = OFFENSE_ORDER + SUSTAIN_ORDER if offensive else SUSTAIN_ORDER + OFFENSE_ORDER
             tycands = [TYPE_OFFENSE.get(ty) for ty in types] + [TYPE_SUSTAIN.get(ty) for ty in types]
-            for a in [c for c in tycands if c] + pool:
-                taken = {x[0] for x in assignments.get(sp, {}).values()}
-                if a in BANLIST or a in v["abilities"] or a in taken or counts[a] >= cap_of(a):
-                    continue
-                assign(sp, slot, a, "fallback fill (curated pick duplicated an existing ability)")
-                break
+            taken = {x[0] for x in assignments.get(sp, {}).values()}
+            legal = [a for a in [c for c in tycands if c] + pool
+                     if a not in BANLIST and a not in v["abilities"] and a not in taken
+                     and counts[a] < cap_of(a) and just_counts[why_for(a)] < JUSTIFICATION_CAP]
+            if legal:
+                a = min(legal, key=lambda x: counts[x])
+                assign(sp, slot, a, why_for(a))
 
     # 3) forms inherit (mandatory, outside the variety cap; reported separately)
     inherit_counts = defaultdict(int)
@@ -487,6 +657,21 @@ def main():
                     inherit_counts[src[0]] += 1
                     inherited.append(form)
 
+    # 3a2) cosmetic families inherit their canonical member's fills (rev3 fix 1)
+    cosmetic_filled = []
+    for member, canon in sorted(cosmetic_inherit.items()):
+        for slot in (1, 2):
+            if species[member]["abilities"][slot] != "ABILITY_NONE":
+                continue
+            src = assignments.get(canon, {}).get(slot)
+            if src is None and species[canon]["abilities"][slot] != "ABILITY_NONE":
+                src = (species[canon]["abilities"][slot], "matches canonical form data")
+            if src and src[0] not in species[member]["abilities"]:
+                assignments.setdefault(member, {})[slot] = (
+                    src[0], f"cosmetic: inherits {canon.replace('SPECIES_','')}")
+                inherit_counts[src[0]] += 1
+                cosmetic_filled.append(member)
+
     # 3b) exempt species: duplicate their form-mechanic ability into every
     # empty slot so no slot in the dex is empty. The Ability Coach must refuse
     # buying a slot whose ability equals the current one (Phase 3 code tweak).
@@ -503,6 +688,8 @@ def main():
     # 4) final sweep so no non-exempt slot is left empty
     for sp in species:
         if sp in ("SPECIES_NONE", "SPECIES_EGG") or sp.startswith(ABILITY_FORM_EXEMPT_PREFIXES):
+            continue
+        if sp in cosmetic_inherit:  # cosmetic members already inherited canonical
             continue
         sweep_fill(sp)
 
@@ -531,14 +718,15 @@ def main():
                 continue
             taken = {x[0] for s2, x in assignments[sp].items() if s2 != slot} | set(species[sp]["abilities"])
             pool = (SPECIAL_POOL if fspa > fatk else []) + SUSTAIN_ORDER + [TYPE_SUSTAIN.get(ty) for ty in (species[sp]["types"][0] if species[sp]["types"] else ())]
-            for cand in [c for c in pool if c]:
-                if cand in BANLIST or cand in taken or counts[cand] >= cap_of(cand):
-                    continue
+            legal = [c for c in pool if c and c not in BANLIST and c not in taken
+                     and counts[c] < cap_of(c) and just_counts[why_for(c)] < JUSTIFICATION_CAP]
+            if legal:
+                cand = min(legal, key=lambda x: counts[x])
                 counts[ab] -= 1
                 counts[cand] += 1
-                assignments[sp][slot] = (cand, f"refit: replaced misfit {pretty_name(ab)} on a {'special-attacking' if fspa > fatk else 'weak-attack'} line")
+                just_counts[why_for(cand)] += 1
+                assignments[sp][slot] = (cand, why_for(cand) + " [refit off misfit " + pretty_name(ab) + "]")
                 refitted.append(sp)
-                break
     # emit doc
     def pretty(ab): return ab.replace("ABILITY_", "").replace("_", " ").title()
     dex = {}
