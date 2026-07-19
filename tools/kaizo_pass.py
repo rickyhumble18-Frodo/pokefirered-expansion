@@ -180,21 +180,45 @@ def stable_hash(s):
     return int(hashlib.sha1(s.encode()).hexdigest(), 16)
 
 
+def bulk_segment_of(trainer, trainer_maps, map_segments):
+    map_name = trainer_maps.get(trainer.id)
+    seg_name = map_segments.get(map_name) if map_name else None
+    if (seg_name is None
+            or trainer.klass in BULK_SKIP_CLASSES
+            or VARIANT_RE.search(trainer.id)
+            or trainer.id in AI_SKIP_TRAINERS):
+        return None
+    return seg_name
+
+
 def apply_bulk(lines):
     config = json.loads(SEGMENTS_FILE.read_text())
     segments, map_segments = config["segments"], config["maps"]
     baseline = json.loads(BASELINE_FILE.read_text()) if BASELINE_FILE.exists() else {}
     trainer_maps = trainer_to_map(SCRIPT_FILES)
 
+    # Pass 1: pre-pass (vanilla) level range of every segment, so each
+    # trainer's baseline can be rescaled onto the segment's level_band while
+    # keeping its relative strength within the segment.
+    seg_range = {}
+    for trainer in parse_trainers(lines):
+        seg_name = bulk_segment_of(trainer, trainer_maps, map_segments)
+        if seg_name is None:
+            continue
+        paras = split_paragraphs([l for l in lines[trainer.start:trainer.end]])
+        mons = paras[1:]
+        if not mons:
+            continue
+        levels = (baseline.get(trainer.id) or {}).get("levels") \
+                 or [level_of(m) for m in mons]
+        lo, hi = seg_range.get(seg_name, (999, 0))
+        seg_range[seg_name] = (min(lo, min(levels)), max(hi, max(levels)))
+
     out = []
     for trainer in parse_trainers(lines):
         block = lines[trainer.start:trainer.end]
-        map_name = trainer_maps.get(trainer.id)
-        seg_name = map_segments.get(map_name) if map_name else None
-        if (seg_name is None
-                or trainer.klass in BULK_SKIP_CLASSES
-                or VARIANT_RE.search(trainer.id)
-                or trainer.id in AI_SKIP_TRAINERS):
+        seg_name = bulk_segment_of(trainer, trainer_maps, map_segments)
+        if seg_name is None:
             out.extend(block)
             continue
 
@@ -215,9 +239,16 @@ def apply_bulk(lines):
                                     "team_size": len(mons)}
         base = baseline[trainer.id]
 
-        # 1. Level curve, from the recorded original levels.
+        # 1. Level curve: rescale the recorded pre-pass levels from the
+        # segment's baseline range onto its level_band (anchored ~5-8 below
+        # the upcoming gym leader's ace), preserving relative strength.
+        band_lo, band_hi = seg["level_band"]
+        seg_lo, seg_hi = seg_range[seg_name]
+        span = max(1, seg_hi - seg_lo)
         orig_count = base["team_size"]
-        scaled = [max(1, int(lv * seg["level_mult"] + 0.5)) for lv in base["levels"]]
+        scaled = [min(band_hi, max(band_lo,
+                  band_lo + ((lv - seg_lo) * (band_hi - band_lo) + span // 2) // span))
+                  for lv in base["levels"]]
         for i in range(min(orig_count, len(mons))):
             mons[i] = with_level(mons[i], scaled[i])
 

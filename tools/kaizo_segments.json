@@ -1,42 +1,222 @@
 {
-  "_comment": "Story segment definitions and map assignments for tools/kaizo_pass.py bulk. level_mult scales trainer mon levels, min_team pads teams up to that size from pad_pool (deduped within a team), item_pool supplies the held item for the last mon of padded teams (a trainer whose id hashes to 0 mod 4 gets the last pool entry, everyone else the first). Maps not listed here are never touched; boss and rematch-variant trainers are skipped regardless of map.",
+  "_comment": "Story segment definitions for tools/kaizo_pass.py bulk. Each segment's level_band [lo, hi] anchors its trainers ~5-8 levels below the upcoming gym leader's ace (Brock 22, Misty 35, Surge 48, Erika 62, Koga 78, Sabrina 90, Blaine 100, Giovanni 110, E4 118-125): trainers are rescaled from the segment's pre-pass baseline min/max onto the band, preserving relative strength. min_team pads teams up to that size from pad_pool (deduped within a team), item_pool supplies the held item for the last mon of padded teams. Maps not listed are never touched; bosses and rematch variants are always skipped. Rematch scaling (+2 route / +5 boss per win) stacks on top of these bands and clamps at MAX_LEVEL 255.",
   "segments": {
     "early": {
-      "level_mult": 1.15,
       "min_team": 3,
-      "pad_pool": ["Rattata", "Pidgey", "Spearow", "Zubat", "Geodude", "Mankey", "Caterpie", "Weedle"],
-      "item_pool": ["Oran Berry"]
+      "pad_pool": [
+        "Rattata",
+        "Pidgey",
+        "Spearow",
+        "Zubat",
+        "Geodude",
+        "Mankey",
+        "Caterpie",
+        "Weedle"
+      ],
+      "item_pool": [
+        "Oran Berry"
+      ],
+      "level_band": [
+        14,
+        17
+      ]
     },
     "brock_misty": {
-      "level_mult": 1.2,
       "min_team": 3,
-      "pad_pool": ["Ekans", "Sandshrew", "Zubat", "Oddish", "Bellsprout", "Magnemite", "Nidorina", "Nidorino", "Paras"],
-      "item_pool": ["Oran Berry"]
+      "pad_pool": [
+        "Ekans",
+        "Sandshrew",
+        "Zubat",
+        "Oddish",
+        "Bellsprout",
+        "Magnemite",
+        "Nidorina",
+        "Nidorino",
+        "Paras"
+      ],
+      "item_pool": [
+        "Oran Berry"
+      ],
+      "level_band": [
+        27,
+        31
+      ]
     },
-    "mid": {
-      "level_mult": 1.25,
+    "misty_surge": {
       "min_team": 4,
-      "pad_pool": ["Raticate", "Pidgeotto", "Golbat", "Machop", "Haunter", "Graveler", "Kadabra", "Weepinbell", "Gloom", "Voltorb", "Drowzee", "Krabby"],
-      "item_pool": ["Sitrus Berry"]
+      "pad_pool": [
+        "Raticate",
+        "Pidgeotto",
+        "Golbat",
+        "Machop",
+        "Haunter",
+        "Graveler",
+        "Kadabra",
+        "Weepinbell",
+        "Gloom",
+        "Voltorb",
+        "Drowzee",
+        "Krabby"
+      ],
+      "item_pool": [
+        "Sitrus Berry"
+      ],
+      "level_band": [
+        40,
+        43
+      ]
     },
-    "late": {
-      "level_mult": 1.3,
+    "surge_erika": {
       "min_team": 4,
-      "pad_pool": ["Fearow", "Golbat", "Machoke", "Weezing", "Muk", "Rhyhorn", "Marowak", "Magneton", "Dodrio", "Gyarados", "Hypno", "Kingler"],
-      "item_pool": ["Sitrus Berry", "Focus Sash"]
+      "pad_pool": [
+        "Raticate",
+        "Pidgeotto",
+        "Golbat",
+        "Machop",
+        "Haunter",
+        "Graveler",
+        "Kadabra",
+        "Weepinbell",
+        "Gloom",
+        "Voltorb",
+        "Drowzee",
+        "Krabby"
+      ],
+      "item_pool": [
+        "Sitrus Berry"
+      ],
+      "level_band": [
+        54,
+        57
+      ]
+    },
+    "erika_koga": {
+      "min_team": 4,
+      "pad_pool": [
+        "Raticate",
+        "Pidgeotto",
+        "Golbat",
+        "Machop",
+        "Haunter",
+        "Graveler",
+        "Kadabra",
+        "Weepinbell",
+        "Gloom",
+        "Voltorb",
+        "Drowzee",
+        "Krabby"
+      ],
+      "item_pool": [
+        "Sitrus Berry"
+      ],
+      "level_band": [
+        70,
+        73
+      ]
+    },
+    "koga_sabrina": {
+      "min_team": 4,
+      "pad_pool": [
+        "Fearow",
+        "Golbat",
+        "Machoke",
+        "Weezing",
+        "Muk",
+        "Rhyhorn",
+        "Marowak",
+        "Magneton",
+        "Dodrio",
+        "Gyarados",
+        "Hypno",
+        "Kingler"
+      ],
+      "item_pool": [
+        "Sitrus Berry",
+        "Focus Sash"
+      ],
+      "level_band": [
+        82,
+        85
+      ]
+    },
+    "sabrina_blaine": {
+      "min_team": 4,
+      "pad_pool": [
+        "Fearow",
+        "Golbat",
+        "Machoke",
+        "Weezing",
+        "Muk",
+        "Rhyhorn",
+        "Marowak",
+        "Magneton",
+        "Dodrio",
+        "Gyarados",
+        "Hypno",
+        "Kingler"
+      ],
+      "item_pool": [
+        "Sitrus Berry",
+        "Focus Sash"
+      ],
+      "level_band": [
+        92,
+        95
+      ]
+    },
+    "blaine_giovanni": {
+      "min_team": 4,
+      "pad_pool": [
+        "Fearow",
+        "Golbat",
+        "Machoke",
+        "Weezing",
+        "Muk",
+        "Rhyhorn",
+        "Marowak",
+        "Magneton",
+        "Dodrio",
+        "Gyarados",
+        "Hypno",
+        "Kingler"
+      ],
+      "item_pool": [
+        "Sitrus Berry",
+        "Focus Sash"
+      ],
+      "level_band": [
+        102,
+        105
+      ]
     },
     "victory_road": {
-      "level_mult": 1.3,
       "min_team": 5,
-      "pad_pool": ["Rhydon", "Golduck", "Nidoking", "Nidoqueen", "Fearow", "Weezing", "Primeape", "Arcanine", "Gengar", "Onix"],
-      "item_pool": ["Sitrus Berry", "Focus Sash"]
+      "pad_pool": [
+        "Rhydon",
+        "Golduck",
+        "Nidoking",
+        "Nidoqueen",
+        "Fearow",
+        "Weezing",
+        "Primeape",
+        "Arcanine",
+        "Gengar",
+        "Onix"
+      ],
+      "item_pool": [
+        "Sitrus Berry",
+        "Focus Sash"
+      ],
+      "level_band": [
+        105,
+        118
+      ]
     }
   },
   "maps": {
     "ViridianForest": "early",
     "PewterCity_Gym": "early",
     "Route22": "early",
-
     "Route3": "brock_misty",
     "Route4": "brock_misty",
     "MtMoon_1F": "brock_misty",
@@ -45,92 +225,89 @@
     "Route25": "brock_misty",
     "CeruleanCity": "brock_misty",
     "CeruleanCity_Gym": "brock_misty",
-
-    "Route6": "mid",
-    "Route8": "mid",
-    "Route9": "mid",
-    "Route10": "mid",
-    "Route11": "mid",
-    "Route12": "mid",
-    "Route13": "mid",
-    "Route14": "mid",
-    "Route15": "mid",
-    "Route16": "mid",
-    "Route17": "mid",
-    "Route18": "mid",
-    "SSAnne_1F_Room2": "mid",
-    "SSAnne_1F_Room5": "mid",
-    "SSAnne_1F_Room7": "mid",
-    "SSAnne_2F_Corridor": "mid",
-    "SSAnne_2F_Room2": "mid",
-    "SSAnne_2F_Room4": "mid",
-    "SSAnne_B1F_Room1": "mid",
-    "SSAnne_B1F_Room2": "mid",
-    "SSAnne_B1F_Room3": "mid",
-    "SSAnne_B1F_Room4": "mid",
-    "SSAnne_Deck": "mid",
-    "VermilionCity_Gym": "mid",
-    "RockTunnel_1F": "mid",
-    "RockTunnel_B1F": "mid",
-    "PokemonTower_2F": "mid",
-    "PokemonTower_3F": "mid",
-    "PokemonTower_4F": "mid",
-    "PokemonTower_5F": "mid",
-    "PokemonTower_6F": "mid",
-    "PokemonTower_7F": "mid",
-    "CeladonCity_Gym": "mid",
-    "CeladonCity_GameCorner": "mid",
-    "RocketHideout_B1F": "mid",
-    "RocketHideout_B2F": "mid",
-    "RocketHideout_B3F": "mid",
-    "RocketHideout_B4F": "mid",
-    "SaffronCity_Dojo": "mid",
-    "SaffronCity_Gym": "mid",
-    "SilphCo_2F": "mid",
-    "SilphCo_3F": "mid",
-    "SilphCo_4F": "mid",
-    "SilphCo_5F": "mid",
-    "SilphCo_6F": "mid",
-    "SilphCo_7F": "mid",
-    "SilphCo_8F": "mid",
-    "SilphCo_9F": "mid",
-    "SilphCo_10F": "mid",
-    "SilphCo_11F": "mid",
-    "FuchsiaCity_Gym": "mid",
-
-    "Route19": "late",
-    "Route20": "late",
-    "Route21_North": "late",
-    "Route21_South": "late",
-    "PokemonMansion_1F": "late",
-    "PokemonMansion_2F": "late",
-    "PokemonMansion_3F": "late",
-    "PokemonMansion_B1F": "late",
-    "CinnabarIsland_Gym": "late",
-    "ViridianCity_Gym": "late",
-    "OneIsland_KindleRoad": "late",
-    "OneIsland_TreasureBeach": "late",
-    "MtEmber_Exterior": "late",
-    "ThreeIsland": "late",
-    "ThreeIsland_BondBridge": "late",
-    "FourIsland_IcefallCave_Back": "late",
-    "FiveIsland_Meadow": "late",
-    "FiveIsland_MemorialPillar": "late",
-    "FiveIsland_ResortGorgeous": "late",
-    "FiveIsland_RocketWarehouse": "late",
-    "FiveIsland_WaterLabyrinth": "late",
-    "FiveIsland_LostCave_Room1": "late",
-    "FiveIsland_LostCave_Room4": "late",
-    "FiveIsland_LostCave_Room10": "late",
-    "SixIsland_GreenPath": "late",
-    "SixIsland_OutcastIsland": "late",
-    "SixIsland_PatternBush": "late",
-    "SixIsland_RuinValley": "late",
-    "SixIsland_WaterPath": "late",
-    "SevenIsland_SevaultCanyon": "late",
-    "SevenIsland_SevaultCanyon_Entrance": "late",
-    "SevenIsland_TanobyRuins": "late",
-
+    "Route6": "misty_surge",
+    "Route8": "surge_erika",
+    "Route9": "surge_erika",
+    "Route10": "surge_erika",
+    "Route11": "misty_surge",
+    "Route12": "erika_koga",
+    "Route13": "erika_koga",
+    "Route14": "erika_koga",
+    "Route15": "erika_koga",
+    "Route16": "erika_koga",
+    "Route17": "erika_koga",
+    "Route18": "erika_koga",
+    "SSAnne_1F_Room2": "misty_surge",
+    "SSAnne_1F_Room5": "misty_surge",
+    "SSAnne_1F_Room7": "misty_surge",
+    "SSAnne_2F_Corridor": "misty_surge",
+    "SSAnne_2F_Room2": "misty_surge",
+    "SSAnne_2F_Room4": "misty_surge",
+    "SSAnne_B1F_Room1": "misty_surge",
+    "SSAnne_B1F_Room2": "misty_surge",
+    "SSAnne_B1F_Room3": "misty_surge",
+    "SSAnne_B1F_Room4": "misty_surge",
+    "SSAnne_Deck": "misty_surge",
+    "VermilionCity_Gym": "misty_surge",
+    "RockTunnel_1F": "surge_erika",
+    "RockTunnel_B1F": "surge_erika",
+    "PokemonTower_2F": "erika_koga",
+    "PokemonTower_3F": "erika_koga",
+    "PokemonTower_4F": "erika_koga",
+    "PokemonTower_5F": "erika_koga",
+    "PokemonTower_6F": "erika_koga",
+    "PokemonTower_7F": "erika_koga",
+    "CeladonCity_Gym": "surge_erika",
+    "CeladonCity_GameCorner": "erika_koga",
+    "RocketHideout_B1F": "erika_koga",
+    "RocketHideout_B2F": "erika_koga",
+    "RocketHideout_B3F": "erika_koga",
+    "RocketHideout_B4F": "erika_koga",
+    "SaffronCity_Dojo": "koga_sabrina",
+    "SaffronCity_Gym": "koga_sabrina",
+    "SilphCo_2F": "koga_sabrina",
+    "SilphCo_3F": "koga_sabrina",
+    "SilphCo_4F": "koga_sabrina",
+    "SilphCo_5F": "koga_sabrina",
+    "SilphCo_6F": "koga_sabrina",
+    "SilphCo_7F": "koga_sabrina",
+    "SilphCo_8F": "koga_sabrina",
+    "SilphCo_9F": "koga_sabrina",
+    "SilphCo_10F": "koga_sabrina",
+    "SilphCo_11F": "koga_sabrina",
+    "FuchsiaCity_Gym": "erika_koga",
+    "Route19": "sabrina_blaine",
+    "Route20": "sabrina_blaine",
+    "Route21_North": "sabrina_blaine",
+    "Route21_South": "sabrina_blaine",
+    "PokemonMansion_1F": "sabrina_blaine",
+    "PokemonMansion_2F": "sabrina_blaine",
+    "PokemonMansion_3F": "sabrina_blaine",
+    "PokemonMansion_B1F": "sabrina_blaine",
+    "CinnabarIsland_Gym": "sabrina_blaine",
+    "ViridianCity_Gym": "blaine_giovanni",
+    "OneIsland_KindleRoad": "blaine_giovanni",
+    "OneIsland_TreasureBeach": "blaine_giovanni",
+    "MtEmber_Exterior": "blaine_giovanni",
+    "ThreeIsland": "blaine_giovanni",
+    "ThreeIsland_BondBridge": "blaine_giovanni",
+    "FourIsland_IcefallCave_Back": "victory_road",
+    "FiveIsland_Meadow": "victory_road",
+    "FiveIsland_MemorialPillar": "victory_road",
+    "FiveIsland_ResortGorgeous": "victory_road",
+    "FiveIsland_RocketWarehouse": "victory_road",
+    "FiveIsland_WaterLabyrinth": "victory_road",
+    "FiveIsland_LostCave_Room1": "victory_road",
+    "FiveIsland_LostCave_Room4": "victory_road",
+    "FiveIsland_LostCave_Room10": "victory_road",
+    "SixIsland_GreenPath": "victory_road",
+    "SixIsland_OutcastIsland": "victory_road",
+    "SixIsland_PatternBush": "victory_road",
+    "SixIsland_RuinValley": "victory_road",
+    "SixIsland_WaterPath": "victory_road",
+    "SevenIsland_SevaultCanyon": "victory_road",
+    "SevenIsland_SevaultCanyon_Entrance": "victory_road",
+    "SevenIsland_TanobyRuins": "victory_road",
     "VictoryRoad_1F": "victory_road",
     "VictoryRoad_2F": "victory_road",
     "VictoryRoad_3F": "victory_road"
