@@ -109,21 +109,34 @@ and the in-battle exp bar now clamp at `MAX_LEVEL` instead of a hardcoded
   Switching / Smart Mon Choices; the E4 and Champion add Omniscient. Applied
   by `tools/kaizo_pass.py ai`.
 - **Phase B — bulk pass** (`tools/kaizo_pass.py bulk`): route/dungeon trainers
-  get a segment level curve (×1.15 pre-Brock → ×1.30 late), team padding
-  (min 3 / 4 / 5 mons by segment, deduped, deterministic) and a held item on
-  the last mon of padded teams. All tunables live in
-  `tools/kaizo_segments.json`; pre-pass levels in `tools/kaizo_baseline.json`
-  keep re-runs from compounding. CI fails if trainers.party drifts from the
-  script output. Bosses, rivals, `TRAINER_*_2..6` variants and frontier
-  trainers are never touched by the script.
+  are rescaled onto per-gym level bands, each anchored ~5-8 levels below the
+  upcoming gym leader's ace (early 14-17, pre-Misty 27-31, pre-Surge 40-43,
+  pre-Erika 54-57, pre-Koga 70-73, pre-Sabrina 82-85, pre-Blaine 92-95,
+  pre-Giovanni 102-105, Victory Road + postgame Sevii 105-118), plus team
+  padding (deduped, deterministic) and a held item on the last mon of padded
+  teams. All tunables live in `tools/kaizo_segments.json`; pre-pass levels in
+  `tools/kaizo_baseline.json` keep re-runs from compounding. CI fails if
+  trainers.party drifts from the script output. Bosses, rivals,
+  `TRAINER_*_2..6` variants and frontier trainers are never touched by the
+  script.
+- **Wild uplift** (`tools/kaizo_pass.py wilds`): every overworld wild table is
+  scaled so the map's strongest wild sits at ~65% of the local trainer band's
+  ceiling — catchable replacements stay viable without becoming an exp
+  faucet. Levels are only ever raised; trainer-less maps take their segment
+  from `wild_only_maps` in the same config.
 - **Phase C — bosses**: all 8 gym leaders (both rotation variants), the E4
   round-1 teams and the three Champion first battles are hand-authored:
   6 mons, explicit moves/abilities/natures, EV spreads, held items. Each team
   has a tempo lead, a wallbreaker, a setup threat the player must answer, a
-  pivot, coverage for the obvious counter-type, and a Sitrus ace ~+4 over its
-  segment's scaled route average (the +5/rematch boost stacks on top).
-  The vanilla E4 round-2 and Champion rematch teams are kept as the second
-  rotation variant — they can get the same treatment after playtesting.
+  pivot, coverage for the obvious counter-type, and a Sitrus ace. Every boss
+  team is anchored so its ACE hits the kaizo target, with the authored
+  internal spread preserved: Brock 22, Misty 35, Surge 48, Erika 62, Koga 78,
+  Sabrina 90, Blaine 100, Giovanni 110, E4 118/120/122/125, Champion 132
+  (rematch variants re-anchor to the same targets as their base). The
+  +5-per-win rematch boost stacks on top and clamps at MAX_LEVEL 255 — from
+  the highest anchors that means FRODO's ace caps after 22 wins, the
+  Champion's after 25 and Lance's after 27, so no realistic stacking can
+  exceed the cap.
 - **Phase D — global configs** (badge boosts, extra boss healing items) is
   deliberately deferred until after a playtest of A-C, per the spec. E4 and
   Champion currently carry 3 Full Restores each.
@@ -147,8 +160,9 @@ across save/reload because the map's
 ON_TRANSITION script repositions his object template whenever
 VAR_REMATCH_FRODO is at least 1. He rotates three teams
 on VAR_REMATCH_FRODO — win count % 3, +5 levels per win like every boss
-(Class: Champion), Omniscient AI, 2 Full Restores. Base levels 76/76/77/77/78
-with an 82 ace in every variant:
+(Class: Champion), Omniscient AI, 2 Full Restores. Base levels
+144/144/145/145/146 with a 150 ace in every variant (+5/win stacks on top,
+clamping at MAX_LEVEL 255 after 22 wins):
 
 1. TRAINER_SUPERBOSS_FRODO — "The Stat Crimes": Eternatus-Eternamax wall,
    Huge Power Regigigas, Scrappy Band Slaking, Scarf Imposter Ditto, Magic
