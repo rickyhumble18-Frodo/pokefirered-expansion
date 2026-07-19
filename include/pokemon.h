@@ -131,8 +131,9 @@ struct PokemonSubstruct0
     enum Species species:11; // 2047 species.
     enum Type teraType:5; // 30 types.
     u16 heldItem:10; // 1023 items.
-    u16 unused_02:6;
-    u32 experience:24; // Widened from 21 bits to fit the extended level-255 exp tables.
+    u16 experienceHi:2; // Bits 24-25 of experience (in former padding, so old saves read 0 here).
+    u16 unused_02:4;
+    u32 experience:24; // Bits 0-23 of experience; 26 bits total fit the closed-form level-255 totals (max: Fluctuating 52,728,772).
     u32 nickname11:8; // 11th character of nickname.
     u8 ppBonuses;
     u8 friendship;

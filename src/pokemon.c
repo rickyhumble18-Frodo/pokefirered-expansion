@@ -733,9 +733,9 @@ static const u32 sCompressedStatuses[] =
 STATIC_ASSERT(NUM_SPECIES < (1 << 11), PokemonSubstruct0_species_TooSmall);
 STATIC_ASSERT(NUMBER_OF_MON_TYPES + 1 <= (1 << 5), PokemonSubstruct0_teraType_TooSmall);
 STATIC_ASSERT(ITEMS_COUNT < (1 << 10), PokemonSubstruct0_heldItem_TooSmall);
-// The experience field is 24 bits (max ~16.7 million exp). Levels past 100 use
-// a flat linear extension of each growth rate (see experience_tables.h), which
-// keeps the level 255 totals of every growth rate within that limit.
+// Experience is stored as 26 bits (experience:24 + experienceHi:2, max ~67
+// million exp), which fits every growth rate's closed-form level 255 total
+// (largest: Fluctuating, 52,728,772 - see tools/gen_exp_tables.py).
 STATIC_ASSERT(MAX_LEVEL <= 255, PokemonSubstruct0_experience_PotentiallTooSmall);
 STATIC_ASSERT(POKEBALL_COUNT <= (1 << 6), PokemonSubstruct0_pokeball_TooSmall);
 STATIC_ASSERT(MOVES_COUNT_ALL < (1 << 11), PokemonSubstruct1_moves_TooSmall);
@@ -2076,7 +2076,8 @@ u32 GetBoxMonData3(struct BoxPokemon *boxMon, s32 field, u8 *data)
             retVal = GetSubstruct0(boxMon)->heldItem;
             break;
         case MON_DATA_EXP:
-            retVal = GetSubstruct0(boxMon)->experience;
+            retVal = GetSubstruct0(boxMon)->experience
+                   | ((u32)GetSubstruct0(boxMon)->experienceHi << 24);
             break;
         case MON_DATA_PP_BONUSES:
             retVal = GetSubstruct0(boxMon)->ppBonuses;
@@ -2591,8 +2592,13 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
             SET16(GetSubstruct0(boxMon)->heldItem);
             break;
         case MON_DATA_EXP:
-            SET32(GetSubstruct0(boxMon)->experience);
+        {
+            u32 exp;
+            SET32(exp);
+            GetSubstruct0(boxMon)->experience = exp & 0xFFFFFF;
+            GetSubstruct0(boxMon)->experienceHi = exp >> 24;
             break;
+        }
         case MON_DATA_PP_BONUSES:
             SET8(GetSubstruct0(boxMon)->ppBonuses);
             break;

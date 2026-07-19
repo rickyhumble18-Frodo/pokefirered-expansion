@@ -1839,12 +1839,12 @@ static void BufferMonSkills(void)
     BufferStat(STAT_SPEED);
 
     exp = GetMonData(&sMonSummaryScreen->currentMon, MON_DATA_EXP);
-    ConvertIntToDecimalStringN(sMonSummaryScreen->expPointsStrBuf, exp, STR_CONV_MODE_LEFT_ALIGN, 7);
+    ConvertIntToDecimalStringN(sMonSummaryScreen->expPointsStrBuf, exp, STR_CONV_MODE_LEFT_ALIGN, 8); // closed-form totals reach 8 digits (Fluctuating at 255: 52,728,772)
     sMonSummaryScreen->expStrXpos = GetNumberRightAlign63(sMonSummaryScreen->expPointsStrBuf);
 
     level = GetMonData(&sMonSummaryScreen->currentMon, MON_DATA_LEVEL);
     expToNextLevel = 0;
-    if (level < 100)
+    if (level < MAX_LEVEL)
     {
         species = GetMonData(&sMonSummaryScreen->currentMon, MON_DATA_SPECIES);
         expToNextLevel = gExperienceTables[gSpeciesInfo[species].growthRate][level + 1] - exp;

@@ -1990,9 +1990,17 @@ void UpdateHealthboxAttribute(u8 healthboxSpriteId, struct Pokemon *mon, u8 elem
             species = GetMonData(mon, MON_DATA_SPECIES);
             level = GetMonData(mon, MON_DATA_LEVEL);
             exp = GetMonData(mon, MON_DATA_EXP);
-            currLevelExp = gExperienceTables[gSpeciesInfo[species].growthRate][level];
-            currExpBarValue = exp - currLevelExp;
-            maxExpBarValue = gExperienceTables[gSpeciesInfo[species].growthRate][level + 1] - currLevelExp;
+            if (level < MAX_LEVEL)
+            {
+                currLevelExp = gExperienceTables[gSpeciesInfo[species].growthRate][level];
+                currExpBarValue = exp - currLevelExp;
+                maxExpBarValue = gExperienceTables[gSpeciesInfo[species].growthRate][level + 1] - currLevelExp;
+            }
+            else // at the cap, show an empty bar (indexing level + 1 would read past the table)
+            {
+                currExpBarValue = 0;
+                maxExpBarValue = 1;
+            }
             SetBattleBarStruct(battler, healthboxSpriteId, maxExpBarValue, currExpBarValue, isDoubles);
             MoveBattleBar(battler, healthboxSpriteId, EXP_BAR, 0);
         }
