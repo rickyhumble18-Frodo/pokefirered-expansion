@@ -4,10 +4,14 @@
 Subcommands:
   ai    Phase A - raise every trainer's AI to a smart baseline; bosses get
         switching intelligence, the Elite Four and Champion also get Omniscient.
-  bulk  Phase B - per-segment level curve, team padding and held items for
+  bulk  Phase B - per-segment level bands, team padding and held items for
         route trainers. Segments and pools live in tools/kaizo_segments.json;
         pre-pass levels are captured into tools/kaizo_baseline.json on first
         run so re-runs recompute from the originals instead of compounding.
+  wilds Scale wild encounter levels in src/data/wild_encounters.json so each
+        map's strongest wild lands at ~65% of its segment's band ceiling
+        (proportional per slot; levels are never lowered). Maps with wild
+        tables but no trainers take their segment from wild_only_maps.
 
 All subcommands are idempotent: running them twice produces the same file.
 Use --dry-run to print a unified diff instead of rewriting the file.
@@ -27,6 +31,8 @@ SEGMENTS_FILE = REPO_ROOT / "tools/kaizo_segments.json"
 BASELINE_FILE = REPO_ROOT / "tools/kaizo_baseline.json"
 SCRIPT_FILES = [REPO_ROOT / "data/scripts/trainers.inc"] + \
     sorted((REPO_ROOT / "data/maps").glob("*/scripts.inc"))
+WILD_FILE = REPO_ROOT / "src/data/wild_encounters.json"
+WILD_FRACTION = 0.65  # wild ceiling as a share of the local trainer band ceiling
 
 BASE_AI = "Check Bad Move / Try To Faint / Check Viability"
 BOSS_AI_EXTRA = "Smart Switching / Smart Mon Choices"
@@ -280,6 +286,70 @@ def apply_bulk(lines):
     return out, baseline
 
 
+def map_id_to_dirname():
+    ids = {}
+    for p in (REPO_ROOT / "data/maps").glob("*/map.json"):
+        try:
+            ids[json.loads(p.read_text())["id"]] = p.parent.name
+        except (KeyError, ValueError):
+            pass
+    return ids
+
+
+def apply_wilds(dry_run, check):
+    config = json.loads(SEGMENTS_FILE.read_text())
+    segments = config["segments"]
+    seg_of_dir = dict(config["maps"])
+    seg_of_dir.update(config.get("wild_only_maps", {}))
+    id2dir = map_id_to_dirname()
+
+    old_text = WILD_FILE.read_text()
+    data = json.loads(old_text)
+    mon_keys = ("land_mons", "water_mons", "rock_smash_mons", "fishing_mons")
+    changed, unassigned = [], []
+    for group in data["wild_encounter_groups"]:
+        if group["label"] != "gWildMonHeaders":
+            continue  # frontier facility tables have no overworld map
+        for enc in group["encounters"]:
+            dirname = id2dir.get(enc["map"])
+            seg_name = seg_of_dir.get(dirname)
+            if seg_name is None:
+                unassigned.append(enc["map"])
+                continue
+            band_hi = segments[seg_name]["level_band"][1]
+            target = max(2, int(band_hi * WILD_FRACTION + 0.5))
+            slots = [m for k in mon_keys if k in enc for m in enc[k]["mons"]]
+            cur_max = max((m["max_level"] for m in slots), default=0)
+            if cur_max == 0 or cur_max >= target:
+                continue  # empty table, or already at/above the target: never lower
+            before = (min(m["min_level"] for m in slots), cur_max)
+            for m in slots:
+                for key in ("min_level", "max_level"):
+                    m[key] = max(m[key], min(target, int(m[key] * target / cur_max + 0.5)))
+                if m["min_level"] > m["max_level"]:
+                    m["min_level"] = m["max_level"]
+            after = (min(m["min_level"] for m in slots), max(m["max_level"] for m in slots))
+            changed.append((dirname, seg_name, before, after))
+    if unassigned:
+        sys.exit("kaizo_pass wilds: no segment for wild maps: " + ", ".join(sorted(set(unassigned))))
+
+    new_text = json.dumps(data, indent=2) + "\n"
+    if new_text == old_text:
+        print("no changes")
+        return 0
+    if check:
+        print("kaizo_pass: wild_encounters.json is not up to date", file=sys.stderr)
+        return 1
+    for dirname, seg_name, before, after in changed:
+        print(f"  {dirname:<36} {seg_name:<16} {before[0]}-{before[1]} -> {after[0]}-{after[1]}")
+    if dry_run:
+        print(f"dry-run: {len(changed)} wild tables would change")
+        return 0
+    WILD_FILE.write_text(new_text)
+    print(f"rewrote {WILD_FILE} ({len(changed)} tables)")
+    return 0
+
+
 def finish(old_lines, new_lines, dry_run, check):
     if new_lines == old_lines:
         print("no changes")
@@ -299,10 +369,13 @@ def finish(old_lines, new_lines, dry_run, check):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["ai", "bulk"])
+    parser.add_argument("command", choices=["ai", "bulk", "wilds"])
     parser.add_argument("--dry-run", action="store_true", help="print a diff instead of rewriting")
     parser.add_argument("--check", action="store_true", help="exit 1 if the file would change (CI mode)")
     args = parser.parse_args()
+
+    if args.command == "wilds":
+        return apply_wilds(args.dry_run, args.check)
 
     old_lines = PARTY_FILE.read_text().splitlines(keepends=True)
     if args.command == "ai":
