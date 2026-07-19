@@ -125,12 +125,13 @@ Misty counting wipes, and confirming rematch scaling stacks on the new bases.
 
 A hidden trainer (FRODO) guards Mewtwo inside Cerulean Cave B1F, appearing
 after the first Hall of Fame (gated on FLAG_HIDE_POSTGAME_GOSSIPERS). He
-stands at (7,16) — the floor tile at the single opening into Mewtwo's
-chamber, verified by collision BFS to cut every walking route from the
-floor entry to Mewtwo — so Mewtwo is unreachable until he's beaten once
-(the player talks to him from (7,17), (6,16) or (8,16)). On the first win
-he steps one tile right to (8,16), leaving the platform approach fully
-clear; the position persists across save/reload because the map's
+stands at (7,15) — the one-tile rock-stairs land bridge (MB_ROCK_STAIRS)
+that is the sole walkable connection onto Mewtwo's platform; everything
+south of it is surf water, so he cuts every route to Mewtwo (verified by
+collision BFS). The player surfs up and talks to him from the water tile
+below (7,16). On the first win he walks up onto the platform to (6,13),
+the cave ground beside Mewtwo's boulder, leaving the bridge and the whole
+approach clear; the position persists across save/reload because the map's
 ON_TRANSITION script repositions his object template whenever
 VAR_REMATCH_FRODO is at least 1. He rotates three teams
 on VAR_REMATCH_FRODO — win count % 3, +5 levels per win like every boss

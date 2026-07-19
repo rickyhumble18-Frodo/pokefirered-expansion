@@ -59,7 +59,7 @@ CeruleanCave_B1F_EventScript_RanFromMewtwo::
 	end
 
 CeruleanCave_B1F_EventScript_SuperbossAside::
-	setobjectxyperm LOCALID_CERULEAN_CAVE_SUPERBOSS, 8, 16
+	setobjectxyperm LOCALID_CERULEAN_CAVE_SUPERBOSS, 6, 13
 	setobjectmovementtype LOCALID_CERULEAN_CAVE_SUPERBOSS, MOVEMENT_TYPE_FACE_DOWN
 	return
 
@@ -92,7 +92,9 @@ CeruleanCave_B1F_EventScript_SuperbossDecline::
 	end
 
 CeruleanCave_B1F_Movement_SuperbossStepAside::
-	walk_right
+	walk_up
+	walk_up
+	walk_left
 	face_down
 	step_end
 
