@@ -310,7 +310,8 @@
     "SevenIsland_TanobyRuins": "victory_road",
     "VictoryRoad_1F": "victory_road",
     "VictoryRoad_2F": "victory_road",
-    "VictoryRoad_3F": "victory_road"
+    "VictoryRoad_3F": "victory_road",
+    "SevenIsland_TrainerTower": "victory_road"
   },
   "_wilds_comment": "tools/kaizo_pass.py wilds scales every wild slot so a map's strongest wild lands at ~65% of its segment's band ceiling (proportional; never lowers a level). wild_only_maps assigns segments to maps that have wild tables but no trainers.",
   "wild_only_maps": {

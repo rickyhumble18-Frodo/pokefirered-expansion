@@ -187,14 +187,14 @@ def stable_hash(s):
 
 
 def bulk_segment_of(trainer, trainer_maps, map_segments):
+    if trainer.klass in BULK_SKIP_CLASSES or trainer.id in AI_SKIP_TRAINERS:
+        return None  # bosses/rivals are hand-anchored; facility brains stay scripted
     map_name = trainer_maps.get(trainer.id)
-    seg_name = map_segments.get(map_name) if map_name else None
-    if (seg_name is None
-            or trainer.klass in BULK_SKIP_CLASSES
-            or VARIANT_RE.search(trainer.id)
-            or trainer.id in AI_SKIP_TRAINERS):
-        return None
-    return seg_name
+    if map_name is None and VARIANT_RE.search(trainer.id):
+        # VS Seeker rematch party: uplift onto the base trainer's segment so
+        # rematch cycles stay level with the first fight (+2/win stacks on top).
+        map_name = trainer_maps.get(VARIANT_RE.sub("", trainer.id))
+    return map_segments.get(map_name) if map_name else None
 
 
 def apply_bulk(lines):
