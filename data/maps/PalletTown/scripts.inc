@@ -581,12 +581,11 @@ PalletTown_EventScript_NatureCoachDone::
 	release
 	end
 
-	.set ABILITY_COACH_PRICE, 100000
+	.set ABILITY_COACH_PRICE, 50000
 
 PalletTown_EventScript_AbilityCoach::
 	lock
 	faceplayer
-	goto_if_unset FLAG_SYS_GAME_CLEAR, PalletTown_EventScript_AbilityCoachNotChampion
 	msgbox PalletTown_Text_AbilityCoachIntro, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, PalletTown_EventScript_AbilityCoachBye
 	special ChoosePartyMon
@@ -623,11 +622,6 @@ PalletTown_EventScript_AbilityCoach::
 	release
 	end
 
-PalletTown_EventScript_AbilityCoachNotChampion::
-	msgbox PalletTown_Text_AbilityCoachNotChampion
-	release
-	end
-
 PalletTown_EventScript_AbilityCoachInvalid::
 	hidemoneybox
 	msgbox PalletTown_Text_AbilityCoachInvalid
@@ -658,7 +652,7 @@ PalletTown_EventScript_AbilityCoachBye::
 
 PalletTown_Text_AbilityCoachIntro::
 	.string "I study POKéMON potential.\p"
-	.string "For ¥100,000 I can awaken a\n"
+	.string "For ¥50,000 I can awaken a\n"
 	.string "different ability in a POKéMON…\l"
 	.string "even a HIDDEN one.\p"
 	.string "Interested?$"
@@ -670,7 +664,7 @@ PalletTown_Text_AbilityCoachCurrent::
 
 PalletTown_Text_AbilityCoachConfirm::
 	.string "That slot holds {STR_VAR_3}.\p"
-	.string "The price is ¥100,000.\n"
+	.string "The price is ¥50,000.\n"
 	.string "Shall I proceed?$"
 
 PalletTown_Text_AbilityCoachDone::
@@ -685,17 +679,12 @@ PalletTown_Text_AbilityCoachInvalid::
 	.string "No charge, of course.$"
 
 PalletTown_Text_AbilityCoachNoMoney::
-	.string "You don't have ¥100,000.\n"
+	.string "You don't have ¥50,000.\n"
 	.string "I don't work on credit.$"
 
 PalletTown_Text_AbilityCoachEgg::
 	.string "…That's an EGG.\n"
 	.string "It hasn't even decided what it is.$"
-
-PalletTown_Text_AbilityCoachNotChampion::
-	.string "My services are for CHAMPIONS.\p"
-	.string "Come back once your name is in\n"
-	.string "the HALL OF FAME.$"
 
 PalletTown_Text_AbilityCoachBye2::
 	.string "Potential is patient.\n"

@@ -116,9 +116,11 @@ and the in-battle exp bar now clamp at `MAX_LEVEL` instead of a hardcoded
   padding (deduped, deterministic) and a held item on the last mon of padded
   teams. All tunables live in `tools/kaizo_segments.json`; pre-pass levels in
   `tools/kaizo_baseline.json` keep re-runs from compounding. CI fails if
-  trainers.party drifts from the script output. Bosses, rivals,
-  `TRAINER_*_2..6` variants and frontier trainers are never touched by the
-  script.
+  trainers.party drifts from the script output. VS Seeker rematch parties
+  (`TRAINER_*_2..6` with no map of their own) uplift onto their base
+  trainer's segment band; bosses and rivals are hand-anchored instead, and
+  trainers referenced by no script (unused vanilla entries, facility
+  parties) are never touched.
 - **Wild uplift** (`tools/kaizo_pass.py wilds`): every overworld wild table is
   scaled so the map's strongest wild sits at ~65% of the local trainer band's
   ceiling — catchable replacements stay viable without becoming an exp
@@ -180,12 +182,12 @@ those species only (Regigigas, Slaking, Blissey, Shuckle, Spiritomb, Rayquaza,
 Aegislash-Shield) — wild/player copies of those species can roll them too,
 which is acceptable post-game per the design doc.
 
-## Ability Coach (post-game)
+## Ability Coach
 
 A scientist in Pallet Town (6,12), beside the Effort and Nature Coaches, switches a
-party mon's ability slot — primary / secondary / hidden — for ¥100,000
-(`.set ABILITY_COACH_PRICE` in PalletTown's scripts.inc). Present but refusing
-before the first Hall of Fame (FLAG_SYS_GAME_CLEAR). Backed by
+party mon's ability slot — primary / secondary / hidden — for ¥50,000
+(`.set ABILITY_COACH_PRICE` in PalletTown's scripts.inc). Available from the
+start of the game; the price is the only gate. Backed by
 `ScrSpecial_SetMonAbilitySlot` (`VAR_0x8004` slot, `VAR_0x8005` target
 ability slot 0-2, `VAR_0x8006` 0 = validate / 1 = apply): validation runs
 before any money moves and rejects empty slots and the already-active slot,
@@ -193,8 +195,8 @@ so failed or cancelled paths never charge. Battle resolution reads
 `abilityNum` (`GetAbilityBySpecies` handles hidden = slot 2), and evolution
 preserves `abilityNum`, so purchases stick.
 
-Superboss ability-slot edits the coach exposes on player copies (post-game
-tradeoff, accepted by design): Regigigas → Huge Power, Slaking → Scrappy,
+Superboss ability-slot edits the coach exposes on player copies (accepted
+tradeoff, now from game start): Regigigas → Huge Power, Slaking → Scrappy,
 Blissey → Magic Guard (hidden), Shuckle → Prankster, Spiritomb → Magic
 Bounce, Rayquaza → Delta Stream, Aegislash → Wonder Guard. Of these, only
 the Chansey line is catchable in vanilla FRLG encounter pools — the rest
