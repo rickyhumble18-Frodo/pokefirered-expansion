@@ -66,7 +66,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout @ Oran Berry
-Level: 13
+Level: 27
 
 === TRAINER_YOUNGSTER_CALVIN ===
 Name: CALVIN
@@ -82,10 +82,10 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorino
-Level: 17
+Level: 27
 
 Oddish @ Oran Berry
-Level: 17
+Level: 27
 
 === TRAINER_YOUNGSTER_JOSH ===
 Name: JOSH
@@ -126,7 +126,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat @ Oran Berry
-Level: 17
+Level: 27
 
 === TRAINER_YOUNGSTER_JOEY ===
 Name: JOEY
@@ -146,7 +146,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magnemite @ Oran Berry
-Level: 18
+Level: 28
 
 === TRAINER_YOUNGSTER_DAN ===
 Name: DAN
@@ -162,10 +162,10 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew
-Level: 20
+Level: 28
 
 Bellsprout @ Oran Berry
-Level: 20
+Level: 28
 
 === TRAINER_YOUNGSTER_CHAD ===
 Name: CHAD
@@ -185,7 +185,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bellsprout @ Oran Berry
-Level: 17
+Level: 27
 
 === TRAINER_YOUNGSTER_TYLER ===
 Name: TYLER
@@ -201,13 +201,13 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 26
+Level: 40
 
 Kadabra
-Level: 26
+Level: 40
 
 Raticate @ Sitrus Berry
-Level: 26
+Level: 40
 
 === TRAINER_YOUNGSTER_EDDIE ===
 Name: EDDIE
@@ -223,13 +223,13 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 26
+Level: 40
 
 Kadabra
-Level: 26
+Level: 40
 
 Voltorb @ Sitrus Berry
-Level: 26
+Level: 40
 
 === TRAINER_YOUNGSTER_DILLON ===
 Name: DILLON
@@ -249,10 +249,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 24
+Level: 40
 
 Pidgeotto @ Sitrus Berry
-Level: 24
+Level: 40
 
 === TRAINER_YOUNGSTER_YASU ===
 Name: YASU
@@ -276,7 +276,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell @ Sitrus Berry
-Level: 21
+Level: 40
 
 === TRAINER_YOUNGSTER_DAVE ===
 Name: DAVE
@@ -296,10 +296,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 23
+Level: 40
 
 Raticate @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_YOUNGSTER_BEN_2 ===
 Name: BEN
@@ -339,7 +339,7 @@ Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata @ Oran Berry
-Level: 7
+Level: 14
 
 === TRAINER_BUG_CATCHER_DOUG ===
 Name: DOUG
@@ -376,10 +376,10 @@ Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 10
+Level: 16
 
 Caterpie @ Oran Berry
-Level: 10
+Level: 16
 
 === TRAINER_BUG_CATCHER_COLTON ===
 Name: COLTON
@@ -445,7 +445,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magnemite @ Oran Berry
-Level: 13
+Level: 27
 
 === TRAINER_BUG_CATCHER_KENT ===
 Name: KENT
@@ -465,7 +465,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans @ Oran Berry
-Level: 13
+Level: 27
 
 === TRAINER_BUG_CATCHER_ROBBY ===
 Name: ROBBY
@@ -535,7 +535,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter @ Sitrus Berry
-Level: 20
+Level: 40
 
 === TRAINER_BUG_CATCHER_ELIJAH ===
 Name: ELIJAH
@@ -551,13 +551,13 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 25
+Level: 40
 
 Pidgeotto
-Level: 25
+Level: 40
 
 Graveler @ Sitrus Berry
-Level: 25
+Level: 40
 
 === TRAINER_BUG_CATCHER_2 ===
 Name: PH
@@ -598,10 +598,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 24
+Level: 54
 
 Krabby @ Sitrus Berry
-Level: 24
+Level: 54
 
 === TRAINER_BUG_CATCHER_CONNER ===
 Name: CONNER
@@ -625,7 +625,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_LASS_JANICE ===
 Name: JANICE
@@ -645,7 +645,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorina @ Oran Berry
-Level: 11
+Level: 27
 
 === TRAINER_LASS_SALLY ===
 Name: SALLY
@@ -665,7 +665,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat @ Oran Berry
-Level: 12
+Level: 27
 
 === TRAINER_LASS_ROBIN ===
 Name: ROBIN
@@ -681,10 +681,10 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorino
-Level: 17
+Level: 27
 
 Nidorina @ Oran Berry
-Level: 17
+Level: 27
 
 === TRAINER_LASS_CRISSY ===
 Name: CRISSY
@@ -725,7 +725,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Paras @ Oran Berry
-Level: 13
+Level: 27
 
 === TRAINER_LASS_IRIS ===
 Name: IRIS
@@ -741,10 +741,10 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorina
-Level: 17
+Level: 27
 
 Oddish @ Oran Berry
-Level: 17
+Level: 27
 
 === TRAINER_LASS_RELI ===
 Name: RELI
@@ -764,7 +764,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorina @ Oran Berry
-Level: 19
+Level: 28
 
 === TRAINER_LASS_ALI ===
 Name: ALI
@@ -843,10 +843,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 23
+Level: 40
 
 Gloom @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_LASS_DAWN ===
 Name: DAWN
@@ -866,10 +866,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 23
+Level: 40
 
 Graveler @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_LASS_PAIGE ===
 Name: PAIGE
@@ -889,10 +889,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 29
+Level: 54
 
 Raticate @ Sitrus Berry
-Level: 29
+Level: 54
 
 === TRAINER_LASS_ANDREA ===
 Name: ANDREA
@@ -916,7 +916,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter @ Sitrus Berry
-Level: 30
+Level: 54
 
 === TRAINER_LASS_MEGAN ===
 Name: MEGAN
@@ -965,10 +965,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 28
+Level: 54
 
 Graveler @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_LASS_KAY ===
 Name: KAY
@@ -988,10 +988,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 29
+Level: 54
 
 Voltorb @ Sitrus Berry
-Level: 29
+Level: 54
 
 === TRAINER_LASS_LISA ===
 Name: LISA
@@ -1011,10 +1011,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 29
+Level: 54
 
 Drowzee @ Sitrus Berry
-Level: 29
+Level: 54
 
 === TRAINER_SAILOR_EDMOND ===
 Name: EDMOND
@@ -1034,10 +1034,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 23
+Level: 40
 
 Pidgeotto @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_SAILOR_TREVOR ===
 Name: TREVOR
@@ -1057,10 +1057,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 21
+Level: 40
 
 Golbat @ Sitrus Berry
-Level: 21
+Level: 40
 
 === TRAINER_SAILOR_LEONARD ===
 Name: LEONARD
@@ -1076,13 +1076,13 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 26
+Level: 40
 
 Weepinbell
-Level: 26
+Level: 40
 
 Kadabra @ Sitrus Berry
-Level: 26
+Level: 40
 
 === TRAINER_SAILOR_DUNCAN ===
 Name: DUNCAN
@@ -1106,7 +1106,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra @ Sitrus Berry
-Level: 21
+Level: 40
 
 === TRAINER_SAILOR_HUEY ===
 Name: HUEY
@@ -1126,10 +1126,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 23
+Level: 40
 
 Drowzee @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_SAILOR_DYLAN ===
 Name: DYLAN
@@ -1153,7 +1153,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby @ Sitrus Berry
-Level: 21
+Level: 40
 
 === TRAINER_SAILOR_PHILLIP ===
 Name: PHILLIP
@@ -1169,13 +1169,13 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 25
+Level: 40
 
 Voltorb
-Level: 25
+Level: 40
 
 Krabby @ Sitrus Berry
-Level: 25
+Level: 40
 
 === TRAINER_SAILOR_DWAYNE ===
 Name: DWAYNE
@@ -1195,10 +1195,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 26
+Level: 40
 
 Golbat @ Sitrus Berry
-Level: 26
+Level: 40
 
 === TRAINER_CAMPER_LIAM ===
 Name: LIAM
@@ -1223,7 +1223,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sand Attack
 
 Rattata @ Oran Berry
-Level: 12
+Level: 16
 
 === TRAINER_CAMPER_SHANE ===
 Name: SHANE
@@ -1243,7 +1243,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magnemite @ Oran Berry
-Level: 17
+Level: 27
 
 === TRAINER_CAMPER_ETHAN ===
 Name: ETHAN
@@ -1259,10 +1259,10 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 22
+Level: 28
 
 Zubat @ Oran Berry
-Level: 22
+Level: 28
 
 === TRAINER_CAMPER_RICKY ===
 Name: RICKY
@@ -1278,13 +1278,13 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 25
+Level: 40
 
 Kadabra
-Level: 25
+Level: 40
 
 Golbat @ Sitrus Berry
-Level: 25
+Level: 40
 
 === TRAINER_CAMPER_JEFF ===
 Name: JEFF
@@ -1304,10 +1304,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 20
+Level: 40
 
 Graveler @ Sitrus Berry
-Level: 20
+Level: 40
 
 === TRAINER_CAMPER_2 ===
 Name: PH
@@ -1340,10 +1340,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 26
+Level: 54
 
 Krabby @ Sitrus Berry
-Level: 26
+Level: 54
 
 === TRAINER_CAMPER_DREW ===
 Name: DREW
@@ -1384,10 +1384,10 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magnemite
-Level: 23
+Level: 28
 
 Paras @ Oran Berry
-Level: 23
+Level: 28
 
 === TRAINER_PICNICKER_NANCY ===
 Name: NANCY
@@ -1407,10 +1407,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 20
+Level: 40
 
 Machop @ Sitrus Berry
-Level: 20
+Level: 40
 
 === TRAINER_PICNICKER_ISABELLE ===
 Name: ISABELLE
@@ -1434,7 +1434,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat @ Sitrus Berry
-Level: 20
+Level: 40
 
 === TRAINER_PICNICKER_KELSEY ===
 Name: KELSEY
@@ -1454,7 +1454,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew @ Oran Berry
-Level: 18
+Level: 28
 
 === TRAINER_PICNICKER_ALICIA ===
 Name: ALICIA
@@ -1495,13 +1495,13 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 29
+Level: 54
 
 Voltorb
-Level: 29
+Level: 54
 
 Machop @ Sitrus Berry
-Level: 29
+Level: 54
 
 === TRAINER_PICNICKER_HEIDI ===
 Name: HEIDI
@@ -1521,10 +1521,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 25
+Level: 54
 
 Haunter @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_PICNICKER_CAROL ===
 Name: CAROL
@@ -1544,10 +1544,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 26
+Level: 54
 
 Machop @ Sitrus Berry
-Level: 26
+Level: 54
 
 === TRAINER_PICNICKER_SOFIA ===
 Name: SOFIA
@@ -1571,7 +1571,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat @ Sitrus Berry
-Level: 26
+Level: 54
 
 === TRAINER_PICNICKER_MARTHA ===
 Name: MARTHA
@@ -1591,10 +1591,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 28
+Level: 54
 
 Raticate @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_PICNICKER_TINA ===
 Name: TINA
@@ -1614,10 +1614,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 30
+Level: 54
 
 Pidgeotto @ Sitrus Berry
-Level: 30
+Level: 54
 
 === TRAINER_PICNICKER_HANNAH ===
 Name: HANNAH
@@ -1666,10 +1666,10 @@ Level: 55
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Gloom
-Level: 36
+Level: 55
 
 Voltorb @ Sitrus Berry
-Level: 36
+Level: 55
 
 === TRAINER_POKEMANIAC_HERMAN ===
 Name: HERMAN
@@ -1689,10 +1689,10 @@ Level: 54
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Weepinbell
-Level: 25
+Level: 54
 
 Golbat @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_POKEMANIAC_COOPER ===
 Name: COOPER
@@ -1716,7 +1716,7 @@ Level: 54
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Gloom @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_POKEMANIAC_STEVE ===
 Name: STEVE
@@ -1736,10 +1736,10 @@ Level: 54
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Weepinbell
-Level: 28
+Level: 54
 
 Drowzee @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_POKEMANIAC_WINSTON ===
 Name: WINSTON
@@ -1755,13 +1755,13 @@ Level: 55
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Haunter
-Level: 31
+Level: 55
 
 Krabby
-Level: 31
+Level: 55
 
 Weepinbell @ Sitrus Berry
-Level: 31
+Level: 55
 
 === TRAINER_POKEMANIAC_DAWSON ===
 Name: DAWSON
@@ -1785,10 +1785,10 @@ Level: 106
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Nidoqueen
-Level: 52
+Level: 106
 
 Onix @ Focus Sash
-Level: 52
+Level: 106
 
 === TRAINER_POKEMANIAC_ASHTON ===
 Name: ASHTON
@@ -1808,10 +1808,10 @@ Level: 54
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Golbat
-Level: 29
+Level: 54
 
 Gloom @ Sitrus Berry
-Level: 29
+Level: 54
 
 === TRAINER_SUPER_NERD_JOVAN ===
 Name: JOVAN
@@ -1831,7 +1831,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorino @ Oran Berry
-Level: 13
+Level: 27
 
 === TRAINER_SUPER_NERD_MIGUEL ===
 Name: MIGUEL
@@ -1917,7 +1917,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_SUPER_NERD_LESLIE ===
 Name: LESLIE
@@ -1937,13 +1937,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 
 Machop
-Level: 33
+Level: 55
 
 Graveler
-Level: 33
+Level: 55
 
 Gloom @ Sitrus Berry
-Level: 33
+Level: 55
 
 === TRAINER_SUPER_NERD_1 ===
 Name: PH
@@ -2030,7 +2030,7 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Focus Sash
-Level: 47
+Level: 93
 
 === TRAINER_SUPER_NERD_AVERY ===
 Name: AVERY
@@ -2071,13 +2071,13 @@ Level: 94
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 53
+Level: 94
 
 Muk
-Level: 53
+Level: 94
 
 Magneton @ Sitrus Berry
-Level: 53
+Level: 94
 
 === TRAINER_SUPER_NERD_ZAC ===
 Name: ZAC
@@ -2097,10 +2097,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 48
+Level: 93
 
 Hypno @ Sitrus Berry
-Level: 48
+Level: 93
 
 === TRAINER_HIKER_MARCOS ===
 Name: MARCOS
@@ -2141,7 +2141,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew @ Oran Berry
-Level: 18
+Level: 28
 
 === TRAINER_HIKER_NOB ===
 Name: NOB
@@ -2182,10 +2182,10 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorina
-Level: 20
+Level: 28
 
 Paras @ Oran Berry
-Level: 20
+Level: 28
 
 === TRAINER_HIKER_ALAN ===
 Name: ALAN
@@ -2213,10 +2213,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 
 Machop
-Level: 26
+Level: 54
 
 Weepinbell @ Sitrus Berry
-Level: 26
+Level: 54
 
 === TRAINER_HIKER_BRICE ===
 Name: BRICE
@@ -2240,7 +2240,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_HIKER_CLARK ===
 Name: CLARK
@@ -2268,10 +2268,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 
 Raticate
-Level: 26
+Level: 54
 
 Golbat @ Sitrus Berry
-Level: 26
+Level: 54
 
 === TRAINER_HIKER_TRENT ===
 Name: TRENT
@@ -2291,10 +2291,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 24
+Level: 54
 
 Weepinbell @ Sitrus Berry
-Level: 24
+Level: 54
 
 === TRAINER_HIKER_DUDLEY ===
 Name: DUDLEY
@@ -2330,7 +2330,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Kadabra @ Sitrus Berry
-Level: 26
+Level: 54
 
 === TRAINER_HIKER_ALLEN ===
 Name: ALLEN
@@ -2350,13 +2350,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Haunter
-Level: 31
+Level: 55
 
 Raticate
-Level: 31
+Level: 55
 
 Machop @ Sitrus Berry
-Level: 31
+Level: 55
 
 === TRAINER_HIKER_ERIC ===
 Name: ERIC
@@ -2376,10 +2376,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 25
+Level: 54
 
 Golbat @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_HIKER_LENNY ===
 Name: LENNY
@@ -2428,7 +2428,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_HIKER_LUCAS ===
 Name: LUCAS
@@ -2456,10 +2456,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
 
 Weepinbell
-Level: 26
+Level: 54
 
 Krabby @ Sitrus Berry
-Level: 26
+Level: 54
 
 === TRAINER_BIKER_JARED ===
 Name: JARED
@@ -2495,7 +2495,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Kadabra @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_BIKER_MALIK ===
 Name: MALIK
@@ -2523,10 +2523,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Kadabra
-Level: 36
+Level: 71
 
 Weepinbell @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIKER_ERNEST ===
 Name: ERNEST
@@ -2611,7 +2611,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Krabby @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_BIKER_LAO ===
 Name: LAO
@@ -2639,10 +2639,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Machop
-Level: 36
+Level: 71
 
 Pidgeotto @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIKER_1 ===
 Name: PH
@@ -2671,13 +2671,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 41
+Level: 71
 
 Drowzee
-Level: 41
+Level: 71
 
 Machop @ Sitrus Berry
-Level: 41
+Level: 71
 
 === TRAINER_BIKER_RUBEN ===
 Name: RUBEN
@@ -2713,7 +2713,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Machop @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_BIKER_BILLY ===
 Name: BILLY
@@ -2729,13 +2729,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 41
+Level: 71
 
 Raticate
-Level: 41
+Level: 71
 
 Machop @ Sitrus Berry
-Level: 41
+Level: 71
 
 === TRAINER_BIKER_NIKOLAS ===
 Name: NIKOLAS
@@ -2763,10 +2763,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Charge
 
 Kadabra
-Level: 36
+Level: 71
 
 Machop @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIKER_JAXON ===
 Name: JAXON
@@ -2794,10 +2794,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Weepinbell
-Level: 36
+Level: 71
 
 Haunter @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIKER_WILLIAM ===
 Name: WILLIAM
@@ -2923,7 +2923,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Machop @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_BIKER_GERALD ===
 Name: GERALD
@@ -2951,10 +2951,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Haunter
-Level: 36
+Level: 71
 
 Graveler @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BURGLAR_1 ===
 Name: PH
@@ -3029,7 +3029,7 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat @ Sitrus Berry
-Level: 47
+Level: 93
 
 === TRAINER_BURGLAR_RAMON ===
 Name: RAMON
@@ -3045,13 +3045,13 @@ Level: 94
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 53
+Level: 94
 
 Magneton
-Level: 53
+Level: 94
 
 Weezing @ Sitrus Berry
-Level: 53
+Level: 94
 
 === TRAINER_BURGLAR_DUSTY ===
 Name: DUSTY
@@ -3071,10 +3071,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio
-Level: 48
+Level: 93
 
 Marowak @ Sitrus Berry
-Level: 48
+Level: 93
 
 === TRAINER_BURGLAR_ARNIE ===
 Name: ARNIE
@@ -3094,10 +3094,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 44
+Level: 93
 
 Weezing @ Sitrus Berry
-Level: 44
+Level: 93
 
 === TRAINER_BURGLAR_4 ===
 Name: PH
@@ -3130,13 +3130,13 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing
-Level: 49
+Level: 93
 
 Hypno
-Level: 49
+Level: 93
 
 Muk @ Sitrus Berry
-Level: 49
+Level: 93
 
 === TRAINER_BURGLAR_LEWIS ===
 Name: LEWIS
@@ -3156,10 +3156,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 44
+Level: 93
 
 Machoke @ Sitrus Berry
-Level: 44
+Level: 93
 
 === TRAINER_ENGINEER_BAILY ===
 Name: BAILY
@@ -3179,10 +3179,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 26
+Level: 40
 
 Haunter @ Sitrus Berry
-Level: 26
+Level: 40
 
 === TRAINER_ENGINEER_BRAXTON ===
 Name: BRAXTON
@@ -3198,13 +3198,13 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 26
+Level: 40
 
 Haunter
-Level: 26
+Level: 40
 
 Drowzee @ Sitrus Berry
-Level: 26
+Level: 40
 
 === TRAINER_ENGINEER_BERNIE ===
 Name: BERNIE
@@ -3228,7 +3228,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_FISHERMAN_DALE ===
 Name: DALE
@@ -3252,7 +3252,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb @ Sitrus Berry
-Level: 21
+Level: 40
 
 === TRAINER_FISHERMAN_BARNY ===
 Name: BARNY
@@ -3276,7 +3276,7 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell @ Sitrus Berry
-Level: 21
+Level: 40
 
 === TRAINER_FISHERMAN_NED ===
 Name: NED
@@ -3300,7 +3300,7 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby @ Sitrus Berry
-Level: 28
+Level: 70
 
 === TRAINER_FISHERMAN_CHIP ===
 Name: CHIP
@@ -3320,10 +3320,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 30
+Level: 71
 
 Voltorb @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_FISHERMAN_HANK ===
 Name: HANK
@@ -3339,13 +3339,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 34
+Level: 71
 
 Machop
-Level: 34
+Level: 71
 
 Graveler @ Sitrus Berry
-Level: 34
+Level: 71
 
 === TRAINER_FISHERMAN_ELLIOT ===
 Name: ELLIOT
@@ -3415,10 +3415,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 40
+Level: 92
 
 Gyarados @ Sitrus Berry
-Level: 40
+Level: 92
 
 === TRAINER_FISHERMAN_WADE ===
 Name: WADE
@@ -3471,10 +3471,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rhyhorn
-Level: 43
+Level: 93
 
 Weezing @ Sitrus Berry
-Level: 43
+Level: 93
 
 === TRAINER_FISHERMAN_ANDREW ===
 Name: ANDREW
@@ -3494,10 +3494,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 30
+Level: 71
 
 Weepinbell @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_SWIMMER_MALE_LUIS ===
 Name: LUIS
@@ -3517,7 +3517,7 @@ Level: 28
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sandshrew @ Oran Berry
-Level: 19
+Level: 28
 
 === TRAINER_SWIMMER_MALE_RICHARD ===
 Name: RICHARD
@@ -3537,10 +3537,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 39
+Level: 92
 
 Rhyhorn @ Sitrus Berry
-Level: 39
+Level: 92
 
 === TRAINER_SWIMMER_MALE_REECE ===
 Name: REECE
@@ -3564,7 +3564,7 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow @ Sitrus Berry
-Level: 38
+Level: 92
 
 === TRAINER_SWIMMER_MALE_MATTHEW ===
 Name: MATTHEW
@@ -3584,10 +3584,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 39
+Level: 92
 
 Machoke @ Sitrus Berry
-Level: 39
+Level: 92
 
 === TRAINER_SWIMMER_MALE_DOUGLAS ===
 Name: DOUGLAS
@@ -3636,7 +3636,7 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak @ Focus Sash
-Level: 38
+Level: 92
 
 === TRAINER_SWIMMER_MALE_TONY ===
 Name: TONY
@@ -3656,10 +3656,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gyarados
-Level: 39
+Level: 92
 
 Hypno @ Sitrus Berry
-Level: 39
+Level: 92
 
 === TRAINER_SWIMMER_MALE_AXLE ===
 Name: AXLE
@@ -3708,10 +3708,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 40
+Level: 92
 
 Weezing @ Focus Sash
-Level: 40
+Level: 92
 
 === TRAINER_SWIMMER_MALE_DEAN ===
 Name: DEAN
@@ -3727,13 +3727,13 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio
-Level: 46
+Level: 93
 
 Magneton
-Level: 46
+Level: 93
 
 Hypno @ Focus Sash
-Level: 46
+Level: 93
 
 === TRAINER_SWIMMER_MALE_DARRIN ===
 Name: DARRIN
@@ -3778,10 +3778,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 43
+Level: 93
 
 Rhyhorn @ Sitrus Berry
-Level: 43
+Level: 93
 
 === TRAINER_SWIMMER_MALE_JACK ===
 Name: JACK
@@ -3797,13 +3797,13 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 48
+Level: 93
 
 Fearow
-Level: 48
+Level: 93
 
 Dodrio @ Sitrus Berry
-Level: 48
+Level: 93
 
 === TRAINER_SWIMMER_MALE_JEROME ===
 Name: JEROME
@@ -3823,10 +3823,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing
-Level: 43
+Level: 93
 
 Gyarados @ Sitrus Berry
-Level: 43
+Level: 93
 
 === TRAINER_SWIMMER_MALE_ROLAND ===
 Name: ROLAND
@@ -3850,7 +3850,7 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk @ Sitrus Berry
-Level: 42
+Level: 93
 
 === TRAINER_CUE_BALL_KOJI ===
 Name: KOJI
@@ -3874,7 +3874,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_CUE_BALL_LUKE ===
 Name: LUKE
@@ -3894,10 +3894,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 36
+Level: 71
 
 Krabby @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_CUE_BALL_CAMRON ===
 Name: CAMRON
@@ -3917,10 +3917,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 36
+Level: 71
 
 Weepinbell @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_CUE_BALL_RAUL ===
 Name: RAUL
@@ -3940,10 +3940,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 36
+Level: 71
 
 Machop @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_CUE_BALL_ISAIAH ===
 Name: ISAIAH
@@ -3963,10 +3963,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 36
+Level: 71
 
 Voltorb @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_CUE_BALL_ZEEK ===
 Name: ZEEK
@@ -3982,13 +3982,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 41
+Level: 71
 
 Kadabra
-Level: 41
+Level: 71
 
 Weepinbell @ Sitrus Berry
-Level: 41
+Level: 71
 
 === TRAINER_CUE_BALL_JAMAL ===
 Name: JAMAL
@@ -4033,10 +4033,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 36
+Level: 71
 
 Haunter @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_CUE_BALL_CHASE ===
 Name: CHASE
@@ -4077,10 +4077,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 23
+Level: 40
 
 Machop @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_GAMER_JASPER ===
 Name: JASPER
@@ -4100,10 +4100,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 23
+Level: 40
 
 Pidgeotto @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_GAMER_DIRK ===
 Name: DIRK
@@ -4123,10 +4123,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 23
+Level: 40
 
 Kadabra @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_GAMER_DARIAN ===
 Name: DARIAN
@@ -4146,10 +4146,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 23
+Level: 40
 
 Golbat @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_GAMER_STAN ===
 Name: STAN
@@ -4173,7 +4173,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_GAMER_1 ===
 Name: PH
@@ -4206,10 +4206,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 30
+Level: 54
 
 Kadabra @ Sitrus Berry
-Level: 30
+Level: 54
 
 === TRAINER_BEAUTY_BRIDGET ===
 Name: BRIDGET
@@ -4254,10 +4254,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 30
+Level: 54
 
 Drowzee @ Sitrus Berry
-Level: 30
+Level: 54
 
 === TRAINER_BEAUTY_LORI ===
 Name: LORI
@@ -4273,13 +4273,13 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 30
+Level: 54
 
 Pidgeotto
-Level: 30
+Level: 54
 
 Krabby @ Sitrus Berry
-Level: 30
+Level: 54
 
 === TRAINER_BEAUTY_LOLA ===
 Name: LOLA
@@ -4303,7 +4303,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom @ Sitrus Berry
-Level: 34
+Level: 71
 
 === TRAINER_BEAUTY_SHEILA ===
 Name: SHEILA
@@ -4323,10 +4323,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 36
+Level: 71
 
 Kadabra @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_SWIMMER_FEMALE_TIFFANY ===
 Name: TIFFANY
@@ -4342,13 +4342,13 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 46
+Level: 93
 
 Muk
-Level: 46
+Level: 93
 
 Machoke @ Focus Sash
-Level: 46
+Level: 93
 
 === TRAINER_SWIMMER_FEMALE_NORA ===
 Name: NORA
@@ -4372,7 +4372,7 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno @ Focus Sash
-Level: 39
+Level: 92
 
 === TRAINER_SWIMMER_FEMALE_MELISSA ===
 Name: MELISSA
@@ -4392,10 +4392,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 40
+Level: 92
 
 Weezing @ Sitrus Berry
-Level: 40
+Level: 92
 
 === TRAINER_BEAUTY_GRACE ===
 Name: GRACE
@@ -4415,10 +4415,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 36
+Level: 71
 
 Haunter @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BEAUTY_OLIVIA ===
 Name: OLIVIA
@@ -4438,10 +4438,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 36
+Level: 71
 
 Raticate @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BEAUTY_LAUREN ===
 Name: LAUREN
@@ -4511,10 +4511,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 39
+Level: 92
 
 Hypno @ Sitrus Berry
-Level: 39
+Level: 92
 
 === TRAINER_SWIMMER_FEMALE_CONNIE ===
 Name: CONNIE
@@ -4538,7 +4538,7 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton @ Sitrus Berry
-Level: 38
+Level: 92
 
 === TRAINER_SWIMMER_FEMALE_SHIRLEY ===
 Name: SHIRLEY
@@ -4562,7 +4562,7 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow @ Sitrus Berry
-Level: 39
+Level: 92
 
 === TRAINER_PSYCHIC_JOHAN ===
 Name: JOHAN
@@ -4607,10 +4607,10 @@ Level: 84
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Weepinbell
-Level: 43
+Level: 84
 
 Haunter @ Sitrus Berry
-Level: 43
+Level: 84
 
 === TRAINER_PSYCHIC_CAMERON ===
 Name: CAMERON
@@ -4634,7 +4634,7 @@ Level: 84
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Haunter @ Sitrus Berry
-Level: 41
+Level: 84
 
 === TRAINER_PSYCHIC_PRESTON ===
 Name: PRESTON
@@ -4650,13 +4650,13 @@ Level: 85
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Weepinbell
-Level: 48
+Level: 85
 
 Gloom
-Level: 48
+Level: 85
 
 Haunter @ Sitrus Berry
-Level: 48
+Level: 85
 
 === TRAINER_ROCKER_RANDALL ===
 Name: RANDALL
@@ -4697,10 +4697,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 36
+Level: 71
 
 Raticate @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_JUGGLER_DALTON ===
 Name: DALTON
@@ -4720,10 +4720,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 36
+Level: 83
 
 Gloom @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_JUGGLER_NELSON ===
 Name: NELSON
@@ -4751,7 +4751,7 @@ Level: 107
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Onix @ Sitrus Berry
-Level: 53
+Level: 107
 
 === TRAINER_JUGGLER_KIRK ===
 Name: KIRK
@@ -4796,10 +4796,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 43
+Level: 71
 
 Graveler @ Sitrus Berry
-Level: 43
+Level: 71
 
 === TRAINER_JUGGLER_GREGORY ===
 Name: GREGORY
@@ -4819,16 +4819,16 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Encore
 
 Primeape
-Level: 62
+Level: 112
 
 Rhydon
-Level: 62
+Level: 112
 
 Arcanine
-Level: 62
+Level: 112
 
 Nidoking @ Focus Sash
-Level: 62
+Level: 112
 
 === TRAINER_JUGGLER_EDWARD ===
 Name: EDWARD
@@ -4872,7 +4872,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Encore
 
 Nidoking @ Focus Sash
-Level: 112
+Level: 110
 
 === TRAINER_JUGGLER_KAYDEN ===
 Name: KAYDEN
@@ -4888,13 +4888,13 @@ Level: 72
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 48
+Level: 72
 
 Weepinbell
-Level: 48
+Level: 72
 
 Krabby @ Sitrus Berry
-Level: 48
+Level: 72
 
 === TRAINER_JUGGLER_NATE ===
 Name: NATE
@@ -4914,10 +4914,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 43
+Level: 71
 
 Golbat @ Sitrus Berry
-Level: 43
+Level: 71
 
 === TRAINER_TAMER_PHIL ===
 Name: PHIL
@@ -4937,10 +4937,10 @@ Level: 71
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Golbat
-Level: 43
+Level: 71
 
 Voltorb @ Sitrus Berry
-Level: 43
+Level: 71
 
 === TRAINER_TAMER_EDGAR ===
 Name: EDGAR
@@ -4964,7 +4964,7 @@ Level: 71
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Golbat @ Sitrus Berry
-Level: 41
+Level: 71
 
 === TRAINER_TAMER_JASON ===
 Name: JASON
@@ -4980,13 +4980,13 @@ Level: 103
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Fearow
-Level: 56
+Level: 103
 
 Hypno
-Level: 56
+Level: 103
 
 Weezing @ Focus Sash
-Level: 56
+Level: 103
 
 === TRAINER_TAMER_COLE ===
 Name: COLE
@@ -5006,10 +5006,10 @@ Level: 103
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Weezing
-Level: 51
+Level: 103
 
 Dodrio @ Focus Sash
-Level: 51
+Level: 103
 
 === TRAINER_TAMER_VINCENT ===
 Name: VINCENT
@@ -5029,13 +5029,13 @@ Level: 109
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Weezing
-Level: 57
+Level: 109
 
 Onix
-Level: 57
+Level: 109
 
 Arcanine @ Focus Sash
-Level: 57
+Level: 109
 
 === TRAINER_TAMER_JOHN ===
 Name: JOHN
@@ -5080,10 +5080,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 36
+Level: 71
 
 Weepinbell @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIRD_KEEPER_PERRY ===
 Name: PERRY
@@ -5153,13 +5153,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 41
+Level: 71
 
 Kadabra
-Level: 41
+Level: 71
 
 Raticate @ Sitrus Berry
-Level: 41
+Level: 71
 
 === TRAINER_BIRD_KEEPER_BENNY ===
 Name: BENNY
@@ -5179,10 +5179,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 36
+Level: 71
 
 Haunter @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIRD_KEEPER_EDWIN ===
 Name: EDWIN
@@ -5231,7 +5231,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_BIRD_KEEPER_WILTON ===
 Name: WILTON
@@ -5251,10 +5251,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 36
+Level: 71
 
 Machop @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIRD_KEEPER_RAMIRO ===
 Name: RAMIRO
@@ -5270,13 +5270,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 43
+Level: 71
 
 Weepinbell
-Level: 43
+Level: 71
 
 Pidgeotto @ Sitrus Berry
-Level: 43
+Level: 71
 
 === TRAINER_BIRD_KEEPER_JACOB ===
 Name: JACOB
@@ -5325,7 +5325,7 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Focus Sash
-Level: 39
+Level: 92
 
 === TRAINER_BIRD_KEEPER_REED ===
 Name: REED
@@ -5391,7 +5391,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_BIRD_KEEPER_MITCH ===
 Name: MITCH
@@ -5436,10 +5436,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 36
+Level: 71
 
 Krabby @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_BIRD_KEEPER_MARLON ===
 Name: MARLON
@@ -5463,7 +5463,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_BLACK_BELT_KOICHI ===
 Name: KOICHI
@@ -5483,10 +5483,10 @@ Level: 85
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Gloom
-Level: 46
+Level: 85
 
 Voltorb @ Sitrus Berry
-Level: 46
+Level: 85
 
 === TRAINER_BLACK_BELT_MIKE ===
 Name: MIKE
@@ -5510,7 +5510,7 @@ Level: 83
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Graveler @ Sitrus Berry
-Level: 39
+Level: 83
 
 === TRAINER_BLACK_BELT_HIDEKI ===
 Name: HIDEKI
@@ -5530,10 +5530,10 @@ Level: 84
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Gloom
-Level: 40
+Level: 84
 
 Golbat @ Sitrus Berry
-Level: 40
+Level: 84
 
 === TRAINER_BLACK_BELT_AARON ===
 Name: AARON
@@ -5549,13 +5549,13 @@ Level: 85
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Voltorb
-Level: 45
+Level: 85
 
 Raticate
-Level: 45
+Level: 85
 
 Haunter @ Sitrus Berry
-Level: 45
+Level: 85
 
 === TRAINER_BLACK_BELT_HITOSHI ===
 Name: HITOSHI
@@ -5579,7 +5579,7 @@ Level: 83
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Raticate @ Sitrus Berry
-Level: 39
+Level: 83
 
 === TRAINER_BLACK_BELT_ATSUSHI ===
 Name: ATSUSHI
@@ -5599,10 +5599,10 @@ Level: 103
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Muk
-Level: 52
+Level: 103
 
 Weezing @ Focus Sash
-Level: 52
+Level: 103
 
 === TRAINER_BLACK_BELT_KIYO ===
 Name: KIYO
@@ -5618,13 +5618,13 @@ Level: 103
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Gyarados
-Level: 56
+Level: 103
 
 Hypno
-Level: 56
+Level: 103
 
 Magneton @ Focus Sash
-Level: 56
+Level: 103
 
 === TRAINER_BLACK_BELT_TAKASHI ===
 Name: TAKASHI
@@ -5648,7 +5648,7 @@ Level: 103
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Fearow @ Sitrus Berry
-Level: 49
+Level: 103
 
 === TRAINER_BLACK_BELT_DAISUKE ===
 Name: DAISUKE
@@ -5672,10 +5672,10 @@ Level: 108
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rhydon
-Level: 56
+Level: 108
 
 Fearow @ Sitrus Berry
-Level: 56
+Level: 108
 
 === TRAINER_RIVAL_OAKS_LAB_SQUIRTLE ===
 Name: TERRY
@@ -5914,10 +5914,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 38
+Level: 92
 
 Dodrio @ Sitrus Berry
-Level: 38
+Level: 92
 
 === TRAINER_SCIENTIST_CONNOR ===
 Name: CONNOR
@@ -5982,7 +5982,7 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_SCIENTIST_JOSE ===
 Name: JOSE
@@ -6010,10 +6010,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Golbat
-Level: 36
+Level: 83
 
 Raticate @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_SCIENTIST_RODNEY ===
 Name: RODNEY
@@ -6029,13 +6029,13 @@ Level: 84
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 41
+Level: 84
 
 Machop
-Level: 41
+Level: 84
 
 Drowzee @ Sitrus Berry
-Level: 41
+Level: 84
 
 === TRAINER_SCIENTIST_BEAU ===
 Name: BEAU
@@ -6145,10 +6145,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 36
+Level: 83
 
 Weepinbell @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_SCIENTIST_PARKER ===
 Name: PARKER
@@ -6168,10 +6168,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 36
+Level: 83
 
 Raticate @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_SCIENTIST_ED ===
 Name: ED
@@ -6207,7 +6207,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Supersonic
 
 Haunter @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_SCIENTIST_TRAVIS ===
 Name: TRAVIS
@@ -6227,10 +6227,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 36
+Level: 83
 
 Gloom @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_SCIENTIST_BRAYDON ===
 Name: BRAYDON
@@ -6254,7 +6254,7 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno @ Sitrus Berry
-Level: 43
+Level: 93
 
 === TRAINER_SCIENTIST_IVAN ===
 Name: IVAN
@@ -6274,10 +6274,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 44
+Level: 93
 
 Machoke @ Sitrus Berry
-Level: 44
+Level: 93
 
 === TRAINER_BOSS_GIOVANNI ===
 Name: GIOVANNI
@@ -6419,7 +6419,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidorina @ Oran Berry
-Level: 16
+Level: 27
 
 === TRAINER_TEAM_ROCKET_GRUNT_2 ===
 Name: GRUNT
@@ -6540,10 +6540,10 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 25
+Level: 70
 
 Voltorb @ Sitrus Berry
-Level: 25
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_8 ===
 Name: GRUNT
@@ -6563,10 +6563,10 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 26
+Level: 70
 
 Pidgeotto @ Sitrus Berry
-Level: 26
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_9 ===
 Name: GRUNT
@@ -6586,10 +6586,10 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 26
+Level: 70
 
 Pidgeotto @ Sitrus Berry
-Level: 26
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_10 ===
 Name: GRUNT
@@ -6623,7 +6623,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Gas
 
 Voltorb @ Sitrus Berry
-Level: 25
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_11 ===
 Name: GRUNT
@@ -6676,10 +6676,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Poison Gas
 
 Weepinbell
-Level: 28
+Level: 70
 
 Graveler @ Sitrus Berry
-Level: 28
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_13 ===
 Name: GRUNT
@@ -6751,7 +6751,7 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra @ Sitrus Berry
-Level: 25
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_15 ===
 Name: GRUNT
@@ -6771,10 +6771,10 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 26
+Level: 70
 
 Drowzee @ Sitrus Berry
-Level: 26
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_16 ===
 Name: GRUNT
@@ -6798,7 +6798,7 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra @ Sitrus Berry
-Level: 29
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_17 ===
 Name: GRUNT
@@ -6822,7 +6822,7 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter @ Sitrus Berry
-Level: 29
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_18 ===
 Name: GRUNT
@@ -6842,10 +6842,10 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 26
+Level: 70
 
 Machop @ Sitrus Berry
-Level: 26
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_19 ===
 Name: GRUNT
@@ -6869,7 +6869,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb @ Sitrus Berry
-Level: 31
+Level: 71
 
 === TRAINER_TEAM_ROCKET_GRUNT_20 ===
 Name: GRUNT
@@ -6889,10 +6889,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 33
+Level: 71
 
 Kadabra @ Sitrus Berry
-Level: 33
+Level: 71
 
 === TRAINER_TEAM_ROCKET_GRUNT_21 ===
 Name: GRUNT
@@ -6954,10 +6954,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 36
+Level: 83
 
 Golbat @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_24 ===
 Name: GRUNT
@@ -7010,7 +7010,7 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_26 ===
 Name: GRUNT
@@ -7030,10 +7030,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 36
+Level: 83
 
 Weepinbell @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_27 ===
 Name: GRUNT
@@ -7057,7 +7057,7 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_28 ===
 Name: GRUNT
@@ -7073,13 +7073,13 @@ Level: 84
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 41
+Level: 84
 
 Raticate
-Level: 41
+Level: 84
 
 Kadabra @ Sitrus Berry
-Level: 41
+Level: 84
 
 === TRAINER_TEAM_ROCKET_GRUNT_29 ===
 Name: GRUNT
@@ -7095,13 +7095,13 @@ Level: 84
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 41
+Level: 84
 
 Machop
-Level: 41
+Level: 84
 
 Krabby @ Sitrus Berry
-Level: 41
+Level: 84
 
 === TRAINER_TEAM_ROCKET_GRUNT_30 ===
 Name: GRUNT
@@ -7121,10 +7121,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 36
+Level: 83
 
 Drowzee @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_31 ===
 Name: GRUNT
@@ -7148,7 +7148,7 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_32 ===
 Name: GRUNT
@@ -7209,10 +7209,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 36
+Level: 83
 
 Kadabra @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_34 ===
 Name: GRUNT
@@ -7232,10 +7232,10 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 36
+Level: 83
 
 Machop @ Sitrus Berry
-Level: 36
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_35 ===
 Name: GRUNT
@@ -7284,7 +7284,7 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_37 ===
 Name: GRUNT
@@ -7308,7 +7308,7 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_38 ===
 Name: GRUNT
@@ -7332,7 +7332,7 @@ Level: 83
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto @ Sitrus Berry
-Level: 35
+Level: 83
 
 === TRAINER_TEAM_ROCKET_GRUNT_39 ===
 Name: GRUNT
@@ -7348,13 +7348,13 @@ Level: 84
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 41
+Level: 84
 
 Drowzee
-Level: 41
+Level: 84
 
 Haunter @ Sitrus Berry
-Level: 41
+Level: 84
 
 === TRAINER_TEAM_ROCKET_GRUNT_40 ===
 Name: GRUNT
@@ -7407,7 +7407,7 @@ Level: 84
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell @ Sitrus Berry
-Level: 40
+Level: 84
 
 === TRAINER_COOLTRAINER_SAMUEL ===
 Name: SAMUEL
@@ -9163,10 +9163,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 23
+Level: 40
 
 Graveler @ Sitrus Berry
-Level: 23
+Level: 40
 
 === TRAINER_GENTLEMAN_ARTHUR ===
 Name: ARTHUR
@@ -9186,10 +9186,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 24
+Level: 40
 
 Weepinbell @ Sitrus Berry
-Level: 24
+Level: 40
 
 === TRAINER_GENTLEMAN_TUCKER ===
 Name: TUCKER
@@ -9205,13 +9205,13 @@ Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 29
+Level: 41
 
 Raticate
-Level: 29
+Level: 41
 
 Voltorb @ Sitrus Berry
-Level: 29
+Level: 41
 
 === TRAINER_GENTLEMAN_NORTON ===
 Name: NORTON
@@ -9905,13 +9905,13 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 28
+Level: 70
 
 Voltorb
-Level: 28
+Level: 70
 
 Pidgeotto @ Sitrus Berry
-Level: 28
+Level: 70
 
 === TRAINER_CHANNELER_CARLY ===
 Name: CARLY
@@ -9927,13 +9927,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 30
+Level: 71
 
 Weepinbell
-Level: 30
+Level: 71
 
 Pidgeotto @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_CHANNELER_HOPE ===
 Name: HOPE
@@ -9949,13 +9949,13 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 29
+Level: 70
 
 Drowzee
-Level: 29
+Level: 70
 
 Machop @ Sitrus Berry
-Level: 29
+Level: 70
 
 === TRAINER_CHANNELER_PAULA ===
 Name: PAULA
@@ -9971,13 +9971,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 30
+Level: 71
 
 Gloom
-Level: 30
+Level: 71
 
 Weepinbell @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_CHANNELER_LAUREL ===
 Name: LAUREL
@@ -9997,10 +9997,10 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 29
+Level: 70
 
 Krabby @ Sitrus Berry
-Level: 29
+Level: 70
 
 === TRAINER_CHANNELER_JODY ===
 Name: JODY
@@ -10016,13 +10016,13 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 28
+Level: 70
 
 Gloom
-Level: 28
+Level: 70
 
 Golbat @ Sitrus Berry
-Level: 28
+Level: 70
 
 === TRAINER_CHANNELER_TAMMY ===
 Name: TAMMY
@@ -10038,13 +10038,13 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 29
+Level: 70
 
 Raticate
-Level: 29
+Level: 70
 
 Kadabra @ Sitrus Berry
-Level: 29
+Level: 70
 
 === TRAINER_CHANNELER_RUTH ===
 Name: RUTH
@@ -10060,13 +10060,13 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 28
+Level: 70
 
 Weepinbell
-Level: 28
+Level: 70
 
 Raticate @ Sitrus Berry
-Level: 28
+Level: 70
 
 === TRAINER_CHANNELER_KARINA ===
 Name: KARINA
@@ -10082,13 +10082,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 30
+Level: 71
 
 Kadabra
-Level: 30
+Level: 71
 
 Voltorb @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_CHANNELER_JANAE ===
 Name: JANAE
@@ -10104,13 +10104,13 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 28
+Level: 70
 
 Graveler
-Level: 28
+Level: 70
 
 Kadabra @ Sitrus Berry
-Level: 28
+Level: 70
 
 === TRAINER_CHANNELER_ANGELICA ===
 Name: ANGELICA
@@ -10134,7 +10134,7 @@ Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto @ Sitrus Berry
-Level: 28
+Level: 70
 
 === TRAINER_CHANNELER_EMILIA ===
 Name: EMILIA
@@ -10150,13 +10150,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 30
+Level: 71
 
 Pidgeotto
-Level: 30
+Level: 71
 
 Haunter @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_CHANNELER_JENNIFER ===
 Name: JENNIFER
@@ -10172,13 +10172,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 30
+Level: 71
 
 Weepinbell
-Level: 30
+Level: 71
 
 Gloom @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_CHANNELER_1 ===
 Name: PH
@@ -10310,10 +10310,10 @@ Level: 84
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 43
+Level: 84
 
 Raticate @ Sitrus Berry
-Level: 43
+Level: 84
 
 === TRAINER_CHANNELER_STACY ===
 Name: STACY
@@ -10329,13 +10329,13 @@ Level: 85
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 48
+Level: 85
 
 Machop
-Level: 48
+Level: 85
 
 Graveler @ Sitrus Berry
-Level: 48
+Level: 85
 
 === TRAINER_CHANNELER_TASHA ===
 Name: TASHA
@@ -10359,7 +10359,7 @@ Level: 84
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler @ Sitrus Berry
-Level: 41
+Level: 84
 
 === TRAINER_HIKER_JEREMY ===
 Name: JEREMY
@@ -10379,10 +10379,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 25
+Level: 54
 
 Drowzee @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_PICNICKER_ALMA ===
 Name: ALMA
@@ -10406,7 +10406,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_PICNICKER_SUSIE ===
 Name: SUSIE
@@ -10455,10 +10455,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 38
+Level: 71
 
 Raticate @ Sitrus Berry
-Level: 38
+Level: 71
 
 === TRAINER_PICNICKER_GWEN ===
 Name: GWEN
@@ -10519,7 +10519,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Voltorb @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_CAMPER_FLINT ===
 Name: FLINT
@@ -10539,7 +10539,7 @@ Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Oddish @ Oran Berry
-Level: 17
+Level: 27
 
 === TRAINER_PICNICKER_MISSY ===
 Name: MISSY
@@ -10559,10 +10559,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 40
+Level: 92
 
 Machoke @ Focus Sash
-Level: 40
+Level: 92
 
 === TRAINER_PICNICKER_IRENE ===
 Name: IRENE
@@ -10586,7 +10586,7 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gyarados @ Sitrus Berry
-Level: 39
+Level: 92
 
 === TRAINER_PICNICKER_DANA ===
 Name: DANA
@@ -10610,7 +10610,7 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate @ Sitrus Berry
-Level: 25
+Level: 54
 
 === TRAINER_PICNICKER_ARIANA ===
 Name: ARIANA
@@ -10655,10 +10655,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 28
+Level: 54
 
 Voltorb @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_CAMPER_JUSTIN ===
 Name: JUSTIN
@@ -10678,10 +10678,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weepinbell
-Level: 36
+Level: 71
 
 Haunter @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_PICNICKER_YAZMIN ===
 Name: YAZMIN
@@ -10705,7 +10705,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_PICNICKER_KINDRA ===
 Name: KINDRA
@@ -10729,7 +10729,7 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra @ Sitrus Berry
-Level: 35
+Level: 71
 
 === TRAINER_PICNICKER_BECKY ===
 Name: BECKY
@@ -10749,10 +10749,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 36
+Level: 71
 
 Graveler @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_PICNICKER_CELIA ===
 Name: CELIA
@@ -10768,13 +10768,13 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 41
+Level: 71
 
 Machop
-Level: 41
+Level: 71
 
 Graveler @ Sitrus Berry
-Level: 41
+Level: 71
 
 === TRAINER_GENTLEMAN_BROOKS ===
 Name: BROOKS
@@ -10790,13 +10790,13 @@ Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 29
+Level: 41
 
 Haunter
-Level: 29
+Level: 41
 
 Pidgeotto @ Sitrus Berry
-Level: 29
+Level: 41
 
 === TRAINER_GENTLEMAN_LAMAR ===
 Name: LAMAR
@@ -10816,10 +10816,10 @@ Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 21
+Level: 40
 
 Raticate @ Sitrus Berry
-Level: 21
+Level: 40
 
 === TRAINER_TWINS_ELI_ANNE ===
 Name: ELI & ANNE
@@ -10839,10 +10839,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 28
+Level: 54
 
 Graveler @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_COOL_COUPLE_RAY_TYRA ===
 Name: RAY & TYRA
@@ -10870,13 +10870,13 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Poison Sting
 
 Onix
-Level: 59
+Level: 110
 
 Golduck
-Level: 59
+Level: 110
 
 Arcanine @ Sitrus Berry
-Level: 59
+Level: 110
 
 === TRAINER_YOUNG_COUPLE_GIA_JES ===
 Name: GIA & JES
@@ -10896,10 +10896,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 30
+Level: 71
 
 Krabby @ Sitrus Berry
-Level: 30
+Level: 71
 
 === TRAINER_TWINS_KIRI_JAN ===
 Name: KIRI & JAN
@@ -10919,10 +10919,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 36
+Level: 71
 
 Haunter @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_CRUSH_KIN_RON_MYA ===
 Name: RON & MYA
@@ -10942,10 +10942,10 @@ Level: 71
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Raticate
-Level: 36
+Level: 71
 
 Pidgeotto @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_YOUNG_COUPLE_LEA_JED ===
 Name: LEA & JED
@@ -10965,10 +10965,10 @@ Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 36
+Level: 71
 
 Machop @ Sitrus Berry
-Level: 36
+Level: 71
 
 === TRAINER_SIS_AND_BRO_LIA_LUC ===
 Name: LIA & LUC
@@ -10988,10 +10988,10 @@ Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 39
+Level: 92
 
 Kingler @ Sitrus Berry
-Level: 39
+Level: 92
 
 === TRAINER_SIS_AND_BRO_LIL_IAN ===
 Name: LIL & IAN
@@ -11011,10 +11011,10 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 43
+Level: 93
 
 Hypno @ Focus Sash
-Level: 43
+Level: 93
 
 === TRAINER_BUG_CATCHER_3 ===
 Name: PH
@@ -11440,13 +11440,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 64
+Level: 113
 
 Machoke @ Sitrus Berry
-Level: 64
+Level: 113
 
 Golduck @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_PSYCHIC_JACLYN ===
 Name: JACLYN
@@ -11482,10 +11482,10 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Reflect
 
 Muk @ Sitrus Berry
-Level: 62
+Level: 112
 
 Rhydon @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_CRUSH_GIRL_SHARON ===
 Name: SHARON
@@ -11505,10 +11505,10 @@ Level: 103
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Rhyhorn
-Level: 48
+Level: 103
 
 Weezing @ Sitrus Berry
-Level: 48
+Level: 103
 
 === TRAINER_TUBER_AMIRA ===
 Name: AMIRA
@@ -11532,7 +11532,7 @@ Level: 102
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Sitrus Berry
-Level: 44
+Level: 102
 
 === TRAINER_PKMN_BREEDER_ALIZE ===
 Name: ALIZE
@@ -11556,10 +11556,10 @@ Level: 112
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Dodrio @ Sitrus Berry
-Level: 62
+Level: 112
 
 Nidoking @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_PKMN_RANGER_NICOLAS ===
 Name: NICOLAS
@@ -11588,13 +11588,13 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Stun Spore
 
 Magneton
-Level: 66
+Level: 114
 
 Hypno @ Sitrus Berry
-Level: 66
+Level: 114
 
 Golduck @ Sitrus Berry
-Level: 116
+Level: 114
 
 === TRAINER_PKMN_RANGER_MADELINE ===
 Name: MADELINE
@@ -11623,13 +11623,13 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Stun Spore
 
 Rhyhorn
-Level: 66
+Level: 114
 
 Fearow @ Sitrus Berry
-Level: 66
+Level: 114
 
 Onix @ Sitrus Berry
-Level: 116
+Level: 114
 
 === TRAINER_AROMA_LADY_NIKKI ===
 Name: NIKKI
@@ -11649,10 +11649,10 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 48
+Level: 103
 
 Gyarados @ Focus Sash
-Level: 48
+Level: 103
 
 === TRAINER_RUIN_MANIAC_STANLY ===
 Name: STANLY
@@ -11676,10 +11676,10 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Sitrus Berry
-Level: 62
+Level: 112
 
 Nidoqueen @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_LADY_JACKI ===
 Name: JACKI
@@ -11700,13 +11700,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 62
+Level: 112
 
 Hypno @ Focus Sash
-Level: 62
+Level: 112
 
 Onix @ Focus Sash
-Level: 113
+Level: 112
 
 === TRAINER_PAINTER_DAISY ===
 Name: DAISY
@@ -11726,16 +11726,16 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Mega Punch
 
 Fearow
-Level: 65
+Level: 113
 
 Magneton
-Level: 65
+Level: 113
 
 Dodrio @ Focus Sash
-Level: 65
+Level: 113
 
 Nidoqueen @ Focus Sash
-Level: 115
+Level: 113
 
 === TRAINER_BIKER_GOON ===
 Name: GOON
@@ -11763,10 +11763,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge
 
 Machoke
-Level: 48
+Level: 103
 
 Hypno @ Focus Sash
-Level: 48
+Level: 103
 
 === TRAINER_BIKER_GOON_2 ===
 Name: GOON
@@ -11847,7 +11847,7 @@ Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Geodude @ Oran Berry
-Level: 8
+Level: 15
 
 === TRAINER_BUG_CATCHER_CHARLIE ===
 Name: CHARLIE
@@ -11915,7 +11915,7 @@ Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio @ Sitrus Berry
-Level: 43
+Level: 93
 
 === TRAINER_BIKER_RICARDO ===
 Name: RICARDO
@@ -11951,7 +11951,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pound
 
 Drowzee @ Sitrus Berry
-Level: 28
+Level: 54
 
 === TRAINER_BIKER_JAREN ===
 Name: JAREN
@@ -11971,10 +11971,10 @@ Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 30
+Level: 54
 
 Raticate @ Sitrus Berry
-Level: 30
+Level: 54
 
 === TRAINER_TEAM_ROCKET_GRUNT_43 ===
 Name: GRUNT
@@ -11994,10 +11994,10 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 48
+Level: 103
 
 Magneton @ Focus Sash
-Level: 48
+Level: 103
 
 === TRAINER_TEAM_ROCKET_GRUNT_44 ===
 Name: GRUNT
@@ -12046,7 +12046,7 @@ Level: 105
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke @ Sitrus Berry
-Level: 49
+Level: 105
 
 Weezing @ Sitrus Berry
 Level: 105
@@ -12073,10 +12073,10 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke @ Sitrus Berry
-Level: 62
+Level: 112
 
 Golduck @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_TEAM_ROCKET_GRUNT_47 ===
 Name: GRUNT
@@ -12100,10 +12100,10 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat @ Sitrus Berry
-Level: 62
+Level: 112
 
 Arcanine @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_TEAM_ROCKET_GRUNT_48 ===
 Name: GRUNT
@@ -12123,13 +12123,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio
-Level: 64
+Level: 113
 
 Fearow @ Focus Sash
-Level: 64
+Level: 113
 
 Golduck @ Focus Sash
-Level: 114
+Level: 113
 
 === TRAINER_TEAM_ROCKET_ADMIN ===
 Name: ADMIN
@@ -12166,10 +12166,10 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Stun Spore
 
 Dodrio @ Sitrus Berry
-Level: 68
+Level: 115
 
 Nidoking @ Sitrus Berry
-Level: 116
+Level: 115
 
 === TRAINER_TEAM_ROCKET_ADMIN_2 ===
 Name: ADMIN
@@ -12282,7 +12282,7 @@ Level: 102
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke @ Sitrus Berry
-Level: 47
+Level: 102
 
 === TRAINER_SWIMMER_FEMALE_MARIA ===
 Name: MARIA
@@ -12302,10 +12302,10 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 48
+Level: 103
 
 Fearow @ Focus Sash
-Level: 48
+Level: 103
 
 === TRAINER_SWIMMER_FEMALE_ABIGAIL ===
 Name: ABIGAIL
@@ -12329,7 +12329,7 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Focus Sash
-Level: 46
+Level: 102
 
 === TRAINER_SWIMMER_MALE_FINN ===
 Name: FINN
@@ -12345,13 +12345,13 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 49
+Level: 103
 
 Weezing
-Level: 49
+Level: 103
 
 Kingler @ Sitrus Berry
-Level: 49
+Level: 103
 
 === TRAINER_SWIMMER_MALE_GARRETT ===
 Name: GARRETT
@@ -12375,7 +12375,7 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio @ Focus Sash
-Level: 46
+Level: 102
 
 === TRAINER_FISHERMAN_TOMMY ===
 Name: TOMMY
@@ -12424,10 +12424,10 @@ Level: 103
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Gyarados
-Level: 49
+Level: 103
 
 Fearow @ Sitrus Berry
-Level: 49
+Level: 103
 
 === TRAINER_BLACK_BELT_SHEA ===
 Name: SHEA
@@ -12447,10 +12447,10 @@ Level: 103
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Kingler
-Level: 49
+Level: 103
 
 Fearow @ Sitrus Berry
-Level: 49
+Level: 103
 
 === TRAINER_BLACK_BELT_HUGH ===
 Name: HUGH
@@ -12470,10 +12470,10 @@ Level: 103
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rhyhorn
-Level: 48
+Level: 103
 
 Kingler @ Focus Sash
-Level: 48
+Level: 103
 
 === TRAINER_CAMPER_BRYCE ===
 Name: BRYCE
@@ -12497,7 +12497,7 @@ Level: 102
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow @ Sitrus Berry
-Level: 47
+Level: 102
 
 === TRAINER_PICNICKER_CLAIRE ===
 Name: CLAIRE
@@ -12542,10 +12542,10 @@ Level: 103
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Weezing
-Level: 51
+Level: 103
 
 Kingler @ Sitrus Berry
-Level: 51
+Level: 103
 
 === TRAINER_AROMA_LADY_VIOLET ===
 Name: VIOLET
@@ -12569,7 +12569,7 @@ Level: 102
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton @ Focus Sash
-Level: 47
+Level: 102
 
 === TRAINER_TUBER_ALEXIS ===
 Name: ALEXIS
@@ -12614,10 +12614,10 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio
-Level: 48
+Level: 103
 
 Marowak @ Sitrus Berry
-Level: 48
+Level: 103
 
 === TRAINER_SWIMMER_FEMALE_TISHA ===
 Name: TISHA
@@ -12633,13 +12633,13 @@ Level: 103
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gyarados
-Level: 49
+Level: 103
 
 Magneton
-Level: 49
+Level: 103
 
 Muk @ Sitrus Berry
-Level: 49
+Level: 103
 
 === TRAINER_PAINTER_CELINA ===
 Name: CELINA
@@ -12659,16 +12659,16 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Bounce
 
 Hypno
-Level: 65
+Level: 113
 
 Golbat
-Level: 65
+Level: 113
 
 Weezing @ Sitrus Berry
-Level: 65
+Level: 113
 
 Golduck @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_PAINTER_RAYNA ===
 Name: RAYNA
@@ -12688,16 +12688,16 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Self Destruct
 
 Magneton
-Level: 65
+Level: 113
 
 Gyarados
-Level: 65
+Level: 113
 
 Golbat @ Sitrus Berry
-Level: 65
+Level: 113
 
 Weezing @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_LADY_GILLIAN ===
 Name: GILLIAN
@@ -12722,10 +12722,10 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rhyhorn @ Focus Sash
-Level: 61
+Level: 111
 
 Golduck @ Focus Sash
-Level: 112
+Level: 111
 
 === TRAINER_YOUNGSTER_DESTIN ===
 Name: DESTIN
@@ -12745,13 +12745,13 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gyarados
-Level: 62
+Level: 112
 
 Machoke @ Sitrus Berry
-Level: 62
+Level: 112
 
 Arcanine @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_SWIMMER_MALE_TOBY ===
 Name: TOBY
@@ -12775,10 +12775,10 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak @ Focus Sash
-Level: 62
+Level: 112
 
 Primeape @ Focus Sash
-Level: 113
+Level: 112
 
 === TRAINER_TEAM_ROCKET_GRUNT_49 ===
 Name: GRUNT
@@ -12802,10 +12802,10 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Sitrus Berry
-Level: 62
+Level: 112
 
 Nidoking @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_TEAM_ROCKET_GRUNT_50 ===
 Name: GRUNT
@@ -12833,13 +12833,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 
 Magneton
-Level: 64
+Level: 113
 
 Fearow @ Sitrus Berry
-Level: 64
+Level: 113
 
 Gengar @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_TEAM_ROCKET_GRUNT_51 ===
 Name: GRUNT
@@ -12863,10 +12863,10 @@ Level: 112
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Weezing @ Sitrus Berry
-Level: 62
+Level: 112
 
 Nidoqueen @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_BIRD_KEEPER_MILO ===
 Name: MILO
@@ -12886,13 +12886,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 61
+Level: 111
 
 Hypno @ Sitrus Berry
-Level: 61
+Level: 111
 
 Arcanine @ Sitrus Berry
-Level: 112
+Level: 111
 
 === TRAINER_BIRD_KEEPER_CHAZ ===
 Name: CHAZ
@@ -12912,13 +12912,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing
-Level: 61
+Level: 111
 
 Muk @ Sitrus Berry
-Level: 61
+Level: 111
 
 Primeape @ Sitrus Berry
-Level: 112
+Level: 111
 
 === TRAINER_BIRD_KEEPER_HAROLD ===
 Name: HAROLD
@@ -12938,13 +12938,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 61
+Level: 111
 
 Rhyhorn @ Focus Sash
-Level: 61
+Level: 111
 
 Arcanine @ Focus Sash
-Level: 112
+Level: 111
 
 === TRAINER_FISHERMAN_TYLOR ===
 Name: TYLOR
@@ -12964,13 +12964,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 64
+Level: 113
 
 Dodrio @ Sitrus Berry
-Level: 64
+Level: 113
 
 Nidoking @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_SWIMMER_MALE_MYMO ===
 Name: MYMO
@@ -12990,13 +12990,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 64
+Level: 113
 
 Magneton @ Focus Sash
-Level: 64
+Level: 113
 
 Nidoking @ Focus Sash
-Level: 114
+Level: 113
 
 === TRAINER_SWIMMER_FEMALE_NICOLE ===
 Name: NICOLE
@@ -13012,16 +13012,16 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 65
+Level: 113
 
 Dodrio
-Level: 65
+Level: 113
 
 Rhyhorn @ Sitrus Berry
-Level: 65
+Level: 113
 
 Fearow @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_SIS_AND_BRO_AVA_GEB ===
 Name: AVA & GEB
@@ -13041,13 +13041,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 65
+Level: 113
 
 Fearow @ Sitrus Berry
-Level: 65
+Level: 113
 
 Gengar @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_AROMA_LADY_ROSE ===
 Name: ROSE
@@ -13067,13 +13067,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 64
+Level: 113
 
 Rhyhorn @ Sitrus Berry
-Level: 64
+Level: 113
 
 Fearow @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_SWIMMER_MALE_SAMIR ===
 Name: SAMIR
@@ -13089,16 +13089,16 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 65
+Level: 113
 
 Kingler
-Level: 65
+Level: 113
 
 Dodrio @ Sitrus Berry
-Level: 65
+Level: 113
 
 Golduck @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_SWIMMER_FEMALE_DENISE ===
 Name: DENISE
@@ -13118,13 +13118,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 64
+Level: 113
 
 Rhyhorn @ Sitrus Berry
-Level: 64
+Level: 113
 
 Golduck @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_TWINS_MIU_MIA ===
 Name: MIU & MIA
@@ -13144,13 +13144,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 65
+Level: 113
 
 Magneton @ Sitrus Berry
-Level: 65
+Level: 113
 
 Gengar @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_HIKER_EARL ===
 Name: EARL
@@ -13170,13 +13170,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 64
+Level: 113
 
 Weezing @ Focus Sash
-Level: 64
+Level: 113
 
 Nidoqueen @ Focus Sash
-Level: 114
+Level: 113
 
 === TRAINER_RUIN_MANIAC_FOSTER ===
 Name: FOSTER
@@ -13192,16 +13192,16 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 65
+Level: 113
 
 Machoke
-Level: 65
+Level: 113
 
 Golbat @ Sitrus Berry
-Level: 65
+Level: 113
 
 Arcanine @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_RUIN_MANIAC_LARRY ===
 Name: LARRY
@@ -13221,13 +13221,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 64
+Level: 113
 
 Golbat @ Focus Sash
-Level: 64
+Level: 113
 
 Golduck @ Focus Sash
-Level: 114
+Level: 113
 
 === TRAINER_HIKER_DARYL ===
 Name: DARYL
@@ -13243,16 +13243,16 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 65
+Level: 113
 
 Rhyhorn
-Level: 65
+Level: 113
 
 Golbat @ Sitrus Berry
-Level: 65
+Level: 113
 
 Nidoking @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_POKEMANIAC_HECTOR ===
 Name: HECTOR
@@ -13272,13 +13272,13 @@ Level: 113
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Weezing
-Level: 64
+Level: 113
 
 Golbat @ Sitrus Berry
-Level: 64
+Level: 113
 
 Primeape @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_PSYCHIC_DARIO ===
 Name: DARIO
@@ -13366,13 +13366,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 65
+Level: 113
 
 Weezing @ Sitrus Berry
-Level: 65
+Level: 113
 
 Golduck @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_YOUNG_COUPLE_EVE_JON ===
 Name: EVE & JON
@@ -13392,13 +13392,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 65
+Level: 113
 
 Muk @ Sitrus Berry
-Level: 65
+Level: 113
 
 Primeape @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_JUGGLER_MASON ===
 Name: MASON
@@ -13442,7 +13442,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Explosion
 
 Weezing @ Sitrus Berry
-Level: 112
+Level: 111
 
 === TRAINER_CRUSH_GIRL_CYNDY ===
 Name: CYNDY
@@ -13466,10 +13466,10 @@ Level: 112
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Kingler @ Focus Sash
-Level: 62
+Level: 112
 
 Rhydon @ Focus Sash
-Level: 113
+Level: 112
 
 === TRAINER_CRUSH_GIRL_JOCELYN ===
 Name: JOCELYN
@@ -13489,10 +13489,10 @@ Level: 103
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Machoke
-Level: 49
+Level: 103
 
 Rhyhorn @ Sitrus Berry
-Level: 49
+Level: 103
 
 === TRAINER_TAMER_EVAN ===
 Name: EVAN
@@ -13516,10 +13516,10 @@ Level: 113
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Machoke @ Sitrus Berry
-Level: 62
+Level: 112
 
 Nidoking @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_POKEMANIAC_MARK_2 ===
 Name: MARK
@@ -13571,10 +13571,10 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Hypnosis
 
 Golbat
-Level: 48
+Level: 103
 
 Hypno @ Sitrus Berry
-Level: 48
+Level: 103
 
 === TRAINER_PKMN_RANGER_JACKSON ===
 Name: JACKSON
@@ -13611,10 +13611,10 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Stomp
 
 Machoke @ Focus Sash
-Level: 64
+Level: 113
 
 Primeape @ Focus Sash
-Level: 114
+Level: 113
 
 === TRAINER_PKMN_RANGER_BETH ===
 Name: BETH
@@ -13639,7 +13639,7 @@ Level: 103
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Weezing @ Sitrus Berry
-Level: 49
+Level: 103
 
 === TRAINER_PKMN_RANGER_KATELYN ===
 Name: KATELYN
@@ -13660,16 +13660,16 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Soft Boiled
 
 Golbat
-Level: 68
+Level: 115
 
 Fearow
-Level: 68
+Level: 115
 
 Marowak @ Sitrus Berry
-Level: 68
+Level: 115
 
 Gengar @ Sitrus Berry
-Level: 116
+Level: 115
 
 === TRAINER_COOLTRAINER_LEROY ===
 Name: LEROY
@@ -13798,13 +13798,13 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Swagger
 
 Kingler
-Level: 68
+Level: 115
 
 Marowak @ Sitrus Berry
-Level: 68
+Level: 115
 
 Weezing @ Sitrus Berry
-Level: 116
+Level: 115
 
 === TRAINER_RUIN_MANIAC_BRANDON ===
 Name: BRANDON
@@ -13820,16 +13820,16 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing
-Level: 65
+Level: 113
 
 Golbat
-Level: 65
+Level: 113
 
 Rhyhorn @ Sitrus Berry
-Level: 65
+Level: 113
 
 Nidoqueen @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_RUIN_MANIAC_BENJAMIN ===
 Name: BENJAMIN
@@ -13865,10 +13865,10 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Self Destruct
 
 Magneton @ Sitrus Berry
-Level: 62
+Level: 112
 
 Arcanine @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_PAINTER_EDNA ===
 Name: EDNA
@@ -13888,16 +13888,16 @@ IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 - Quick Attack
 
 Dodrio
-Level: 65
+Level: 113
 
 Machoke
-Level: 65
+Level: 113
 
 Marowak @ Focus Sash
-Level: 65
+Level: 113
 
 Nidoking @ Focus Sash
-Level: 115
+Level: 113
 
 === TRAINER_GENTLEMAN_CLIFFORD ===
 Name: CLIFFORD
@@ -13917,13 +13917,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 64
+Level: 113
 
 Kingler @ Sitrus Berry
-Level: 64
+Level: 113
 
 Nidoking @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_LADY_SELPHY ===
 Name: SELPHY
@@ -13952,13 +13952,13 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Taunt
 
 Dodrio
-Level: 64
+Level: 113
 
 Hypno @ Sitrus Berry
-Level: 64
+Level: 113
 
 Nidoking @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_RUIN_MANIAC_LAWSON ===
 Name: LAWSON
@@ -13982,10 +13982,10 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow @ Focus Sash
-Level: 61
+Level: 111
 
 Weezing @ Focus Sash
-Level: 112
+Level: 111
 
 === TRAINER_PSYCHIC_LAURA ===
 Name: LAURA
@@ -14009,10 +14009,10 @@ Level: 113
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Dodrio @ Sitrus Berry
-Level: 62
+Level: 112
 
 Primeape @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_PKMN_BREEDER_BETHANY ===
 Name: BETHANY
@@ -14028,16 +14028,16 @@ Level: 113
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Rhyhorn
-Level: 65
+Level: 113
 
 Marowak
-Level: 65
+Level: 113
 
 Magneton @ Sitrus Berry
-Level: 65
+Level: 113
 
 Weezing @ Sitrus Berry
-Level: 115
+Level: 113
 
 === TRAINER_PKMN_BREEDER_ALLISON ===
 Name: ALLISON
@@ -14061,10 +14061,10 @@ Level: 112
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 Kingler @ Focus Sash
-Level: 62
+Level: 112
 
 Arcanine @ Focus Sash
-Level: 113
+Level: 112
 
 === TRAINER_BUG_CATCHER_GARRET ===
 Name: GARRET
@@ -14080,16 +14080,16 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 64
+Level: 113
 
 Rhyhorn
-Level: 64
+Level: 113
 
 Weezing @ Focus Sash
-Level: 64
+Level: 113
 
 Nidoking @ Focus Sash
-Level: 114
+Level: 113
 
 === TRAINER_BUG_CATCHER_JONAH ===
 Name: JONAH
@@ -14117,7 +14117,7 @@ Level: 111
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Sitrus Berry
-Level: 111
+Level: 110
 
 === TRAINER_BUG_CATCHER_VANCE ===
 Name: VANCE
@@ -14137,13 +14137,13 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 62
+Level: 112
 
 Dodrio @ Sitrus Berry
-Level: 62
+Level: 112
 
 Nidoqueen @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_YOUNGSTER_NASH ===
 Name: NASH
@@ -14167,10 +14167,10 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler @ Focus Sash
-Level: 61
+Level: 111
 
 Onix @ Focus Sash
-Level: 112
+Level: 111
 
 === TRAINER_YOUNGSTER_CORDELL ===
 Name: CORDELL
@@ -14190,13 +14190,13 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 62
+Level: 112
 
 Kingler @ Sitrus Berry
-Level: 62
+Level: 112
 
 Gengar @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_LASS_DALIA ===
 Name: DALIA
@@ -14224,7 +14224,7 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Arcanine @ Sitrus Berry
-Level: 112
+Level: 110
 
 === TRAINER_LASS_JOANA ===
 Name: JOANA
@@ -14240,16 +14240,16 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 64
+Level: 113
 
 Marowak
-Level: 64
+Level: 113
 
 Golbat @ Sitrus Berry
-Level: 64
+Level: 113
 
 Golduck @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_CAMPER_RILEY ===
 Name: RILEY
@@ -14269,13 +14269,13 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 64
+Level: 113
 
 Fearow @ Sitrus Berry
-Level: 64
+Level: 113
 
 Golduck @ Sitrus Berry
-Level: 114
+Level: 113
 
 === TRAINER_PICNICKER_MARCY ===
 Name: MARCY
@@ -14299,10 +14299,10 @@ Level: 113
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Sitrus Berry
-Level: 62
+Level: 112
 
 Nidoqueen @ Sitrus Berry
-Level: 113
+Level: 112
 
 === TRAINER_RUIN_MANIAC_LAYTON ===
 Name: LAYTON
@@ -14326,10 +14326,10 @@ Level: 112
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow @ Focus Sash
-Level: 62
+Level: 112
 
 Weezing @ Focus Sash
-Level: 113
+Level: 112
 
 === TRAINER_PICNICKER_KELSEY_2 ===
 Name: KELSEY
@@ -17596,10 +17596,10 @@ Level: 103
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Magneton
-Level: 51
+Level: 103
 
 Hypno @ Sitrus Berry
-Level: 51
+Level: 103
 
 === TRAINER_ANABEL ===
 Name: ANABEL

@@ -257,6 +257,10 @@ def apply_bulk(lines):
                   for lv in base["levels"]]
         for i in range(min(orig_count, len(mons))):
             mons[i] = with_level(mons[i], scaled[i])
+        # Mons beyond the baseline team are pads from an earlier run; re-level
+        # them with the band so old pad levels can't linger when bands change.
+        for i in range(orig_count, len(mons)):
+            mons[i] = with_level(mons[i], min(scaled))
 
         # 2. Team padding, deterministic per trainer, deduped within the team.
         pad_level = min(scaled)
