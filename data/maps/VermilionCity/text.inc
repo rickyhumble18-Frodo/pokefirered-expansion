@@ -90,9 +90,8 @@ VermilionCity_Text_BoardSeagallopRainbowPass::
     .string "a SEAGALLOP ferry?$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
-    .string "Oh! That's a MYSTICTICKET!\n"
-    .string "Now that is rare.\p"
-    .string "We'll be happy to take you to\n"
+    .string "Oh! You're the new CHAMPION!\p"
+    .string "For you, we'll be happy to sail to\n"
     .string "NAVEL ROCK anytime.$"
 
 VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::

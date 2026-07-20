@@ -166,7 +166,8 @@ on VAR_REMATCH_FRODO — win count % 3, +5 levels per win like every boss
 144/144/145/145/146 with a 150 ace in every variant (+5/win stacks on top,
 clamping at MAX_LEVEL 255 after 22 wins):
 
-1. TRAINER_SUPERBOSS_FRODO — "The Stat Crimes": Eternatus-Eternamax wall,
+1. TRAINER_SUPERBOSS_FRODO — "The Stat Crimes": Shadow Lugia wall (Dark
+   Pulse / Calm Mind / Recover / Toxic),
    Huge Power Regigigas, Scrappy Band Slaking, Scarf Imposter Ditto, Magic
    Guard Blissey, Mega Mewtwo Y ace (AI mega-evolves via held Mewtwonite Y).
 2. TRAINER_SUPERBOSS_FRODO_2 — "Ability Abuse": Prankster Shuckle hazards,
@@ -201,3 +202,18 @@ Blissey → Magic Guard (hidden), Shuckle → Prankster, Spiritomb → Magic
 Bounce, Rayquaza → Delta Stream, Aegislash → Wonder Guard. Of these, only
 the Chansey line is catchable in vanilla FRLG encounter pools — the rest
 matter only if those species become obtainable.
+
+## Shadow Lugia (SPECIES_LUGIA_SHADOW)
+
+XD-style corrupted form of Lugia, no form change (purification is out of
+scope). Psychic/Dark, BST 750 shifted to offense (106/130/110/150/134/120),
+abilities Pressure / Adaptability / Multiscale (hidden), learnset = Lugia's
+with Dark Pulse in Aeroblast's slot. Dark Pulse itself is globally buffed to
+a 100-power drain move (heals the user for 50% of damage dealt; the vanilla
+20% flinch is gone). Encounter: Navel Rock's Lugia event is now Shadow Lugia
+at level 90, gated on FLAG_SYS_GAME_CLEAR instead of the MYSTICTICKET - the
+Vermilion Seagallop counter offers NAVEL ROCK on every pass tier once the
+player is champion. Standard legendary flow: catchable, flees on defeat/run
+(FLAG_LUGIA_FLEW_AWAY), one-shot. Players first meet it as FRODO Team A's
+wall. Placeholder art: Lugia's sprites under a darkened navy palette in
+graphics/pokemon/lugia/shadow/ until real art lands.

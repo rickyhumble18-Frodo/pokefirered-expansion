@@ -10586,25 +10586,23 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_PoisonJab,
     },
 
-    [MOVE_DARK_PULSE] =
+    [MOVE_DARK_PULSE] = // Kaizo: 100 BP draining move (was 80 BP + 20% flinch), Shadow Lugia's signature slot.
     {
         .name = COMPOUND_STRING("Dark Pulse"),
         .description = COMPOUND_STRING(
             "Attacks with a\nhorrible "
-            "aura. May\ncause flinching."),
-        .effect = EFFECT_HIT,
-        .power = 80,
+            "aura that\nsteals half the\ndamage inflicted."),
+        .effect = EFFECT_ABSORB,
+        .power = 100,
         .type = TYPE_DARK,
         .accuracy = 100,
         .pp = 15,
         .target = TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
+        .argument = { .absorbPercentage = 50 },
+        .healingMove = B_HEAL_BLOCKING >= GEN_6,
         .pulseMove = TRUE,
-        .additionalEffects = ADDITIONAL_EFFECTS({
-            .moveEffect = MOVE_EFFECT_FLINCH,
-            .chance = 20,
-        }),
         .contestEffect = CONTEST_EFFECT_HIGHLY_APPEALING,
         .contestCategory = CONTEST_CATEGORY_COOL,
         .contestComboStarterId = 0,

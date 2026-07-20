@@ -9621,6 +9621,14 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u16 gShinyOverworldPalette_Lugia[] = INCBIN_U16("graphics/pokemon/lugia/overworld_shiny.gbapal");
 #endif //OW_PKMN_OBJECTS_SHARE_PALETTES
 #endif //OW_POKEMON_OBJECT_EVENTS
+
+    // Shadow Lugia (kaizo form). Placeholder art: Lugia's sprites under a
+    // darkened navy palette until real art lands in graphics/pokemon/lugia/shadow/.
+    const u32 gMonFrontPic_LugiaShadow[] = INCBIN_U32("graphics/pokemon/lugia/shadow/anim_front.4bpp.smol");
+    const u16 gMonPalette_LugiaShadow[] = INCBIN_U16("graphics/pokemon/lugia/shadow/normal.gbapal");
+    const u32 gMonBackPic_LugiaShadow[] = INCBIN_U32("graphics/pokemon/lugia/shadow/back.4bpp.smol");
+    const u16 gMonShinyPalette_LugiaShadow[] = INCBIN_U16("graphics/pokemon/lugia/shadow/shiny.gbapal");
+    const u8 gMonIcon_LugiaShadow[] = INCBIN_U8("graphics/pokemon/lugia/shadow/icon.4bpp");
 #endif //P_FAMILY_LUGIA
 
 #if P_FAMILY_HO_OH

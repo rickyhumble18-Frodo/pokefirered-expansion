@@ -8608,6 +8608,87 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .levelUpLearnset = sLugiaLevelUpLearnset,
         .teachableLearnset = sLugiaTeachableLearnset,
     },
+
+    [SPECIES_LUGIA_SHADOW] = // Kaizo: XD-style corrupted Lugia (BST 750, offensive spread). No form change; purification is out of scope.
+    {
+        .baseHP        = 106,
+        .baseAttack    = 130,
+        .baseDefense   = 110,
+        .baseSpeed     = 120,
+        .baseSpAttack  = 150,
+        .baseSpDefense = 134,
+        .types = MON_TYPES(TYPE_PSYCHIC, TYPE_DARK),
+        .catchRate = 3,
+        .expYield = 340,
+        .evYield_SpAttack = 3,
+        .genderRatio = MON_GENDERLESS,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_NO_EGGS_DISCOVERED),
+        .abilities = { ABILITY_PRESSURE, ABILITY_ADAPTABILITY, ABILITY_MULTISCALE },
+        .bodyColor = BODY_COLOR_PURPLE,
+        .speciesName = _("Lugia"),
+        .cryId = CRY_LUGIA,
+        .natDexNum = NATIONAL_DEX_LUGIA,
+        .categoryName = _("Diving"),
+        .height = 52,
+        .weight = 2160,
+        .description = COMPOUND_STRING(
+            "Its heart was sealed shut by Shadow\n"
+            "energy. The storm of its wingbeats no\n"
+            "longer shelters the sea - it scours it.\n"
+            "Nothing about it wants to be calmed."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 721,
+        .trainerOffset = 19,
+        .frontPic = gMonFrontPic_LugiaShadow,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 5),
+            ANIMCMD_FRAME(0, 5),
+            ANIMCMD_FRAME(1, 5),
+            ANIMCMD_FRAME(0, 10),
+            ANIMCMD_FRAME(1, 5),
+            ANIMCMD_FRAME(0, 5),
+            ANIMCMD_FRAME(1, 5),
+            ANIMCMD_FRAME(0, 10),
+            ANIMCMD_FRAME(1, 5),
+            ANIMCMD_FRAME(0, 5),
+            ANIMCMD_FRAME(1, 5),
+            ANIMCMD_FRAME(0, 10),
+        ),
+        .frontAnimId = ANIM_GROW_IN_STAGES,
+        .frontAnimDelay = 20,
+        .enemyMonElevation = 6,
+        .backPic = gMonBackPic_LugiaShadow,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_SHAKE_GLOW_RED,
+        .palette = gMonPalette_LugiaShadow,
+        .shinyPalette = gMonShinyPalette_LugiaShadow,
+        .iconSprite = gMonIcon_LugiaShadow,
+        .iconPalIndex = 2,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(2, 17, SHADOW_SIZE_L)
+        FOOTPRINT(Lugia)
+        OVERWORLD(
+            sPicTable_Lugia,
+            SIZE_64x64,
+            SHADOW_SIZE_M,
+            TRACKS_NONE,
+            sAnimTable_Following,
+            gOverworldPalette_Lugia,
+            gShinyOverworldPalette_Lugia
+        )
+        .isRestrictedLegendary = TRUE,
+        .isFrontierBanned = TRUE,
+        .perfectIVCount = LEGENDARY_PERFECT_IV_COUNT,
+        .levelUpLearnset = sLugiaShadowLevelUpLearnset,
+        .teachableLearnset = sLugiaTeachableLearnset,
+    },
 #endif //P_FAMILY_LUGIA
 
 #if P_FAMILY_HO_OH

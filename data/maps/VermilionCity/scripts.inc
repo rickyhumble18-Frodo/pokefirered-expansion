@@ -55,9 +55,8 @@ VermilionCity_EventScript_FerrySailor::
 	end
 
 VermilionCity_EventScript_CheckHasMysticTicket::
-	goto_if_unset FLAG_ENABLE_SHIP_NAVEL_ROCK, EventScript_SetResultFalse
-	checkitem ITEM_MYSTIC_TICKET
-	goto_if_eq VAR_RESULT, FALSE, EventScript_SetResultFalse
+	@ Kaizo: Navel Rock opens after the first Hall of Fame; no MYSTICTICKET needed.
+	goto_if_unset FLAG_SYS_GAME_CLEAR, EventScript_SetResultFalse
 	goto EventScript_SetResultTrue
 	end
 
@@ -207,6 +206,26 @@ EventScript_SailToBattleFrontier::
 	end
 
 VermilionCity_EventScript_ChooseSeagallopDestTriPass::
+	@ Kaizo: post-champion, the TRIPASS menu also offers NAVEL ROCK.
+	call VermilionCity_EventScript_CheckHasMysticTicket
+	goto_if_eq VAR_RESULT, TRUE, VermilionCity_EventScript_TriPassWithNavelRock
+	goto VermilionCity_EventScript_TriPassIslandMenu
+	end
+
+VermilionCity_EventScript_TriPassWithNavelRock::
+	call_if_unset FLAG_SHOWN_MYSTIC_TICKET, VermilionCity_EventScript_ShowMysticTicket
+	message VermilionCity_Text_BoardSeagallopFerry
+	waitmessage
+	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
+	multichoice 17, 6, MULTI_SEVII_NAVEL, FALSE
+	switch VAR_RESULT
+	case 0, VermilionCity_EventScript_TriPassIslandMenu
+	case 1, EventScript_SailToNavelRock
+	case 2, EventScript_CancelSail
+	case MULTI_B_PRESSED, EventScript_CancelSail
+	end
+
+VermilionCity_EventScript_TriPassIslandMenu::
 	message VermilionCity_Text_BoardSeagallopTriPass
 	waitmessage
 	setvar VAR_0x8004, SEAGALLOP_VERMILION_CITY
