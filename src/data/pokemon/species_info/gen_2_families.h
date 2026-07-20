@@ -8609,13 +8609,13 @@ const struct SpeciesInfo gSpeciesInfoGen2[] =
         .teachableLearnset = sLugiaTeachableLearnset,
     },
 
-    [SPECIES_LUGIA_SHADOW] = // Kaizo: XD-style corrupted Lugia (BST 750, offensive spread). No form change; purification is out of scope.
+    [SPECIES_LUGIA_SHADOW] = // Kaizo: XD-style corrupted Lugia (BST 750, special attacker). No form change; purification is out of scope.
     {
         .baseHP        = 106,
-        .baseAttack    = 130,
+        .baseAttack    = 90,
         .baseDefense   = 110,
         .baseSpeed     = 120,
-        .baseSpAttack  = 150,
+        .baseSpAttack  = 190,
         .baseSpDefense = 134,
         .types = MON_TYPES(TYPE_PSYCHIC, TYPE_DARK),
         .catchRate = 3,
