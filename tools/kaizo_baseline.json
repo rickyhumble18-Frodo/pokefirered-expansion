@@ -4,12 +4,20 @@
    50,
    50
   ],
+  "species": [
+   "SPECIES_BELLOSSOM",
+   "SPECIES_BELLOSSOM"
+  ],
   "team_size": 2
  },
  "TRAINER_AROMA_LADY_NIKKI": {
   "levels": [
    37,
    37
+  ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_WEEPINBELL"
   ],
   "team_size": 2
  },
@@ -18,6 +26,10 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_SUNKERN",
+   "SPECIES_SUNFLORA"
+  ],
   "team_size": 2
  },
  "TRAINER_AROMA_LADY_VIOLET": {
@@ -25,6 +37,11 @@
    36,
    36,
    36
+  ],
+  "species": [
+   "SPECIES_BULBASAUR",
+   "SPECIES_IVYSAUR",
+   "SPECIES_IVYSAUR"
   ],
   "team_size": 3
  },
@@ -35,6 +52,12 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_ODDISH",
+   "SPECIES_BELLSPROUT",
+   "SPECIES_ODDISH",
+   "SPECIES_BELLSPROUT"
+  ],
   "team_size": 4
  },
  "TRAINER_BEAUTY_CARMEN": {
@@ -42,6 +65,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX",
+   "SPECIES_ROSELIA"
   ],
   "team_size": 3
  },
@@ -51,6 +79,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_PERSIAN",
+   "SPECIES_MILOTIC",
+   "SPECIES_ROSELIA"
+  ],
   "team_size": 3
  },
  "TRAINER_BEAUTY_GRACE": {
@@ -58,12 +91,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_WIGGLYTUFF"
+  ],
   "team_size": 2
  },
  "TRAINER_BEAUTY_GRACE_2": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_PIDGEOT",
+   "SPECIES_WIGGLYTUFF"
   ],
   "team_size": 2
  },
@@ -73,6 +114,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX",
+   "SPECIES_ROSELIA"
+  ],
   "team_size": 3
  },
  "TRAINER_BEAUTY_LACEY_2": {
@@ -80,6 +126,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_MILOTIC",
+   "SPECIES_VULPIX",
+   "SPECIES_GROWLITHE"
   ],
   "team_size": 3
  },
@@ -89,11 +140,19 @@
    27,
    27
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_PIKACHU",
+   "SPECIES_RATTATA"
+  ],
   "team_size": 3
  },
  "TRAINER_BEAUTY_LORI": {
   "levels": [
    24
+  ],
+  "species": [
+   "SPECIES_EXEGGCUTE"
   ],
   "team_size": 1
  },
@@ -101,6 +160,10 @@
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_BULBASAUR",
+   "SPECIES_IVYSAUR"
   ],
   "team_size": 2
  },
@@ -110,6 +173,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_BELLOSSOM",
+   "SPECIES_VULPIX",
+   "SPECIES_MILOTIC"
+  ],
   "team_size": 3
  },
  "TRAINER_BEAUTY_SERENA_2": {
@@ -118,12 +186,21 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_PERSIAN",
+   "SPECIES_BELLOSSOM",
+   "SPECIES_MILOTIC"
+  ],
   "team_size": 3
  },
  "TRAINER_BEAUTY_SHEILA": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_MEOWTH"
   ],
   "team_size": 2
  },
@@ -132,12 +209,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_PERSIAN"
+  ],
   "team_size": 2
  },
  "TRAINER_BEAUTY_TAMIA": {
   "levels": [
    24,
    24
+  ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_BELLSPROUT"
   ],
   "team_size": 2
  },
@@ -147,6 +232,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_MILOTIC",
+   "SPECIES_VULPIX",
+   "SPECIES_ROSELIA"
+  ],
   "team_size": 3
  },
  "TRAINER_BEAUTY_VIVIAN_2": {
@@ -154,6 +244,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_VULPIX",
+   "SPECIES_MILOTIC",
+   "SPECIES_PERSIAN"
   ],
   "team_size": 3
  },
@@ -163,6 +258,11 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_GRIMER",
+   "SPECIES_WEEZING"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_AXEL": {
@@ -170,6 +270,11 @@
    54,
    55,
    57
+  ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_KOFFING",
+   "SPECIES_HOUNDOUR"
   ],
   "team_size": 3
  },
@@ -179,11 +284,19 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_BILLY": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_MUK"
   ],
   "team_size": 1
  },
@@ -193,6 +306,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING",
+   "SPECIES_HOUNDOUR"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_CLUTCH_2": {
@@ -200,6 +318,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_VOLTORB",
+   "SPECIES_HOUNDOUR"
   ],
   "team_size": 3
  },
@@ -209,6 +332,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_HOUNDOUR",
+   "SPECIES_GRIMER"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_DIESEL_2": {
@@ -216,6 +344,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING",
+   "SPECIES_EKANS"
   ],
   "team_size": 3
  },
@@ -227,12 +360,23 @@
    25,
    25
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING",
+   "SPECIES_GRIMER"
+  ],
   "team_size": 5
  },
  "TRAINER_BIKER_GERALD": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_MUK"
   ],
   "team_size": 2
  },
@@ -241,11 +385,18 @@
    37,
    37
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_GRIMER"
+  ],
   "team_size": 2
  },
  "TRAINER_BIKER_GOON_2": {
   "levels": [
    38
+  ],
+  "species": [
+   "SPECIES_KOFFING"
   ],
   "team_size": 1
  },
@@ -253,11 +404,17 @@
   "levels": [
    38
   ],
+  "species": [
+   "SPECIES_GRIMER"
+  ],
   "team_size": 1
  },
  "TRAINER_BIKER_HIDEO": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_WEEZING"
   ],
   "team_size": 1
  },
@@ -267,6 +424,11 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_GRIMER",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_JARED": {
@@ -275,12 +437,21 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_JAREN": {
   "levels": [
    24,
    24
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_GRIMER"
   ],
   "team_size": 2
  },
@@ -289,12 +460,20 @@
    28,
    30
   ],
+  "species": [
+   "SPECIES_MUK",
+   "SPECIES_MUK"
+  ],
   "team_size": 2
  },
  "TRAINER_BIKER_JAXON": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_MUK"
   ],
   "team_size": 2
  },
@@ -303,12 +482,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_MUK"
+  ],
   "team_size": 2
  },
  "TRAINER_BIKER_LAO": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_KOFFING"
   ],
   "team_size": 2
  },
@@ -319,6 +506,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING",
+   "SPECIES_GRIMER",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 4
  },
  "TRAINER_BIKER_LUKAS_2": {
@@ -328,6 +521,12 @@
    47,
    47
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING",
+   "SPECIES_MUK",
+   "SPECIES_WEEZING"
+  ],
   "team_size": 4
  },
  "TRAINER_BIKER_MALIK": {
@@ -335,12 +534,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_GRIMER"
+  ],
   "team_size": 2
  },
  "TRAINER_BIKER_NIKOLAS": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_VOLTORB"
   ],
   "team_size": 2
  },
@@ -350,6 +557,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_VOLTORB",
+   "SPECIES_EKANS"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_NITRO_2": {
@@ -357,6 +569,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_HOUNDOUR",
+   "SPECIES_EKANS"
   ],
   "team_size": 3
  },
@@ -366,6 +583,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_HOUNDOUR",
+   "SPECIES_EKANS"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_RAZOR_2": {
@@ -373,6 +595,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_HOUNDOUR",
+   "SPECIES_VOLTORB"
   ],
   "team_size": 3
  },
@@ -382,6 +609,11 @@
    22,
    23
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING",
+   "SPECIES_GRIMER"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_RUBEN": {
@@ -389,6 +621,11 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING"
   ],
   "team_size": 3
  },
@@ -398,6 +635,11 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_WEEZING",
+   "SPECIES_WEEZING"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_SPARK": {
@@ -405,6 +647,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_EKANS",
+   "SPECIES_HOUNDOUR"
   ],
   "team_size": 3
  },
@@ -414,6 +661,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_VOLTORB",
+   "SPECIES_EKANS"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_TORQUE": {
@@ -421,6 +673,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_HOUNDOUR",
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING"
   ],
   "team_size": 3
  },
@@ -430,6 +687,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_VOLTORB",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 3
  },
  "TRAINER_BIKER_VIRGIL": {
@@ -437,6 +699,11 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING"
   ],
   "team_size": 3
  },
@@ -448,12 +715,23 @@
    25,
    25
   ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING"
+  ],
   "team_size": 5
  },
  "TRAINER_BIRD_KEEPER_BECK": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_FEAROW"
   ],
   "team_size": 2
  },
@@ -462,6 +740,10 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 2
  },
  "TRAINER_BIRD_KEEPER_BENNY_2": {
@@ -469,12 +751,20 @@
    32,
    32
   ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 2
  },
  "TRAINER_BIRD_KEEPER_BENNY_3": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW"
   ],
   "team_size": 2
  },
@@ -484,6 +774,11 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_DODUO",
+   "SPECIES_PIDGEOTTO"
+  ],
   "team_size": 3
  },
  "TRAINER_BIRD_KEEPER_CHAZ": {
@@ -491,12 +786,20 @@
    47,
    49
   ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 2
  },
  "TRAINER_BIRD_KEEPER_CHAZ_2": {
   "levels": [
    53,
    55
+  ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW"
   ],
   "team_size": 2
  },
@@ -506,6 +809,11 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_DODRIO",
+   "SPECIES_DODUO",
+   "SPECIES_DODUO"
+  ],
   "team_size": 3
  },
  "TRAINER_BIRD_KEEPER_CHESTER_2": {
@@ -513,6 +821,11 @@
    30,
    30,
    30
+  ],
+  "species": [
+   "SPECIES_DODRIO",
+   "SPECIES_DODRIO",
+   "SPECIES_DODUO"
   ],
   "team_size": 3
  },
@@ -522,11 +835,19 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_DODRIO",
+   "SPECIES_DODRIO",
+   "SPECIES_DODRIO"
+  ],
   "team_size": 3
  },
  "TRAINER_BIRD_KEEPER_DONALD": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_FARFETCHD"
   ],
   "team_size": 1
  },
@@ -537,6 +858,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_FARFETCHD",
+   "SPECIES_DODUO",
+   "SPECIES_PIDGEY"
+  ],
   "team_size": 4
  },
  "TRAINER_BIRD_KEEPER_HAROLD": {
@@ -544,12 +871,20 @@
    47,
    49
   ],
+  "species": [
+   "SPECIES_HOOTHOOT",
+   "SPECIES_NOCTOWL"
+  ],
   "team_size": 2
  },
  "TRAINER_BIRD_KEEPER_HAROLD_2": {
   "levels": [
    53,
    55
+  ],
+  "species": [
+   "SPECIES_NOCTOWL",
+   "SPECIES_NOCTOWL"
   ],
   "team_size": 2
  },
@@ -560,6 +895,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_SPEAROW",
+   "SPECIES_FEAROW",
+   "SPECIES_SPEAROW"
+  ],
   "team_size": 4
  },
  "TRAINER_BIRD_KEEPER_JACOB_2": {
@@ -568,6 +909,12 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_SPEAROW",
+   "SPECIES_FEAROW",
+   "SPECIES_SPEAROW"
   ],
   "team_size": 4
  },
@@ -578,6 +925,12 @@
    47,
    47
   ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 4
  },
  "TRAINER_BIRD_KEEPER_MARLON": {
@@ -585,6 +938,11 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_DODUO",
+   "SPECIES_FEAROW"
   ],
   "team_size": 3
  },
@@ -594,6 +952,11 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_DODUO",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 3
  },
  "TRAINER_BIRD_KEEPER_MARLON_3": {
@@ -602,6 +965,11 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_DODRIO",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 3
  },
  "TRAINER_BIRD_KEEPER_MILO": {
@@ -609,12 +977,20 @@
    47,
    49
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEOTTO"
+  ],
   "team_size": 2
  },
  "TRAINER_BIRD_KEEPER_MILO_2": {
   "levels": [
    53,
    55
+  ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOT"
   ],
   "team_size": 2
  },
@@ -624,6 +1000,12 @@
    26,
    26,
    26
+  ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_SPEAROW",
+   "SPECIES_PIDGEY",
+   "SPECIES_FEAROW"
   ],
   "team_size": 4
  },
@@ -635,11 +1017,21 @@
    25,
    25
   ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEY",
+   "SPECIES_SPEAROW",
+   "SPECIES_SPEAROW"
+  ],
   "team_size": 5
  },
  "TRAINER_BIRD_KEEPER_RAMIRO": {
   "levels": [
    34
+  ],
+  "species": [
+   "SPECIES_DODRIO"
   ],
   "team_size": 1
  },
@@ -650,6 +1042,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_SPEAROW",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 4
  },
  "TRAINER_BIRD_KEEPER_ROBERT_2": {
@@ -658,6 +1056,12 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW"
   ],
   "team_size": 4
  },
@@ -668,6 +1072,12 @@
    47,
    47
   ],
+  "species": [
+   "SPECIES_PIDGEOT",
+   "SPECIES_PIDGEOT",
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 4
  },
  "TRAINER_BIRD_KEEPER_ROGER": {
@@ -676,12 +1086,21 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_FEAROW",
+   "SPECIES_PIDGEOTTO"
+  ],
   "team_size": 3
  },
  "TRAINER_BIRD_KEEPER_SEBASTIAN": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEOTTO"
   ],
   "team_size": 2
  },
@@ -690,11 +1109,18 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_FEAROW"
+  ],
   "team_size": 2
  },
  "TRAINER_BLACK_BELT_AARON": {
   "levels": [
    36
+  ],
+  "species": [
+   "SPECIES_PRIMEAPE"
   ],
   "team_size": 1
  },
@@ -702,6 +1128,10 @@
   "levels": [
    40,
    40
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -711,12 +1141,21 @@
    43,
    43
   ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 3
  },
  "TRAINER_BLACK_BELT_HIDEKI": {
   "levels": [
    32,
    32
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -726,12 +1165,21 @@
    31,
    31
   ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MANKEY",
+   "SPECIES_PRIMEAPE"
+  ],
   "team_size": 3
  },
  "TRAINER_BLACK_BELT_HUGH": {
   "levels": [
    37,
    37
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -740,12 +1188,20 @@
    50,
    50
   ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 2
  },
  "TRAINER_BLACK_BELT_HUGH_3": {
   "levels": [
    55,
    55
+  ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHAMP"
   ],
   "team_size": 2
  },
@@ -755,6 +1211,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_HITMONCHAN",
+   "SPECIES_HITMONLEE",
+   "SPECIES_MANKEY"
+  ],
   "team_size": 3
  },
  "TRAINER_BLACK_BELT_KENJI_2": {
@@ -763,11 +1224,19 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_HITMONLEE",
+   "SPECIES_MANKEY",
+   "SPECIES_MACHOP"
+  ],
   "team_size": 3
  },
  "TRAINER_BLACK_BELT_KIYO": {
   "levels": [
    43
+  ],
+  "species": [
+   "SPECIES_MACHOKE"
   ],
   "team_size": 1
  },
@@ -775,6 +1244,10 @@
   "levels": [
    37,
    37
+  ],
+  "species": [
+   "SPECIES_HITMONLEE",
+   "SPECIES_HITMONCHAN"
   ],
   "team_size": 2
  },
@@ -784,12 +1257,21 @@
    31,
    31
   ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_MANKEY",
+   "SPECIES_PRIMEAPE"
+  ],
   "team_size": 3
  },
  "TRAINER_BLACK_BELT_SHEA": {
   "levels": [
    38,
    38
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -798,12 +1280,20 @@
    50,
    50
   ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 2
  },
  "TRAINER_BLACK_BELT_SHEA_3": {
   "levels": [
    55,
    55
+  ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHAMP"
   ],
   "team_size": 2
  },
@@ -813,6 +1303,11 @@
    38,
    38
   ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_ANTHONY": {
@@ -820,12 +1315,20 @@
    7,
    8
   ],
+  "species": [
+   "SPECIES_CATERPIE",
+   "SPECIES_CATERPIE"
+  ],
   "team_size": 2
  },
  "TRAINER_BUG_CATCHER_BRENT": {
   "levels": [
    19,
    19
+  ],
+  "species": [
+   "SPECIES_BEEDRILL",
+   "SPECIES_BEEDRILL"
   ],
   "team_size": 2
  },
@@ -836,6 +1339,12 @@
    10,
    10
   ],
+  "species": [
+   "SPECIES_CATERPIE",
+   "SPECIES_WEEDLE",
+   "SPECIES_METAPOD",
+   "SPECIES_KAKUNA"
+  ],
   "team_size": 4
  },
  "TRAINER_BUG_CATCHER_CHARLIE": {
@@ -843,6 +1352,11 @@
    7,
    7,
    7
+  ],
+  "species": [
+   "SPECIES_METAPOD",
+   "SPECIES_CATERPIE",
+   "SPECIES_METAPOD"
   ],
   "team_size": 3
  },
@@ -852,6 +1366,11 @@
    10,
    10
   ],
+  "species": [
+   "SPECIES_CATERPIE",
+   "SPECIES_WEEDLE",
+   "SPECIES_CATERPIE"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_COLTON_2": {
@@ -859,6 +1378,11 @@
    19,
    19,
    19
+  ],
+  "species": [
+   "SPECIES_METAPOD",
+   "SPECIES_WEEDLE",
+   "SPECIES_METAPOD"
   ],
   "team_size": 3
  },
@@ -868,6 +1392,11 @@
    27,
    27
   ],
+  "species": [
+   "SPECIES_BUTTERFREE",
+   "SPECIES_KAKUNA",
+   "SPECIES_BUTTERFREE"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_COLTON_4": {
@@ -875,6 +1404,11 @@
    51,
    54,
    51
+  ],
+  "species": [
+   "SPECIES_BUTTERFREE",
+   "SPECIES_BEEDRILL",
+   "SPECIES_BUTTERFREE"
   ],
   "team_size": 3
  },
@@ -884,6 +1418,11 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_CATERPIE",
+   "SPECIES_WEEDLE",
+   "SPECIES_VENONAT"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_DOUG": {
@@ -892,17 +1431,28 @@
    7,
    7
   ],
+  "species": [
+   "SPECIES_WEEDLE",
+   "SPECIES_KAKUNA",
+   "SPECIES_WEEDLE"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_ELIJAH": {
   "levels": [
    20
   ],
+  "species": [
+   "SPECIES_BUTTERFREE"
+  ],
   "team_size": 1
  },
  "TRAINER_BUG_CATCHER_GARRET": {
   "levels": [
    49
+  ],
+  "species": [
+   "SPECIES_HERACROSS"
   ],
   "team_size": 1
  },
@@ -913,12 +1463,22 @@
    9,
    9
   ],
+  "species": [
+   "SPECIES_WEEDLE",
+   "SPECIES_KAKUNA",
+   "SPECIES_CATERPIE",
+   "SPECIES_METAPOD"
+  ],
   "team_size": 4
  },
  "TRAINER_BUG_CATCHER_JAMES": {
   "levels": [
    11,
    11
+  ],
+  "species": [
+   "SPECIES_CATERPIE",
+   "SPECIES_METAPOD"
   ],
   "team_size": 2
  },
@@ -929,6 +1489,12 @@
    46,
    47
   ],
+  "species": [
+   "SPECIES_YANMA",
+   "SPECIES_BEEDRILL",
+   "SPECIES_YANMA",
+   "SPECIES_BEEDRILL"
+  ],
   "team_size": 4
  },
  "TRAINER_BUG_CATCHER_KEIGO": {
@@ -937,12 +1503,21 @@
    16,
    16
   ],
+  "species": [
+   "SPECIES_WEEDLE",
+   "SPECIES_CATERPIE",
+   "SPECIES_WEEDLE"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_KENT": {
   "levels": [
    11,
    11
+  ],
+  "species": [
+   "SPECIES_WEEDLE",
+   "SPECIES_KAKUNA"
   ],
   "team_size": 2
  },
@@ -952,6 +1527,11 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_METAPOD",
+   "SPECIES_PARAS",
+   "SPECIES_LARVESTA"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_MARV_2": {
@@ -959,6 +1539,11 @@
    27,
    29,
    31
+  ],
+  "species": [
+   "SPECIES_VENONAT",
+   "SPECIES_PARAS",
+   "SPECIES_KAKUNA"
   ],
   "team_size": 3
  },
@@ -968,6 +1553,11 @@
    41,
    43
   ],
+  "species": [
+   "SPECIES_PINSIR",
+   "SPECIES_METAPOD",
+   "SPECIES_LARVESTA"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_PERCY_2": {
@@ -976,12 +1566,21 @@
    41,
    43
   ],
+  "species": [
+   "SPECIES_KAKUNA",
+   "SPECIES_SCYTHER",
+   "SPECIES_LARVESTA"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_RICK": {
   "levels": [
    6,
    6
+  ],
+  "species": [
+   "SPECIES_WEEDLE",
+   "SPECIES_CATERPIE"
   ],
   "team_size": 2
  },
@@ -991,11 +1590,19 @@
    10,
    10
   ],
+  "species": [
+   "SPECIES_CATERPIE",
+   "SPECIES_METAPOD",
+   "SPECIES_CATERPIE"
+  ],
   "team_size": 3
  },
  "TRAINER_BUG_CATCHER_SAMMY": {
   "levels": [
    9
+  ],
+  "species": [
+   "SPECIES_WEEDLE"
   ],
   "team_size": 1
  },
@@ -1004,12 +1611,20 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_VENONAT",
+   "SPECIES_VENOMOTH"
+  ],
   "team_size": 2
  },
  "TRAINER_BURGLAR_ARNIE": {
   "levels": [
    34,
    34
+  ],
+  "species": [
+   "SPECIES_CHARMANDER",
+   "SPECIES_CHARMELEON"
   ],
   "team_size": 2
  },
@@ -1018,12 +1633,20 @@
    37,
    37
   ],
+  "species": [
+   "SPECIES_VULPIX",
+   "SPECIES_GROWLITHE"
+  ],
   "team_size": 2
  },
  "TRAINER_BURGLAR_LEWIS": {
   "levels": [
    34,
    34
+  ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_PONYTA"
   ],
   "team_size": 2
  },
@@ -1033,17 +1656,28 @@
    36,
    36
   ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX",
+   "SPECIES_NINETALES"
+  ],
   "team_size": 3
  },
  "TRAINER_BURGLAR_RAMON": {
   "levels": [
    41
   ],
+  "species": [
+   "SPECIES_PONYTA"
+  ],
   "team_size": 1
  },
  "TRAINER_BURGLAR_SIMON": {
   "levels": [
    38
+  ],
+  "species": [
+   "SPECIES_NINETALES"
   ],
   "team_size": 1
  },
@@ -1053,12 +1687,21 @@
    36,
    36
   ],
+  "species": [
+   "SPECIES_NIDORINO",
+   "SPECIES_RATICATE",
+   "SPECIES_SANDSLASH"
+  ],
   "team_size": 3
  },
  "TRAINER_CAMPER_CHRIS": {
   "levels": [
    21,
    21
+  ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_CHARMANDER"
   ],
   "team_size": 2
  },
@@ -1067,6 +1710,10 @@
    24,
    24
   ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_CHARMANDER"
+  ],
   "team_size": 2
  },
  "TRAINER_CAMPER_CHRIS_3": {
@@ -1074,12 +1721,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_CHARMELEON"
+  ],
   "team_size": 2
  },
  "TRAINER_CAMPER_CHRIS_4": {
   "levels": [
    54,
    54
+  ],
+  "species": [
+   "SPECIES_ARCANINE",
+   "SPECIES_CHARMELEON"
   ],
   "team_size": 2
  },
@@ -1090,11 +1745,20 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_SANDSHREW",
+   "SPECIES_EKANS",
+   "SPECIES_SANDSHREW"
+  ],
   "team_size": 4
  },
  "TRAINER_CAMPER_ETHAN": {
   "levels": [
    18
+  ],
+  "species": [
+   "SPECIES_MANKEY"
   ],
   "team_size": 1
  },
@@ -1103,12 +1767,20 @@
    14,
    14
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_EKANS"
+  ],
   "team_size": 2
  },
  "TRAINER_CAMPER_JEFF": {
   "levels": [
    16,
    16
+  ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_RATICATE"
   ],
   "team_size": 2
  },
@@ -1117,12 +1789,20 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_SPEAROW",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 2
  },
  "TRAINER_CAMPER_JEFF_3": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_RATICATE"
   ],
   "team_size": 2
  },
@@ -1131,12 +1811,20 @@
    54,
    54
   ],
+  "species": [
+   "SPECIES_FEAROW",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 2
  },
  "TRAINER_CAMPER_JUSTIN": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_NIDORAN_M",
+   "SPECIES_NIDORINO"
   ],
   "team_size": 2
  },
@@ -1145,11 +1833,18 @@
    10,
    11
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_SANDSHREW"
+  ],
   "team_size": 2
  },
  "TRAINER_CAMPER_RICKY": {
   "levels": [
    20
+  ],
+  "species": [
+   "SPECIES_SQUIRTLE"
   ],
   "team_size": 1
  },
@@ -1157,17 +1852,26 @@
   "levels": [
    22
   ],
+  "species": [
+   "SPECIES_SQUIRTLE"
+  ],
   "team_size": 1
  },
  "TRAINER_CAMPER_RICKY_3": {
   "levels": [
    30
   ],
+  "species": [
+   "SPECIES_WARTORTLE"
+  ],
   "team_size": 1
  },
  "TRAINER_CAMPER_RICKY_4": {
   "levels": [
    55
+  ],
+  "species": [
+   "SPECIES_WARTORTLE"
   ],
   "team_size": 1
  },
@@ -1176,12 +1880,20 @@
    49,
    50
   ],
+  "species": [
+   "SPECIES_PINSIR",
+   "SPECIES_HERACROSS"
+  ],
   "team_size": 2
  },
  "TRAINER_CAMPER_SHANE": {
   "levels": [
    14,
    14
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_EKANS"
   ],
   "team_size": 2
  },
@@ -1191,6 +1903,11 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_SANDSHREW",
+   "SPECIES_PHANPY"
+  ],
   "team_size": 3
  },
  "TRAINER_CAMPER_TOBIAS_2": {
@@ -1199,12 +1916,21 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_SANDSHREW",
+   "SPECIES_MANKEY",
+   "SPECIES_PHANPY"
+  ],
   "team_size": 3
  },
  "TRAINER_CHANNELER_AMANDA": {
   "levels": [
    34,
    34
+  ],
+  "species": [
+   "SPECIES_GASTLY",
+   "SPECIES_HAUNTER"
   ],
   "team_size": 2
  },
@@ -1214,11 +1940,19 @@
    22,
    22
   ],
+  "species": [
+   "SPECIES_GASTLY",
+   "SPECIES_GASTLY",
+   "SPECIES_GASTLY"
+  ],
   "team_size": 3
  },
  "TRAINER_CHANNELER_CARLY": {
   "levels": [
    24
+  ],
+  "species": [
+   "SPECIES_GASTLY"
   ],
   "team_size": 1
  },
@@ -1226,11 +1960,17 @@
   "levels": [
    24
   ],
+  "species": [
+   "SPECIES_GASTLY"
+  ],
   "team_size": 1
  },
  "TRAINER_CHANNELER_HOPE": {
   "levels": [
    23
+  ],
+  "species": [
+   "SPECIES_GASTLY"
   ],
   "team_size": 1
  },
@@ -1238,11 +1978,17 @@
   "levels": [
    22
   ],
+  "species": [
+   "SPECIES_GASTLY"
+  ],
   "team_size": 1
  },
  "TRAINER_CHANNELER_JENNIFER": {
   "levels": [
    24
+  ],
+  "species": [
+   "SPECIES_GASTLY"
   ],
   "team_size": 1
  },
@@ -1250,11 +1996,17 @@
   "levels": [
    22
   ],
+  "species": [
+   "SPECIES_GASTLY"
+  ],
   "team_size": 1
  },
  "TRAINER_CHANNELER_KARINA": {
   "levels": [
    24
+  ],
+  "species": [
+   "SPECIES_GASTLY"
   ],
   "team_size": 1
  },
@@ -1263,11 +2015,18 @@
    23,
    23
   ],
+  "species": [
+   "SPECIES_GASTLY",
+   "SPECIES_GASTLY"
+  ],
   "team_size": 2
  },
  "TRAINER_CHANNELER_PATRICIA": {
   "levels": [
    22
+  ],
+  "species": [
+   "SPECIES_GASTLY"
   ],
   "team_size": 1
  },
@@ -1275,11 +2034,17 @@
   "levels": [
    24
   ],
+  "species": [
+   "SPECIES_GASTLY"
+  ],
   "team_size": 1
  },
  "TRAINER_CHANNELER_RUTH": {
   "levels": [
    22
+  ],
+  "species": [
+   "SPECIES_GASTLY"
   ],
   "team_size": 1
  },
@@ -1287,11 +2052,17 @@
   "levels": [
    38
   ],
+  "species": [
+   "SPECIES_HAUNTER"
+  ],
   "team_size": 1
  },
  "TRAINER_CHANNELER_TAMMY": {
   "levels": [
    23
+  ],
+  "species": [
+   "SPECIES_HAUNTER"
   ],
   "team_size": 1
  },
@@ -1300,6 +2071,11 @@
    33,
    33,
    33
+  ],
+  "species": [
+   "SPECIES_GASTLY",
+   "SPECIES_GASTLY",
+   "SPECIES_HAUNTER"
   ],
   "team_size": 3
  },
@@ -1311,6 +2087,13 @@
    42,
    42
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_JIGGLYPUFF",
+   "SPECIES_PERSIAN",
+   "SPECIES_DEWGONG",
+   "SPECIES_CHANSEY"
+  ],
   "team_size": 5
  },
  "TRAINER_COOLTRAINER_CAROLINE": {
@@ -1320,6 +2103,13 @@
    42,
    42,
    42
+  ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_WEEPINBELL",
+   "SPECIES_VICTREEBEL",
+   "SPECIES_PARAS",
+   "SPECIES_PARASECT"
   ],
   "team_size": 5
  },
@@ -1331,6 +2121,13 @@
    42,
    43
   ],
+  "species": [
+   "SPECIES_KINGLER",
+   "SPECIES_POLIWHIRL",
+   "SPECIES_TENTACRUEL",
+   "SPECIES_SEADRA",
+   "SPECIES_BLASTOISE"
+  ],
   "team_size": 5
  },
  "TRAINER_COOLTRAINER_GEORGE": {
@@ -1340,6 +2137,13 @@
    42,
    42,
    42
+  ],
+  "species": [
+   "SPECIES_EXEGGUTOR",
+   "SPECIES_SANDSLASH",
+   "SPECIES_CLOYSTER",
+   "SPECIES_ELECTRODE",
+   "SPECIES_ARCANINE"
   ],
   "team_size": 5
  },
@@ -1351,6 +2155,13 @@
    48,
    50
   ],
+  "species": [
+   "SPECIES_RHYDON",
+   "SPECIES_SLOWBRO",
+   "SPECIES_KANGASKHAN",
+   "SPECIES_MACHOKE",
+   "SPECIES_URSARING"
+  ],
   "team_size": 5
  },
  "TRAINER_COOLTRAINER_LEROY_2": {
@@ -1360,6 +2171,13 @@
    52,
    52,
    55
+  ],
+  "species": [
+   "SPECIES_RHYDON",
+   "SPECIES_SLOWBRO",
+   "SPECIES_KANGASKHAN",
+   "SPECIES_MACHAMP",
+   "SPECIES_URSARING"
   ],
   "team_size": 5
  },
@@ -1371,6 +2189,13 @@
    22,
    22
   ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_ODDISH",
+   "SPECIES_WEEPINBELL",
+   "SPECIES_GLOOM",
+   "SPECIES_IVYSAUR"
+  ],
   "team_size": 5
  },
  "TRAINER_COOLTRAINER_MICHELLE": {
@@ -1380,6 +2205,13 @@
    48,
    48,
    50
+  ],
+  "species": [
+   "SPECIES_PERSIAN",
+   "SPECIES_DEWGONG",
+   "SPECIES_NINETALES",
+   "SPECIES_RAPIDASH",
+   "SPECIES_GIRAFARIG"
   ],
   "team_size": 5
  },
@@ -1391,6 +2223,13 @@
    54,
    56
   ],
+  "species": [
+   "SPECIES_PERSIAN",
+   "SPECIES_DEWGONG",
+   "SPECIES_NINETALES",
+   "SPECIES_RAPIDASH",
+   "SPECIES_GIRAFARIG"
+  ],
   "team_size": 5
  },
  "TRAINER_COOLTRAINER_NAOMI": {
@@ -1400,6 +2239,13 @@
    42,
    42,
    42
+  ],
+  "species": [
+   "SPECIES_PERSIAN",
+   "SPECIES_PONYTA",
+   "SPECIES_RAPIDASH",
+   "SPECIES_VULPIX",
+   "SPECIES_NINETALES"
   ],
   "team_size": 5
  },
@@ -1411,6 +2257,13 @@
    42,
    42
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_IVYSAUR",
+   "SPECIES_WARTORTLE",
+   "SPECIES_CHARMELEON",
+   "SPECIES_CHARIZARD"
+  ],
   "team_size": 5
  },
  "TRAINER_COOLTRAINER_SAMUEL": {
@@ -1420,6 +2273,13 @@
    38,
    39,
    39
+  ],
+  "species": [
+   "SPECIES_SANDSLASH",
+   "SPECIES_SANDSLASH",
+   "SPECIES_RHYHORN",
+   "SPECIES_NIDORINO",
+   "SPECIES_NIDOKING"
   ],
   "team_size": 5
  },
@@ -1431,6 +2291,13 @@
    39,
    39
   ],
+  "species": [
+   "SPECIES_MAROWAK",
+   "SPECIES_MAROWAK",
+   "SPECIES_RHYHORN",
+   "SPECIES_NIDORINA",
+   "SPECIES_NIDOQUEEN"
+  ],
   "team_size": 5
  },
  "TRAINER_COOLTRAINER_YUJI": {
@@ -1441,12 +2308,23 @@
    38,
    38
   ],
+  "species": [
+   "SPECIES_SANDSLASH",
+   "SPECIES_GRAVELER",
+   "SPECIES_ONIX",
+   "SPECIES_GRAVELER",
+   "SPECIES_MAROWAK"
+  ],
   "team_size": 5
  },
  "TRAINER_COOL_COUPLE_LEX_NYA": {
   "levels": [
    52,
    52
+  ],
+  "species": [
+   "SPECIES_MILTANK",
+   "SPECIES_TAUROS"
   ],
   "team_size": 2
  },
@@ -1455,12 +2333,20 @@
    57,
    57
   ],
+  "species": [
+   "SPECIES_MILTANK",
+   "SPECIES_TAUROS"
+  ],
   "team_size": 2
  },
  "TRAINER_COOL_COUPLE_RAY_TYRA": {
   "levels": [
    45,
    45
+  ],
+  "species": [
+   "SPECIES_NIDOQUEEN",
+   "SPECIES_NIDOKING"
   ],
   "team_size": 2
  },
@@ -1470,6 +2356,11 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_PRIMEAPE",
+   "SPECIES_HITMONTOP",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 3
  },
  "TRAINER_CRUSH_GIRL_CYNDY_2": {
@@ -1478,12 +2369,21 @@
    54,
    54
   ],
+  "species": [
+   "SPECIES_PRIMEAPE",
+   "SPECIES_HITMONTOP",
+   "SPECIES_MACHAMP"
+  ],
   "team_size": 3
  },
  "TRAINER_CRUSH_GIRL_JOCELYN": {
   "levels": [
    38,
    38
+  ],
+  "species": [
+   "SPECIES_HITMONCHAN",
+   "SPECIES_HITMONCHAN"
   ],
   "team_size": 2
  },
@@ -1492,12 +2392,20 @@
    37,
    37
   ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_PRIMEAPE"
+  ],
   "team_size": 2
  },
  "TRAINER_CRUSH_GIRL_SHARON_2": {
   "levels": [
    50,
    50
+  ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_PRIMEAPE"
   ],
   "team_size": 2
  },
@@ -1506,12 +2414,20 @@
    55,
    55
   ],
+  "species": [
+   "SPECIES_PRIMEAPE",
+   "SPECIES_PRIMEAPE"
+  ],
   "team_size": 2
  },
  "TRAINER_CRUSH_GIRL_TANYA": {
   "levels": [
    38,
    38
+  ],
+  "species": [
+   "SPECIES_HITMONLEE",
+   "SPECIES_HITMONCHAN"
   ],
   "team_size": 2
  },
@@ -1520,12 +2436,20 @@
    50,
    50
   ],
+  "species": [
+   "SPECIES_HITMONLEE",
+   "SPECIES_HITMONCHAN"
+  ],
   "team_size": 2
  },
  "TRAINER_CRUSH_GIRL_TANYA_3": {
   "levels": [
    55,
    55
+  ],
+  "species": [
+   "SPECIES_HITMONLEE",
+   "SPECIES_HITMONCHAN"
   ],
   "team_size": 2
  },
@@ -1534,12 +2458,20 @@
    39,
    39
   ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_PRIMEAPE"
+  ],
   "team_size": 2
  },
  "TRAINER_CRUSH_KIN_MIK_KIA_2": {
   "levels": [
    51,
    51
+  ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_PRIMEAPE"
   ],
   "team_size": 2
  },
@@ -1548,12 +2480,20 @@
    56,
    56
   ],
+  "species": [
+   "SPECIES_MACHAMP",
+   "SPECIES_PRIMEAPE"
+  ],
   "team_size": 2
  },
  "TRAINER_CRUSH_KIN_RON_MYA": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_HITMONCHAN",
+   "SPECIES_HITMONLEE"
   ],
   "team_size": 2
  },
@@ -1562,12 +2502,20 @@
    33,
    33
   ],
+  "species": [
+   "SPECIES_HITMONCHAN",
+   "SPECIES_HITMONLEE"
+  ],
   "team_size": 2
  },
  "TRAINER_CRUSH_KIN_RON_MYA_3": {
   "levels": [
    51,
    51
+  ],
+  "species": [
+   "SPECIES_HITMONCHAN",
+   "SPECIES_HITMONLEE"
   ],
   "team_size": 2
  },
@@ -1576,12 +2524,20 @@
    56,
    56
   ],
+  "species": [
+   "SPECIES_HITMONCHAN",
+   "SPECIES_HITMONLEE"
+  ],
   "team_size": 2
  },
  "TRAINER_CUE_BALL_CAMRON": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_MACHOP"
   ],
   "team_size": 2
  },
@@ -1590,12 +2546,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_PRIMEAPE",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 2
  },
  "TRAINER_CUE_BALL_COREY": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_PRIMEAPE",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -1604,6 +2568,10 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_PRIMEAPE",
+   "SPECIES_MACHAMP"
+  ],
   "team_size": 2
  },
  "TRAINER_CUE_BALL_ISAIAH": {
@@ -1611,12 +2579,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHAMP"
+  ],
   "team_size": 2
  },
  "TRAINER_CUE_BALL_ISAIAH_2": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHAMP"
   ],
   "team_size": 2
  },
@@ -1627,6 +2603,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_MANKEY",
+   "SPECIES_MACHAMP",
+   "SPECIES_MACHOP"
+  ],
   "team_size": 4
  },
  "TRAINER_CUE_BALL_KOJI": {
@@ -1635,12 +2617,21 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MANKEY",
+   "SPECIES_MACHOP"
+  ],
   "team_size": 3
  },
  "TRAINER_CUE_BALL_LUKE": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_MACHOP"
   ],
   "team_size": 2
  },
@@ -1649,6 +2640,10 @@
    39,
    39
   ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_MUK"
+  ],
   "team_size": 2
  },
  "TRAINER_CUE_BALL_RAUL": {
@@ -1656,11 +2651,18 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_MANKEY",
+   "SPECIES_PRIMEAPE"
+  ],
   "team_size": 2
  },
  "TRAINER_CUE_BALL_ZEEK": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_MACHOKE"
   ],
   "team_size": 1
  },
@@ -1668,6 +2670,10 @@
   "levels": [
    21,
    21
+  ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_MAGNEMITE"
   ],
   "team_size": 2
  },
@@ -1677,6 +2683,11 @@
    18,
    18
   ],
+  "species": [
+   "SPECIES_MAGNEMITE",
+   "SPECIES_MAGNEMITE",
+   "SPECIES_MAGNETON"
+  ],
   "team_size": 3
  },
  "TRAINER_ENGINEER_BERNIE_2": {
@@ -1685,11 +2696,19 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_MAGNETON",
+   "SPECIES_MAGNETON",
+   "SPECIES_MAGNETON"
+  ],
   "team_size": 3
  },
  "TRAINER_ENGINEER_BRAXTON": {
   "levels": [
    21
+  ],
+  "species": [
+   "SPECIES_MAGNEMITE"
   ],
   "team_size": 1
  },
@@ -1697,6 +2716,10 @@
   "levels": [
    24,
    24
+  ],
+  "species": [
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP"
   ],
   "team_size": 2
  },
@@ -1706,6 +2729,11 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_STARYU",
+   "SPECIES_SHELLDER"
+  ],
   "team_size": 3
  },
  "TRAINER_FISHERMAN_CHIP": {
@@ -1713,12 +2741,20 @@
    24,
    24
   ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_GOLDEEN"
+  ],
   "team_size": 2
  },
  "TRAINER_FISHERMAN_CLAUDE": {
   "levels": [
    31,
    31
+  ],
+  "species": [
+   "SPECIES_SHELLDER",
+   "SPECIES_CLOYSTER"
   ],
   "team_size": 2
  },
@@ -1728,6 +2764,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_WINGULL",
+   "SPECIES_KRABBY",
+   "SPECIES_HORSEA"
+  ],
   "team_size": 3
  },
  "TRAINER_FISHERMAN_CLETUS_2": {
@@ -1735,6 +2776,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_MAGIKARP",
+   "SPECIES_GOLDEEN"
   ],
   "team_size": 3
  },
@@ -1744,6 +2790,11 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_TENTACOOL",
+   "SPECIES_GOLDEEN"
+  ],
   "team_size": 3
  },
  "TRAINER_FISHERMAN_DOUGAL": {
@@ -1752,6 +2803,11 @@
    41,
    43
   ],
+  "species": [
+   "SPECIES_WINGULL",
+   "SPECIES_KRABBY",
+   "SPECIES_HORSEA"
+  ],
   "team_size": 3
  },
  "TRAINER_FISHERMAN_DOUGAL_2": {
@@ -1759,6 +2815,11 @@
    40,
    41,
    43
+  ],
+  "species": [
+   "SPECIES_FEEBAS",
+   "SPECIES_WINGULL",
+   "SPECIES_KRABBY"
   ],
   "team_size": 3
  },
@@ -1769,6 +2830,12 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_SHELLDER",
+   "SPECIES_GOLDEEN",
+   "SPECIES_HORSEA"
+  ],
   "team_size": 4
  },
  "TRAINER_FISHERMAN_ELLIOT_2": {
@@ -1778,11 +2845,20 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_POLIWHIRL",
+   "SPECIES_CLOYSTER",
+   "SPECIES_SEAKING",
+   "SPECIES_SEADRA"
+  ],
   "team_size": 4
  },
  "TRAINER_FISHERMAN_HANK": {
   "levels": [
    27
+  ],
+  "species": [
+   "SPECIES_GOLDEEN"
   ],
   "team_size": 1
  },
@@ -1792,6 +2868,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_MAGIKARP",
+   "SPECIES_GOLDEEN",
+   "SPECIES_FEEBAS"
+  ],
   "team_size": 3
  },
  "TRAINER_FISHERMAN_MARLON_2": {
@@ -1799,6 +2880,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_FEEBAS",
+   "SPECIES_WINGULL",
+   "SPECIES_KRABBY"
   ],
   "team_size": 3
  },
@@ -1808,12 +2894,21 @@
    22,
    22
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_POLIWAG",
+   "SPECIES_GOLDEEN"
+  ],
   "team_size": 3
  },
  "TRAINER_FISHERMAN_NOLAN": {
   "levels": [
    33,
    33
+  ],
+  "species": [
+   "SPECIES_SEAKING",
+   "SPECIES_GOLDEEN"
   ],
   "team_size": 2
  },
@@ -1824,6 +2919,12 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_SEAKING",
+   "SPECIES_GOLDEEN",
+   "SPECIES_SEAKING",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 4
  },
  "TRAINER_FISHERMAN_SALTON": {
@@ -1832,6 +2933,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_POLIWAG",
+   "SPECIES_TENTACOOL"
+  ],
   "team_size": 3
  },
  "TRAINER_FISHERMAN_SALTON_2": {
@@ -1839,6 +2945,11 @@
    92,
    93,
    95
+  ],
+  "species": [
+   "SPECIES_FEEBAS",
+   "SPECIES_WINGULL",
+   "SPECIES_KRABBY"
   ],
   "team_size": 3
  },
@@ -1850,12 +2961,23 @@
    35,
    35
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_GOLDEEN",
+   "SPECIES_SEAKING",
+   "SPECIES_SEAKING",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 5
  },
  "TRAINER_FISHERMAN_TYLOR": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_QWILFISH",
+   "SPECIES_QWILFISH"
   ],
   "team_size": 2
  },
@@ -1868,6 +2990,14 @@
    27,
    27
   ],
+  "species": [
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP"
+  ],
   "team_size": 6
  },
  "TRAINER_FISHERMAN_WADE_2": {
@@ -1879,12 +3009,24 @@
    47,
    47
   ],
+  "species": [
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP",
+   "SPECIES_MAGIKARP"
+  ],
   "team_size": 6
  },
  "TRAINER_GAMER_DARIAN": {
   "levels": [
    18,
    18
+  ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX"
   ],
   "team_size": 2
  },
@@ -1893,12 +3035,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX"
+  ],
   "team_size": 2
  },
  "TRAINER_GAMER_DIRK": {
   "levels": [
    18,
    18
+  ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_MAGNEMITE"
   ],
   "team_size": 2
  },
@@ -1907,12 +3057,20 @@
    18,
    18
   ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_HORSEA"
+  ],
   "team_size": 2
  },
  "TRAINER_GAMER_JASPER": {
   "levels": [
    18,
    18
+  ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_ODDISH"
   ],
   "team_size": 2
  },
@@ -1921,12 +3079,20 @@
    24,
    24
   ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX"
+  ],
   "team_size": 2
  },
  "TRAINER_GAMER_RICH_2": {
   "levels": [
    30,
    30
+  ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX"
   ],
   "team_size": 2
  },
@@ -1936,6 +3102,11 @@
    22,
    22
   ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_POLIWAG",
+   "SPECIES_POLIWHIRL"
+  ],
   "team_size": 3
  },
  "TRAINER_GENTLEMAN_ARTHUR": {
@@ -1943,11 +3114,18 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_NIDORAN_M",
+   "SPECIES_NIDORAN_F"
+  ],
   "team_size": 2
  },
  "TRAINER_GENTLEMAN_BROOKS": {
   "levels": [
    23
+  ],
+  "species": [
+   "SPECIES_PIKACHU"
   ],
   "team_size": 1
  },
@@ -1956,12 +3134,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_MAROWAK",
+   "SPECIES_GOLDUCK"
+  ],
   "team_size": 2
  },
  "TRAINER_GENTLEMAN_LAMAR": {
   "levels": [
    17,
    17
+  ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_PONYTA"
   ],
   "team_size": 2
  },
@@ -1970,11 +3156,18 @@
    18,
    18
   ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_GROWLITHE"
+  ],
   "team_size": 2
  },
  "TRAINER_GENTLEMAN_TUCKER": {
   "levels": [
    23
+  ],
+  "species": [
+   "SPECIES_PIKACHU"
   ],
   "team_size": 1
  },
@@ -1983,11 +3176,18 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_ONIX"
+  ],
   "team_size": 2
  },
  "TRAINER_HIKER_ALLEN": {
   "levels": [
    25
+  ],
+  "species": [
+   "SPECIES_GEODUDE"
   ],
   "team_size": 1
  },
@@ -1997,6 +3197,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_RHYHORN",
+   "SPECIES_LARVITAR",
+   "SPECIES_GEODUDE"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_BOULDER_2": {
@@ -2004,6 +3209,11 @@
    70,
    71,
    73
+  ],
+  "species": [
+   "SPECIES_ONIX",
+   "SPECIES_NOSEPASS",
+   "SPECIES_MACHOP"
   ],
   "team_size": 3
  },
@@ -2013,6 +3223,11 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_MACHOP",
+   "SPECIES_GEODUDE"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_BRUNO": {
@@ -2020,6 +3235,11 @@
    54,
    55,
    57
+  ],
+  "species": [
+   "SPECIES_LARVITAR",
+   "SPECIES_GEODUDE",
+   "SPECIES_RHYHORN"
   ],
   "team_size": 3
  },
@@ -2029,6 +3249,11 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_LARVITAR",
+   "SPECIES_MACHOP",
+   "SPECIES_NOSEPASS"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_CLARK": {
@@ -2036,11 +3261,18 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_ONIX"
+  ],
   "team_size": 2
  },
  "TRAINER_HIKER_DARYL": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_SUDOWOODO"
   ],
   "team_size": 1
  },
@@ -2050,6 +3282,11 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_GEODUDE",
+   "SPECIES_GRAVELER"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_DWAYNE": {
@@ -2057,6 +3294,11 @@
    27,
    29,
    31
+  ],
+  "species": [
+   "SPECIES_NOSEPASS",
+   "SPECIES_GRAVELER",
+   "SPECIES_RHYHORN"
   ],
   "team_size": 3
  },
@@ -2066,12 +3308,21 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_NOSEPASS",
+   "SPECIES_MACHOP",
+   "SPECIES_RHYHORN"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_EARL": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_ONIX",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -2080,12 +3331,20 @@
    54,
    54
   ],
+  "species": [
+   "SPECIES_ONIX",
+   "SPECIES_MACHAMP"
+  ],
   "team_size": 2
  },
  "TRAINER_HIKER_ERIC": {
   "levels": [
    20,
    20
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_ONIX"
   ],
   "team_size": 2
  },
@@ -2094,12 +3353,20 @@
    15,
    15
   ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_GEODUDE"
+  ],
   "team_size": 2
  },
  "TRAINER_HIKER_FRANKLIN_2": {
   "levels": [
    25,
    25
+  ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_GRAVELER"
   ],
   "team_size": 2
  },
@@ -2109,6 +3376,11 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_LARVITAR",
+   "SPECIES_NOSEPASS",
+   "SPECIES_MACHOP"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_GRANT_2": {
@@ -2117,6 +3389,11 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_ONIX",
+   "SPECIES_NOSEPASS"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_JEREMY": {
@@ -2124,12 +3401,20 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_ONIX"
+  ],
   "team_size": 2
  },
  "TRAINER_HIKER_JEREMY_2": {
   "levels": [
    30,
    28
+  ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_ONIX"
   ],
   "team_size": 2
  },
@@ -2140,12 +3425,22 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_MACHOP",
+   "SPECIES_GEODUDE",
+   "SPECIES_GEODUDE"
+  ],
   "team_size": 4
  },
  "TRAINER_HIKER_LUCAS": {
   "levels": [
    21,
    21
+  ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_GRAVELER"
   ],
   "team_size": 2
  },
@@ -2154,6 +3449,11 @@
    10,
    10,
    10
+  ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_GEODUDE",
+   "SPECIES_ONIX"
   ],
   "team_size": 3
  },
@@ -2164,6 +3464,12 @@
    13,
    13
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_GEODUDE",
+   "SPECIES_MACHOP",
+   "SPECIES_GEODUDE"
+  ],
   "team_size": 4
  },
  "TRAINER_HIKER_OLIVER": {
@@ -2172,12 +3478,21 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_ONIX",
+   "SPECIES_ONIX",
+   "SPECIES_GEODUDE"
+  ],
   "team_size": 3
  },
  "TRAINER_HIKER_TRENT": {
   "levels": [
    19,
    19
+  ],
+  "species": [
+   "SPECIES_ONIX",
+   "SPECIES_GRAVELER"
   ],
   "team_size": 2
  },
@@ -2186,11 +3501,18 @@
    31,
    31
   ],
+  "species": [
+   "SPECIES_ONIX",
+   "SPECIES_GRAVELER"
+  ],
   "team_size": 2
  },
  "TRAINER_HIKER_WAYNE": {
   "levels": [
    17
+  ],
+  "species": [
+   "SPECIES_ONIX"
   ],
   "team_size": 1
  },
@@ -2198,6 +3520,10 @@
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_KADABRA",
+   "SPECIES_MR_MIME"
   ],
   "team_size": 2
  },
@@ -2208,17 +3534,29 @@
    47,
    48
   ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_VOLTORB",
+   "SPECIES_ELECTRODE",
+   "SPECIES_MR_MIME"
+  ],
   "team_size": 4
  },
  "TRAINER_JUGGLER_GREGORY": {
   "levels": [
    48
   ],
+  "species": [
+   "SPECIES_MR_MIME"
+  ],
   "team_size": 1
  },
  "TRAINER_JUGGLER_KAYDEN": {
   "levels": [
    38
+  ],
+  "species": [
+   "SPECIES_HYPNO"
   ],
   "team_size": 1
  },
@@ -2229,6 +3567,12 @@
    31,
    31
   ],
+  "species": [
+   "SPECIES_DROWZEE",
+   "SPECIES_DROWZEE",
+   "SPECIES_KADABRA",
+   "SPECIES_DROWZEE"
+  ],
   "team_size": 4
  },
  "TRAINER_JUGGLER_MASON": {
@@ -2237,6 +3581,12 @@
    47,
    47,
    47
+  ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_PINECO",
+   "SPECIES_VOLTORB",
+   "SPECIES_PINECO"
   ],
   "team_size": 4
  },
@@ -2247,12 +3597,22 @@
    52,
    52
   ],
+  "species": [
+   "SPECIES_ELECTRODE",
+   "SPECIES_PINECO",
+   "SPECIES_ELECTRODE",
+   "SPECIES_PINECO"
+  ],
   "team_size": 4
  },
  "TRAINER_JUGGLER_NATE": {
   "levels": [
    34,
    34
+  ],
+  "species": [
+   "SPECIES_DROWZEE",
+   "SPECIES_KADABRA"
   ],
   "team_size": 2
  },
@@ -2263,12 +3623,22 @@
    41,
    41
   ],
+  "species": [
+   "SPECIES_DROWZEE",
+   "SPECIES_HYPNO",
+   "SPECIES_KADABRA",
+   "SPECIES_KADABRA"
+  ],
   "team_size": 4
  },
  "TRAINER_JUGGLER_SHAWN": {
   "levels": [
    34,
    34
+  ],
+  "species": [
+   "SPECIES_DROWZEE",
+   "SPECIES_HYPNO"
   ],
   "team_size": 2
  },
@@ -2278,6 +3648,11 @@
    48,
    49
   ],
+  "species": [
+   "SPECIES_MAREEP",
+   "SPECIES_MAREEP",
+   "SPECIES_FLAAFFY"
+  ],
   "team_size": 3
  },
  "TRAINER_LADY_JACKI": {
@@ -2285,12 +3660,20 @@
    48,
    50
   ],
+  "species": [
+   "SPECIES_HOPPIP",
+   "SPECIES_SKIPLOOM"
+  ],
   "team_size": 2
  },
  "TRAINER_LADY_SELPHY": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_PERSIAN",
+   "SPECIES_PERSIAN"
   ],
   "team_size": 2
  },
@@ -2300,6 +3683,11 @@
    12,
    12
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_ODDISH",
+   "SPECIES_BELLSPROUT"
+  ],
   "team_size": 3
  },
  "TRAINER_LASS_ANDREA": {
@@ -2308,12 +3696,21 @@
    24,
    24
   ],
+  "species": [
+   "SPECIES_MEOWTH",
+   "SPECIES_MEOWTH",
+   "SPECIES_MEOWTH"
+  ],
   "team_size": 3
  },
  "TRAINER_LASS_ANN": {
   "levels": [
    18,
    18
+  ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_NIDORAN_F"
   ],
   "team_size": 2
  },
@@ -2322,6 +3719,11 @@
    31,
    31,
    31
+  ],
+  "species": [
+   "SPECIES_PARAS",
+   "SPECIES_PARAS",
+   "SPECIES_PARASECT"
   ],
   "team_size": 3
  },
@@ -2332,12 +3734,22 @@
    47,
    48
   ],
+  "species": [
+   "SPECIES_HOPPIP",
+   "SPECIES_HOPPIP",
+   "SPECIES_SKIPLOOM",
+   "SPECIES_SKIPLOOM"
+  ],
   "team_size": 4
  },
  "TRAINER_LASS_DAWN": {
   "levels": [
    18,
    18
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_PIKACHU"
   ],
   "team_size": 2
  },
@@ -2347,11 +3759,19 @@
    13,
    13
   ],
+  "species": [
+   "SPECIES_ODDISH",
+   "SPECIES_PIDGEY",
+   "SPECIES_ODDISH"
+  ],
   "team_size": 3
  },
  "TRAINER_LASS_IRIS": {
   "levels": [
    14
+  ],
+  "species": [
+   "SPECIES_CLEFAIRY"
   ],
   "team_size": 1
  },
@@ -2360,12 +3780,20 @@
    9,
    9
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEY"
+  ],
   "team_size": 2
  },
  "TRAINER_LASS_JANICE_2": {
   "levels": [
    20,
    20
+  ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOTTO"
   ],
   "team_size": 2
  },
@@ -2374,11 +3802,18 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOTTO"
+  ],
   "team_size": 2
  },
  "TRAINER_LASS_JOANA": {
   "levels": [
    49
+  ],
+  "species": [
+   "SPECIES_SNUBBULL"
   ],
   "team_size": 1
  },
@@ -2387,6 +3822,10 @@
    22,
    22
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_CLEFAIRY"
+  ],
   "team_size": 2
  },
  "TRAINER_LASS_KAY": {
@@ -2394,12 +3833,20 @@
    23,
    23
   ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_WEEPINBELL"
+  ],
   "team_size": 2
  },
  "TRAINER_LASS_LISA": {
   "levels": [
    23,
    23
+  ],
+  "species": [
+   "SPECIES_ODDISH",
+   "SPECIES_GLOOM"
   ],
   "team_size": 2
  },
@@ -2411,6 +3858,13 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_RATTATA",
+   "SPECIES_NIDORAN_M",
+   "SPECIES_MEOWTH",
+   "SPECIES_PIKACHU"
+  ],
   "team_size": 5
  },
  "TRAINER_LASS_MEGAN_2": {
@@ -2420,6 +3874,13 @@
    23,
    21,
    22
+  ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_RATICATE",
+   "SPECIES_NIDORAN_M",
+   "SPECIES_MEOWTH",
+   "SPECIES_PIKACHU"
   ],
   "team_size": 5
  },
@@ -2431,12 +3892,23 @@
    47,
    48
   ],
+  "species": [
+   "SPECIES_PIDGEOT",
+   "SPECIES_RATICATE",
+   "SPECIES_NIDORINO",
+   "SPECIES_PERSIAN",
+   "SPECIES_RAICHU"
+  ],
   "team_size": 5
  },
  "TRAINER_LASS_MIRIAM": {
   "levels": [
    11,
    11
+  ],
+  "species": [
+   "SPECIES_ODDISH",
+   "SPECIES_BELLSPROUT"
   ],
   "team_size": 2
  },
@@ -2446,6 +3918,11 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_JIGGLYPUFF",
+   "SPECIES_SKITTY",
+   "SPECIES_MARILL"
+  ],
   "team_size": 3
  },
  "TRAINER_LASS_ODETTE_2": {
@@ -2454,12 +3931,21 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_JIGGLYPUFF",
+   "SPECIES_ODDISH"
+  ],
   "team_size": 3
  },
  "TRAINER_LASS_PAIGE": {
   "levels": [
    23,
    23
+  ],
+  "species": [
+   "SPECIES_NIDORAN_F",
+   "SPECIES_NIDORINA"
   ],
   "team_size": 2
  },
@@ -2469,6 +3955,11 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_MARILL",
+   "SPECIES_ODDISH",
+   "SPECIES_JIGGLYPUFF"
+  ],
   "team_size": 3
  },
  "TRAINER_LASS_PRISCILLA_2": {
@@ -2477,12 +3968,21 @@
    29,
    31
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_MEOWTH",
+   "SPECIES_MARILL"
+  ],
   "team_size": 3
  },
  "TRAINER_LASS_RELI": {
   "levels": [
    16,
    16
+  ],
+  "species": [
+   "SPECIES_NIDORAN_M",
+   "SPECIES_NIDORAN_F"
   ],
   "team_size": 2
  },
@@ -2491,6 +3991,10 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_NIDORAN_F"
+  ],
   "team_size": 2
  },
  "TRAINER_LASS_RELI_3": {
@@ -2498,11 +4002,18 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_NIDORINA"
+  ],
   "team_size": 2
  },
  "TRAINER_LASS_ROBIN": {
   "levels": [
    14
+  ],
+  "species": [
+   "SPECIES_JIGGLYPUFF"
   ],
   "team_size": 1
  },
@@ -2511,11 +4022,18 @@
    10,
    10
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_NIDORAN_F"
+  ],
   "team_size": 2
  },
  "TRAINER_PAINTER_CELINA": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_SMEARGLE"
   ],
   "team_size": 1
  },
@@ -2523,11 +4041,17 @@
   "levels": [
    50
   ],
+  "species": [
+   "SPECIES_SMEARGLE"
+  ],
   "team_size": 1
  },
  "TRAINER_PAINTER_EDNA": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_SMEARGLE"
   ],
   "team_size": 1
  },
@@ -2535,11 +4059,17 @@
   "levels": [
    50
   ],
+  "species": [
+   "SPECIES_SMEARGLE"
+  ],
   "team_size": 1
  },
  "TRAINER_PAINTER_RAYNA_2": {
   "levels": [
    54
+  ],
+  "species": [
+   "SPECIES_SMEARGLE"
   ],
   "team_size": 1
  },
@@ -2550,11 +4080,20 @@
    18,
    18
   ],
+  "species": [
+   "SPECIES_ODDISH",
+   "SPECIES_BELLSPROUT",
+   "SPECIES_ODDISH",
+   "SPECIES_BELLSPROUT"
+  ],
   "team_size": 4
  },
  "TRAINER_PICNICKER_ALICIA_2": {
   "levels": [
    25
+  ],
+  "species": [
+   "SPECIES_MEOWTH"
   ],
   "team_size": 1
  },
@@ -2562,11 +4101,17 @@
   "levels": [
    30
   ],
+  "species": [
+   "SPECIES_PERSIAN"
+  ],
   "team_size": 1
  },
  "TRAINER_PICNICKER_ALICIA_4": {
   "levels": [
    55
+  ],
+  "species": [
+   "SPECIES_PERSIAN"
   ],
   "team_size": 1
  },
@@ -2575,6 +4120,11 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_POLIWAG",
+   "SPECIES_HORSEA"
   ],
   "team_size": 3
  },
@@ -2585,12 +4135,22 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_RATTATA",
+   "SPECIES_RATTATA",
+   "SPECIES_BELLSPROUT"
+  ],
   "team_size": 4
  },
  "TRAINER_PICNICKER_BECKY": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_RAICHU"
   ],
   "team_size": 2
  },
@@ -2599,12 +4159,20 @@
    32,
    32
   ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_RAICHU"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_BECKY_3": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_RAICHU"
   ],
   "team_size": 2
  },
@@ -2613,11 +4181,18 @@
    54,
    54
   ],
+  "species": [
+   "SPECIES_RAICHU",
+   "SPECIES_RAICHU"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_CAITLIN": {
   "levels": [
    23
+  ],
+  "species": [
+   "SPECIES_MEOWTH"
   ],
   "team_size": 1
  },
@@ -2626,11 +4201,18 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEOTTO"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_CELIA": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_CLEFAIRY"
   ],
   "team_size": 1
  },
@@ -2641,6 +4223,12 @@
    35,
    35
   ],
+  "species": [
+   "SPECIES_MEOWTH",
+   "SPECIES_MEOWTH",
+   "SPECIES_PIKACHU",
+   "SPECIES_CLEFAIRY"
+  ],
   "team_size": 4
  },
  "TRAINER_PICNICKER_DANA": {
@@ -2649,11 +4237,19 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_MEOWTH",
+   "SPECIES_ODDISH",
+   "SPECIES_PIDGEY"
+  ],
   "team_size": 3
  },
  "TRAINER_PICNICKER_DIANA": {
   "levels": [
    19
+  ],
+  "species": [
+   "SPECIES_GOLDEEN"
   ],
   "team_size": 1
  },
@@ -2664,12 +4260,22 @@
    27,
    27
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_MEOWTH",
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEOTTO"
+  ],
   "team_size": 4
  },
  "TRAINER_PICNICKER_HEIDI": {
   "levels": [
    20,
    20
+  ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_CLEFAIRY"
   ],
   "team_size": 2
  },
@@ -2679,6 +4285,11 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_HORSEA",
+   "SPECIES_SEEL"
+  ],
   "team_size": 3
  },
  "TRAINER_PICNICKER_ISABELLE": {
@@ -2686,6 +4297,11 @@
    16,
    16,
    16
+  ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEY",
+   "SPECIES_PIDGEY"
   ],
   "team_size": 3
  },
@@ -2695,6 +4311,11 @@
    21,
    18
   ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEY"
+  ],
   "team_size": 3
  },
  "TRAINER_PICNICKER_ISABELLE_3": {
@@ -2702,6 +4323,11 @@
    29,
    29,
    26
+  ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOTTO"
   ],
   "team_size": 3
  },
@@ -2711,12 +4337,21 @@
    47,
    50
   ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PIDGEOT"
+  ],
   "team_size": 3
  },
  "TRAINER_PICNICKER_KELSEY": {
   "levels": [
    15,
    15
+  ],
+  "species": [
+   "SPECIES_NIDORAN_M",
+   "SPECIES_NIDORAN_F"
   ],
   "team_size": 2
  },
@@ -2725,6 +4360,10 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_NIDORAN_M",
+   "SPECIES_NIDORAN_F"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_KELSEY_3": {
@@ -2732,12 +4371,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_NIDORINO",
+   "SPECIES_NIDORINA"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_KELSEY_4": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_NIDORINO",
+   "SPECIES_NIDORINA"
   ],
   "team_size": 2
  },
@@ -2747,12 +4394,21 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_GLOOM",
+   "SPECIES_ODDISH",
+   "SPECIES_ODDISH"
+  ],
   "team_size": 3
  },
  "TRAINER_PICNICKER_LEAH": {
   "levels": [
    22,
    22
+  ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_CLEFAIRY"
   ],
   "team_size": 2
  },
@@ -2762,12 +4418,21 @@
    48,
    49
   ],
+  "species": [
+   "SPECIES_PARAS",
+   "SPECIES_PARAS",
+   "SPECIES_PARASECT"
+  ],
   "team_size": 3
  },
  "TRAINER_PICNICKER_MARTHA": {
   "levels": [
    22,
    22
+  ],
+  "species": [
+   "SPECIES_ODDISH",
+   "SPECIES_BULBASAUR"
   ],
   "team_size": 2
  },
@@ -2776,12 +4441,20 @@
    31,
    31
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_MISSY_2": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_SEAKING",
+   "SPECIES_SEAKING"
   ],
   "team_size": 2
  },
@@ -2790,12 +4463,20 @@
    54,
    54
   ],
+  "species": [
+   "SPECIES_SEAKING",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_NANCY": {
   "levels": [
    16,
    16
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_PIKACHU"
   ],
   "team_size": 2
  },
@@ -2804,6 +4485,11 @@
    21,
    21,
    21
+  ],
+  "species": [
+   "SPECIES_JIGGLYPUFF",
+   "SPECIES_PIDGEY",
+   "SPECIES_MEOWTH"
   ],
   "team_size": 3
  },
@@ -2815,6 +4501,13 @@
    24,
    24
   ],
+  "species": [
+   "SPECIES_PIDGEY",
+   "SPECIES_MEOWTH",
+   "SPECIES_RATTATA",
+   "SPECIES_PIKACHU",
+   "SPECIES_MEOWTH"
+  ],
   "team_size": 5
  },
  "TRAINER_PICNICKER_SUSIE_2": {
@@ -2824,6 +4517,13 @@
    27,
    27,
    27
+  ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_MEOWTH",
+   "SPECIES_RATICATE",
+   "SPECIES_PIKACHU",
+   "SPECIES_MEOWTH"
   ],
   "team_size": 5
  },
@@ -2835,6 +4535,13 @@
    47,
    47
   ],
+  "species": [
+   "SPECIES_PIDGEOTTO",
+   "SPECIES_PERSIAN",
+   "SPECIES_RATICATE",
+   "SPECIES_PIKACHU",
+   "SPECIES_PERSIAN"
+  ],
   "team_size": 5
  },
  "TRAINER_PICNICKER_SUSIE_4": {
@@ -2845,6 +4552,13 @@
    52,
    52
   ],
+  "species": [
+   "SPECIES_PIDGEOT",
+   "SPECIES_PERSIAN",
+   "SPECIES_RATICATE",
+   "SPECIES_RAICHU",
+   "SPECIES_PERSIAN"
+  ],
   "team_size": 5
  },
  "TRAINER_PICNICKER_TINA": {
@@ -2852,12 +4566,20 @@
    24,
    24
   ],
+  "species": [
+   "SPECIES_BULBASAUR",
+   "SPECIES_IVYSAUR"
+  ],
   "team_size": 2
  },
  "TRAINER_PICNICKER_VALERIE": {
   "levels": [
    30,
    30
+  ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_POLIWAG"
   ],
   "team_size": 2
  },
@@ -2867,6 +4589,11 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_ODDISH",
+   "SPECIES_TANGELA"
+  ],
   "team_size": 3
  },
  "TRAINER_PKMN_BREEDER_ALIZE": {
@@ -2874,6 +4601,11 @@
    48,
    48,
    48
+  ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_CLEFAIRY",
+   "SPECIES_MARILL"
   ],
   "team_size": 3
  },
@@ -2883,6 +4615,11 @@
    53,
    53
   ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_CLEFAIRY",
+   "SPECIES_MARILL"
+  ],
   "team_size": 3
  },
  "TRAINER_PKMN_BREEDER_ALLISON": {
@@ -2891,11 +4628,19 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_CLEFAIRY",
+   "SPECIES_CLEFABLE"
+  ],
   "team_size": 3
  },
  "TRAINER_PKMN_BREEDER_BETHANY": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_CHANSEY"
   ],
   "team_size": 1
  },
@@ -2905,6 +4650,11 @@
    38,
    38
   ],
+  "species": [
+   "SPECIES_BELLSPROUT",
+   "SPECIES_GLOOM",
+   "SPECIES_GLOOM"
+  ],
   "team_size": 3
  },
  "TRAINER_PKMN_RANGER_JACKSON": {
@@ -2912,6 +4662,11 @@
    49,
    49,
    49
+  ],
+  "species": [
+   "SPECIES_TANGELA",
+   "SPECIES_EXEGGCUTE",
+   "SPECIES_EXEGGUTOR"
   ],
   "team_size": 3
  },
@@ -2921,17 +4676,28 @@
    54,
    55
   ],
+  "species": [
+   "SPECIES_TANGELA",
+   "SPECIES_EXEGGUTOR",
+   "SPECIES_EXEGGUTOR"
+  ],
   "team_size": 3
  },
  "TRAINER_PKMN_RANGER_KATELYN": {
   "levels": [
    52
   ],
+  "species": [
+   "SPECIES_CHANSEY"
+  ],
   "team_size": 1
  },
  "TRAINER_PKMN_RANGER_KATELYN_2": {
   "levels": [
    56
+  ],
+  "species": [
+   "SPECIES_CHANSEY"
   ],
   "team_size": 1
  },
@@ -2940,12 +4706,20 @@
    37,
    40
   ],
+  "species": [
+   "SPECIES_EXEGGCUTE",
+   "SPECIES_EXEGGUTOR"
+  ],
   "team_size": 2
  },
  "TRAINER_PKMN_RANGER_MADELINE": {
   "levels": [
    51,
    51
+  ],
+  "species": [
+   "SPECIES_GLOOM",
+   "SPECIES_VILEPLUME"
   ],
   "team_size": 2
  },
@@ -2954,12 +4728,20 @@
    55,
    55
   ],
+  "species": [
+   "SPECIES_VILEPLUME",
+   "SPECIES_VILEPLUME"
+  ],
   "team_size": 2
  },
  "TRAINER_PKMN_RANGER_NICOLAS": {
   "levels": [
    51,
    51
+  ],
+  "species": [
+   "SPECIES_WEEPINBELL",
+   "SPECIES_VICTREEBEL"
   ],
   "team_size": 2
  },
@@ -2968,12 +4750,20 @@
    55,
    55
   ],
+  "species": [
+   "SPECIES_VICTREEBEL",
+   "SPECIES_VICTREEBEL"
+  ],
   "team_size": 2
  },
  "TRAINER_POKEMANIAC_ASHTON": {
   "levels": [
    23,
    23
+  ],
+  "species": [
+   "SPECIES_CUBONE",
+   "SPECIES_SLOWPOKE"
   ],
   "team_size": 2
  },
@@ -2983,6 +4773,11 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_SLOWPOKE",
+   "SPECIES_SLOWPOKE",
+   "SPECIES_SLOWPOKE"
+  ],
   "team_size": 3
  },
  "TRAINER_POKEMANIAC_DAWSON": {
@@ -2990,6 +4785,11 @@
    40,
    40,
    40
+  ],
+  "species": [
+   "SPECIES_CHARMELEON",
+   "SPECIES_LAPRAS",
+   "SPECIES_LICKITUNG"
   ],
   "team_size": 3
  },
@@ -2999,6 +4799,11 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_RHYHORN",
+   "SPECIES_CUBONE",
+   "SPECIES_KANGASKHAN"
+  ],
   "team_size": 3
  },
  "TRAINER_POKEMANIAC_DEXTER_2": {
@@ -3007,12 +4812,21 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_RHYHORN",
+   "SPECIES_LICKITUNG",
+   "SPECIES_KANGASKHAN"
+  ],
   "team_size": 3
  },
  "TRAINER_POKEMANIAC_HECTOR": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_RHYHORN",
+   "SPECIES_KANGASKHAN"
   ],
   "team_size": 2
  },
@@ -3021,12 +4835,20 @@
    55,
    55
   ],
+  "species": [
+   "SPECIES_RHYDON",
+   "SPECIES_KANGASKHAN"
+  ],
   "team_size": 2
  },
  "TRAINER_POKEMANIAC_HERMAN": {
   "levels": [
    20,
    20
+  ],
+  "species": [
+   "SPECIES_CUBONE",
+   "SPECIES_SLOWPOKE"
   ],
   "team_size": 2
  },
@@ -3035,12 +4857,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_MAROWAK",
+   "SPECIES_SLOWBRO"
+  ],
   "team_size": 2
  },
  "TRAINER_POKEMANIAC_HERMAN_3": {
   "levels": [
    54,
    54
+  ],
+  "species": [
+   "SPECIES_MAROWAK",
+   "SPECIES_SLOWBRO"
   ],
   "team_size": 2
  },
@@ -3049,6 +4879,10 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_RHYHORN",
+   "SPECIES_LICKITUNG"
+  ],
   "team_size": 2
  },
  "TRAINER_POKEMANIAC_MARK_2": {
@@ -3056,12 +4890,20 @@
    33,
    33
   ],
+  "species": [
+   "SPECIES_RHYHORN",
+   "SPECIES_LICKITUNG"
+  ],
   "team_size": 2
  },
  "TRAINER_POKEMANIAC_MARK_3": {
   "levels": [
    54,
    54
+  ],
+  "species": [
+   "SPECIES_RHYDON",
+   "SPECIES_LICKITUNG"
   ],
   "team_size": 2
  },
@@ -3071,6 +4913,11 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_CUBONE",
+   "SPECIES_SLOWPOKE",
+   "SPECIES_LICKITUNG"
+  ],
   "team_size": 3
  },
  "TRAINER_POKEMANIAC_SILAS_2": {
@@ -3079,12 +4926,21 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_KANGASKHAN",
+   "SPECIES_LICKITUNG",
+   "SPECIES_MAWILE"
+  ],
   "team_size": 3
  },
  "TRAINER_POKEMANIAC_STEVE": {
   "levels": [
    22,
    22
+  ],
+  "species": [
+   "SPECIES_CHARMANDER",
+   "SPECIES_CUBONE"
   ],
   "team_size": 2
  },
@@ -3094,6 +4950,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_MAWILE",
+   "SPECIES_KANGASKHAN",
+   "SPECIES_CUBONE"
+  ],
   "team_size": 3
  },
  "TRAINER_POKEMANIAC_WENDELL_2": {
@@ -3102,11 +4963,19 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_SLOWPOKE",
+   "SPECIES_CUBONE",
+   "SPECIES_MAWILE"
+  ],
   "team_size": 3
  },
  "TRAINER_POKEMANIAC_WINSTON": {
   "levels": [
    25
+  ],
+  "species": [
+   "SPECIES_SLOWPOKE"
   ],
   "team_size": 1
  },
@@ -3116,17 +4985,28 @@
    33,
    33
   ],
+  "species": [
+   "SPECIES_SLOWPOKE",
+   "SPECIES_SLOWPOKE",
+   "SPECIES_SLOWBRO"
+  ],
   "team_size": 3
  },
  "TRAINER_PSYCHIC_DARIO": {
   "levels": [
    52
   ],
+  "species": [
+   "SPECIES_GIRAFARIG"
+  ],
   "team_size": 1
  },
  "TRAINER_PSYCHIC_DARIO_2": {
   "levels": [
    56
+  ],
+  "species": [
+   "SPECIES_GIRAFARIG"
   ],
   "team_size": 1
  },
@@ -3136,6 +5016,11 @@
    48,
    49
   ],
+  "species": [
+   "SPECIES_NATU",
+   "SPECIES_SLOWBRO",
+   "SPECIES_KADABRA"
+  ],
   "team_size": 3
  },
  "TRAINER_PSYCHIC_JACLYN_2": {
@@ -3143,6 +5028,11 @@
    52,
    52,
    54
+  ],
+  "species": [
+   "SPECIES_NATU",
+   "SPECIES_SLOWBRO",
+   "SPECIES_KADABRA"
   ],
   "team_size": 3
  },
@@ -3153,6 +5043,12 @@
    31,
    31
   ],
+  "species": [
+   "SPECIES_KADABRA",
+   "SPECIES_SLOWPOKE",
+   "SPECIES_MR_MIME",
+   "SPECIES_KADABRA"
+  ],
   "team_size": 4
  },
  "TRAINER_PSYCHIC_LAURA": {
@@ -3160,6 +5056,11 @@
    48,
    48,
    49
+  ],
+  "species": [
+   "SPECIES_NATU",
+   "SPECIES_NATU",
+   "SPECIES_XATU"
   ],
   "team_size": 3
  },
@@ -3169,6 +5070,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_KADABRA",
+   "SPECIES_ABRA",
+   "SPECIES_MEDITITE"
+  ],
   "team_size": 3
  },
  "TRAINER_PSYCHIC_MORDECAI_2": {
@@ -3177,11 +5083,19 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_SLOWPOKE",
+   "SPECIES_RALTS",
+   "SPECIES_MEDITITE"
+  ],
   "team_size": 3
  },
  "TRAINER_PSYCHIC_PRESTON": {
   "levels": [
    38
+  ],
+  "species": [
+   "SPECIES_SLOWBRO"
   ],
   "team_size": 1
  },
@@ -3191,6 +5105,11 @@
    48,
    50
   ],
+  "species": [
+   "SPECIES_NATU",
+   "SPECIES_DROWZEE",
+   "SPECIES_HYPNO"
+  ],
   "team_size": 3
  },
  "TRAINER_PSYCHIC_RODETTE_2": {
@@ -3199,12 +5118,21 @@
    53,
    53
   ],
+  "species": [
+   "SPECIES_NATU",
+   "SPECIES_HYPNO",
+   "SPECIES_HYPNO"
+  ],
   "team_size": 3
  },
  "TRAINER_PSYCHIC_TYRON": {
   "levels": [
    34,
    34
+  ],
+  "species": [
+   "SPECIES_MR_MIME",
+   "SPECIES_KADABRA"
   ],
   "team_size": 2
  },
@@ -3214,6 +5142,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_ELECTABUZZ",
+   "SPECIES_MAGNEMITE",
+   "SPECIES_ELEKID"
+  ],
   "team_size": 3
  },
  "TRAINER_ROCKER_JAX_2": {
@@ -3222,6 +5155,11 @@
    71,
    73
   ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_MAGNEMITE",
+   "SPECIES_ELECTABUZZ"
+  ],
   "team_size": 3
  },
  "TRAINER_ROCKER_LUCA": {
@@ -3229,12 +5167,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_ELECTRODE"
+  ],
   "team_size": 2
  },
  "TRAINER_ROCKER_LUCA_2": {
   "levels": [
    33,
    33
+  ],
+  "species": [
+   "SPECIES_ELECTRODE",
+   "SPECIES_ELECTRODE"
   ],
   "team_size": 2
  },
@@ -3244,6 +5190,11 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_ELEKID",
+   "SPECIES_PLUSLE",
+   "SPECIES_VOLTORB"
+  ],
   "team_size": 3
  },
  "TRAINER_ROCKER_ZIGGY_2": {
@@ -3251,6 +5202,11 @@
    54,
    55,
    57
+  ],
+  "species": [
+   "SPECIES_ELECTRODE",
+   "SPECIES_VOLTORB",
+   "SPECIES_MAGNEMITE"
   ],
   "team_size": 3
  },
@@ -3260,17 +5216,28 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_GEODUDE",
+   "SPECIES_GRAVELER",
+   "SPECIES_GRAVELER"
+  ],
   "team_size": 3
  },
  "TRAINER_RUIN_MANIAC_BRANDON": {
   "levels": [
    50
   ],
+  "species": [
+   "SPECIES_ONIX"
+  ],
   "team_size": 1
  },
  "TRAINER_RUIN_MANIAC_FOSTER": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_GOLEM"
   ],
   "team_size": 1
  },
@@ -3279,12 +5246,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 2
  },
  "TRAINER_RUIN_MANIAC_LARRY_2": {
   "levels": [
    54,
    54
+  ],
+  "species": [
+   "SPECIES_MACHOKE",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -3294,6 +5269,11 @@
    48,
    49
   ],
+  "species": [
+   "SPECIES_ONIX",
+   "SPECIES_GRAVELER",
+   "SPECIES_MAROWAK"
+  ],
   "team_size": 3
  },
  "TRAINER_RUIN_MANIAC_LAYTON": {
@@ -3301,6 +5281,11 @@
    48,
    48,
    48
+  ],
+  "species": [
+   "SPECIES_SANDSLASH",
+   "SPECIES_ONIX",
+   "SPECIES_SANDSLASH"
   ],
   "team_size": 3
  },
@@ -3310,6 +5295,11 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_GRAVELER",
+   "SPECIES_ONIX",
+   "SPECIES_GRAVELER"
+  ],
   "team_size": 3
  },
  "TRAINER_SAILOR_DUNCAN": {
@@ -3318,12 +5308,21 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_SHELLDER",
+   "SPECIES_TENTACOOL"
+  ],
   "team_size": 3
  },
  "TRAINER_SAILOR_DWAYNE": {
   "levels": [
    21,
    21
+  ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_PIKACHU"
   ],
   "team_size": 2
  },
@@ -3333,12 +5332,21 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_HORSEA",
+   "SPECIES_HORSEA"
+  ],
   "team_size": 3
  },
  "TRAINER_SAILOR_EDMOND": {
   "levels": [
    18,
    18
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_SHELLDER"
   ],
   "team_size": 2
  },
@@ -3347,11 +5355,18 @@
    18,
    18
   ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_STARYU"
+  ],
   "team_size": 2
  },
  "TRAINER_SAILOR_LEONARD": {
   "levels": [
    21
+  ],
+  "species": [
+   "SPECIES_SHELLDER"
   ],
   "team_size": 1
  },
@@ -3359,12 +5374,19 @@
   "levels": [
    20
   ],
+  "species": [
+   "SPECIES_MACHOP"
+  ],
   "team_size": 1
  },
  "TRAINER_SAILOR_TREVOR": {
   "levels": [
    17,
    17
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_TENTACOOL"
   ],
   "team_size": 2
  },
@@ -3375,6 +5397,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_MAGNETON",
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING",
+   "SPECIES_MAGNEMITE"
+  ],
   "team_size": 4
  },
  "TRAINER_SCIENTIST_BRAYDON": {
@@ -3382,6 +5410,11 @@
    33,
    33,
    33
+  ],
+  "species": [
+   "SPECIES_MAGNEMITE",
+   "SPECIES_MAGNETON",
+   "SPECIES_VOLTORB"
   ],
   "team_size": 3
  },
@@ -3392,6 +5425,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_WEEZING",
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING"
+  ],
   "team_size": 4
  },
  "TRAINER_SCIENTIST_ED": {
@@ -3399,6 +5438,11 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_KOFFING",
+   "SPECIES_MAGNETON"
   ],
   "team_size": 3
  },
@@ -3410,12 +5454,23 @@
    46,
    46
   ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_ELECTRODE",
+   "SPECIES_MAGNEMITE",
+   "SPECIES_MAGNETON",
+   "SPECIES_PORYGON"
+  ],
   "team_size": 5
  },
  "TRAINER_SCIENTIST_IVAN": {
   "levels": [
    34,
    34
+  ],
+  "species": [
+   "SPECIES_MAGNEMITE",
+   "SPECIES_ELECTRODE"
   ],
   "team_size": 2
  },
@@ -3425,12 +5480,21 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_MAGNEMITE",
+   "SPECIES_VOLTORB",
+   "SPECIES_MAGNETON"
+  ],
   "team_size": 3
  },
  "TRAINER_SCIENTIST_JOSE": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_ELECTRODE",
+   "SPECIES_WEEZING"
   ],
   "team_size": 2
  },
@@ -3439,6 +5503,10 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_ELECTRODE",
+   "SPECIES_MUK"
+  ],
   "team_size": 2
  },
  "TRAINER_SCIENTIST_PARKER": {
@@ -3446,11 +5514,18 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_ELECTRODE"
+  ],
   "team_size": 2
  },
  "TRAINER_SCIENTIST_RODNEY": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_ELECTRODE"
   ],
   "team_size": 1
  },
@@ -3462,12 +5537,23 @@
    25,
    25
   ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_KOFFING",
+   "SPECIES_MAGNETON",
+   "SPECIES_MAGNEMITE",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 5
  },
  "TRAINER_SCIENTIST_TED": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_ELECTRODE",
+   "SPECIES_WEEZING"
   ],
   "team_size": 2
  },
@@ -3476,12 +5562,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_MAGNEMITE",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 2
  },
  "TRAINER_SIS_AND_BRO_AVA_GEB": {
   "levels": [
    50,
    50
+  ],
+  "species": [
+   "SPECIES_POLIWHIRL",
+   "SPECIES_STARMIE"
   ],
   "team_size": 2
  },
@@ -3490,12 +5584,20 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 2
  },
  "TRAINER_SIS_AND_BRO_LIL_IAN": {
   "levels": [
    33,
    33
+  ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_STARMIE"
   ],
   "team_size": 2
  },
@@ -3504,12 +5606,20 @@
    50,
    50
   ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_STARMIE"
+  ],
   "team_size": 2
  },
  "TRAINER_SIS_AND_BRO_LIL_IAN_3": {
   "levels": [
    55,
    55
+  ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_STARMIE"
   ],
   "team_size": 2
  },
@@ -3520,6 +5630,12 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_KOFFING",
+   "SPECIES_VOLTORB",
+   "SPECIES_MAGNEMITE"
+  ],
   "team_size": 4
  },
  "TRAINER_SUPER_NERD_AVERY": {
@@ -3529,11 +5645,20 @@
    34,
    34
   ],
+  "species": [
+   "SPECIES_PONYTA",
+   "SPECIES_CHARMANDER",
+   "SPECIES_VULPIX",
+   "SPECIES_GROWLITHE"
+  ],
   "team_size": 4
  },
  "TRAINER_SUPER_NERD_DEREK": {
   "levels": [
    41
+  ],
+  "species": [
+   "SPECIES_RAPIDASH"
   ],
   "team_size": 1
  },
@@ -3543,6 +5668,11 @@
    36,
    36
   ],
+  "species": [
+   "SPECIES_VULPIX",
+   "SPECIES_VULPIX",
+   "SPECIES_NINETALES"
+  ],
   "team_size": 3
  },
  "TRAINER_SUPER_NERD_EWALD": {
@@ -3550,6 +5680,11 @@
    54,
    55,
    57
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_VOLTORB",
+   "SPECIES_PORYGON"
   ],
   "team_size": 3
  },
@@ -3559,6 +5694,11 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_MAGNEMITE",
+   "SPECIES_VOLTORB",
+   "SPECIES_GRIMER"
+  ],
   "team_size": 3
  },
  "TRAINER_SUPER_NERD_GLENN": {
@@ -3566,6 +5706,11 @@
    22,
    22,
    22
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_MUK",
+   "SPECIES_GRIMER"
   ],
   "team_size": 3
  },
@@ -3575,6 +5720,11 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_MUK",
+   "SPECIES_MUK",
+   "SPECIES_MUK"
+  ],
   "team_size": 3
  },
  "TRAINER_SUPER_NERD_JOVAN": {
@@ -3582,11 +5732,18 @@
    11,
    11
   ],
+  "species": [
+   "SPECIES_MAGNEMITE",
+   "SPECIES_VOLTORB"
+  ],
   "team_size": 2
  },
  "TRAINER_SUPER_NERD_LESLIE": {
   "levels": [
    26
+  ],
+  "species": [
+   "SPECIES_KOFFING"
   ],
   "team_size": 1
  },
@@ -3596,6 +5753,11 @@
    12,
    12
   ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_VOLTORB",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 3
  },
  "TRAINER_SUPER_NERD_OHMER": {
@@ -3603,6 +5765,11 @@
    54,
    55,
    57
+  ],
+  "species": [
+   "SPECIES_VOLTORB",
+   "SPECIES_MAGNEMITE",
+   "SPECIES_KOFFING"
   ],
   "team_size": 3
  },
@@ -3612,12 +5779,21 @@
    55,
    57
   ],
+  "species": [
+   "SPECIES_PORYGON",
+   "SPECIES_BALTOY",
+   "SPECIES_KOFFING"
+  ],
   "team_size": 3
  },
  "TRAINER_SUPER_NERD_ZAC": {
   "levels": [
    37,
    37
+  ],
+  "species": [
+   "SPECIES_GROWLITHE",
+   "SPECIES_VULPIX"
   ],
   "team_size": 2
  },
@@ -3627,12 +5803,21 @@
    36,
    37
   ],
+  "species": [
+   "SPECIES_PSYDUCK",
+   "SPECIES_PSYDUCK",
+   "SPECIES_GOLDUCK"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_FEMALE_ALICE": {
   "levels": [
    30,
    30
+  ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_SEAKING"
   ],
   "team_size": 2
  },
@@ -3641,6 +5826,10 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_SEAKING",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 2
  },
  "TRAINER_SWIMMER_FEMALE_AMARA": {
@@ -3648,6 +5837,11 @@
    36,
    36,
    36
+  ],
+  "species": [
+   "SPECIES_SEEL",
+   "SPECIES_SEEL",
+   "SPECIES_DEWGONG"
   ],
   "team_size": 3
  },
@@ -3659,6 +5853,13 @@
    27,
    27
   ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_GOLDEEN",
+   "SPECIES_SEAKING",
+   "SPECIES_GOLDEEN",
+   "SPECIES_POLIWAG"
+  ],
   "team_size": 5
  },
  "TRAINER_SWIMMER_FEMALE_CONNIE": {
@@ -3667,12 +5868,21 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_STARYU",
+   "SPECIES_STARYU",
+   "SPECIES_STARYU"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_FEMALE_DENISE": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_CHINCHOU",
+   "SPECIES_LANTURN"
   ],
   "team_size": 2
  },
@@ -3681,12 +5891,20 @@
    37,
    37
   ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_SEADRA"
+  ],
   "team_size": 2
  },
  "TRAINER_SWIMMER_FEMALE_MELISSA": {
   "levels": [
    31,
    31
+  ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_SEAKING"
   ],
   "team_size": 2
  },
@@ -3695,17 +5913,27 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_POLIWHIRL",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 2
  },
  "TRAINER_SWIMMER_FEMALE_NICOLE": {
   "levels": [
    50
   ],
+  "species": [
+   "SPECIES_MARILL"
+  ],
   "team_size": 1
  },
  "TRAINER_SWIMMER_FEMALE_NICOLE_2": {
   "levels": [
    54
+  ],
+  "species": [
+   "SPECIES_MARILL"
   ],
   "team_size": 1
  },
@@ -3715,6 +5943,11 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_SHELLDER",
+   "SPECIES_SHELLDER",
+   "SPECIES_CLOYSTER"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_FEMALE_SHIRLEY": {
@@ -3723,17 +5956,28 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_HORSEA",
+   "SPECIES_SEADRA"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_FEMALE_TIFFANY": {
   "levels": [
    35
   ],
+  "species": [
+   "SPECIES_SEAKING"
+  ],
   "team_size": 1
  },
  "TRAINER_SWIMMER_FEMALE_TISHA": {
   "levels": [
    38
+  ],
+  "species": [
+   "SPECIES_KINGLER"
   ],
   "team_size": 1
  },
@@ -3743,6 +5987,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_POLIWAG",
+   "SPECIES_CLAMPERL"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_F_CORAL_2": {
@@ -3750,6 +5999,11 @@
    92,
    93,
    95
+  ],
+  "species": [
+   "SPECIES_STARYU",
+   "SPECIES_CLAMPERL",
+   "SPECIES_POLIWAG"
   ],
   "team_size": 3
  },
@@ -3759,6 +6013,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_CORSOLA",
+   "SPECIES_CLAMPERL",
+   "SPECIES_POLIWAG"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_F_MARINA_2": {
@@ -3766,6 +6025,11 @@
    92,
    93,
    95
+  ],
+  "species": [
+   "SPECIES_CORSOLA",
+   "SPECIES_GOLDEEN",
+   "SPECIES_CLAMPERL"
   ],
   "team_size": 3
  },
@@ -3775,6 +6039,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_STARYU",
+   "SPECIES_POLIWAG"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_F_PEARL_2": {
@@ -3782,6 +6051,11 @@
    92,
    93,
    95
+  ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_STARYU",
+   "SPECIES_TENTACOOL"
   ],
   "team_size": 3
  },
@@ -3793,12 +6067,23 @@
    27,
    27
   ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_TENTACOOL",
+   "SPECIES_STARYU",
+   "SPECIES_HORSEA",
+   "SPECIES_TENTACRUEL"
+  ],
   "team_size": 5
  },
  "TRAINER_SWIMMER_MALE_BARRY": {
   "levels": [
    31,
    31
+  ],
+  "species": [
+   "SPECIES_SHELLDER",
+   "SPECIES_CLOYSTER"
   ],
   "team_size": 2
  },
@@ -3809,6 +6094,12 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_HORSEA",
+   "SPECIES_SEADRA",
+   "SPECIES_HORSEA"
+  ],
   "team_size": 4
  },
  "TRAINER_SWIMMER_MALE_DARRIN_2": {
@@ -3818,6 +6109,12 @@
    52,
    52
   ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_SEADRA",
+   "SPECIES_SEADRA",
+   "SPECIES_SEADRA"
+  ],
   "team_size": 4
  },
  "TRAINER_SWIMMER_MALE_DAVID": {
@@ -3826,11 +6123,19 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_SHELLDER",
+   "SPECIES_SEAKING"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_MALE_DEAN": {
   "levels": [
    35
+  ],
+  "species": [
+   "SPECIES_STARYU"
   ],
   "team_size": 1
  },
@@ -3841,17 +6146,29 @@
    27,
    27
   ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_TENTACOOL",
+   "SPECIES_TENTACOOL",
+   "SPECIES_GOLDEEN"
+  ],
   "team_size": 4
  },
  "TRAINER_SWIMMER_MALE_FINN": {
   "levels": [
    38
   ],
+  "species": [
+   "SPECIES_STARMIE"
+  ],
   "team_size": 1
  },
  "TRAINER_SWIMMER_MALE_FINN_2": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_STARMIE"
   ],
   "team_size": 1
  },
@@ -3861,17 +6178,28 @@
    35,
    38
   ],
+  "species": [
+   "SPECIES_SHELLDER",
+   "SPECIES_CLOYSTER",
+   "SPECIES_WARTORTLE"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_MALE_JACK": {
   "levels": [
    37
   ],
+  "species": [
+   "SPECIES_STARMIE"
+  ],
   "team_size": 1
  },
  "TRAINER_SWIMMER_MALE_JACK_2": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_STARMIE"
   ],
   "team_size": 1
  },
@@ -3880,12 +6208,20 @@
    33,
    33
   ],
+  "species": [
+   "SPECIES_STARYU",
+   "SPECIES_WARTORTLE"
+  ],
   "team_size": 2
  },
  "TRAINER_SWIMMER_MALE_LUIS": {
   "levels": [
    16,
    16
+  ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_SHELLDER"
   ],
   "team_size": 2
  },
@@ -3894,6 +6230,10 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_POLIWHIRL"
+  ],
   "team_size": 2
  },
  "TRAINER_SWIMMER_MALE_MATTHEW_2": {
@@ -3901,12 +6241,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_POLIWHIRL",
+   "SPECIES_POLIWRATH"
+  ],
   "team_size": 2
  },
  "TRAINER_SWIMMER_MALE_MYMO": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_KINGLER",
+   "SPECIES_WARTORTLE"
   ],
   "team_size": 2
  },
@@ -3916,12 +6264,21 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_GOLDEEN",
+   "SPECIES_HORSEA",
+   "SPECIES_STARYU"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_MALE_RICHARD": {
   "levels": [
    30,
    30
+  ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_SHELLDER"
   ],
   "team_size": 2
  },
@@ -3931,11 +6288,19 @@
    32,
    32
   ],
+  "species": [
+   "SPECIES_POLIWHIRL",
+   "SPECIES_TENTACOOL",
+   "SPECIES_SEADRA"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_MALE_SAMIR": {
   "levels": [
    50
+  ],
+  "species": [
+   "SPECIES_GYARADOS"
   ],
   "team_size": 1
  },
@@ -3943,12 +6308,19 @@
   "levels": [
    55
   ],
+  "species": [
+   "SPECIES_GYARADOS"
+  ],
   "team_size": 1
  },
  "TRAINER_SWIMMER_MALE_SPENCER": {
   "levels": [
    33,
    33
+  ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_TENTACRUEL"
   ],
   "team_size": 2
  },
@@ -3958,6 +6330,11 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_POLIWHIRL",
+   "SPECIES_TENTACOOL",
+   "SPECIES_TENTACRUEL"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_MALE_TONY": {
@@ -3965,12 +6342,20 @@
    30,
    30
   ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_HORSEA"
+  ],
   "team_size": 2
  },
  "TRAINER_SWIMMER_MALE_TONY_2": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_SEADRA",
+   "SPECIES_SEADRA"
   ],
   "team_size": 2
  },
@@ -3980,6 +6365,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_HORSEA",
+   "SPECIES_SHELLDER",
+   "SPECIES_WAILMER"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_M_CREST_2": {
@@ -3987,6 +6377,11 @@
    92,
    93,
    95
+  ],
+  "species": [
+   "SPECIES_SHELLDER",
+   "SPECIES_POLIWAG",
+   "SPECIES_CARVANHA"
   ],
   "team_size": 3
  },
@@ -3996,6 +6391,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_WAILMER",
+   "SPECIES_TENTACOOL"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_M_REEF_2": {
@@ -4003,6 +6403,11 @@
    92,
    93,
    95
+  ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_WAILMER",
+   "SPECIES_POLIWAG"
   ],
   "team_size": 3
  },
@@ -4012,6 +6417,11 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_TENTACOOL",
+   "SPECIES_WAILMER",
+   "SPECIES_SHELLDER"
+  ],
   "team_size": 3
  },
  "TRAINER_SWIMMER_M_TIDE_2": {
@@ -4020,12 +6430,21 @@
    93,
    95
   ],
+  "species": [
+   "SPECIES_STARYU",
+   "SPECIES_POLIWAG",
+   "SPECIES_WAILMER"
+  ],
   "team_size": 3
  },
  "TRAINER_TAMER_COLE": {
   "levels": [
    39,
    39
+  ],
+  "species": [
+   "SPECIES_ARBOK",
+   "SPECIES_TAUROS"
   ],
   "team_size": 2
  },
@@ -4035,6 +6454,11 @@
    33,
    33
   ],
+  "species": [
+   "SPECIES_ARBOK",
+   "SPECIES_SANDSLASH",
+   "SPECIES_ARBOK"
+  ],
   "team_size": 3
  },
  "TRAINER_TAMER_EVAN": {
@@ -4042,6 +6466,11 @@
    48,
    48,
    49
+  ],
+  "species": [
+   "SPECIES_SANDSLASH",
+   "SPECIES_LICKITUNG",
+   "SPECIES_URSARING"
   ],
   "team_size": 3
  },
@@ -4051,11 +6480,19 @@
    52,
    55
   ],
+  "species": [
+   "SPECIES_SANDSLASH",
+   "SPECIES_LICKITUNG",
+   "SPECIES_URSARING"
+  ],
   "team_size": 3
  },
  "TRAINER_TAMER_JASON": {
   "levels": [
    43
+  ],
+  "species": [
+   "SPECIES_RHYHORN"
   ],
   "team_size": 1
  },
@@ -4064,12 +6501,20 @@
    34,
    34
   ],
+  "species": [
+   "SPECIES_SANDSLASH",
+   "SPECIES_ARBOK"
+  ],
   "team_size": 2
  },
  "TRAINER_TAMER_VINCENT": {
   "levels": [
    44,
    44
+  ],
+  "species": [
+   "SPECIES_PERSIAN",
+   "SPECIES_GOLDUCK"
   ],
   "team_size": 2
  },
@@ -4079,6 +6524,11 @@
    53,
    54
   ],
+  "species": [
+   "SPECIES_MUK",
+   "SPECIES_ARBOK",
+   "SPECIES_VILEPLUME"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_ADMIN_2": {
@@ -4087,12 +6537,21 @@
    54,
    55
   ],
+  "species": [
+   "SPECIES_GOLBAT",
+   "SPECIES_WEEZING",
+   "SPECIES_HOUNDOOM"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT": {
   "levels": [
    13,
    13
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_ZUBAT"
   ],
   "team_size": 2
  },
@@ -4101,6 +6560,11 @@
    20,
    20,
    20
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_KOFFING",
+   "SPECIES_KOFFING"
   ],
   "team_size": 3
  },
@@ -4111,12 +6575,22 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_RATICATE",
+   "SPECIES_RATICATE",
+   "SPECIES_RATTATA"
+  ],
   "team_size": 4
  },
  "TRAINER_TEAM_ROCKET_GRUNT_12": {
   "levels": [
    22,
    22
+  ],
+  "species": [
+   "SPECIES_GRIMER",
+   "SPECIES_KOFFING"
   ],
   "team_size": 2
  },
@@ -4128,6 +6602,13 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_ZUBAT",
+   "SPECIES_KOFFING",
+   "SPECIES_GRIMER",
+   "SPECIES_ZUBAT",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 5
  },
  "TRAINER_TEAM_ROCKET_GRUNT_14": {
@@ -4136,12 +6617,21 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_RATICATE",
+   "SPECIES_DROWZEE"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_15": {
   "levels": [
    21,
    21
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOP"
   ],
   "team_size": 2
  },
@@ -4151,6 +6641,11 @@
    23,
    23
   ],
+  "species": [
+   "SPECIES_SANDSHREW",
+   "SPECIES_EKANS",
+   "SPECIES_SANDSLASH"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_17": {
@@ -4159,12 +6654,21 @@
    23,
    23
   ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_SANDSHREW",
+   "SPECIES_ARBOK"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_18": {
   "levels": [
    21,
    21
+  ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_ZUBAT"
   ],
   "team_size": 2
  },
@@ -4174,6 +6678,11 @@
    25,
    25
   ],
+  "species": [
+   "SPECIES_ZUBAT",
+   "SPECIES_ZUBAT",
+   "SPECIES_GOLBAT"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_2": {
@@ -4182,12 +6691,21 @@
    11,
    11
   ],
+  "species": [
+   "SPECIES_SANDSHREW",
+   "SPECIES_RATTATA",
+   "SPECIES_ZUBAT"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_20": {
   "levels": [
    26,
    26
+  ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_DROWZEE"
   ],
   "team_size": 2
  },
@@ -4198,12 +6716,22 @@
    23,
    23
   ],
+  "species": [
+   "SPECIES_ZUBAT",
+   "SPECIES_RATTATA",
+   "SPECIES_RATICATE",
+   "SPECIES_ZUBAT"
+  ],
   "team_size": 4
  },
  "TRAINER_TEAM_ROCKET_GRUNT_23": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_CUBONE",
+   "SPECIES_ZUBAT"
   ],
   "team_size": 2
  },
@@ -4215,6 +6743,13 @@
    25,
    25
   ],
+  "species": [
+   "SPECIES_GOLBAT",
+   "SPECIES_ZUBAT",
+   "SPECIES_ZUBAT",
+   "SPECIES_RATICATE",
+   "SPECIES_ZUBAT"
+  ],
   "team_size": 5
  },
  "TRAINER_TEAM_ROCKET_GRUNT_25": {
@@ -4223,12 +6758,21 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_HYPNO",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_26": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_DROWZEE"
   ],
   "team_size": 2
  },
@@ -4238,17 +6782,28 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_ZUBAT",
+   "SPECIES_CUBONE"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_28": {
   "levels": [
    33
   ],
+  "species": [
+   "SPECIES_ARBOK"
+  ],
   "team_size": 1
  },
  "TRAINER_TEAM_ROCKET_GRUNT_29": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_HYPNO"
   ],
   "team_size": 1
  },
@@ -4257,12 +6812,20 @@
    11,
    11
   ],
+  "species": [
+   "SPECIES_ZUBAT",
+   "SPECIES_EKANS"
+  ],
   "team_size": 2
  },
  "TRAINER_TEAM_ROCKET_GRUNT_30": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
   ],
   "team_size": 2
  },
@@ -4271,6 +6834,11 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_ZUBAT",
+   "SPECIES_ZUBAT",
+   "SPECIES_GOLBAT"
   ],
   "team_size": 3
  },
@@ -4281,6 +6849,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_ARBOK",
+   "SPECIES_KOFFING",
+   "SPECIES_GOLBAT"
+  ],
   "team_size": 4
  },
  "TRAINER_TEAM_ROCKET_GRUNT_33": {
@@ -4288,12 +6862,20 @@
    29,
    29
   ],
+  "species": [
+   "SPECIES_CUBONE",
+   "SPECIES_CUBONE"
+  ],
   "team_size": 2
  },
  "TRAINER_TEAM_ROCKET_GRUNT_34": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_SANDSHREW",
+   "SPECIES_SANDSLASH"
   ],
   "team_size": 2
  },
@@ -4304,6 +6886,12 @@
    26,
    26
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_ZUBAT",
+   "SPECIES_GOLBAT",
+   "SPECIES_RATTATA"
+  ],
   "team_size": 4
  },
  "TRAINER_TEAM_ROCKET_GRUNT_36": {
@@ -4311,6 +6899,11 @@
    28,
    28,
    28
+  ],
+  "species": [
+   "SPECIES_WEEZING",
+   "SPECIES_GOLBAT",
+   "SPECIES_KOFFING"
   ],
   "team_size": 3
  },
@@ -4320,6 +6913,11 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_DROWZEE",
+   "SPECIES_GRIMER",
+   "SPECIES_MACHOP"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_38": {
@@ -4328,11 +6926,19 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_GOLBAT",
+   "SPECIES_DROWZEE",
+   "SPECIES_HYPNO"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_39": {
   "levels": [
    33
+  ],
+  "species": [
+   "SPECIES_MACHOKE"
   ],
   "team_size": 1
  },
@@ -4340,6 +6946,10 @@
   "levels": [
    13,
    13
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_SANDSHREW"
   ],
   "team_size": 2
  },
@@ -4351,6 +6961,13 @@
    25,
    25
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_RATTATA",
+   "SPECIES_ZUBAT",
+   "SPECIES_RATTATA",
+   "SPECIES_EKANS"
+  ],
   "team_size": 5
  },
  "TRAINER_TEAM_ROCKET_GRUNT_41": {
@@ -4359,6 +6976,11 @@
    32,
    32
   ],
+  "species": [
+   "SPECIES_CUBONE",
+   "SPECIES_DROWZEE",
+   "SPECIES_MAROWAK"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_42": {
@@ -4366,12 +6988,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_HOUNDOUR",
+   "SPECIES_HOUNDOUR"
+  ],
   "team_size": 2
  },
  "TRAINER_TEAM_ROCKET_GRUNT_43": {
   "levels": [
    37,
    37
+  ],
+  "species": [
+   "SPECIES_CUBONE",
+   "SPECIES_MAROWAK"
   ],
   "team_size": 2
  },
@@ -4382,6 +7012,12 @@
    35,
    35
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_RATICATE",
+   "SPECIES_SANDSHREW",
+   "SPECIES_SANDSLASH"
+  ],
   "team_size": 4
  },
  "TRAINER_TEAM_ROCKET_GRUNT_45": {
@@ -4389,6 +7025,11 @@
    38,
    38,
    38
+  ],
+  "species": [
+   "SPECIES_ZUBAT",
+   "SPECIES_ZUBAT",
+   "SPECIES_GOLBAT"
   ],
   "team_size": 3
  },
@@ -4398,6 +7039,11 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_MUK",
+   "SPECIES_GOLBAT",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_47": {
@@ -4406,12 +7052,21 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOP",
+   "SPECIES_MACHOKE"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_48": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_HYPNO",
+   "SPECIES_HYPNO"
   ],
   "team_size": 2
  },
@@ -4421,6 +7076,11 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_GRIMER",
+   "SPECIES_MUK"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_5": {
@@ -4428,12 +7088,20 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_MACHOP",
+   "SPECIES_DROWZEE"
+  ],
   "team_size": 2
  },
  "TRAINER_TEAM_ROCKET_GRUNT_50": {
   "levels": [
    49,
    49
+  ],
+  "species": [
+   "SPECIES_KOFFING",
+   "SPECIES_WEEZING"
   ],
   "team_size": 2
  },
@@ -4443,12 +7111,21 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_GLOOM",
+   "SPECIES_GLOOM"
+  ],
   "team_size": 3
  },
  "TRAINER_TEAM_ROCKET_GRUNT_6": {
   "levels": [
    15,
    15
+  ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_ZUBAT"
   ],
   "team_size": 2
  },
@@ -4457,6 +7134,10 @@
    20,
    20
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_ZUBAT"
+  ],
   "team_size": 2
  },
  "TRAINER_TEAM_ROCKET_GRUNT_8": {
@@ -4464,12 +7145,20 @@
    21,
    21
   ],
+  "species": [
+   "SPECIES_DROWZEE",
+   "SPECIES_MACHOP"
+  ],
   "team_size": 2
  },
  "TRAINER_TEAM_ROCKET_GRUNT_9": {
   "levels": [
    21,
    21
+  ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_RATICATE"
   ],
   "team_size": 2
  },
@@ -4480,6 +7169,12 @@
    34,
    34
   ],
+  "species": [
+   "SPECIES_STARYU",
+   "SPECIES_STARYU",
+   "SPECIES_KRABBY",
+   "SPECIES_KRABBY"
+  ],
   "team_size": 4
  },
  "TRAINER_TUBER_AMIRA": {
@@ -4487,6 +7182,11 @@
    34,
    35,
    34
+  ],
+  "species": [
+   "SPECIES_POLIWAG",
+   "SPECIES_POLIWHIRL",
+   "SPECIES_POLIWAG"
   ],
   "team_size": 3
  },
@@ -4496,12 +7196,21 @@
    47,
    47
   ],
+  "species": [
+   "SPECIES_POLIWHIRL",
+   "SPECIES_POLIWHIRL",
+   "SPECIES_POLIWHIRL"
+  ],
   "team_size": 3
  },
  "TRAINER_TWINS_ELI_ANNE": {
   "levels": [
    22,
    22
+  ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_JIGGLYPUFF"
   ],
   "team_size": 2
  },
@@ -4510,12 +7219,20 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_JIGGLYPUFF"
+  ],
   "team_size": 2
  },
  "TRAINER_TWINS_JOY_MEG": {
   "levels": [
    37,
    37
+  ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_CLEFAIRY"
   ],
   "team_size": 2
  },
@@ -4524,12 +7241,20 @@
    49,
    49
   ],
+  "species": [
+   "SPECIES_CLEFAIRY",
+   "SPECIES_CLEFAIRY"
+  ],
   "team_size": 2
  },
  "TRAINER_TWINS_KIRI_JAN": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_CHARMANDER",
+   "SPECIES_SQUIRTLE"
   ],
   "team_size": 2
  },
@@ -4538,12 +7263,20 @@
    50,
    50
   ],
+  "species": [
+   "SPECIES_PIKACHU",
+   "SPECIES_PIKACHU"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_BEN": {
   "levels": [
    11,
    11
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_EKANS"
   ],
   "team_size": 2
  },
@@ -4552,12 +7285,20 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_EKANS"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_BEN_3": {
   "levels": [
    28,
    28
+  ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_EKANS"
   ],
   "team_size": 2
  },
@@ -4566,11 +7307,18 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_ARBOK"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_CALVIN": {
   "levels": [
    14
+  ],
+  "species": [
+   "SPECIES_SPEAROW"
   ],
   "team_size": 1
  },
@@ -4579,12 +7327,20 @@
    14,
    14
   ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_SANDSHREW"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_CHAD_2": {
   "levels": [
    20,
    20
+  ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_SANDSHREW"
   ],
   "team_size": 2
  },
@@ -4593,12 +7349,20 @@
    28,
    28
   ],
+  "species": [
+   "SPECIES_ARBOK",
+   "SPECIES_SANDSHREW"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_CHAD_4": {
   "levels": [
    48,
    48
+  ],
+  "species": [
+   "SPECIES_ARBOK",
+   "SPECIES_SANDSLASH"
   ],
   "team_size": 2
  },
@@ -4607,11 +7371,18 @@
    48,
    48
   ],
+  "species": [
+   "SPECIES_FARFETCHD",
+   "SPECIES_FARFETCHD"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_DAN": {
   "levels": [
    17
+  ],
+  "species": [
+   "SPECIES_SLOWPOKE"
   ],
   "team_size": 1
  },
@@ -4620,12 +7391,20 @@
    18,
    18
   ],
+  "species": [
+   "SPECIES_NIDORAN_M",
+   "SPECIES_NIDORINO"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_DESTIN": {
   "levels": [
    48,
    48
+  ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_PIDGEOTTO"
   ],
   "team_size": 2
  },
@@ -4634,6 +7413,10 @@
    53,
    53
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_PIDGEOT"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_DILLON": {
@@ -4641,11 +7424,18 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_SANDSHREW",
+   "SPECIES_ZUBAT"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNGSTER_EDDIE": {
   "levels": [
    21
+  ],
+  "species": [
+   "SPECIES_EKANS"
   ],
   "team_size": 1
  },
@@ -4653,6 +7443,10 @@
   "levels": [
    15,
    15
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_SPEAROW"
   ],
   "team_size": 2
  },
@@ -4662,6 +7456,11 @@
    33,
    34
   ],
+  "species": [
+   "SPECIES_EKANS",
+   "SPECIES_EKANS",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 3
  },
  "TRAINER_YOUNGSTER_JOSH": {
@@ -4669,6 +7468,11 @@
    10,
    10,
    10
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_RATTATA",
+   "SPECIES_ZUBAT"
   ],
   "team_size": 3
  },
@@ -4678,6 +7482,11 @@
    47,
    49
   ],
+  "species": [
+   "SPECIES_WEEPINBELL",
+   "SPECIES_WEEPINBELL",
+   "SPECIES_VICTREEBEL"
+  ],
   "team_size": 3
  },
  "TRAINER_YOUNGSTER_ROLAND": {
@@ -4685,6 +7494,11 @@
    40,
    41,
    43
+  ],
+  "species": [
+   "SPECIES_MAREEP",
+   "SPECIES_EKANS",
+   "SPECIES_SANDSHREW"
   ],
   "team_size": 3
  },
@@ -4694,12 +7508,21 @@
    41,
    43
   ],
+  "species": [
+   "SPECIES_SANDSHREW",
+   "SPECIES_ZIGZAGOON",
+   "SPECIES_RATTATA"
+  ],
   "team_size": 3
  },
  "TRAINER_YOUNGSTER_TIMMY": {
   "levels": [
    14,
    14
+  ],
+  "species": [
+   "SPECIES_SANDSHREW",
+   "SPECIES_EKANS"
   ],
   "team_size": 2
  },
@@ -4709,6 +7532,11 @@
    19,
    19
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_EKANS",
+   "SPECIES_ZUBAT"
+  ],
   "team_size": 3
  },
  "TRAINER_YOUNGSTER_TIMMY_3": {
@@ -4716,6 +7544,11 @@
    27,
    27,
    27
+  ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_EKANS",
+   "SPECIES_GOLBAT"
   ],
   "team_size": 3
  },
@@ -4725,11 +7558,19 @@
    52,
    52
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_ARBOK",
+   "SPECIES_GOLBAT"
+  ],
   "team_size": 3
  },
  "TRAINER_YOUNGSTER_TYLER": {
   "levels": [
    21
+  ],
+  "species": [
+   "SPECIES_NIDORAN_M"
   ],
   "team_size": 1
  },
@@ -4739,6 +7580,11 @@
    17,
    17
   ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_RATTATA",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 3
  },
  "TRAINER_YOUNGSTER_YASU_2": {
@@ -4746,6 +7592,11 @@
    22,
    22,
    22
+  ],
+  "species": [
+   "SPECIES_RATTATA",
+   "SPECIES_RATICATE",
+   "SPECIES_RATICATE"
   ],
   "team_size": 3
  },
@@ -4755,12 +7606,21 @@
    47,
    47
   ],
+  "species": [
+   "SPECIES_RATICATE",
+   "SPECIES_RATICATE",
+   "SPECIES_RATICATE"
+  ],
   "team_size": 3
  },
  "TRAINER_YOUNG_COUPLE_EVE_JON": {
   "levels": [
    50,
    50
+  ],
+  "species": [
+   "SPECIES_GOLDUCK",
+   "SPECIES_PSYDUCK"
   ],
   "team_size": 2
  },
@@ -4769,12 +7629,20 @@
    24,
    24
   ],
+  "species": [
+   "SPECIES_NIDORAN_M",
+   "SPECIES_NIDORAN_F"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNG_COUPLE_GIA_JES_2": {
   "levels": [
    30,
    30
+  ],
+  "species": [
+   "SPECIES_NIDORINA",
+   "SPECIES_NIDORINO"
   ],
   "team_size": 2
  },
@@ -4783,12 +7651,20 @@
    55,
    55
   ],
+  "species": [
+   "SPECIES_NIDOKING",
+   "SPECIES_NIDOQUEEN"
+  ],
   "team_size": 2
  },
  "TRAINER_YOUNG_COUPLE_LEA_JED": {
   "levels": [
    29,
    29
+  ],
+  "species": [
+   "SPECIES_RAPIDASH",
+   "SPECIES_NINETALES"
   ],
   "team_size": 2
  }

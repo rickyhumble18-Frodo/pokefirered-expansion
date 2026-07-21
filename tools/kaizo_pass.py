@@ -23,7 +23,11 @@ import hashlib
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import kaizo_pools as kp_pools
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PARTY_FILE = REPO_ROOT / "src/data/trainers.party"
@@ -171,6 +175,37 @@ def species_of(mon_para):
     return mon_para[0].split(" @ ")[0].strip()
 
 
+def name_to_species(name):
+    """Party display name -> SPECIES_ constant, mirroring trainerproc's
+    fprint_constant (alnum kept, lowercase upper-cased, apostrophe dropped,
+    everything else -> '_')."""
+    out = []
+    for c in name.strip():
+        if c.isascii() and (c.isalnum()):
+            out.append(c.upper())
+        elif c == "'":
+            continue
+        else:
+            out.append("_")
+    tok = "".join(out)
+    return tok if tok.startswith("SPECIES_") else "SPECIES_" + tok
+
+
+def species_to_name(species):
+    """SPECIES_ constant -> a display name that round-trips back through
+    name_to_species. Title-cased with underscores as spaces."""
+    return species[len("SPECIES_"):].title().replace("_", " ")
+
+
+def with_species(mon_para, species, level):
+    """A minimal mon paragraph for a (possibly changed) species: name + level
+    + standard IVs, dropping any prior custom moves/ability that no longer
+    apply. Moves auto-generate from the level-up learnset."""
+    return [f"{species_to_name(species)}\n",
+            f"Level: {level}\n",
+            "IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe\n"]
+
+
 def level_of(mon_para):
     for line in mon_para:
         if line.startswith("Level: "):
@@ -221,6 +256,10 @@ def apply_bulk(lines):
         seg_range[seg_name] = (min(lo, min(levels)), max(hi, max(levels)))
 
     out = []
+    # Variety tracking across the whole pass: global usage steers selection
+    # toward less-used species; per-map usage caps any species to <=2 trainers.
+    global_usage = Counter()
+    map_usage = Counter()
     for trainer in parse_trainers(lines):
         block = lines[trainer.start:trainer.end]
         seg_name = bulk_segment_of(trainer, trainer_maps, map_segments)
@@ -239,43 +278,101 @@ def apply_bulk(lines):
             out.extend(block)
             continue
 
-        # Capture pre-pass levels once; later runs recompute from these.
+        # Capture pre-pass levels + original authored species once; later runs
+        # recompute from these (the first team_size mons are the authored ones,
+        # padding is appended after and this pass rebuilds it every run).
         if trainer.id not in baseline:
             baseline[trainer.id] = {"levels": [level_of(m) for m in mons][:len(mons)],
                                     "team_size": len(mons)}
         base = baseline[trainer.id]
+        orig_count = base["team_size"]
+        if "species" not in base:
+            base["species"] = [name_to_species(species_of(m)) for m in mons[:orig_count]]
 
-        # 1. Level curve: rescale the recorded pre-pass levels from the
-        # segment's baseline range onto its level_band (anchored ~5-8 below
-        # the upcoming gym leader's ace), preserving relative strength.
+        # 1. Level curve: rescale recorded pre-pass levels onto the band.
         band_lo, band_hi = seg["level_band"]
         seg_lo, seg_hi = seg_range[seg_name]
         span = max(1, seg_hi - seg_lo)
-        orig_count = base["team_size"]
         scaled = [min(band_hi, max(band_lo,
                   band_lo + ((lv - seg_lo) * (band_hi - band_lo) + span // 2) // span))
                   for lv in base["levels"]]
-        for i in range(min(orig_count, len(mons))):
-            mons[i] = with_level(mons[i], scaled[i])
-        # Mons beyond the baseline team are pads from an earlier run; re-level
-        # them with the band so old pad levels can't linger when bands change.
-        for i in range(orig_count, len(mons)):
-            mons[i] = with_level(mons[i], min(scaled))
+        pad_level = min(scaled) if scaled else band_lo
 
-        # 2. Team padding, deterministic per trainer, deduped within the team.
-        pad_level = min(scaled)
-        rng = stable_hash(trainer.id)
-        pool = list(seg["pad_pool"])
+        # 2. Type + evolution-stage constraints.
+        map_name = trainer_maps.get(trainer.id)
+        gym_type = kp_pools.GYM_TYPE.get(map_name)
+        tier = kp_pools.SEGMENT_STAGE.get(seg_name, kp_pools.STAGE_NONE)
+
+        def stage_pool(types):
+            pool = []
+            for t in (types or []):
+                pool += kp_pools.TYPE_POOLS.get(t, [])
+            legal = [s for s in dict.fromkeys(pool) if kp_pools.stage_legal(s, tier)]
+            return legal or [s for s in kp_pools.GENERAL_POOL if kp_pools.stage_legal(s, tier)]
+
+        def pick(pool, team, seed):
+            # prefer species under the per-map cap and least globally used;
+            # deterministic tie-break by seed so re-runs are identical.
+            cand = [s for s in pool if s not in team and map_usage[(map_name, s)] < 2]
+            if not cand:
+                cand = [s for s in pool if s not in team] or list(pool)
+            best = min(global_usage[s] for s in cand)
+            tied = sorted(s for s in cand if global_usage[s] == best)
+            return tied[stable_hash(seed) % len(tied)]
+
+        # One type context for the whole trainer: the gym type, else the class
+        # theme, else the union of the authored mons' own types, else general.
+        if gym_type:
+            ctx_types = [gym_type]
+        elif trainer.klass in kp_pools.CLASS_THEME:
+            ctx_types = [kp_pools.CLASS_THEME[trainer.klass]]
+        else:
+            at = [t for s in base["species"] if s in kp_pools.DATA
+                  for t in kp_pools.types_of(s)]
+            ctx_types = list(dict.fromkeys(at)) or None
+        ctx_pool = stage_pool(ctx_types)
+
+        # Rebuild authored mons. Gym interiors force the gym type; every segment
+        # past gym 3/6 forces the stage rule; and the per-map cap (<=2) plus
+        # no-dupe-in-team applies to authored mons too, so an over-used species
+        # gets diversified. A mon kept exactly as authored preserves its custom
+        # moves/items; any changed mon is rebuilt minimally (species+level+IVs).
+        new_mons, team = [], set()
+        for i in range(orig_count):
+            orig_sp = base["species"][i]
+            target = orig_sp
+            if orig_sp in kp_pools.DATA:
+                if gym_type and gym_type not in kp_pools.types_of(orig_sp):
+                    target = pick(ctx_pool, team, trainer.id + f"fix{i}")
+                else:
+                    target = kp_pools.stage_fix(orig_sp, tier)
+                    if gym_type and gym_type not in kp_pools.types_of(target):
+                        target = pick(ctx_pool, team, trainer.id + f"fix{i}")
+                # variety: diversify a within-team dupe or an over-cap species
+                if target in team or map_usage[(map_name, target)] >= 2:
+                    target = pick(ctx_pool, team, trainer.id + f"var{i}")
+            elif target in team:
+                target = pick(ctx_pool, team, trainer.id + f"var{i}")
+            if target != orig_sp:
+                new_mons.append(with_species(mons[i], target, scaled[i]))
+            else:
+                new_mons.append(with_level(mons[i], scaled[i]))
+            team.add(target)
+            global_usage[target] += 1
+            map_usage[(map_name, target)] += 1
+        mons = new_mons
+
+        # 3. Padding from the same type context, stage-legal, cap-respecting.
         padded = False
         while len(mons) < seg["min_team"]:
-            team_species = {species_of(m) for m in mons}
-            candidates = [s for s in pool if s not in team_species] or pool
-            pick = candidates[rng % len(candidates)]
-            rng //= len(candidates) or 1
-            mons.append([f"{pick}\n", f"Level: {pad_level}\n"])
+            pk = pick(ctx_pool, team, trainer.id + f"pad{len(mons)}")
+            mons.append([f"{species_to_name(pk)}\n", f"Level: {pad_level}\n"])
+            team.add(pk)
+            global_usage[pk] += 1
+            map_usage[(map_name, pk)] += 1
             padded = True
 
-        # 3. Held item on the last mon of padded teams.
+        # 4. Held item on the last mon of padded teams.
         if padded and " @ " not in mons[-1][0]:
             items = seg["item_pool"]
             item = items[-1] if stable_hash(trainer.id + "item") % 4 == 0 else items[0]

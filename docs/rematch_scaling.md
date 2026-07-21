@@ -145,6 +145,20 @@ and the in-battle exp bar now clamp at `MAX_LEVEL` instead of a hardcoded
   trainer's segment band; bosses and rivals are hand-anchored instead, and
   trainers referenced by no script (unused vanilla entries, facility
   parties) are never touched.
+- **Type & evolution-stage rules** (also `tools/kaizo_pass.py bulk`, data in
+  `tools/kaizo_species_data.json` via `build_kaizo_species_data.py`): route and
+  gym-interior teams (authored + padded) are constrained by
+  `tools/kaizo_pools.py`. Gym-interior trainers may only field their gym's type
+  (Pewter Rock … Viridian Ground); off-type authored mons are replaced. Padding
+  draws from per-type pools (42+ species each, base forms, no legendaries),
+  scoped to the gym type, else the class theme (Bug Catcher→Bug, Swimmer→Water…),
+  else the authored mons' own types. Evolution-stage rules by story point: before
+  gym 3 anything; after gym 3 through gym 6 no first-stage-of-a-3-stage line;
+  after gym 6 fully evolved (single-stage counts). An illegal mon evolves along
+  its own line (Charmander→Charizard) before any fresh pick. Variety: any species
+  is capped at 2 trainers per map and selection prefers globally-less-used
+  species. Bosses and rematch variants are untouched. Original authored species
+  are stored in `kaizo_baseline.json` so the pass stays idempotent.
 - **Wild uplift** (`tools/kaizo_pass.py wilds`): every overworld wild table is
   scaled so the map's strongest wild sits at ~65% of the local trainer band's
   ceiling — catchable replacements stay viable without becoming an exp
