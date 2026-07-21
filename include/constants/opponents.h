@@ -696,8 +696,9 @@ enum TrainerID
 };
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is
-//       only space for 25 additional trainers before trainer flag space overflows.
-//       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
+//       only space for (MAX_TRAINERS_COUNT - TRAINERS_COUNT) additional trainers before
+//       trainer flag space overflows. As of this kaizo fork that is 768 - 675 = 93.
+//       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space.
 #define MAX_TRAINERS_COUNT                       768
 #define TRAINER_PARTNER(partner)           (MAX_TRAINERS_COUNT + partner)
 
