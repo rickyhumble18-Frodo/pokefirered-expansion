@@ -109,7 +109,7 @@ static void VsSeekerResetInBagStepCounter(void);
 #if FREE_MATCH_CALL == FALSE
 static bool8 IsTrainerVisibleOnScreen(struct VsSeekerTrainerInfo *trainerInfo);
 static u8 GetCurVsSeekerResponse(s32 vsSeekerIdx, enum TrainerID trainerId);
-static u8 GetNextAvailableRematchTrainer(const struct RematchData *vsSeekerData, enum TrainerID trainerId, u8 *idxPtr);
+static u8 GetNextAvailableRematchTrainer(const struct RematchData *vsSeekerData, enum TrainerID trainerId, u32 *idxPtr);
 static u8 GetRematchableTrainerLocalId(void);
 static u8 BackwardsSearchRematchTrainerIndex(const enum TrainerID *trainerIds, u8 rematchIndex);
 static u8 GetRunningBehaviorFromGraphicsId(u16 graphicsId);
@@ -426,7 +426,7 @@ static u8 GetVsSeekerResponseInArea(const struct RematchData *vsSeekerData)
     enum TrainerID trainerId = TRAINER_NONE;
     u16 rval = 0;
     u8 rematchTrainerIdx;
-    u8 unusedIdx = 0;
+    u32 unusedIdx = 0;
     u8 response = 0;
     s32 vsSeekerIdx = 0;
 
@@ -640,7 +640,7 @@ static int LookupVsSeekerOpponentInArray(const struct RematchData *array, enum T
 #if FREE_MATCH_CALL == FALSE
 enum TrainerID GetRematchTrainerId(enum TrainerID trainerId)
 {
-    u8 i;
+    u32 i; // sRematches index; must exceed u8 once REMATCH_TRAINER_COUNT > 256
     u8 validIdxs[MAX_REMATCH_PARTIES];
     u8 numValid = 0;
     u32 j;
@@ -844,7 +844,7 @@ static bool8 IsTrainerVisibleOnScreen(struct VsSeekerTrainerInfo *trainerInfo)
     return FALSE;
 }
 
-static u8 GetNextAvailableRematchTrainer(const struct RematchData *vsSeekerData, enum TrainerID trainerId, u8 *idxPtr)
+static u8 GetNextAvailableRematchTrainer(const struct RematchData *vsSeekerData, enum TrainerID trainerId, u32 *idxPtr)
 {
     for (u32 i = 0; i < ARRAY_COUNT(sRematches); i++)
     {
@@ -873,7 +873,7 @@ static u8 GetNextAvailableRematchTrainer(const struct RematchData *vsSeekerData,
 
 static u8 GetRematchableTrainerLocalId(void)
 {
-    u8 idx;
+    u32 idx;
 
     for (u32 i = 0; sVsSeeker->trainerInfo[i].localId != NO_REMATCH_LOCALID; i++)
     {
@@ -914,7 +914,7 @@ static u8 GetCurVsSeekerResponse(s32 vsSeekerIdx, enum TrainerID trainerId)
 static void StartAllRespondantIdleMovements(void)
 {
 #if FREE_MATCH_CALL == FALSE
-    u8 dummy = 0;
+    u32 dummy = 0;
 
     for (u32 i = 0; i < sVsSeeker->numRematchableTrainers; i++)
     {

@@ -56,6 +56,14 @@ through the same Phase B pass (AI, level curve, padding). A build-time
 generator refuses names that collide with existing trainers. After this batch:
 755 / 768 trainer IDs used (13 headroom).
 
+Pushing `REMATCH_TRAINER_COUNT` past 256 exposed a latent overflow in the
+vanilla `src/vs_seeker.c`: the `sRematches` table index was held in `u8`
+locals / out-params, so a rematch trainer at index >= 256 resolved to
+`sRematches[index & 0xFF]` — the wrong trainer. Caught by an mGBA battle-core
+test (`test/kaizo_new_route_rematches.c`) that found `GetRematchTrainerId()`
+returning Bug Catcher James for the last swimmer. Fixed by widening those
+index types to `u32`.
+
 ## Level cap
 
 `MAX_LEVEL` is 255 (`include/constants/pokemon.h`). Experience tables are
