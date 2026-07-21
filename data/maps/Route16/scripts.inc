@@ -74,3 +74,69 @@ Route16_EventScript_CyclingRoadSign::
 Route16_EventScript_RouteSign::
 	msgbox Route16_Text_RouteSign, MSGBOX_SIGN
 	end
+
+@ GEN_ROUTE_TRAINERS_BEGIN
+Route16_EventScript_KaizoRazor::
+	trainerbattle_single TRAINER_BIKER_RAZOR, Route16_Text_KaizoRazorIntro, Route16_Text_KaizoRazorDefeat
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route16_EventScript_KaizoRazorRematch
+	msgbox Route16_Text_KaizoRazorPost, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_KaizoRazorRematch::
+	trainerbattle_rematch TRAINER_BIKER_RAZOR, Route16_Text_KaizoRazorRematch, Route16_Text_KaizoRazorDefeat
+	msgbox Route16_Text_KaizoRazorPost, MSGBOX_AUTOCLOSE
+	end
+
+Route16_Text_KaizoRazorIntro:
+	.string "Let's battle!$"
+Route16_Text_KaizoRazorDefeat:
+	.string "I lost!$"
+Route16_Text_KaizoRazorPost:
+	.string "Come back anytime.$"
+Route16_Text_KaizoRazorRematch:
+	.string "Ready for a rematch?$"
+
+Route16_EventScript_KaizoVivian::
+	trainerbattle_single TRAINER_BEAUTY_VIVIAN, Route16_Text_KaizoVivianIntro, Route16_Text_KaizoVivianDefeat
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route16_EventScript_KaizoVivianRematch
+	msgbox Route16_Text_KaizoVivianPost, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_KaizoVivianRematch::
+	trainerbattle_rematch TRAINER_BEAUTY_VIVIAN, Route16_Text_KaizoVivianRematch, Route16_Text_KaizoVivianDefeat
+	msgbox Route16_Text_KaizoVivianPost, MSGBOX_AUTOCLOSE
+	end
+
+Route16_Text_KaizoVivianIntro:
+	.string "Let's battle!$"
+Route16_Text_KaizoVivianDefeat:
+	.string "I lost!$"
+Route16_Text_KaizoVivianPost:
+	.string "Come back anytime.$"
+Route16_Text_KaizoVivianRematch:
+	.string "Ready for a rematch?$"
+
+Route16_EventScript_KaizoClutch::
+	trainerbattle_single TRAINER_BIKER_CLUTCH, Route16_Text_KaizoClutchIntro, Route16_Text_KaizoClutchDefeat
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route16_EventScript_KaizoClutchRematch
+	msgbox Route16_Text_KaizoClutchPost, MSGBOX_AUTOCLOSE
+	end
+
+Route16_EventScript_KaizoClutchRematch::
+	trainerbattle_rematch TRAINER_BIKER_CLUTCH, Route16_Text_KaizoClutchRematch, Route16_Text_KaizoClutchDefeat
+	msgbox Route16_Text_KaizoClutchPost, MSGBOX_AUTOCLOSE
+	end
+
+Route16_Text_KaizoClutchIntro:
+	.string "Let's battle!$"
+Route16_Text_KaizoClutchDefeat:
+	.string "I lost!$"
+Route16_Text_KaizoClutchPost:
+	.string "Come back anytime.$"
+Route16_Text_KaizoClutchRematch:
+	.string "Ready for a rematch?$"
+
+@ GEN_ROUTE_TRAINERS_END

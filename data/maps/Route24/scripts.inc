@@ -95,3 +95,48 @@ Route24_Movement_RocketWalkBackToPos::
 Route24_Movement_WalkDown::
 	walk_down
 	step_end
+
+@ GEN_ROUTE_TRAINERS_BEGIN
+Route24_EventScript_KaizoMarv::
+	trainerbattle_single TRAINER_BUG_CATCHER_MARV, Route24_Text_KaizoMarvIntro, Route24_Text_KaizoMarvDefeat
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_KaizoMarvRematch
+	msgbox Route24_Text_KaizoMarvPost, MSGBOX_AUTOCLOSE
+	end
+
+Route24_EventScript_KaizoMarvRematch::
+	trainerbattle_rematch TRAINER_BUG_CATCHER_MARV, Route24_Text_KaizoMarvRematch, Route24_Text_KaizoMarvDefeat
+	msgbox Route24_Text_KaizoMarvPost, MSGBOX_AUTOCLOSE
+	end
+
+Route24_Text_KaizoMarvIntro:
+	.string "Let's battle!$"
+Route24_Text_KaizoMarvDefeat:
+	.string "I lost!$"
+Route24_Text_KaizoMarvPost:
+	.string "Come back anytime.$"
+Route24_Text_KaizoMarvRematch:
+	.string "Ready for a rematch?$"
+
+Route24_EventScript_KaizoOdette::
+	trainerbattle_single TRAINER_LASS_ODETTE, Route24_Text_KaizoOdetteIntro, Route24_Text_KaizoOdetteDefeat
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route24_EventScript_KaizoOdetteRematch
+	msgbox Route24_Text_KaizoOdettePost, MSGBOX_AUTOCLOSE
+	end
+
+Route24_EventScript_KaizoOdetteRematch::
+	trainerbattle_rematch TRAINER_LASS_ODETTE, Route24_Text_KaizoOdetteRematch, Route24_Text_KaizoOdetteDefeat
+	msgbox Route24_Text_KaizoOdettePost, MSGBOX_AUTOCLOSE
+	end
+
+Route24_Text_KaizoOdetteIntro:
+	.string "Let's battle!$"
+Route24_Text_KaizoOdetteDefeat:
+	.string "I lost!$"
+Route24_Text_KaizoOdettePost:
+	.string "Come back anytime.$"
+Route24_Text_KaizoOdetteRematch:
+	.string "Ready for a rematch?$"
+
+@ GEN_ROUTE_TRAINERS_END

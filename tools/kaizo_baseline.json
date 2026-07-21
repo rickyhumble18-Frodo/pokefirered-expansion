@@ -37,6 +37,22 @@
   ],
   "team_size": 4
  },
+ "TRAINER_BEAUTY_CARMEN": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BEAUTY_CARMEN_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_BEAUTY_GRACE": {
   "levels": [
    29,
@@ -50,6 +66,22 @@
    49
   ],
   "team_size": 2
+ },
+ "TRAINER_BEAUTY_LACEY": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BEAUTY_LACEY_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
  },
  "TRAINER_BEAUTY_LOLA": {
   "levels": [
@@ -72,6 +104,22 @@
   ],
   "team_size": 2
  },
+ "TRAINER_BEAUTY_SERENA": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BEAUTY_SERENA_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_BEAUTY_SHEILA": {
   "levels": [
    29,
@@ -93,6 +141,22 @@
   ],
   "team_size": 2
  },
+ "TRAINER_BEAUTY_VIVIAN": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BEAUTY_VIVIAN_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_BIKER_ALEX": {
   "levels": [
    28,
@@ -101,11 +165,59 @@
   ],
   "team_size": 3
  },
+ "TRAINER_BIKER_AXEL": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_AXEL_2": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
  "TRAINER_BIKER_BILLY": {
   "levels": [
    33
   ],
   "team_size": 1
+ },
+ "TRAINER_BIKER_CLUTCH": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_CLUTCH_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_DIESEL": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_DIESEL_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
  },
  "TRAINER_BIKER_ERNEST": {
   "levels": [
@@ -232,6 +344,38 @@
   ],
   "team_size": 2
  },
+ "TRAINER_BIKER_NITRO": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_NITRO_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_RAZOR": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_RAZOR_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_BIKER_RICARDO": {
   "levels": [
    22,
@@ -253,6 +397,38 @@
    48,
    48,
    48
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_SPARK": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_SPARK_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_TORQUE": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BIKER_TORQUE_2": {
+  "levels": [
+   70,
+   71,
+   73
   ],
   "team_size": 3
  },
@@ -573,6 +749,22 @@
   ],
   "team_size": 2
  },
+ "TRAINER_BLACK_BELT_KENJI": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BLACK_BELT_KENJI_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
  "TRAINER_BLACK_BELT_KIYO": {
   "levels": [
    43
@@ -753,6 +945,38 @@
    11
   ],
   "team_size": 2
+ },
+ "TRAINER_BUG_CATCHER_MARV": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BUG_CATCHER_MARV_2": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BUG_CATCHER_PERCY": {
+  "levels": [
+   40,
+   41,
+   43
+  ],
+  "team_size": 3
+ },
+ "TRAINER_BUG_CATCHER_PERCY_2": {
+  "levels": [
+   40,
+   41,
+   43
+  ],
+  "team_size": 3
  },
  "TRAINER_BUG_CATCHER_RICK": {
   "levels": [
@@ -960,6 +1184,22 @@
    14
   ],
   "team_size": 2
+ },
+ "TRAINER_CAMPER_TOBIAS": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
+ },
+ "TRAINER_CAMPER_TOBIAS_2": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
  },
  "TRAINER_CHANNELER_AMANDA": {
   "levels": [
@@ -1482,11 +1722,43 @@
   ],
   "team_size": 2
  },
+ "TRAINER_FISHERMAN_CLETUS": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_FISHERMAN_CLETUS_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_FISHERMAN_DALE": {
   "levels": [
    17,
    17,
    17
+  ],
+  "team_size": 3
+ },
+ "TRAINER_FISHERMAN_DOUGAL": {
+  "levels": [
+   40,
+   41,
+   43
+  ],
+  "team_size": 3
+ },
+ "TRAINER_FISHERMAN_DOUGAL_2": {
+  "levels": [
+   40,
+   41,
+   43
   ],
   "team_size": 3
  },
@@ -1514,6 +1786,22 @@
   ],
   "team_size": 1
  },
+ "TRAINER_FISHERMAN_MARLON": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_FISHERMAN_MARLON_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_FISHERMAN_NED": {
   "levels": [
    22,
@@ -1537,6 +1825,22 @@
    28
   ],
   "team_size": 4
+ },
+ "TRAINER_FISHERMAN_SALTON": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_FISHERMAN_SALTON_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
  },
  "TRAINER_FISHERMAN_TOMMY": {
   "levels": [
@@ -1687,11 +1991,43 @@
   ],
   "team_size": 1
  },
+ "TRAINER_HIKER_BOULDER": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_HIKER_BOULDER_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_HIKER_BRICE": {
   "levels": [
    20,
    20,
    20
+  ],
+  "team_size": 3
+ },
+ "TRAINER_HIKER_BRUNO": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_HIKER_BRUNO_2": {
+  "levels": [
+   54,
+   55,
+   57
   ],
   "team_size": 3
  },
@@ -1713,6 +2049,22 @@
    21,
    21,
    21
+  ],
+  "team_size": 3
+ },
+ "TRAINER_HIKER_DWAYNE": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
+ },
+ "TRAINER_HIKER_DWAYNE_2": {
+  "levels": [
+   27,
+   29,
+   31
   ],
   "team_size": 3
  },
@@ -1750,6 +2102,22 @@
    25
   ],
   "team_size": 2
+ },
+ "TRAINER_HIKER_GRANT": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_HIKER_GRANT_2": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
  },
  "TRAINER_HIKER_JEREMY": {
   "levels": [
@@ -2072,12 +2440,44 @@
   ],
   "team_size": 2
  },
+ "TRAINER_LASS_ODETTE": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
+ },
+ "TRAINER_LASS_ODETTE_2": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
+ },
  "TRAINER_LASS_PAIGE": {
   "levels": [
    23,
    23
   ],
   "team_size": 2
+ },
+ "TRAINER_LASS_PRISCILLA": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
+ },
+ "TRAINER_LASS_PRISCILLA_2": {
+  "levels": [
+   27,
+   29,
+   31
+  ],
+  "team_size": 3
  },
  "TRAINER_LASS_RELI": {
   "levels": [
@@ -2593,6 +2993,22 @@
   ],
   "team_size": 3
  },
+ "TRAINER_POKEMANIAC_DEXTER": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_POKEMANIAC_DEXTER_2": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
  "TRAINER_POKEMANIAC_HECTOR": {
   "levels": [
    49,
@@ -2649,12 +3065,44 @@
   ],
   "team_size": 2
  },
+ "TRAINER_POKEMANIAC_SILAS": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_POKEMANIAC_SILAS_2": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
  "TRAINER_POKEMANIAC_STEVE": {
   "levels": [
    22,
    22
   ],
   "team_size": 2
+ },
+ "TRAINER_POKEMANIAC_WENDELL": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_POKEMANIAC_WENDELL_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
  },
  "TRAINER_POKEMANIAC_WINSTON": {
   "levels": [
@@ -2715,6 +3163,22 @@
   ],
   "team_size": 3
  },
+ "TRAINER_PSYCHIC_MORDECAI": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_PSYCHIC_MORDECAI_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_PSYCHIC_PRESTON": {
   "levels": [
    38
@@ -2744,6 +3208,22 @@
   ],
   "team_size": 2
  },
+ "TRAINER_ROCKER_JAX": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
+ "TRAINER_ROCKER_JAX_2": {
+  "levels": [
+   70,
+   71,
+   73
+  ],
+  "team_size": 3
+ },
  "TRAINER_ROCKER_LUCA": {
   "levels": [
    29,
@@ -2757,6 +3237,22 @@
    33
   ],
   "team_size": 2
+ },
+ "TRAINER_ROCKER_ZIGGY": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_ROCKER_ZIGGY_2": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
  },
  "TRAINER_RUIN_MANIAC_BENJAMIN": {
   "levels": [
@@ -3049,6 +3545,22 @@
   ],
   "team_size": 3
  },
+ "TRAINER_SUPER_NERD_EWALD": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SUPER_NERD_EWALD_2": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
  "TRAINER_SUPER_NERD_GLENN": {
   "levels": [
    22,
@@ -3083,6 +3595,22 @@
    12,
    12,
    12
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SUPER_NERD_OHMER": {
+  "levels": [
+   54,
+   55,
+   57
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SUPER_NERD_OHMER_2": {
+  "levels": [
+   54,
+   55,
+   57
   ],
   "team_size": 3
  },
@@ -3208,6 +3736,54 @@
    38
   ],
   "team_size": 1
+ },
+ "TRAINER_SWIMMER_F_CORAL": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_F_CORAL_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_F_MARINA": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_F_MARINA_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_F_PEARL": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_F_PEARL_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
  },
  "TRAINER_SWIMMER_MALE_AXLE": {
   "levels": [
@@ -3397,6 +3973,54 @@
    49
   ],
   "team_size": 2
+ },
+ "TRAINER_SWIMMER_M_CREST": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_M_CREST_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_M_REEF": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_M_REEF_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_M_TIDE": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
+ },
+ "TRAINER_SWIMMER_M_TIDE_2": {
+  "levels": [
+   92,
+   93,
+   95
+  ],
+  "team_size": 3
  },
  "TRAINER_TAMER_COLE": {
   "levels": [
@@ -4053,6 +4677,22 @@
    47,
    47,
    49
+  ],
+  "team_size": 3
+ },
+ "TRAINER_YOUNGSTER_ROLAND": {
+  "levels": [
+   40,
+   41,
+   43
+  ],
+  "team_size": 3
+ },
+ "TRAINER_YOUNGSTER_ROLAND_2": {
+  "levels": [
+   40,
+   41,
+   43
   ],
   "team_size": 3
  },

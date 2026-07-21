@@ -2018,19 +2018,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Vulpix
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ninetales
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing @ Focus Sash
-Level: 93
+Level: 92
 
 === TRAINER_SUPER_NERD_AVERY ===
 Name: AVERY
@@ -2042,19 +2042,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ponyta
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Charmander
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Growlithe
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SUPER_NERD_DEREK ===
@@ -2067,17 +2067,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rapidash
-Level: 94
+Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 94
+Level: 93
 
 Muk
-Level: 94
+Level: 93
 
 Magneton @ Sitrus Berry
-Level: 94
+Level: 93
 
 === TRAINER_SUPER_NERD_ZAC ===
 Name: ZAC
@@ -2089,18 +2089,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 93
+Level: 92
 
 Hypno @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_HIKER_MARCOS ===
 Name: MARCOS
@@ -2538,7 +2538,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2546,7 +2546,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2554,7 +2554,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2562,7 +2562,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2570,7 +2570,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Minimize
 - Sludge
@@ -2809,7 +2809,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2817,7 +2817,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2825,7 +2825,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2833,7 +2833,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2841,7 +2841,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Weezing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2858,7 +2858,7 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2866,7 +2866,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -2874,7 +2874,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 
 Grimer
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Screech
 - Minimize
@@ -2882,7 +2882,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Disable
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Smokescreen
 - Sludge
@@ -3017,19 +3017,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Vulpix
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ninetales
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_BURGLAR_RAMON ===
 Name: RAMON
@@ -3041,17 +3041,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ponyta
-Level: 94
+Level: 93
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Marowak
-Level: 94
+Level: 93
 
 Magneton
-Level: 94
+Level: 93
 
 Weezing @ Sitrus Berry
-Level: 94
+Level: 93
 
 === TRAINER_BURGLAR_DUSTY ===
 Name: DUSTY
@@ -3063,18 +3063,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Vulpix
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Growlithe
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio
-Level: 93
+Level: 92
 
 Marowak @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_BURGLAR_ARNIE ===
 Name: ARNIE
@@ -3086,18 +3086,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Charmander
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Charmeleon
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 93
+Level: 92
 
 Weezing @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_BURGLAR_4 ===
 Name: PH
@@ -3126,17 +3126,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ninetales
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing
-Level: 93
+Level: 92
 
 Hypno
-Level: 93
+Level: 92
 
 Muk @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_BURGLAR_LEWIS ===
 Name: LEWIS
@@ -3148,18 +3148,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ponyta
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 93
+Level: 92
 
 Machoke @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_ENGINEER_BAILY ===
 Name: BAILY
@@ -3312,18 +3312,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tentacool
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Gloom
-Level: 71
+Level: 70
 
 Voltorb @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_FISHERMAN_HANK ===
 Name: HANK
@@ -3463,18 +3463,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Goldeen
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rhyhorn
-Level: 93
+Level: 92
 
 Weezing @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_FISHERMAN_ANDREW ===
 Name: ANDREW
@@ -3486,18 +3486,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magikarp
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magikarp
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 71
+Level: 70
 
 Weepinbell @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_SWIMMER_MALE_LUIS ===
 Name: LUIS
@@ -3723,17 +3723,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Staryu
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio
-Level: 93
+Level: 92
 
 Magneton
-Level: 93
+Level: 92
 
 Hypno @ Focus Sash
-Level: 93
+Level: 92
 
 === TRAINER_SWIMMER_MALE_DARRIN ===
 Name: DARRIN
@@ -3770,18 +3770,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacruel
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk
-Level: 93
+Level: 92
 
 Rhyhorn @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_SWIMMER_MALE_JACK ===
 Name: JACK
@@ -3793,17 +3793,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Starmie
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 93
+Level: 92
 
 Fearow
-Level: 93
+Level: 92
 
 Dodrio @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_SWIMMER_MALE_JEROME ===
 Name: JEROME
@@ -3815,18 +3815,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Staryu
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Wartortle
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing
-Level: 93
+Level: 92
 
 Gyarados @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_SWIMMER_MALE_ROLAND ===
 Name: ROLAND
@@ -3838,19 +3838,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwhirl
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Tentacool
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Seadra
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Muk @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_CUE_BALL_KOJI ===
 Name: KOJI
@@ -4000,19 +4000,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Mankey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machamp
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machop
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CUE_BALL_COREY ===
@@ -4338,17 +4338,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kingler
-Level: 93
+Level: 92
 
 Muk
-Level: 93
+Level: 92
 
 Machoke @ Focus Sash
-Level: 93
+Level: 92
 
 === TRAINER_SWIMMER_FEMALE_NORA ===
 Name: NORA
@@ -4884,17 +4884,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
-Level: 72
+Level: 71
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Graveler
-Level: 72
+Level: 71
 
 Weepinbell
-Level: 72
+Level: 71
 
 Krabby @ Sitrus Berry
-Level: 72
+Level: 71
 
 === TRAINER_JUGGLER_NATE ===
 Name: NATE
@@ -5095,23 +5095,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_ROBERT ===
@@ -5124,19 +5124,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_DONALD ===
@@ -5194,19 +5194,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgeotto
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Farfetchd
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Doduo
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_CHESTER ===
@@ -5288,19 +5288,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_ROGER ===
@@ -5403,19 +5403,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Fearow
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIRD_KEEPER_BECK ===
@@ -6242,19 +6242,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Magneton
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_SCIENTIST_IVAN ===
 Name: IVAN
@@ -6266,18 +6266,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magnemite
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Electrode
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hypno
-Level: 93
+Level: 92
 
 Machoke @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_BOSS_GIOVANNI ===
 Name: GIOVANNI
@@ -6857,19 +6857,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Zubat
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zubat
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Voltorb @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_20 ===
 Name: GRUNT
@@ -6881,18 +6881,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drowzee
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pidgeotto
-Level: 71
+Level: 70
 
 Kadabra @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_TEAM_ROCKET_GRUNT_21 ===
 Name: GRUNT
@@ -9923,17 +9923,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 71
+Level: 70
 
 Weepinbell
-Level: 71
+Level: 70
 
 Pidgeotto @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_CHANNELER_HOPE ===
 Name: HOPE
@@ -9967,17 +9967,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Krabby
-Level: 71
+Level: 70
 
 Gloom
-Level: 71
+Level: 70
 
 Weepinbell @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_CHANNELER_LAUREL ===
 Name: LAUREL
@@ -10078,17 +10078,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Golbat
-Level: 71
+Level: 70
 
 Kadabra
-Level: 71
+Level: 70
 
 Voltorb @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_CHANNELER_JANAE ===
 Name: JANAE
@@ -10146,17 +10146,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kadabra
-Level: 71
+Level: 70
 
 Pidgeotto
-Level: 71
+Level: 70
 
 Haunter @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_CHANNELER_JENNIFER ===
 Name: JENNIFER
@@ -10168,17 +10168,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gastly
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 71
+Level: 70
 
 Weepinbell
-Level: 71
+Level: 70
 
 Gloom @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_CHANNELER_1 ===
 Name: PH
@@ -10418,23 +10418,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgey
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rattata
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Pikachu
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Meowth
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PICNICKER_VALERIE ===
@@ -10888,18 +10888,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoran M
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Nidoran F
-Level: 71
+Level: 70
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Haunter
-Level: 71
+Level: 70
 
 Krabby @ Sitrus Berry
-Level: 71
+Level: 70
 
 === TRAINER_TWINS_KIRI_JAN ===
 Name: KIRI & JAN
@@ -11003,18 +11003,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Starmie
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Machoke
-Level: 93
+Level: 92
 
 Hypno @ Focus Sash
-Level: 93
+Level: 92
 
 === TRAINER_BUG_CATCHER_3 ===
 Name: PH
@@ -11903,19 +11903,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Ekans
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Ekans
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Raticate
-Level: 93
+Level: 92
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dodrio @ Sitrus Berry
-Level: 93
+Level: 92
 
 === TRAINER_BIKER_RICARDO ===
 Name: RICARDO
@@ -15260,23 +15260,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pidgeot
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Persian
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Raticate
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Raichu
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Persian
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BIKER_LUKAS_2 ===
@@ -15525,18 +15525,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raichu
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Raichu
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Graveler
-Level: 73
+Level: 72
 
 Gloom @ Sitrus Berry
-Level: 73
+Level: 72
 
 === TRAINER_CRUSH_KIN_RON_MYA_2 ===
 Name: RON & MYA
@@ -15571,18 +15571,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonchan @ Black Belt
-Level: 73
+Level: 72
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Hitmonlee @ Black Belt
-Level: 73
+Level: 72
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 Graveler
-Level: 73
+Level: 72
 
 Raticate @ Sitrus Berry
-Level: 73
+Level: 72
 
 === TRAINER_CRUSH_KIN_RON_MYA_4 ===
 Name: RON & MYA
@@ -15594,18 +15594,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonchan @ Black Belt
-Level: 73
+Level: 72
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Hitmonlee @ Black Belt
-Level: 73
+Level: 72
 IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
 
 Pidgeotto
-Level: 73
+Level: 72
 
 Weepinbell @ Sitrus Berry
-Level: 73
+Level: 72
 
 === TRAINER_BIKER_RUBEN_2 ===
 Name: RUBEN
@@ -15783,18 +15783,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Seaking
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Weezing
-Level: 94
+Level: 93
 
 Kingler @ Sitrus Berry
-Level: 94
+Level: 93
 
 === TRAINER_SWIMMER_MALE_DARRIN_2 ===
 Name: DARRIN
@@ -15806,19 +15806,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Seadra
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Seadra
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Seadra
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_PICNICKER_MISSY_2 ===
@@ -15831,18 +15831,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Seaking
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Golbat
-Level: 94
+Level: 93
 
 Marowak @ Focus Sash
-Level: 94
+Level: 93
 
 === TRAINER_PICNICKER_MISSY_3 ===
 Name: MISSY
@@ -15854,18 +15854,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seaking
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Seaking
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Fearow
-Level: 95
+Level: 93
 
 Magneton @ Sitrus Berry
-Level: 95
+Level: 93
 
 === TRAINER_FISHERMAN_WADE_2 ===
 Name: WADE
@@ -15877,27 +15877,27 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magikarp
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Magikarp
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Magikarp
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Magikarp
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Magikarp
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Magikarp
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 === TRAINER_SWIMMER_MALE_JACK_2 ===
@@ -15910,17 +15910,17 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Starmie
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Fearow
-Level: 94
+Level: 93
 
 Dodrio
-Level: 94
+Level: 93
 
 Weezing @ Focus Sash
-Level: 94
+Level: 93
 
 === TRAINER_SIS_AND_BRO_LIL_IAN_2 ===
 Name: LIL & IAN
@@ -15932,18 +15932,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Starmie
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Machoke
-Level: 94
+Level: 93
 
 Kingler @ Focus Sash
-Level: 94
+Level: 93
 
 === TRAINER_SIS_AND_BRO_LIL_IAN_3 ===
 Name: LIL & IAN
@@ -15955,18 +15955,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Starmie
-Level: 95
+Level: 93
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Magneton
-Level: 95
+Level: 93
 
 Muk @ Focus Sash
-Level: 95
+Level: 93
 
 === TRAINER_SWIMMER_MALE_FINN_2 ===
 Name: FINN
@@ -16382,18 +16382,18 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nidoking
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Nidoqueen
-Level: 73
+Level: 72
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Machop
-Level: 73
+Level: 72
 
 Golbat @ Sitrus Berry
-Level: 73
+Level: 72
 
 === TRAINER_BIRD_KEEPER_MILO_2 ===
 Name: MILO
@@ -17138,18 +17138,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwhirl
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Poliwrath
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Rhyhorn
-Level: 94
+Level: 93
 
 Golbat @ Sitrus Berry
-Level: 94
+Level: 93
 
 === TRAINER_SWIMMER_MALE_TONY_2 ===
 Name: TONY
@@ -17161,18 +17161,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Seadra
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Seadra
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Fearow
-Level: 94
+Level: 93
 
 Dodrio @ Sitrus Berry
-Level: 94
+Level: 93
 
 === TRAINER_SWIMMER_FEMALE_MELISSA_2 ===
 Name: MELISSA
@@ -17184,18 +17184,18 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwhirl
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Seaking
-Level: 94
+Level: 93
 IVs: 9 HP / 9 Atk / 9 Def / 9 SpA / 9 SpD / 9 Spe
 
 Rhyhorn
-Level: 94
+Level: 93
 
 Magneton @ Sitrus Berry
-Level: 94
+Level: 93
 
 === TRAINER_ELITE_FOUR_LORELEI_2 ===
 Name: LORELEI
@@ -18515,3 +18515,1894 @@ EVs: 252 SpA / 252 Spe
 - Sludge Bomb
 - Flamethrower
 - Recover
+
+=== TRAINER_HIKER_DWAYNE ===
+Name: DWAYNE
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Nosepass
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Rhyhorn
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_HIKER_DWAYNE_2 ===
+Name: DWAYNE
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Nosepass
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Rhyhorn
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_CAMPER_TOBIAS ===
+Name: TOBIAS
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Mankey
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Sandshrew
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Phanpy
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_CAMPER_TOBIAS_2 ===
+Name: TOBIAS
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sandshrew
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Mankey
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Phanpy
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_LASS_PRISCILLA ===
+Name: PRISCILLA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Marill
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Oddish
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Jigglypuff
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_LASS_PRISCILLA_2 ===
+Name: PRISCILLA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Clefairy
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Meowth
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Marill
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_BUG_CATCHER_MARV ===
+Name: MARV
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Metapod
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Paras
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Larvesta
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_BUG_CATCHER_MARV_2 ===
+Name: MARV
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Venonat
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Paras
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kakuna
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_LASS_ODETTE ===
+Name: ODETTE
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Jigglypuff
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Skitty
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Marill
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_LASS_ODETTE_2 ===
+Name: ODETTE
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Clefairy
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Jigglypuff
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Oddish
+Level: 29
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+=== TRAINER_FISHERMAN_DOUGAL ===
+Name: DOUGAL
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Wingull
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Horsea
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 42
+
+=== TRAINER_FISHERMAN_DOUGAL_2 ===
+Name: DOUGAL
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Feebas
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wingull
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb @ Sitrus Berry
+Level: 42
+
+=== TRAINER_BUG_CATCHER_PERCY ===
+Name: PERCY
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Pinsir
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Metapod
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Larvesta
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 42
+
+=== TRAINER_BUG_CATCHER_PERCY_2 ===
+Name: PERCY
+Class: Bug Catcher
+Pic: Bug Catcher
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Kakuna
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Scyther
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Larvesta
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Raticate @ Sitrus Berry
+Level: 42
+
+=== TRAINER_YOUNGSTER_ROLAND ===
+Name: ROLAND
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Mareep
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ekans
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Sandshrew
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Haunter @ Sitrus Berry
+Level: 42
+
+=== TRAINER_YOUNGSTER_ROLAND_2 ===
+Name: ROLAND
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Sandshrew
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Zigzagoon
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Rattata
+Level: 42
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 42
+
+=== TRAINER_SUPER_NERD_EWALD ===
+Name: EWALD
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Grimer
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Porygon
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby @ Sitrus Berry
+Level: 57
+
+=== TRAINER_SUPER_NERD_EWALD_2 ===
+Name: EWALD
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Magnemite
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Grimer
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 57
+
+=== TRAINER_BIKER_AXEL ===
+Name: AXEL
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ekans
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Koffing
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby @ Sitrus Berry
+Level: 57
+
+=== TRAINER_BIKER_AXEL_2 ===
+Name: AXEL
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Voltorb
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weezing
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Koffing
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 57
+
+=== TRAINER_HIKER_BRUNO ===
+Name: BRUNO
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Larvitar
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Geodude
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Rhyhorn
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Golbat @ Sitrus Berry
+Level: 57
+
+=== TRAINER_HIKER_BRUNO_2 ===
+Name: BRUNO
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Larvitar
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Nosepass
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Raticate @ Sitrus Berry
+Level: 57
+
+=== TRAINER_POKEMANIAC_DEXTER ===
+Name: DEXTER
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyhorn
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Cubone
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kangaskhan
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 57
+
+=== TRAINER_POKEMANIAC_DEXTER_2 ===
+Name: DEXTER
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyhorn
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Lickitung
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kangaskhan
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 57
+
+=== TRAINER_SUPER_NERD_OHMER ===
+Name: OHMER
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Voltorb
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Magnemite
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Koffing
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kadabra @ Sitrus Berry
+Level: 57
+
+=== TRAINER_SUPER_NERD_OHMER_2 ===
+Name: OHMER
+Class: Super Nerd
+Pic: Super Nerd
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Porygon
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Baltoy
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Koffing
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 57
+
+=== TRAINER_HIKER_GRANT ===
+Name: GRANT
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Larvitar
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Nosepass
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 57
+
+=== TRAINER_HIKER_GRANT_2 ===
+Name: GRANT
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Geodude
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Onix
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Nosepass
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Golbat @ Sitrus Berry
+Level: 57
+
+=== TRAINER_POKEMANIAC_SILAS ===
+Name: SILAS
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Cubone
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Slowpoke
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Lickitung
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 57
+
+=== TRAINER_POKEMANIAC_SILAS_2 ===
+Name: SILAS
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Kangaskhan
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Lickitung
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Mawile
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Haunter @ Sitrus Berry
+Level: 57
+
+=== TRAINER_ROCKER_ZIGGY ===
+Name: ZIGGY
+Class: Rocker
+Pic: Rocker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Elekid
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Plusle
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kadabra @ Sitrus Berry
+Level: 57
+
+=== TRAINER_ROCKER_ZIGGY_2 ===
+Name: ZIGGY
+Class: Rocker
+Pic: Rocker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Electrode
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Magnemite
+Level: 57
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 57
+
+=== TRAINER_FISHERMAN_MARLON ===
+Name: MARLON
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Magikarp
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Goldeen
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Feebas
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop @ Sitrus Berry
+Level: 73
+
+=== TRAINER_FISHERMAN_MARLON_2 ===
+Name: MARLON
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Feebas
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wingull
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_SERENA ===
+Name: SERENA
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Bellossom
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Vulpix
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Milotic
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_SERENA_2 ===
+Name: SERENA
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Persian
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Bellossom
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Milotic
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 73
+
+=== TRAINER_ROCKER_JAX ===
+Name: JAX
+Class: Rocker
+Pic: Rocker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Electabuzz
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Magnemite
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Elekid
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 73
+
+=== TRAINER_ROCKER_JAX_2 ===
+Name: JAX
+Class: Rocker
+Pic: Rocker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Voltorb
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Magnemite
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Electabuzz
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby @ Sitrus Berry
+Level: 73
+
+=== TRAINER_FISHERMAN_CLETUS ===
+Name: CLETUS
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Wingull
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Horsea
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 73
+
+=== TRAINER_FISHERMAN_CLETUS_2 ===
+Name: CLETUS
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Tentacool
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Magikarp
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Goldeen
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Drowzee @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_LACEY ===
+Name: LACEY
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Growlithe
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Vulpix
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Roselia
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_LACEY_2 ===
+Name: LACEY
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Milotic
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Vulpix
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Growlithe
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 73
+
+=== TRAINER_PSYCHIC_MORDECAI ===
+Name: MORDECAI
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Kadabra
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Abra
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Meditite
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 73
+
+=== TRAINER_PSYCHIC_MORDECAI_2 ===
+Name: MORDECAI
+Class: Psychic
+Pic: Psychic M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Slowpoke
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ralts
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Meditite
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_RAZOR ===
+Name: RAZOR
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Grimer
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Raticate @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_RAZOR_2 ===
+Name: RAZOR
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Grimer
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_VIVIAN ===
+Name: VIVIAN
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Milotic
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Vulpix
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Roselia
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_VIVIAN_2 ===
+Name: VIVIAN
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Vulpix
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Milotic
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Persian
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kadabra @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_CLUTCH ===
+Name: CLUTCH
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Koffing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weezing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_CLUTCH_2 ===
+Name: CLUTCH
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_TORQUE ===
+Name: TORQUE
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weezing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Koffing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_TORQUE_2 ===
+Name: TORQUE
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Grimer
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Koffing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gloom @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_NITRO ===
+Name: NITRO
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Weezing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Haunter @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_NITRO_2 ===
+Name: NITRO
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Grimer
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weepinbell @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_CARMEN ===
+Name: CARMEN
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Growlithe
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Vulpix
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Roselia
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BEAUTY_CARMEN_2 ===
+Name: CARMEN
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Persian
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Milotic
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Roselia
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_SPARK ===
+Name: SPARK
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Voltorb
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Drowzee @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_SPARK_2 ===
+Name: SPARK
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Weezing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Voltorb
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Raticate @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_DIESEL ===
+Name: DIESEL
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Houndour
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Grimer
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 73
+
+=== TRAINER_BIKER_DIESEL_2 ===
+Name: DIESEL
+Class: Biker
+Pic: Biker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Weezing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Koffing
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Ekans
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby @ Sitrus Berry
+Level: 73
+
+=== TRAINER_POKEMANIAC_WENDELL ===
+Name: WENDELL
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Mawile
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kangaskhan
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Cubone
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop @ Sitrus Berry
+Level: 73
+
+=== TRAINER_POKEMANIAC_WENDELL_2 ===
+Name: WENDELL
+Class: Pokemaniac
+Pic: Pokemaniac
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Slowpoke
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Cubone
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Mawile
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Drowzee @ Sitrus Berry
+Level: 73
+
+=== TRAINER_HIKER_BOULDER ===
+Name: BOULDER
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Rhyhorn
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Larvitar
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Geodude
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Pidgeotto @ Sitrus Berry
+Level: 73
+
+=== TRAINER_HIKER_BOULDER_2 ===
+Name: BOULDER
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Onix
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Nosepass
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop
+Level: 73
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Graveler @ Sitrus Berry
+Level: 73
+
+=== TRAINER_SWIMMER_F_MARINA ===
+Name: MARINA
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Corsola
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Clamperl
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Marowak @ Focus Sash
+Level: 95
+
+=== TRAINER_SWIMMER_F_MARINA_2 ===
+Name: MARINA
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Corsola
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Goldeen
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Clamperl
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Hypno @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_M_REEF ===
+Name: REEF
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wailmer
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Tentacool
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Dodrio @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_M_REEF_2 ===
+Name: REEF
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Tentacool
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wailmer
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Weezing @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_M_TIDE ===
+Name: TIDE
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Tentacool
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wailmer
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Shellder
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machoke @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_M_TIDE_2 ===
+Name: TIDE
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Staryu
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wailmer
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kingler @ Focus Sash
+Level: 95
+
+=== TRAINER_BLACK_BELT_KENJI ===
+Name: KENJI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Hitmonchan
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Hitmonlee
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Mankey
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kingler @ Sitrus Berry
+Level: 95
+
+=== TRAINER_BLACK_BELT_KENJI_2 ===
+Name: KENJI
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Hitmonlee
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Mankey
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machop
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Fearow @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_F_PEARL ===
+Name: PEARL
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Goldeen
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Staryu
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Gyarados @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_F_PEARL_2 ===
+Name: PEARL
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Goldeen
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Staryu
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Tentacool
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Hypno @ Sitrus Berry
+Level: 95
+
+=== TRAINER_FISHERMAN_SALTON ===
+Name: SALTON
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Horsea
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Tentacool
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Golbat @ Sitrus Berry
+Level: 95
+
+=== TRAINER_FISHERMAN_SALTON_2 ===
+Name: SALTON
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Feebas
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wingull
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Krabby
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kingler @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_M_CREST ===
+Name: CREST
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Horsea
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Shellder
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Wailmer
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kingler @ Focus Sash
+Level: 95
+
+=== TRAINER_SWIMMER_M_CREST_2 ===
+Name: CREST
+Class: Swimmer M
+Pic: Swimmer M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Shellder
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Carvanha
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Kingler @ Sitrus Berry
+Level: 95
+
+=== TRAINER_SWIMMER_F_CORAL ===
+Name: CORAL
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Tentacool
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Clamperl
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Rhyhorn @ Focus Sash
+Level: 95
+
+=== TRAINER_SWIMMER_F_CORAL_2 ===
+Name: CORAL
+Class: Swimmer F
+Pic: Swimmer F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+
+Staryu
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Clamperl
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Poliwag
+Level: 95
+IVs: 20 HP / 20 Atk / 20 Def / 20 SpA / 20 SpD / 20 Spe
+
+Machoke @ Sitrus Berry
+Level: 95
+

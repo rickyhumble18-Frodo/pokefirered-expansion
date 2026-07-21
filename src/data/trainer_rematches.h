@@ -1327,4 +1327,246 @@ const struct RematchData sRematches[REMATCH_TRAINER_COUNT] =
         .mapGroup = MAP_GROUP(MAP_SEVEN_ISLAND_TANOBY_RUINS),
         .mapNum = MAP_NUM(MAP_SEVEN_ISLAND_TANOBY_RUINS),
     },
+    // GEN_ROUTE_TRAINERS_BEGIN
+    [REMATCH_HIKER_DWAYNE] =
+    {
+        .trainerIDs = {TRAINER_HIKER_DWAYNE, TRAINER_HIKER_DWAYNE_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE4),
+        .mapNum = MAP_NUM(MAP_ROUTE4),
+    },
+    [REMATCH_CAMPER_TOBIAS] =
+    {
+        .trainerIDs = {TRAINER_CAMPER_TOBIAS, TRAINER_CAMPER_TOBIAS_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE4),
+        .mapNum = MAP_NUM(MAP_ROUTE4),
+    },
+    [REMATCH_LASS_PRISCILLA] =
+    {
+        .trainerIDs = {TRAINER_LASS_PRISCILLA, TRAINER_LASS_PRISCILLA_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE4),
+        .mapNum = MAP_NUM(MAP_ROUTE4),
+    },
+    [REMATCH_BUG_CATCHER_MARV] =
+    {
+        .trainerIDs = {TRAINER_BUG_CATCHER_MARV, TRAINER_BUG_CATCHER_MARV_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE24),
+        .mapNum = MAP_NUM(MAP_ROUTE24),
+    },
+    [REMATCH_LASS_ODETTE] =
+    {
+        .trainerIDs = {TRAINER_LASS_ODETTE, TRAINER_LASS_ODETTE_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE24),
+        .mapNum = MAP_NUM(MAP_ROUTE24),
+    },
+    [REMATCH_FISHERMAN_DOUGAL] =
+    {
+        .trainerIDs = {TRAINER_FISHERMAN_DOUGAL, TRAINER_FISHERMAN_DOUGAL_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE6),
+        .mapNum = MAP_NUM(MAP_ROUTE6),
+    },
+    [REMATCH_BUG_CATCHER_PERCY] =
+    {
+        .trainerIDs = {TRAINER_BUG_CATCHER_PERCY, TRAINER_BUG_CATCHER_PERCY_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE6),
+        .mapNum = MAP_NUM(MAP_ROUTE6),
+    },
+    [REMATCH_YOUNGSTER_ROLAND] =
+    {
+        .trainerIDs = {TRAINER_YOUNGSTER_ROLAND, TRAINER_YOUNGSTER_ROLAND_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE6),
+        .mapNum = MAP_NUM(MAP_ROUTE6),
+    },
+    [REMATCH_SUPER_NERD_EWALD] =
+    {
+        .trainerIDs = {TRAINER_SUPER_NERD_EWALD, TRAINER_SUPER_NERD_EWALD_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE8),
+        .mapNum = MAP_NUM(MAP_ROUTE8),
+    },
+    [REMATCH_BIKER_AXEL] =
+    {
+        .trainerIDs = {TRAINER_BIKER_AXEL, TRAINER_BIKER_AXEL_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE8),
+        .mapNum = MAP_NUM(MAP_ROUTE8),
+    },
+    [REMATCH_HIKER_BRUNO] =
+    {
+        .trainerIDs = {TRAINER_HIKER_BRUNO, TRAINER_HIKER_BRUNO_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE9),
+        .mapNum = MAP_NUM(MAP_ROUTE9),
+    },
+    [REMATCH_POKEMANIAC_DEXTER] =
+    {
+        .trainerIDs = {TRAINER_POKEMANIAC_DEXTER, TRAINER_POKEMANIAC_DEXTER_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE9),
+        .mapNum = MAP_NUM(MAP_ROUTE9),
+    },
+    [REMATCH_SUPER_NERD_OHMER] =
+    {
+        .trainerIDs = {TRAINER_SUPER_NERD_OHMER, TRAINER_SUPER_NERD_OHMER_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE10),
+        .mapNum = MAP_NUM(MAP_ROUTE10),
+    },
+    [REMATCH_HIKER_GRANT] =
+    {
+        .trainerIDs = {TRAINER_HIKER_GRANT, TRAINER_HIKER_GRANT_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE10),
+        .mapNum = MAP_NUM(MAP_ROUTE10),
+    },
+    [REMATCH_POKEMANIAC_SILAS] =
+    {
+        .trainerIDs = {TRAINER_POKEMANIAC_SILAS, TRAINER_POKEMANIAC_SILAS_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE10),
+        .mapNum = MAP_NUM(MAP_ROUTE10),
+    },
+    [REMATCH_ROCKER_ZIGGY] =
+    {
+        .trainerIDs = {TRAINER_ROCKER_ZIGGY, TRAINER_ROCKER_ZIGGY_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE10),
+        .mapNum = MAP_NUM(MAP_ROUTE10),
+    },
+    [REMATCH_FISHERMAN_MARLON] =
+    {
+        .trainerIDs = {TRAINER_FISHERMAN_MARLON, TRAINER_FISHERMAN_MARLON_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE12),
+        .mapNum = MAP_NUM(MAP_ROUTE12),
+    },
+    [REMATCH_BEAUTY_SERENA] =
+    {
+        .trainerIDs = {TRAINER_BEAUTY_SERENA, TRAINER_BEAUTY_SERENA_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE12),
+        .mapNum = MAP_NUM(MAP_ROUTE12),
+    },
+    [REMATCH_ROCKER_JAX] =
+    {
+        .trainerIDs = {TRAINER_ROCKER_JAX, TRAINER_ROCKER_JAX_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE12),
+        .mapNum = MAP_NUM(MAP_ROUTE12),
+    },
+    [REMATCH_FISHERMAN_CLETUS] =
+    {
+        .trainerIDs = {TRAINER_FISHERMAN_CLETUS, TRAINER_FISHERMAN_CLETUS_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE13),
+        .mapNum = MAP_NUM(MAP_ROUTE13),
+    },
+    [REMATCH_BEAUTY_LACEY] =
+    {
+        .trainerIDs = {TRAINER_BEAUTY_LACEY, TRAINER_BEAUTY_LACEY_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE13),
+        .mapNum = MAP_NUM(MAP_ROUTE13),
+    },
+    [REMATCH_PSYCHIC_MORDECAI] =
+    {
+        .trainerIDs = {TRAINER_PSYCHIC_MORDECAI, TRAINER_PSYCHIC_MORDECAI_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE13),
+        .mapNum = MAP_NUM(MAP_ROUTE13),
+    },
+    [REMATCH_BIKER_RAZOR] =
+    {
+        .trainerIDs = {TRAINER_BIKER_RAZOR, TRAINER_BIKER_RAZOR_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE16),
+        .mapNum = MAP_NUM(MAP_ROUTE16),
+    },
+    [REMATCH_BEAUTY_VIVIAN] =
+    {
+        .trainerIDs = {TRAINER_BEAUTY_VIVIAN, TRAINER_BEAUTY_VIVIAN_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE16),
+        .mapNum = MAP_NUM(MAP_ROUTE16),
+    },
+    [REMATCH_BIKER_CLUTCH] =
+    {
+        .trainerIDs = {TRAINER_BIKER_CLUTCH, TRAINER_BIKER_CLUTCH_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE16),
+        .mapNum = MAP_NUM(MAP_ROUTE16),
+    },
+    [REMATCH_BIKER_TORQUE] =
+    {
+        .trainerIDs = {TRAINER_BIKER_TORQUE, TRAINER_BIKER_TORQUE_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE17),
+        .mapNum = MAP_NUM(MAP_ROUTE17),
+    },
+    [REMATCH_BIKER_NITRO] =
+    {
+        .trainerIDs = {TRAINER_BIKER_NITRO, TRAINER_BIKER_NITRO_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE17),
+        .mapNum = MAP_NUM(MAP_ROUTE17),
+    },
+    [REMATCH_BEAUTY_CARMEN] =
+    {
+        .trainerIDs = {TRAINER_BEAUTY_CARMEN, TRAINER_BEAUTY_CARMEN_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE17),
+        .mapNum = MAP_NUM(MAP_ROUTE17),
+    },
+    [REMATCH_BIKER_SPARK] =
+    {
+        .trainerIDs = {TRAINER_BIKER_SPARK, TRAINER_BIKER_SPARK_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE18),
+        .mapNum = MAP_NUM(MAP_ROUTE18),
+    },
+    [REMATCH_BIKER_DIESEL] =
+    {
+        .trainerIDs = {TRAINER_BIKER_DIESEL, TRAINER_BIKER_DIESEL_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE18),
+        .mapNum = MAP_NUM(MAP_ROUTE18),
+    },
+    [REMATCH_POKEMANIAC_WENDELL] =
+    {
+        .trainerIDs = {TRAINER_POKEMANIAC_WENDELL, TRAINER_POKEMANIAC_WENDELL_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE18),
+        .mapNum = MAP_NUM(MAP_ROUTE18),
+    },
+    [REMATCH_HIKER_BOULDER] =
+    {
+        .trainerIDs = {TRAINER_HIKER_BOULDER, TRAINER_HIKER_BOULDER_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE18),
+        .mapNum = MAP_NUM(MAP_ROUTE18),
+    },
+    [REMATCH_SWIMMER_F_MARINA] =
+    {
+        .trainerIDs = {TRAINER_SWIMMER_F_MARINA, TRAINER_SWIMMER_F_MARINA_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE19),
+        .mapNum = MAP_NUM(MAP_ROUTE19),
+    },
+    [REMATCH_SWIMMER_M_REEF] =
+    {
+        .trainerIDs = {TRAINER_SWIMMER_M_REEF, TRAINER_SWIMMER_M_REEF_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE19),
+        .mapNum = MAP_NUM(MAP_ROUTE19),
+    },
+    [REMATCH_SWIMMER_M_TIDE] =
+    {
+        .trainerIDs = {TRAINER_SWIMMER_M_TIDE, TRAINER_SWIMMER_M_TIDE_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE20),
+        .mapNum = MAP_NUM(MAP_ROUTE20),
+    },
+    [REMATCH_BLACK_BELT_KENJI] =
+    {
+        .trainerIDs = {TRAINER_BLACK_BELT_KENJI, TRAINER_BLACK_BELT_KENJI_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE20),
+        .mapNum = MAP_NUM(MAP_ROUTE20),
+    },
+    [REMATCH_SWIMMER_F_PEARL] =
+    {
+        .trainerIDs = {TRAINER_SWIMMER_F_PEARL, TRAINER_SWIMMER_F_PEARL_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE21_NORTH),
+        .mapNum = MAP_NUM(MAP_ROUTE21_NORTH),
+    },
+    [REMATCH_FISHERMAN_SALTON] =
+    {
+        .trainerIDs = {TRAINER_FISHERMAN_SALTON, TRAINER_FISHERMAN_SALTON_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE21_NORTH),
+        .mapNum = MAP_NUM(MAP_ROUTE21_NORTH),
+    },
+    [REMATCH_SWIMMER_M_CREST] =
+    {
+        .trainerIDs = {TRAINER_SWIMMER_M_CREST, TRAINER_SWIMMER_M_CREST_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE21_SOUTH),
+        .mapNum = MAP_NUM(MAP_ROUTE21_SOUTH),
+    },
+    [REMATCH_SWIMMER_F_CORAL] =
+    {
+        .trainerIDs = {TRAINER_SWIMMER_F_CORAL, TRAINER_SWIMMER_F_CORAL_2},
+        .mapGroup = MAP_GROUP(MAP_ROUTE21_SOUTH),
+        .mapNum = MAP_NUM(MAP_ROUTE21_SOUTH),
+    },
+    // GEN_ROUTE_TRAINERS_END
 };

@@ -4,7 +4,7 @@
 #include "global.h"
 #include "script.h"
 
-#define REMATCH_TRAINER_COUNT 221
+#define REMATCH_TRAINER_COUNT 261
 #define MAX_REMATCH_PARTIES 6
 #define VSSEEKER_RECHARGE_STEPS 100
 

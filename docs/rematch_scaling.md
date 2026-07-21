@@ -40,6 +40,22 @@ Core logic lives in `src/rematch_scaling.c`:
 Giovanni no longer disappears from Viridian Gym after his post-battle dialogue;
 the rematch branch intercepts before the vanilla `removeobject` path.
 
+## Added route trainers (40, VS-Seeker-rematchable)
+
+`tools/gen_route_trainers.py` is the single source of truth for 40 new route
+trainers added to sparse mid/late routes (Routes 4, 6, 8, 9, 10, 12, 13, 16,
+17, 18, 19, 20, 21 N/S and 24). Running it regenerates every synced piece from
+one MANIFEST so the three-part rematch sync can't drift: the `enum RematchID`
+entries, the `REMATCH_TRAINER_COUNT` define, the `sRematches[]` rows, the
+`TRAINER_*` enum (base + one `_2` variant each), the party blocks, and each
+route's object events + `trainerbattle_single`/`trainerbattle_rematch` scripts.
+Each trainer cycles between 2 teams and gains +2 levels per rematch win like
+every other route trainer. They inherit their route's segment band and are run
+through the same Phase B pass (AI, level curve, padding). A build-time
+`STATIC_ASSERT(REMATCH_TRAINER_COUNT == REMATCH_COUNT)` guards the sync, and the
+generator refuses names that collide with existing trainers. After this batch:
+755 / 768 trainer IDs used (13 headroom).
+
 ## Level cap
 
 `MAX_LEVEL` is 255 (`include/constants/pokemon.h`). Experience tables are
