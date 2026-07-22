@@ -156,6 +156,17 @@ def trainer_to_map(script_files):
     return result
 
 
+def is_standard_block(block_lines):
+    """A trainer block carrying 'Difficulty: Normal' is the Standard-tier copy
+    produced by tools/difficulty_split.py. Its levels are derived from the Hard
+    block, so the bulk pass must leave it untouched (and ignore it when sizing
+    segment level ranges)."""
+    for line in block_lines:
+        if line.startswith("Difficulty:"):
+            return line.split(":", 1)[1].strip().lower() == "normal"
+    return False
+
+
 def split_paragraphs(lines):
     """Split a trainer block body into paragraphs (header first, then mons)."""
     paras, cur = [], []
@@ -243,6 +254,8 @@ def apply_bulk(lines):
     # keeping its relative strength within the segment.
     seg_range = {}
     for trainer in parse_trainers(lines):
+        if is_standard_block(lines[trainer.start:trainer.end]):
+            continue  # Standard-tier copy; its levels are derived, not authored
         seg_name = bulk_segment_of(trainer, trainer_maps, map_segments)
         if seg_name is None:
             continue
@@ -262,6 +275,9 @@ def apply_bulk(lines):
     map_usage = Counter()
     for trainer in parse_trainers(lines):
         block = lines[trainer.start:trainer.end]
+        if is_standard_block(block):
+            out.extend(block)  # emit the Standard-tier copy verbatim
+            continue
         seg_name = bulk_segment_of(trainer, trainer_maps, map_segments)
         if seg_name is None:
             out.extend(block)

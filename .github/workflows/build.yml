@@ -29,6 +29,7 @@ jobs:
         run: |
           python3 tools/kaizo_pass.py ai --check
           python3 tools/kaizo_pass.py bulk --check
+          python3 tools/difficulty_split.py --check
 
   build-firered:
     runs-on: ubuntu-latest

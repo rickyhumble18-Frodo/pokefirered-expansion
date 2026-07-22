@@ -2,6 +2,7 @@
 #include "bg.h"
 #include "data.h"
 #include "decompress.h"
+#include "difficulty.h"
 #include "event_scripts.h"
 #include "gpu_regs.h"
 #include "help_system.h"
@@ -9,6 +10,7 @@
 #include "math_util.h"
 #include "menu.h"
 #include "naming_screen.h"
+#include "new_game.h"
 #include "overworld.h"
 #include "palette.h"
 #include "pokeball.h"
@@ -87,6 +89,10 @@ static void Task_OakSpeech_FadeOutRivalPic(u8);
 static void Task_OakSpeech_FadeInRivalPic(u8);
 static void Task_OakSpeech_AskRivalsName(u8);
 static void Task_OakSpeech_ReshowPlayersPic(u8);
+static void Task_OakSpeech_AskDifficulty(u8);
+static void Task_OakSpeech_ShowDifficultyOptions(u8);
+static void Task_OakSpeech_HandleDifficultyInput(u8);
+static void Task_OakSpeech_ClearDifficultyWindows(u8);
 static void Task_OakSpeech_LetsGo(u8);
 static void Task_OakSpeech_FadeOutBGM(u8);
 static void Task_OakSpeech_SetUpExitAnimation(u8);
@@ -115,6 +121,9 @@ static const u8 sText_Controls[] = _("CONTROLS");
 static const u8 sText_ABUTTONNext_BBUTTONBack[] = _("{A_BUTTON}NEXT {B_BUTTON}BACK");
 static const u8 sText_Boy[] = _("BOY");
 static const u8 sText_Girl[] = _("GIRL");
+static const u8 sText_DifficultyStandard[] = _("STANDARD");
+static const u8 sText_DifficultyHard[] = _("HARD");
+static const u8 sText_ChooseDifficulty[] = _("How tough should this adventure be?\nSTANDARD is a fair test. HARD is brutal.");
 
 extern const struct OamData gOamData_AffineOff_ObjBlend_32x32;
 extern const struct OamData gOamData_AffineOff_ObjNormal_32x32;
@@ -1606,9 +1615,71 @@ static void Task_OakSpeech_ReshowPlayersPic(u8 taskId)
             gSpriteCoordOffsetX = 0;
             ChangeBgX(2, 0, BG_COORD_SET);
             CreateFadeOutTask(taskId, 2);
-            gTasks[taskId].func = Task_OakSpeech_LetsGo;
+            gTasks[taskId].func = Task_OakSpeech_AskDifficulty;
         }
     }
+}
+
+static void Task_OakSpeech_AskDifficulty(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+
+    if (tTrainerPicFadeState != 0)
+    {
+        OakSpeechPrintMessage(sText_ChooseDifficulty, sOakSpeechResources->textSpeed, FALSE);
+        gTasks[taskId].func = Task_OakSpeech_ShowDifficultyOptions;
+    }
+}
+
+static void Task_OakSpeech_ShowDifficultyOptions(u8 taskId)
+{
+    if (!IsTextPrinterActiveOnWindow(WIN_INTRO_TEXTBOX))
+    {
+        gTasks[taskId].tMenuWindowId = AddWindow(&sIntro_WindowTemplates[WIN_INTRO_BOYGIRL]);
+        PutWindowTilemap(gTasks[taskId].tMenuWindowId);
+        DrawStdFrameWithCustomTileAndPalette(gTasks[taskId].tMenuWindowId, TRUE, GetStandardFrameBaseTileNum(), 14);
+        FillWindowPixelBuffer(gTasks[taskId].tMenuWindowId, PIXEL_FILL(1));
+        sOakSpeechResources->textColor[0] = 1;
+        sOakSpeechResources->textColor[1] = 2;
+        sOakSpeechResources->textColor[2] = 3;
+        AddTextPrinterParameterized3(gTasks[taskId].tMenuWindowId, FONT_NORMAL, 8, 1, sOakSpeechResources->textColor, 0, sText_DifficultyStandard);
+        sOakSpeechResources->textColor[0] = 1;
+        sOakSpeechResources->textColor[1] = 2;
+        sOakSpeechResources->textColor[2] = 3;
+        AddTextPrinterParameterized3(gTasks[taskId].tMenuWindowId, FONT_NORMAL, 8, 17, sOakSpeechResources->textColor, 0, sText_DifficultyHard);
+        InitMenuNormal(gTasks[taskId].tMenuWindowId, FONT_NORMAL, 0, 1, GetFontAttribute(FONT_NORMAL, FONTATTR_MAX_LETTER_HEIGHT) + 2, 2, 0);
+        CopyWindowToVram(gTasks[taskId].tMenuWindowId, COPYWIN_FULL);
+        gTasks[taskId].func = Task_OakSpeech_HandleDifficultyInput;
+    }
+}
+
+static void Task_OakSpeech_HandleDifficultyInput(u8 taskId)
+{
+    s8 input = Menu_ProcessInputNoWrap();
+    switch (input)
+    {
+    case 0: // STANDARD
+        gNewGameStartDifficulty = DIFFICULTY_NORMAL;
+        break;
+    case 1: // HARD
+        gNewGameStartDifficulty = DIFFICULTY_HARD;
+        break;
+    case MENU_B_PRESSED:
+    case MENU_NOTHING_CHOSEN:
+        return; // choice is mandatory, mirror the gender prompt
+    }
+    PlaySE(SE_SELECT);
+    gTasks[taskId].func = Task_OakSpeech_ClearDifficultyWindows;
+}
+
+static void Task_OakSpeech_ClearDifficultyWindows(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+    ClearStdWindowAndFrameToTransparent(tMenuWindowId, TRUE);
+    RemoveWindow(tMenuWindowId);
+    tMenuWindowId = WIN_INTRO_TEXTBOX;
+    ClearDialogWindowAndFrame(WIN_INTRO_TEXTBOX, TRUE);
+    gTasks[taskId].func = Task_OakSpeech_LetsGo;
 }
 
 static void Task_OakSpeech_LetsGo(u8 taskId)

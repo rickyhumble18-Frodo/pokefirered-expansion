@@ -4,6 +4,7 @@
 #include "berry_powder.h"
 #include "berry.h"
 #include "clock.h"
+#include "difficulty.h"
 #include "easy_chat.h"
 #include "event_data.h"
 #include "event_scripts.h"
@@ -33,6 +34,13 @@
 #include "union_room_chat.h"
 #include "wild_encounter.h"
 #include "constants/maps.h"
+
+// Set by the new-game menu to DIFFICULTY_NORMAL (Standard) or DIFFICULTY_HARD.
+// Left zero-initialized (DIFFICULTY_EASY) so any path that reaches a new game
+// without the menu still lands on Hard, since GetCurrentDifficultyLevel maps the
+// unchosen 0 to Hard. Cannot carry a static initializer: this build discards
+// .data, so an initialized non-const global would be dropped at link time.
+u8 gNewGameStartDifficulty;
 
 // this file's functions
 static void ResetMiniGamesResults(void);
@@ -167,6 +175,9 @@ void NewGameInitData(void)
     ResetItemFlags();
     ResetDexNav();
     ClearFollowerNPCData();
+    // Apply the new-game difficulty choice after every saveblock1 var has been
+    // reset above, so it survives into the first save.
+    SetCurrentDifficultyLevel(gNewGameStartDifficulty);
 }
 
 static void ResetMiniGamesResults(void)

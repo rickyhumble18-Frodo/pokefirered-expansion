@@ -1,0 +1,2897 @@
+{
+ "TRAINER_ANABEL": [
+  5
+ ],
+ "TRAINER_AROMA_LADY_NIKKI": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_AROMA_LADY_VIOLET": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_BEAUTY_BRIDGET": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_BEAUTY_GRACE": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BEAUTY_LAUREN": [
+  33,
+  33,
+  33
+ ],
+ "TRAINER_BEAUTY_LOLA": [
+  34,
+  34,
+  34,
+  34
+ ],
+ "TRAINER_BEAUTY_LORI": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_BEAUTY_OLIVIA": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BEAUTY_SHEILA": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BEAUTY_TAMIA": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_BIKER_1": [
+  5
+ ],
+ "TRAINER_BIKER_2": [
+  5
+ ],
+ "TRAINER_BIKER_ALEX": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIKER_BILLY": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_BIKER_ERNEST": [
+  31,
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_BIKER_GERALD": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIKER_GOON": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_BIKER_HIDEO": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_BIKER_ISAAC": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIKER_JARED": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIKER_JAREN": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_BIKER_JAXON": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIKER_LAO": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIKER_LUKAS": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_BIKER_LUKAS_2": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_BIKER_MALIK": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIKER_NIKOLAS": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIKER_RICARDO": [
+  28,
+  28,
+  29,
+  28
+ ],
+ "TRAINER_BIKER_RUBEN": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIKER_VIRGIL": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIKER_WILLIAM": [
+  31,
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_BIRD_KEEPER_BECK": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIRD_KEEPER_BENNY": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIRD_KEEPER_CARTER": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIRD_KEEPER_CHESTER": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIRD_KEEPER_DONALD": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_BIRD_KEEPER_EDWIN": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_BIRD_KEEPER_JACOB": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_BIRD_KEEPER_JACOB_2": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_BIRD_KEEPER_JACOB_3": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_BIRD_KEEPER_KEITH": [
+  39,
+  39
+ ],
+ "TRAINER_BIRD_KEEPER_MARLON": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_BIRD_KEEPER_MITCH": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_BIRD_KEEPER_PERRY": [
+  31,
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_BIRD_KEEPER_RAMIRO": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_BIRD_KEEPER_REED": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_BIRD_KEEPER_ROBERT": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_BIRD_KEEPER_ROBERT_2": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_BIRD_KEEPER_ROBERT_3": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_BIRD_KEEPER_ROGER": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_BIRD_KEEPER_SEBASTIAN": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BIRD_KEEPER_WILTON": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_BLACK_BELT_AARON": [
+  45,
+  45,
+  45,
+  45
+ ],
+ "TRAINER_BLACK_BELT_ATSUSHI": [
+  52,
+  52,
+  52,
+  52
+ ],
+ "TRAINER_BLACK_BELT_DAISUKE": [
+  56,
+  56,
+  56,
+  56,
+  56
+ ],
+ "TRAINER_BLACK_BELT_HIDEKI": [
+  40,
+  40,
+  40,
+  40
+ ],
+ "TRAINER_BLACK_BELT_HITOSHI": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_BLACK_BELT_HUGH": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_BLACK_BELT_KIYO": [
+  56,
+  56,
+  56,
+  56
+ ],
+ "TRAINER_BLACK_BELT_KOICHI": [
+  46,
+  46,
+  46,
+  46
+ ],
+ "TRAINER_BLACK_BELT_MIKE": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_BLACK_BELT_SHEA": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_BLACK_BELT_TAKASHI": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_BOSS_GIOVANNI": [
+  25,
+  24,
+  29
+ ],
+ "TRAINER_BOSS_GIOVANNI_2": [
+  37,
+  35,
+  37,
+  41
+ ],
+ "TRAINER_BRANDON": [
+  5
+ ],
+ "TRAINER_BUG_CATCHER_2": [
+  18,
+  18,
+  18
+ ],
+ "TRAINER_BUG_CATCHER_3": [
+  5
+ ],
+ "TRAINER_BUG_CATCHER_4": [
+  5
+ ],
+ "TRAINER_BUG_CATCHER_5": [
+  5
+ ],
+ "TRAINER_BUG_CATCHER_6": [
+  5
+ ],
+ "TRAINER_BUG_CATCHER_7": [
+  5
+ ],
+ "TRAINER_BUG_CATCHER_8": [
+  5
+ ],
+ "TRAINER_BUG_CATCHER_ANTHONY": [
+  8,
+  9,
+  8
+ ],
+ "TRAINER_BUG_CATCHER_BRENT": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_BUG_CATCHER_CALE": [
+  12,
+  12,
+  12,
+  12
+ ],
+ "TRAINER_BUG_CATCHER_CHARLIE": [
+  8,
+  8,
+  8
+ ],
+ "TRAINER_BUG_CATCHER_COLTON": [
+  12,
+  12,
+  12
+ ],
+ "TRAINER_BUG_CATCHER_COLTON_2": [
+  19,
+  19,
+  19
+ ],
+ "TRAINER_BUG_CATCHER_COLTON_3": [
+  27,
+  27,
+  27
+ ],
+ "TRAINER_BUG_CATCHER_COLTON_4": [
+  51,
+  54,
+  51
+ ],
+ "TRAINER_BUG_CATCHER_CONNER": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_BUG_CATCHER_DOUG": [
+  8,
+  8,
+  8
+ ],
+ "TRAINER_BUG_CATCHER_ELIJAH": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_BUG_CATCHER_GREG": [
+  11,
+  11,
+  11,
+  11
+ ],
+ "TRAINER_BUG_CATCHER_JAMES": [
+  13,
+  13,
+  13
+ ],
+ "TRAINER_BUG_CATCHER_KEIGO": [
+  20,
+  20,
+  20,
+  20
+ ],
+ "TRAINER_BUG_CATCHER_KENT": [
+  13,
+  13,
+  13
+ ],
+ "TRAINER_BUG_CATCHER_RICK": [
+  7,
+  7,
+  7
+ ],
+ "TRAINER_BUG_CATCHER_ROBBY": [
+  12,
+  12,
+  12
+ ],
+ "TRAINER_BUG_CATCHER_SAMMY": [
+  10,
+  10,
+  10
+ ],
+ "TRAINER_BURGLAR_1": [
+  29,
+  29
+ ],
+ "TRAINER_BURGLAR_2": [
+  33
+ ],
+ "TRAINER_BURGLAR_3": [
+  28,
+  28,
+  28
+ ],
+ "TRAINER_BURGLAR_4": [
+  34,
+  34
+ ],
+ "TRAINER_BURGLAR_ARNIE": [
+  44,
+  44,
+  44,
+  44
+ ],
+ "TRAINER_BURGLAR_DUSTY": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_BURGLAR_LEWIS": [
+  44,
+  44,
+  44,
+  44
+ ],
+ "TRAINER_BURGLAR_QUINN": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_BURGLAR_RAMON": [
+  53,
+  53,
+  53,
+  53
+ ],
+ "TRAINER_BURGLAR_SIMON": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_CAMPER_2": [
+  5
+ ],
+ "TRAINER_CAMPER_BRYCE": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_CAMPER_CHRIS": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_CAMPER_DREW": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_CAMPER_ETHAN": [
+  22,
+  22,
+  22
+ ],
+ "TRAINER_CAMPER_FLINT": [
+  17,
+  17,
+  17
+ ],
+ "TRAINER_CAMPER_JEFF": [
+  20,
+  20,
+  20,
+  20
+ ],
+ "TRAINER_CAMPER_JUSTIN": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_CAMPER_LIAM": [
+  12,
+  13,
+  12
+ ],
+ "TRAINER_CAMPER_RICKY": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_CAMPER_SHANE": [
+  17,
+  17,
+  17
+ ],
+ "TRAINER_CHAMPION_FIRST_BULBASAUR": [
+  61,
+  61,
+  62,
+  62,
+  62,
+  66
+ ],
+ "TRAINER_CHAMPION_FIRST_CHARMANDER": [
+  61,
+  61,
+  62,
+  62,
+  62,
+  66
+ ],
+ "TRAINER_CHAMPION_FIRST_SQUIRTLE": [
+  61,
+  61,
+  62,
+  62,
+  62,
+  66
+ ],
+ "TRAINER_CHAMPION_REMATCH_BULBASAUR": [
+  72,
+  73,
+  72,
+  73,
+  73,
+  75
+ ],
+ "TRAINER_CHAMPION_REMATCH_CHARMANDER": [
+  72,
+  73,
+  72,
+  73,
+  73,
+  75
+ ],
+ "TRAINER_CHAMPION_REMATCH_SQUIRTLE": [
+  72,
+  73,
+  72,
+  73,
+  73,
+  75
+ ],
+ "TRAINER_CHANNELER_1": [
+  23
+ ],
+ "TRAINER_CHANNELER_2": [
+  24
+ ],
+ "TRAINER_CHANNELER_3": [
+  22
+ ],
+ "TRAINER_CHANNELER_4": [
+  24
+ ],
+ "TRAINER_CHANNELER_5": [
+  22
+ ],
+ "TRAINER_CHANNELER_6": [
+  22,
+  22,
+  22
+ ],
+ "TRAINER_CHANNELER_7": [
+  24
+ ],
+ "TRAINER_CHANNELER_8": [
+  24
+ ],
+ "TRAINER_CHANNELER_AMANDA": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_CHANNELER_ANGELICA": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_CHANNELER_CARLY": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_CHANNELER_EMILIA": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_CHANNELER_HOPE": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_CHANNELER_JANAE": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_CHANNELER_JENNIFER": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_CHANNELER_JODY": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_CHANNELER_KARINA": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_CHANNELER_LAUREL": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_CHANNELER_PATRICIA": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_CHANNELER_PAULA": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_CHANNELER_RUTH": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_CHANNELER_STACY": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_CHANNELER_TAMMY": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_CHANNELER_TASHA": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_COOLTRAINER_ALEXA": [
+  55,
+  55,
+  55,
+  55,
+  55
+ ],
+ "TRAINER_COOLTRAINER_AUSTINA": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_BERKE": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_BROOKE": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_CAROLINE": [
+  55,
+  55,
+  55,
+  55,
+  55
+ ],
+ "TRAINER_COOLTRAINER_COLBY": [
+  53,
+  55,
+  55,
+  55,
+  56
+ ],
+ "TRAINER_COOLTRAINER_GEORGE": [
+  55,
+  55,
+  55,
+  55,
+  55
+ ],
+ "TRAINER_COOLTRAINER_GILBERT": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_JULIE": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_LEROY": [
+  61,
+  62,
+  61,
+  62,
+  65
+ ],
+ "TRAINER_COOLTRAINER_LEROY_2": [
+  52,
+  54,
+  52,
+  52,
+  55
+ ],
+ "TRAINER_COOLTRAINER_MARY": [
+  28,
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_COOLTRAINER_MICHELLE": [
+  61,
+  61,
+  62,
+  62,
+  65
+ ],
+ "TRAINER_COOLTRAINER_MICHELLE_2": [
+  53,
+  53,
+  54,
+  54,
+  56
+ ],
+ "TRAINER_COOLTRAINER_NAOMI": [
+  55,
+  55,
+  55,
+  55,
+  55
+ ],
+ "TRAINER_COOLTRAINER_OWEN": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_PAUL": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_ROLANDO": [
+  55,
+  55,
+  55,
+  55,
+  55
+ ],
+ "TRAINER_COOLTRAINER_SAMUEL": [
+  48,
+  48,
+  49,
+  51,
+  51
+ ],
+ "TRAINER_COOLTRAINER_SHANNON": [
+  42,
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_COOLTRAINER_WARREN": [
+  48,
+  48,
+  49,
+  51,
+  51
+ ],
+ "TRAINER_COOLTRAINER_YUJI": [
+  49,
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_COOL_COUPLE_RAY_TYRA": [
+  59,
+  59,
+  59,
+  59,
+  59
+ ],
+ "TRAINER_CRUSH_GIRL_JOCELYN": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_CRUSH_GIRL_SHARON": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_CRUSH_GIRL_TANYA": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_CRUSH_KIN_MIK_KIA": [
+  51,
+  51,
+  51,
+  51
+ ],
+ "TRAINER_CRUSH_KIN_RON_MYA": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_CUE_BALL_CAMRON": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_CUE_BALL_CHASE": [
+  31,
+  31,
+  31
+ ],
+ "TRAINER_CUE_BALL_COREY": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_CUE_BALL_ISAIAH": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_CUE_BALL_JAMAL": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_CUE_BALL_KOJI": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_CUE_BALL_LUKE": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_CUE_BALL_PAXTON": [
+  51,
+  51,
+  51,
+  51
+ ],
+ "TRAINER_CUE_BALL_RAUL": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_CUE_BALL_ZEEK": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_ELITE_FOUR_AGATHA": [
+  59,
+  59,
+  59,
+  60,
+  60,
+  63
+ ],
+ "TRAINER_ELITE_FOUR_AGATHA_2": [
+  66,
+  66,
+  65,
+  68,
+  70
+ ],
+ "TRAINER_ELITE_FOUR_BRUNO": [
+  58,
+  59,
+  58,
+  58,
+  59,
+  62
+ ],
+ "TRAINER_ELITE_FOUR_BRUNO_2": [
+  65,
+  65,
+  65,
+  66,
+  68
+ ],
+ "TRAINER_ELITE_FOUR_LANCE": [
+  61,
+  62,
+  62,
+  62,
+  63,
+  66
+ ],
+ "TRAINER_ELITE_FOUR_LANCE_2": [
+  68,
+  66,
+  66,
+  70,
+  72
+ ],
+ "TRAINER_ELITE_FOUR_LORELEI": [
+  57,
+  58,
+  58,
+  58,
+  58,
+  61
+ ],
+ "TRAINER_ELITE_FOUR_LORELEI_2": [
+  64,
+  63,
+  63,
+  66,
+  66
+ ],
+ "TRAINER_ENGINEER_BAILY": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_ENGINEER_BERNIE": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_ENGINEER_BRAXTON": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_FISHERMAN_ANDREW": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_FISHERMAN_BARNY": [
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_FISHERMAN_CHIP": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_FISHERMAN_CLAUDE": [
+  40,
+  40,
+  40,
+  40
+ ],
+ "TRAINER_FISHERMAN_DALE": [
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_FISHERMAN_ELLIOT": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_FISHERMAN_ELLIOT_2": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_FISHERMAN_HANK": [
+  34,
+  34,
+  34,
+  34
+ ],
+ "TRAINER_FISHERMAN_NED": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_FISHERMAN_NOLAN": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_FISHERMAN_RONALD": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_FISHERMAN_TOMMY": [
+  43,
+  43,
+  46,
+  46,
+  46
+ ],
+ "TRAINER_FISHERMAN_WADE": [
+  35,
+  35,
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_FISHERMAN_WADE_2": [
+  47,
+  47,
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_GAMER_1": [
+  5
+ ],
+ "TRAINER_GAMER_DARIAN": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_GAMER_DIRK": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_GAMER_HUGO": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_GAMER_JASPER": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_GAMER_RICH": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_GAMER_STAN": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_GENTLEMAN_ARTHUR": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_GENTLEMAN_BROOKS": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_GENTLEMAN_LAMAR": [
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_GENTLEMAN_NORTON": [
+  48
+ ],
+ "TRAINER_GENTLEMAN_THOMAS": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_GENTLEMAN_TUCKER": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_GENTLEMAN_WALTER": [
+  17,
+  17
+ ],
+ "TRAINER_GRETA": [
+  5
+ ],
+ "TRAINER_HIKER_ALAN": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_HIKER_ALLEN": [
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_HIKER_BRICE": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_HIKER_CLARK": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_HIKER_DUDLEY": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_HIKER_ERIC": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_HIKER_FRANKLIN": [
+  18,
+  18,
+  18
+ ],
+ "TRAINER_HIKER_JEREMY": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_HIKER_LENNY": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_HIKER_LUCAS": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_HIKER_MARCOS": [
+  12,
+  12,
+  12
+ ],
+ "TRAINER_HIKER_NOB": [
+  16,
+  16,
+  16,
+  16
+ ],
+ "TRAINER_HIKER_OLIVER": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_HIKER_TRENT": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_HIKER_WAYNE": [
+  20,
+  20,
+  20
+ ],
+ "TRAINER_JUGGLER_DALTON": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_JUGGLER_GREGORY": [
+  62,
+  62,
+  62,
+  62,
+  62
+ ],
+ "TRAINER_JUGGLER_KAYDEN": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_JUGGLER_KIRK": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_JUGGLER_NATE": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_JUGGLER_NELSON": [
+  53,
+  53,
+  53,
+  53,
+  53
+ ],
+ "TRAINER_JUGGLER_SHAWN": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_LASS_2": [
+  15,
+  15
+ ],
+ "TRAINER_LASS_ALI": [
+  14,
+  14,
+  14
+ ],
+ "TRAINER_LASS_ANDREA": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_LASS_ANN": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_LASS_CRISSY": [
+  37,
+  37,
+  37
+ ],
+ "TRAINER_LASS_DAWN": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_LASS_HALEY": [
+  16,
+  16,
+  16
+ ],
+ "TRAINER_LASS_IRIS": [
+  17,
+  17,
+  17
+ ],
+ "TRAINER_LASS_JANICE": [
+  11,
+  11,
+  11
+ ],
+ "TRAINER_LASS_JULIA": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_LASS_KAY": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_LASS_LISA": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_LASS_MEGAN": [
+  24,
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_LASS_MEGAN_2": [
+  22,
+  22,
+  23,
+  21,
+  22
+ ],
+ "TRAINER_LASS_MEGAN_3": [
+  46,
+  47,
+  47,
+  47,
+  48
+ ],
+ "TRAINER_LASS_MIRIAM": [
+  13,
+  13,
+  13
+ ],
+ "TRAINER_LASS_PAIGE": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_LASS_RELI": [
+  19,
+  19,
+  19
+ ],
+ "TRAINER_LASS_ROBIN": [
+  17,
+  17,
+  17
+ ],
+ "TRAINER_LASS_SALLY": [
+  12,
+  12,
+  12
+ ],
+ "TRAINER_LEADER_BLAINE": [
+  48,
+  49,
+  48,
+  48,
+  48,
+  52
+ ],
+ "TRAINER_LEADER_BLAINE_2": [
+  48,
+  49,
+  48,
+  48,
+  48,
+  52
+ ],
+ "TRAINER_LEADER_BROCK": [
+  13,
+  14,
+  14,
+  14,
+  14,
+  16
+ ],
+ "TRAINER_LEADER_BROCK_2": [
+  13,
+  14,
+  14,
+  14,
+  14,
+  16
+ ],
+ "TRAINER_LEADER_ERIKA": [
+  30,
+  31,
+  31,
+  32,
+  30,
+  34
+ ],
+ "TRAINER_LEADER_ERIKA_2": [
+  30,
+  31,
+  31,
+  32,
+  30,
+  34
+ ],
+ "TRAINER_LEADER_GIOVANNI": [
+  51,
+  51,
+  52,
+  51,
+  52,
+  55
+ ],
+ "TRAINER_LEADER_GIOVANNI_2": [
+  51,
+  51,
+  52,
+  51,
+  52,
+  55
+ ],
+ "TRAINER_LEADER_KOGA": [
+  42,
+  43,
+  43,
+  43,
+  43,
+  46
+ ],
+ "TRAINER_LEADER_KOGA_2": [
+  42,
+  43,
+  43,
+  43,
+  43,
+  46
+ ],
+ "TRAINER_LEADER_LT_SURGE": [
+  24,
+  25,
+  25,
+  26,
+  26,
+  28
+ ],
+ "TRAINER_LEADER_LT_SURGE_2": [
+  24,
+  25,
+  25,
+  26,
+  26,
+  28
+ ],
+ "TRAINER_LEADER_MISTY": [
+  20,
+  21,
+  21,
+  21,
+  22,
+  24
+ ],
+ "TRAINER_LEADER_MISTY_2": [
+  20,
+  21,
+  21,
+  21,
+  22,
+  24
+ ],
+ "TRAINER_LEADER_SABRINA": [
+  44,
+  44,
+  45,
+  45,
+  44,
+  48
+ ],
+ "TRAINER_LEADER_SABRINA_2": [
+  44,
+  44,
+  45,
+  45,
+  44,
+  48
+ ],
+ "TRAINER_LUCY": [
+  5
+ ],
+ "TRAINER_MAXIE_MOSSDEEP": [
+  42,
+  43,
+  44
+ ],
+ "TRAINER_NOLAND": [
+  5
+ ],
+ "TRAINER_NONE": [],
+ "TRAINER_PICNICKER_ALICIA": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_PICNICKER_ALMA": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_PICNICKER_ARIANA": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_PICNICKER_BECKY": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_PICNICKER_CAITLIN": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_PICNICKER_CAROL": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_PICNICKER_CELIA": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_PICNICKER_CLAIRE": [
+  46,
+  46,
+  46,
+  46
+ ],
+ "TRAINER_PICNICKER_DANA": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_PICNICKER_DIANA": [
+  23,
+  23,
+  23
+ ],
+ "TRAINER_PICNICKER_GWEN": [
+  34,
+  34,
+  34,
+  34
+ ],
+ "TRAINER_PICNICKER_HANNAH": [
+  24,
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_PICNICKER_HEIDI": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_PICNICKER_IRENE": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_PICNICKER_ISABELLE": [
+  20,
+  20,
+  20,
+  20
+ ],
+ "TRAINER_PICNICKER_KELSEY": [
+  18,
+  18,
+  18
+ ],
+ "TRAINER_PICNICKER_KINDRA": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_PICNICKER_LEAH": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_PICNICKER_MARTHA": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_PICNICKER_MISSY": [
+  40,
+  40,
+  40,
+  40
+ ],
+ "TRAINER_PICNICKER_NANCY": [
+  20,
+  20,
+  20,
+  20
+ ],
+ "TRAINER_PICNICKER_SOFIA": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_PICNICKER_SUSIE": [
+  30,
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_PICNICKER_SUSIE_2": [
+  27,
+  27,
+  27,
+  27,
+  27
+ ],
+ "TRAINER_PICNICKER_SUSIE_3": [
+  47,
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_PICNICKER_SUSIE_4": [
+  52,
+  52,
+  52,
+  52,
+  52
+ ],
+ "TRAINER_PICNICKER_TINA": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_PICNICKER_VALERIE": [
+  38,
+  38,
+  38,
+  38
+ ],
+ "TRAINER_PICNICKER_YAZMIN": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_PKMN_PROF_PROF_OAK": [
+  5
+ ],
+ "TRAINER_PKMN_RANGER_BETH": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_PKMN_RANGER_LOGAN": [
+  48,
+  52,
+  48,
+  48
+ ],
+ "TRAINER_PLAYER_BRENDAN": [
+  5
+ ],
+ "TRAINER_PLAYER_LEAF": [
+  5
+ ],
+ "TRAINER_PLAYER_MAY": [
+  5
+ ],
+ "TRAINER_PLAYER_RED": [
+  5
+ ],
+ "TRAINER_POKEMANIAC_ASHTON": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_POKEMANIAC_COOPER": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_POKEMANIAC_DAWSON": [
+  52,
+  52,
+  52,
+  52,
+  52
+ ],
+ "TRAINER_POKEMANIAC_HERMAN": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_POKEMANIAC_MARK": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_POKEMANIAC_STEVE": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_POKEMANIAC_WINSTON": [
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_PSYCHIC_CAMERON": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_PSYCHIC_JOHAN": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_PSYCHIC_PRESTON": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_PSYCHIC_TYRON": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_RIVAL_CERULEAN_BULBASAUR": [
+  17,
+  16,
+  15,
+  18
+ ],
+ "TRAINER_RIVAL_CERULEAN_CHARMANDER": [
+  17,
+  16,
+  15,
+  18
+ ],
+ "TRAINER_RIVAL_CERULEAN_SQUIRTLE": [
+  17,
+  16,
+  15,
+  18
+ ],
+ "TRAINER_RIVAL_OAKS_LAB_BULBASAUR": [
+  5
+ ],
+ "TRAINER_RIVAL_OAKS_LAB_CHARMANDER": [
+  5
+ ],
+ "TRAINER_RIVAL_OAKS_LAB_SQUIRTLE": [
+  5
+ ],
+ "TRAINER_RIVAL_POKEMON_TOWER_BULBASAUR": [
+  25,
+  23,
+  22,
+  20,
+  25
+ ],
+ "TRAINER_RIVAL_POKEMON_TOWER_CHARMANDER": [
+  25,
+  23,
+  22,
+  20,
+  25
+ ],
+ "TRAINER_RIVAL_POKEMON_TOWER_SQUIRTLE": [
+  25,
+  23,
+  22,
+  20,
+  25
+ ],
+ "TRAINER_RIVAL_ROUTE22_EARLY_BULBASAUR": [
+  9,
+  9
+ ],
+ "TRAINER_RIVAL_ROUTE22_EARLY_CHARMANDER": [
+  9,
+  9
+ ],
+ "TRAINER_RIVAL_ROUTE22_EARLY_SQUIRTLE": [
+  9,
+  9
+ ],
+ "TRAINER_RIVAL_ROUTE22_LATE_BULBASAUR": [
+  47,
+  45,
+  45,
+  45,
+  47,
+  53
+ ],
+ "TRAINER_RIVAL_ROUTE22_LATE_CHARMANDER": [
+  47,
+  45,
+  45,
+  45,
+  47,
+  53
+ ],
+ "TRAINER_RIVAL_ROUTE22_LATE_SQUIRTLE": [
+  47,
+  45,
+  45,
+  45,
+  47,
+  53
+ ],
+ "TRAINER_RIVAL_SILPH_BULBASAUR": [
+  37,
+  38,
+  35,
+  35,
+  40
+ ],
+ "TRAINER_RIVAL_SILPH_CHARMANDER": [
+  37,
+  38,
+  35,
+  35,
+  40
+ ],
+ "TRAINER_RIVAL_SILPH_SQUIRTLE": [
+  37,
+  38,
+  35,
+  35,
+  40
+ ],
+ "TRAINER_RIVAL_SS_ANNE_BULBASAUR": [
+  19,
+  16,
+  18,
+  20
+ ],
+ "TRAINER_RIVAL_SS_ANNE_CHARMANDER": [
+  19,
+  16,
+  18,
+  20
+ ],
+ "TRAINER_RIVAL_SS_ANNE_SQUIRTLE": [
+  19,
+  16,
+  18,
+  20
+ ],
+ "TRAINER_ROCKER_LUCA": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_ROCKER_RANDALL": [
+  20,
+  20,
+  20
+ ],
+ "TRAINER_SAILOR_DUNCAN": [
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_SAILOR_DWAYNE": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_SAILOR_DYLAN": [
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_SAILOR_EDMOND": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_SAILOR_HUEY": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_SAILOR_LEONARD": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_SAILOR_PHILLIP": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_SAILOR_TREVOR": [
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_SCIENTIST_BEAU": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_SCIENTIST_BRAYDON": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_SCIENTIST_CONNOR": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_SCIENTIST_ED": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_SCIENTIST_GIDEON": [
+  60,
+  60,
+  60,
+  60,
+  60
+ ],
+ "TRAINER_SCIENTIST_IVAN": [
+  44,
+  44,
+  44,
+  44
+ ],
+ "TRAINER_SCIENTIST_JERRY": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_SCIENTIST_JOSE": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_SCIENTIST_JOSHUA": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_SCIENTIST_PARKER": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_SCIENTIST_RODNEY": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_SCIENTIST_TAYLOR": [
+  31,
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_SCIENTIST_TED": [
+  38,
+  38,
+  38,
+  38
+ ],
+ "TRAINER_SCIENTIST_TRAVIS": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_SIS_AND_BRO_LIA_LUC": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_SIS_AND_BRO_LIL_IAN": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_SPENSER": [
+  5
+ ],
+ "TRAINER_SUPERBOSS_FRODO": [
+  76,
+  76,
+  77,
+  77,
+  78,
+  82
+ ],
+ "TRAINER_SUPERBOSS_FRODO_2": [
+  76,
+  76,
+  77,
+  77,
+  78,
+  82
+ ],
+ "TRAINER_SUPERBOSS_FRODO_3": [
+  76,
+  76,
+  77,
+  77,
+  78,
+  82
+ ],
+ "TRAINER_SUPER_NERD_1": [
+  22,
+  22,
+  22
+ ],
+ "TRAINER_SUPER_NERD_2": [
+  20,
+  20,
+  20,
+  20
+ ],
+ "TRAINER_SUPER_NERD_3": [
+  24,
+  24
+ ],
+ "TRAINER_SUPER_NERD_AIDAN": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_SUPER_NERD_AVERY": [
+  44,
+  44,
+  44,
+  44
+ ],
+ "TRAINER_SUPER_NERD_DEREK": [
+  53,
+  53,
+  53,
+  53
+ ],
+ "TRAINER_SUPER_NERD_ERIK": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_SUPER_NERD_GLENN": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_SUPER_NERD_JOVAN": [
+  13,
+  13,
+  13
+ ],
+ "TRAINER_SUPER_NERD_LESLIE": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_SUPER_NERD_MIGUEL": [
+  14,
+  14,
+  14
+ ],
+ "TRAINER_SUPER_NERD_ZAC": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_SWIMMER_FEMALE_ABIGAIL": [
+  46,
+  47,
+  48,
+  46
+ ],
+ "TRAINER_SWIMMER_FEMALE_ALICE": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_SWIMMER_FEMALE_AMARA": [
+  47,
+  47,
+  47,
+  47
+ ],
+ "TRAINER_SWIMMER_FEMALE_ANYA": [
+  35,
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_SWIMMER_FEMALE_CONNIE": [
+  38,
+  38,
+  38,
+  38
+ ],
+ "TRAINER_SWIMMER_FEMALE_MARIA": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_SWIMMER_FEMALE_MELISSA": [
+  40,
+  40,
+  40,
+  40
+ ],
+ "TRAINER_SWIMMER_FEMALE_NORA": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_SWIMMER_FEMALE_SHIRLEY": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_SWIMMER_FEMALE_TIFFANY": [
+  46,
+  46,
+  46,
+  46
+ ],
+ "TRAINER_SWIMMER_FEMALE_TISHA": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_SWIMMER_MALE_AXLE": [
+  35,
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_SWIMMER_MALE_BARRY": [
+  40,
+  40,
+  40,
+  40
+ ],
+ "TRAINER_SWIMMER_MALE_DARRIN": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_SWIMMER_MALE_DARRIN_2": [
+  52,
+  52,
+  52,
+  52
+ ],
+ "TRAINER_SWIMMER_MALE_DAVID": [
+  38,
+  38,
+  38,
+  38
+ ],
+ "TRAINER_SWIMMER_MALE_DEAN": [
+  46,
+  46,
+  46,
+  46
+ ],
+ "TRAINER_SWIMMER_MALE_DOUGLAS": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_SWIMMER_MALE_FINN": [
+  49,
+  49,
+  49,
+  49
+ ],
+ "TRAINER_SWIMMER_MALE_GARRETT": [
+  46,
+  46,
+  49,
+  46
+ ],
+ "TRAINER_SWIMMER_MALE_JACK": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_SWIMMER_MALE_JEROME": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_SWIMMER_MALE_LUIS": [
+  19,
+  19,
+  19
+ ],
+ "TRAINER_SWIMMER_MALE_MATTHEW": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_SWIMMER_MALE_REECE": [
+  38,
+  38,
+  38,
+  38
+ ],
+ "TRAINER_SWIMMER_MALE_RICHARD": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_SWIMMER_MALE_ROLAND": [
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_SWIMMER_MALE_SPENCER": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_SWIMMER_MALE_TONY": [
+  39,
+  39,
+  39,
+  39
+ ],
+ "TRAINER_TABITHA_MOSSDEEP": [
+  36,
+  38,
+  40
+ ],
+ "TRAINER_TAMER_COLE": [
+  51,
+  51,
+  51,
+  51
+ ],
+ "TRAINER_TAMER_EDGAR": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_TAMER_JASON": [
+  56,
+  56,
+  56,
+  56
+ ],
+ "TRAINER_TAMER_JOHN": [
+  42,
+  42,
+  42,
+  42
+ ],
+ "TRAINER_TAMER_PHIL": [
+  43,
+  43,
+  43,
+  43
+ ],
+ "TRAINER_TAMER_VINCENT": [
+  57,
+  57,
+  57,
+  57,
+  57
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT": [
+  16,
+  16,
+  16
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_10": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_11": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_12": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_13": [
+  21,
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_14": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_15": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_16": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_17": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_18": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_19": [
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_2": [
+  11,
+  11,
+  11
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_20": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_21": [
+  29,
+  29,
+  29,
+  29
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_22": [
+  26,
+  26
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_23": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_24": [
+  31,
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_25": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_26": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_27": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_28": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_29": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_30": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_31": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_32": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_33": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_34": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_35": [
+  33,
+  33,
+  33,
+  33
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_36": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_37": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_38": [
+  35,
+  35,
+  35,
+  35
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_39": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_40": [
+  31,
+  31,
+  31,
+  31,
+  31
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_41": [
+  40,
+  40,
+  40,
+  40
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_43": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_44": [
+  46,
+  46,
+  46,
+  46
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_7": [
+  25,
+  25,
+  25,
+  25
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_8": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_TEAM_ROCKET_GRUNT_9": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_TUBER_ALEXIS": [
+  44,
+  44,
+  44,
+  44
+ ],
+ "TRAINER_TUBER_AMIRA": [
+  44,
+  46,
+  44,
+  44
+ ],
+ "TRAINER_TUCKER": [
+  5
+ ],
+ "TRAINER_TWINS_ELI_ANNE": [
+  28,
+  28,
+  28,
+  28
+ ],
+ "TRAINER_TWINS_JOY_MEG": [
+  48,
+  48,
+  48,
+  48
+ ],
+ "TRAINER_TWINS_KIRI_JAN": [
+  36,
+  36,
+  36,
+  36
+ ],
+ "TRAINER_YOUNGSTER_BEN": [
+  13,
+  13,
+  13
+ ],
+ "TRAINER_YOUNGSTER_CALVIN": [
+  17,
+  17,
+  17
+ ],
+ "TRAINER_YOUNGSTER_CHAD": [
+  17,
+  17,
+  17
+ ],
+ "TRAINER_YOUNGSTER_DAN": [
+  20,
+  20,
+  20
+ ],
+ "TRAINER_YOUNGSTER_DAVE": [
+  23,
+  23,
+  23,
+  23
+ ],
+ "TRAINER_YOUNGSTER_DILLON": [
+  24,
+  24,
+  24,
+  24
+ ],
+ "TRAINER_YOUNGSTER_EDDIE": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_YOUNGSTER_JOEY": [
+  18,
+  18,
+  18
+ ],
+ "TRAINER_YOUNGSTER_JOHNSON": [
+  43,
+  43,
+  44,
+  43
+ ],
+ "TRAINER_YOUNGSTER_JOSH": [
+  12,
+  12,
+  12
+ ],
+ "TRAINER_YOUNGSTER_TIMMY": [
+  17,
+  17,
+  17
+ ],
+ "TRAINER_YOUNGSTER_TIMMY_2": [
+  19,
+  19,
+  19
+ ],
+ "TRAINER_YOUNGSTER_TIMMY_3": [
+  27,
+  27,
+  27
+ ],
+ "TRAINER_YOUNGSTER_TIMMY_4": [
+  52,
+  52,
+  52
+ ],
+ "TRAINER_YOUNGSTER_TYLER": [
+  26,
+  26,
+  26,
+  26
+ ],
+ "TRAINER_YOUNGSTER_YASU": [
+  21,
+  21,
+  21,
+  21
+ ],
+ "TRAINER_YOUNG_COUPLE_GIA_JES": [
+  30,
+  30,
+  30,
+  30
+ ],
+ "TRAINER_YOUNG_COUPLE_LEA_JED": [
+  36,
+  36,
+  36,
+  36
+ ]
+}

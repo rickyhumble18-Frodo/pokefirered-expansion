@@ -1,5 +1,6 @@
 {
   "_comment": "Story segment definitions for tools/kaizo_pass.py bulk. Each segment's level_band [lo, hi] anchors its trainers ~5-8 levels below the upcoming gym leader's ace (Brock 22, Misty 35, Surge 48, Erika 62, Koga 78, Sabrina 90, Blaine 100, Giovanni 110, E4 118-125): trainers are rescaled from the segment's pre-pass baseline min/max onto the band, preserving relative strength. min_team pads teams up to that size from pad_pool (deduped within a team), item_pool supplies the held item for the last mon of padded teams. Maps not listed are never touched; bosses and rematch variants are always skipped. Rematch scaling (+2 route / +5 boss per win) stacks on top of these bands and clamps at MAX_LEVEL 255.",
+  "_standard_band_comment": "standard_band [lo, hi] is the pre-uplift (Standard difficulty) analogue of level_band, sitting ~5-8 below the pre-uplift gym aces (Brock 16, Misty 24, Surge 28, Erika 34, Koga 46, Sabrina 48, Blaine 52, Giovanni 55, E4 61-66). tools/difficulty_split.py rescales a trainer's Hard levels from level_band onto standard_band only for trainers absent from tools/standard_levels.json (the VS-Seeker roster added after the uplift); everyone else copies exact per-slot pre-uplift levels.",
   "segments": {
     "early": {
       "min_team": 3,
@@ -19,6 +20,10 @@
       "level_band": [
         14,
         17
+      ],
+      "standard_band": [
+        9,
+        13
       ]
     },
     "brock_misty": {
@@ -40,6 +45,10 @@
       "level_band": [
         27,
         31
+      ],
+      "standard_band": [
+        17,
+        21
       ]
     },
     "misty_surge": {
@@ -64,6 +73,10 @@
       "level_band": [
         40,
         43
+      ],
+      "standard_band": [
+        23,
+        26
       ]
     },
     "surge_erika": {
@@ -88,6 +101,10 @@
       "level_band": [
         54,
         57
+      ],
+      "standard_band": [
+        28,
+        32
       ]
     },
     "erika_koga": {
@@ -112,6 +129,10 @@
       "level_band": [
         70,
         73
+      ],
+      "standard_band": [
+        38,
+        44
       ]
     },
     "koga_sabrina": {
@@ -137,6 +158,10 @@
       "level_band": [
         82,
         85
+      ],
+      "standard_band": [
+        45,
+        47
       ]
     },
     "sabrina_blaine": {
@@ -162,6 +187,10 @@
       "level_band": [
         92,
         95
+      ],
+      "standard_band": [
+        48,
+        51
       ]
     },
     "blaine_giovanni": {
@@ -187,6 +216,10 @@
       "level_band": [
         102,
         105
+      ],
+      "standard_band": [
+        52,
+        54
       ]
     },
     "victory_road": {
@@ -210,6 +243,10 @@
       "level_band": [
         105,
         118
+      ],
+      "standard_band": [
+        55,
+        60
       ]
     }
   },

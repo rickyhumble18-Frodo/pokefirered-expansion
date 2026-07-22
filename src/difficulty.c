@@ -6,10 +6,26 @@
 
 enum DifficultyLevel GetCurrentDifficultyLevel(void)
 {
+    enum DifficultyLevel difficulty;
+
     if (!B_VAR_DIFFICULTY)
         return DIFFICULTY_NORMAL;
 
-    return VarGet(B_VAR_DIFFICULTY);
+    difficulty = VarGet(B_VAR_DIFFICULTY);
+
+#if !TESTING
+    // The new-game menu offers only Standard (DIFFICULTY_NORMAL) and Hard
+    // (DIFFICULTY_HARD); DIFFICULTY_EASY is never chosen, and the menu always
+    // writes a nonzero tier after NewGameInitData. So an unset var reading 0
+    // (DIFFICULTY_EASY) can only be a pre-feature save; map it to Hard to keep
+    // the brutal curve the default rather than silently falling back to
+    // Standard. Gated out of the test build, whose trainer_control tests
+    // validate the engine's raw DIFFICULTY_EASY fallback behaviour.
+    if (difficulty == DIFFICULTY_EASY)
+        return DIFFICULTY_HARD;
+#endif
+
+    return difficulty;
 }
 
 void SetCurrentDifficultyLevel(enum DifficultyLevel desiredDifficulty)
