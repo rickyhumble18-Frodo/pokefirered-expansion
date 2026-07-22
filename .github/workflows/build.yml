@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - no-ql-and-hs
+      - 'claude/**'
   pull_request:
 
 concurrency:
@@ -64,6 +65,13 @@ jobs:
 
       - name: ROM (Firered)
         run: make firered -j$(nproc) -O
+
+      - name: Upload ROM (Firered)
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokefirered-${{ github.ref_name }}-${{ github.sha }}
+          path: pokefirered.gba
+          if-no-files-found: error
 
   build-leafgreen:
     runs-on: ubuntu-latest
