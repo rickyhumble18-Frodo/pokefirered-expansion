@@ -187,12 +187,15 @@ gPikachuIntro_Text_Page3::
     .string "adventure begin!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
-    .string "Welcome to the world of POKéMON!\p"
-    .string "My name is OAK.\p"
-    .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
+    .string "Thanks for playing FRODO's\n"
+    .string "ROM hack!\p"
+    .string "This version is pre-release,\n"
+    .string "for playtesting only right now.\p"
+    .string "If you come across any bugs,\n"
+    .string "pls let me know!\p"
+    .string "To debug, hold B + START.\n"
+    .string "Spawn POKéMON + items as needed.\p"
+    .string "Enjoy, you silly bitch!$"
 
 gOakSpeech_Text_ThisWorld::
     .string "This world…$"
