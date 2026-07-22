@@ -159,43 +159,29 @@ gOakSpeech_Text_AskPlayerGender::
     .string "Or are you a girl?$"
 
 gPikachuIntro_Text_Page1::
-    .string "In the world which you are about to\n"
-    .string "enter, you will embark on a grand\n"
-    .string "adventure with you as the hero.\n"
+    .string "Thanks for playing FRODO's ROM hack!\n"
     .string "\n"
-    .string "Speak to people and check things\n"
-    .string "wherever you go, be it towns, roads,\n"
-    .string "or caves. Gather information and\n"
-    .string "hints from every source.$"
+    .string "This version is pre-release, and\n"
+    .string "it's only for playtesting right now.$"
 
 gPikachuIntro_Text_Page2::
-    .string "New paths will open to you by helping\n"
-    .string "people in need, overcoming challenges,\n"
-    .string "and solving mysteries.\n"
+    .string "If you come across any bugs,\n"
+    .string "pls let me know!\n"
     .string "\n"
-    .string "At times, you will be challenged by\n"
-    .string "others and attacked by wild creatures.\n"
-    .string "Be brave and keep pushing on.$"
+    .string "To debug, hold B and press START\n"
+    .string "in the overworld. You can spawn\n"
+    .string "POKéMON and items there as needed.$"
 
 gPikachuIntro_Text_Page3::
-    .string "Through your adventure, we hope\n"
-    .string "that you will interact with all sorts\n"
-    .string "of people and achieve personal growth.\n"
-    .string "That is our biggest objective.\n"
-    .string "\n"
-    .string "Press the A Button, and let your\n"
-    .string "adventure begin!$"
+    .string "Enjoy, you silly bitch!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .string "Thanks for playing FRODO's\n"
-    .string "ROM hack!\p"
-    .string "This version is pre-release,\n"
-    .string "for playtesting only right now.\p"
-    .string "If you come across any bugs,\n"
-    .string "pls let me know!\p"
-    .string "To debug, hold B + START.\n"
-    .string "Spawn POKéMON + items as needed.\p"
-    .string "Enjoy, you silly bitch!$"
+    .string "Hello, there!\n"
+    .string "Glad to meet you!\p"
+    .string "Welcome to the world of POKéMON!\p"
+    .string "My name is OAK.\p"
+    .string "People affectionately refer to me\n"
+    .string "as the POKéMON PROFESSOR.\p$"
 
 gOakSpeech_Text_ThisWorld::
     .string "This world…$"
