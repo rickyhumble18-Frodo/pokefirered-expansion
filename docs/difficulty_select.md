@@ -5,7 +5,7 @@ choice picks one of two coexisting level curves baked into the trainer data:
 
 | Tier | Enum | Curve | Example |
 | --- | --- | --- | --- |
-| **Standard** | `DIFFICULTY_NORMAL` | pre-uplift, vanilla-ish progression | Brock ace 16, Elite Four low 60s |
+| **Standard** | `DIFFICULTY_NORMAL` | pre-uplift, vanilla-ish progression | Brock ace 14, Elite Four low 60s |
 | **Hard** | `DIFFICULTY_HARD` | the uplifted kaizo curve | Brock ace 22, Elite Four 118–125, Champion 132, FRODO 150 |
 
 Everything except levels — species, moves, abilities, held items, EVs/IVs, team
@@ -62,8 +62,9 @@ The tooling pipeline (all idempotent, all `--check`ed in CI):
 
 ## Test plan coverage
 
-1. Standard → Brock ace 16 (pre-uplift value; "~14" in the brief). `trainers.h`
-   shows `[DIFFICULTY_NORMAL][TRAINER_LEADER_BROCK]` Onix at 16.
+1. Standard → Brock ace 14 (his pre-uplift team shifted down two via
+   `STANDARD_LEVEL_OVERRIDES` in `difficulty_split.py`). `trainers.h` shows
+   `[DIFFICULTY_NORMAL][TRAINER_LEADER_BROCK]` Onix at 14.
 2. Hard → Brock ace 22. `[DIFFICULTY_HARD][…]` Onix at 22.
 3. Persistence: the var lives in saveblock1 and is set after `NewGameInitData`,
    so it survives save/reload through the endgame.

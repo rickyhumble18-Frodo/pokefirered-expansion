@@ -16383,7 +16383,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Smart Mo
 Geodude @ Oran Berry
 Ability: Sturdy
 Impish Nature
-Level: 13
+Level: 11
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Def
 - Stealth Rock
@@ -16394,7 +16394,7 @@ EVs: 252 HP / 252 Def
 Cranidos
 Ability: Mold Breaker
 Adamant Nature
-Level: 14
+Level: 12
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Headbutt
@@ -16405,7 +16405,7 @@ EVs: 252 Atk / 252 Spe
 Tirtouga
 Ability: Solid Rock
 Adamant Nature
-Level: 14
+Level: 12
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 Atk
 - Shell Smash
@@ -16416,7 +16416,7 @@ EVs: 252 HP / 252 Atk
 Lileep
 Ability: Storm Drain
 Calm Nature
-Level: 14
+Level: 12
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 HP / 252 SpD
 - Absorb
@@ -16427,7 +16427,7 @@ EVs: 252 HP / 252 SpD
 Kabuto
 Ability: Battle Armor
 Jolly Nature
-Level: 14
+Level: 12
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Aqua Jet
@@ -16438,7 +16438,7 @@ EVs: 252 Atk / 252 Spe
 Onix @ Sitrus Berry
 Ability: Sturdy
 Jolly Nature
-Level: 16
+Level: 14
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 EVs: 252 Atk / 252 Spe
 - Rock Tomb

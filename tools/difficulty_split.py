@@ -40,6 +40,14 @@ STD_LEVELS = REPO / "tools/standard_levels.json"
 SEGMENTS = REPO / "tools/kaizo_segments.json"
 VARIANT_RE = re.compile(r"_[2-6]$")
 
+# Author-tuned Standard levels that override the git-recovered pre-uplift values
+# (per party slot). Used where the raw pre-uplift curve reads a touch high for
+# the Standard tier's design targets. Brock's pre-uplift ace was Onix at 16; the
+# Standard target is a level-14 ace, so his team is shifted down two.
+STANDARD_LEVEL_OVERRIDES = {
+    "TRAINER_LEADER_BROCK": [11, 12, 12, 12, 12, 14],
+}
+
 
 def blocks(lines):
     """Yield (trainer_id, [block lines]) in file order; a block spans a
@@ -112,6 +120,9 @@ def build_standard(tid, hard_levels, std_levels, trainer_maps, segments, map_seg
     """Standard levels for a trainer, same length as hard_levels."""
     if not hard_levels:
         return hard_levels
+    override = STANDARD_LEVEL_OVERRIDES.get(tid)
+    if override is not None and len(override) == len(hard_levels):
+        return override
     exact = std_levels.get(tid)
     if exact is not None and len(exact) == len(hard_levels):
         return exact
