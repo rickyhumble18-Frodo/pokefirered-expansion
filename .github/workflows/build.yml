@@ -69,7 +69,8 @@ jobs:
       - name: Upload ROM (Firered)
         uses: actions/upload-artifact@v4
         with:
-          name: pokefirered-${{ github.ref_name }}-${{ github.sha }}
+          # No branch name here: artifact names forbid '/', which claude/** refs contain.
+          name: pokefirered-${{ github.sha }}
           path: pokefirered.gba
           if-no-files-found: error
 
