@@ -55,7 +55,7 @@ PalletTown_EventScript_OakRatingScene::
 	copyvar VAR_0x8009, VAR_0x8006
 	buffernumberstring STR_VAR_1, VAR_0x8008
 	buffernumberstring STR_VAR_2, VAR_0x8009
-	goto_if_lt VAR_0x8009, 60, PalletTown_EventScript_NotEnoughMonsForNationalDex
+	goto_if_lt VAR_0x8009, 20, PalletTown_EventScript_NotEnoughMonsForNationalDex
 	msgbox PalletTown_Text_CaughtXImpressiveFollowMe
 	closemessage
 	playbgm MUS_FOLLOW_ME, 0
